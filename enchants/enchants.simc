@@ -1,5 +1,5 @@
 priest="Base"
-level=80
+level=90
 role=spell
 position=back
 spec=shadow
@@ -26,56 +26,19 @@ ${gear.off_hand}
 
 temporary_enchant=disabled
 
-# Head
-## Season 2 Only Corruption Enchants
-# profileset."Head_Twilight_Devastation_1"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7912
-# profileset."Head_Twilight_Devastation_2"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7914
-
-# profileset."Head_Gushing_Wound_1"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7925
-# profileset."Head_Gushing_Wound_2"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7927
-
-# profileset."Head_Void_Ritual_1"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7931
-# profileset."Head_Void_Ritual_2"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7933
-
-# profileset."Head_Echoing_Void_Ranged_1"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7915
-# profileset."Head_Echoing_Void_Ranged_2"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7917
-
-# profileset."Head_Echoing_Void_Melee_1"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7915
-# profileset."Head_Echoing_Void_Melee_1"+=distance=5
-# profileset."Head_Echoing_Void_Melee_2"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7917
-# profileset."Head_Echoing_Void_Melee_2"+=distance=5
-
-# profileset."Head_Infinite_Stars_1"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7922
-# profileset."Head_Infinite_Stars_2"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7924
-
-# profileset."Head_Twisted_Appendage_1"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7928
-# profileset."Head_Twisted_Appendage_2"+=head=${gear.head},gem_id=${gems.meta},enchant_id=7930
-
 # Temporary Enchants - Weapon
-profileset."Temp_Weapon_Algari_Mana_Oil_1"+=temporary_enchant=main_hand:algari_mana_oil_1
-profileset."Temp_Weapon_Algari_Mana_Oil_2"+=temporary_enchant=main_hand:algari_mana_oil_2
-profileset."Temp_Weapon_Algari_Mana_Oil_3"+=temporary_enchant=main_hand:algari_mana_oil_3
+profileset."Temp_Weapon_Smugglers_Enchanted_Edge_1"+=temporary_enchant=main_hand:smugglers_enchanted_edge_1
+profileset."Temp_Weapon_Smugglers_Enchanted_Edge_2"+=temporary_enchant=main_hand:smugglers_enchanted_edge_2
 
-profileset."Temp_Weapon_Oil_of_Deep_Toxins_1"+=temporary_enchant=main_hand:oil_of_deep_toxins_1
-profileset."Temp_Weapon_Oil_of_Deep_Toxins_2"+=temporary_enchant=main_hand:oil_of_deep_toxins_2
-profileset."Temp_Weapon_Oil_of_Deep_Toxins_3"+=temporary_enchant=main_hand:oil_of_deep_toxins_3
+profileset."Temp_Weapon_Thalassian_Phoenix_Oil_1"+=temporary_enchant=main_hand:thalassian_phoenix_oil_1
+profileset."Temp_Weapon_Thalassian_Phoenix_Oil_2"+=temporary_enchant=main_hand:thalassian_phoenix_oil_2
 
 # Legs
-profileset."Legs_Daybreak_Spellthread_1"+=legs=${gear.legs},enchant=daybreak_spellthread_1
-profileset."Legs_Daybreak_Spellthread_2"+=legs=${gear.legs},enchant=daybreak_spellthread_2
-profileset."Legs_Daybreak_Spellthread_3"+=legs=${gear.legs},enchant=daybreak_spellthread_3
+profileset."Legs_Arcanoweave_Spellthread_1"+=legs=${gear.legs},enchant=arcanoweave_spellthread_1
+profileset."Legs_Arcanoweave_Spellthread_2"+=legs=${gear.legs},enchant=arcanoweave_spellthread_2
 
-profileset."Legs_Sunset_Spellthread_1"+=legs=${gear.legs},enchant=sunset_spellthread_1
-profileset."Legs_Sunset_Spellthread_2"+=legs=${gear.legs},enchant=sunset_spellthread_2
-profileset."Legs_Sunset_Spellthread_3"+=legs=${gear.legs},enchant=sunset_spellthread_3
-
-profileset."Legs_Weavercloth_Spellthread_1"+=legs=${gear.legs},enchant=weavercloth_spellthread_1
-profileset."Legs_Weavercloth_Spellthread_2"+=legs=${gear.legs},enchant=weavercloth_spellthread_2
-profileset."Legs_Weavercloth_Spellthread_3"+=legs=${gear.legs},enchant=weavercloth_spellthread_3
-
-profileset."Legs_Charged_Armor_Kit_1"+=legs=${gear.legs},enchant=charged_armor_kit_1
-profileset."Legs_Charged_Armor_Kit_2"+=legs=${gear.legs},enchant=charged_armor_kit_2
-profileset."Legs_Charged_Armor_Kit_3"+=legs=${gear.legs},enchant=charged_armor_kit_3
+profileset."Legs_Sunfire_Silk_Spellthread_1"+=legs=${gear.legs},enchant=sunfire_silk_spellthread_1
+profileset."Legs_Sunfire_Silk_Spellthread_2"+=legs=${gear.legs},enchant=sunfire_silk_spellthread_2
 
 # Weapons
 profileset."Weapon_Authority_of_Radiant_Power_1"+=main_hand=${gear.main_hand},enchant=authority_of_radiant_power_1

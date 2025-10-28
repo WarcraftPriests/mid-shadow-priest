@@ -1,5 +1,5 @@
 priest="Base"
-level=80
+level=90
 role=spell
 position=back
 spec=shadow
@@ -28,97 +28,55 @@ food=disabled
 augmentation=disabled
 
 # Runes
-profileset."Crystallized_Augment_Rune"+=augmentation=crystallized_augment_rune
-# profileset."Ethereal_Augment_Rune"+=augmentation=ethereal_augment_rune
-# profileset."Soulgorged_Augment_Rune"+=augmentation=soulgorged_augment_rune
+profileset."Void_Touched_Augment_Rune"+=augmentation=voidtouched_augment_rune
 
 # Food
-## 446 intellect
-profileset."Feast_of_the_Divine_Day"+=food=feast_of_the_divine_day
-# profileset."Hearty_Feast_of_the_Divine_Day"+=food=hearty_feast_of_the_divine_day
-# profileset."Feast_of_the_Midnight_Masquerade"+=food=feast_of_the_midnight_masquerade
-# profileset."Hearty_Feast_of_the_Midnight_Masquerade"+=food=hearty_feast_of_the_midnight_masquerade
+## 15 Primary Stat
+profileset."Blooming_Feast"+=food=blooming_feast
+# profileset."Queldorei_Medley"+=food=queldorei_medley
+# profileset."Rootland_Celebration"+=food=rootland_celebration
+# profileset."Silvermoon_Parade"+=food=silvermoon_parade
 
-## 469 highest secondary
-profileset."Beledars_Bounty"+=food=beledars_bounty
-# profileset."Hearty_Beledars_Bounty"+=food=hearty_beledars_bounty
-# profileset."Empress_Farewell"+=food=empress_farewell
-# profileset."Hearty_Empress_Farewell"+=food=hearty_empress_farewell
-# profileset."Jesters_Board"+=food=jesters_board
-# profileset."Hearty_Jesters_Board"+=food=hearty_jesters_board
-# profileset."Outsiders_Provisions"+=food=outsiders_provisions
-# profileset."Hearty_Outsiders_Provisions"+=food=hearty_outsiders_provisions
-# profileset."The_Sushi_Special"+=food=the_sushi_special
-# profileset."Sushi_Special"+=food=sushi_special
-# profileset."Hearty_Sushi_Special"+=food=hearty_sushi_special
+## 16 Highest Secondary
+profileset."Bloom_Skewers"+=food=bloom_skewers
+# profileset."Braised_Blood_Hunter"+=food=braised_blood_hunter
+# profileset."Crimson_Calamari"+=food=crimson_calamari
+# profileset."Felberry_Figs"+=food=felberry_figs
+# profileset."Tasty_Smoked_Tetra"+=food=tasty_smoked_tetra
+# profileset."Twilight_Anglers_Medley"+=food=twilight_anglers_medley
 
-## 328 crit
-profileset."Fiery_Fish_Sticks"+=food=fiery_fish_sticks
-# profileset."Hearty_Fiery_Fish_Sticks"+=food=hearty_fiery_fish_sticks
+## 16 Haste
+profileset."Fel_Kissed_Filet"+=food=felkissed_filet
 
-## 328 vers
-profileset."GingerGlazed_Fillet"+=food=gingerglazed_fillet
-# profileset."Hearty_Ginger_Glazed_Fillet"+=food=hearty_ginger_glazed_fillet
+## 16 Critical Strike
+profileset."Arcano_Cutlets"+=food=arcano_cutlets
 
-## 328 mastery
-profileset."Salty_Dog"+=food=salty_dog
-# profileset."Hearty_Salty_Dog"+=food=hearty_salty_dog
+## 16 Versatility
+profileset."Void_Kissed_Fish_Rolls"+=food=foodkissed_fish_rolls
 
-## 328 haste
-profileset."Zesty_Nibblers"+=food=zesty_nibblers
-# profileset."Hearty_Zesty_Nibblers"+=food=hearty_zesty_nibblers
+## 16 Mastery
+profileset."Warped_Wise_Wings"+=food=warped_wise_wings
 
-## 235 crit and 235 vers
-profileset."Fish_and_Chips"+=food=fish_and_chips
-# profileset."Hearty_Fish_and_Chips"+=food=hearty_fish_and_chips
+## 8 Mastery and 8 Haste
+profileset."Bloodthistle_wrapped_Cutlets"+=food=bloodthistlewrapped_cutlets
+# profileset."Farstriders_Rations"+=food=farstrider_rations
 
-## 235 mastery and 235 haste
-profileset."Chippy_Tea"+=food=chippy_tea
+## 8 Mastery and 8 Critical Strike
+profileset."Eversong_Pudding"+=food=eversong_pudding
+# profileset."Foragers_Medley"+=food=foragers_medley
+# profileset."Fried_Bloomtail"+=food=fried_bloomtail
 
-## 235 haste and 235 crit
-profileset."Deepfin_Patty"+=food=deepfin_patty
-# profileset."Hearty_Deepfin_Patty"+=food=hearty_deepfin_patty
+## 8 Critical Strike and 8 Haste
+profileset."Hearthflame_Supper"+=food=hearthflame_supper
+# profileset."Portable_Snack"+=food=portable_snack
 
-## 235 mastery and 235 vers
-profileset."Marinated_Tenderloins"+=food=marinated_tenderloins
-# profileset."Hearty_Marinated_Tenderloins"+=food=hearty_marinated_tenderloins
+## 8 Versatility and 8 Haste
+profileset."Quick_Sandwich"+=food=quick_sandwich
+# profileset."Sunwell_Delight"+=food=sunwell_delight
 
-## 235 mastery and 235 crit
-profileset."Salt_Baked_Seafood"+=food=salt_baked_seafood
-# profileset."Hearty_Salt_Baked_Seafood"+=food=hearty_salt_baked_seafood
+## 8 Mastery and 8 Versatility
+profileset."Silvermoon_Standard"+=food=silvermoon_standard
 
-## 235 haste and 235 vers
-profileset."Sweet_and_Spicy_Soup"+=food=sweet_and_spicy_soup
-# profileset."Hearty_Sweet_and_Spicy_Soup"+=food=hearty_sweet_and_spicy_soup
-
-## 446 stamina and 223 intellect
-profileset."Stuffed_Cave_Peppers"+=food=stuffed_cave_peppers
-# profileset."Hearty_Stuffed_Cave_Peppers"+=food=hearty_stuffed_cave_peppers
-
-## 312 stamina and 156 intellect
-# profileset."Sweet_and_Sour_Meatballs"+=food=sweet_and_sour_meatballs
-# profileset."Hearty_Sweet_and_Sour_Meatballs"+=food=hearty_sweet_and_sour_meatballs
-
-## 328 lowest secondary
-# profileset."Hearty_Chippy_Tea"+=food=hearty_chippy_tea
-# profileset."Coreway_Kabob"+=food=coreway_kabob
-# profileset."Hearty_Coreway_Kabob"+=food=hearty_coreway_kabob
-# profileset."Flash_Fire_Fillet"+=food=flash_fire_fillet
-# profileset."Hearty_Flash_Fire_Fillet"+=food=hearty_flash_fire_fillet
-# profileset."Hallowfall_Chilli"+=food=hallowfall_chilli
-# profileset."Hearty_Hallowfall_Chilli"+=food=hearty_hallowfall_chilli
-# profileset."Pan_Seared_Mycobloom"+=food=panseared_mycobloom
-# profileset."Hearty_Pan_Seared_Mycobloom"+=food=hearty_panseared_mycobloom
-# profileset."Roasted_Mycobloom"+=food=roasted_mycobloom
-# profileset."Hearty_Roasted_Mycobloom"+=food=hearty_roasted_mycobloom
-# profileset."Simple_Stew"+=food=simple_stew
-# profileset."Hearty_Simple_Stew"+=food=hearty_simple_stew
-# profileset."Skewered_Fillet"+=food=skewered_fillet
-# profileset."Hearty_Skewered_Fillet"+=food=hearty_skewered_fillet
-# profileset."Unseasoned_Field_Steak"+=food=unseasoned_field_steak
-# profileset."Hearty_Unseasoned_Field_Steak"+=food=hearty_unseasoned_field_steak
-
-## 273 lowest secondary
-## Currently turbo broken
-# profileset."Everything_Stew"+=food=everything_stew
-# profileset."Hearty_Everything_Stew"+=food=hearty_everything_stew
+## 8 Critical Strike and 8 Versatility
+profileset."Spiced_Biscuits"+=food=spiced_biscuits
+# profileset."Wise_Tails"+=food=wise_tails

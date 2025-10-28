@@ -18,7 +18,6 @@ with open("config.yml", "r", encoding="utf8") as ymlfile:
 
 def get_top_talents(results, combos, directory, matches, jitter):
     talent_names = []
-    st_crash_builds = []
     for result in results:
         builds = []
         with open(f"{directory}/Results_{result}.csv", "r", encoding="utf8") as file:
@@ -26,23 +25,6 @@ def get_top_talents(results, combos, directory, matches, jitter):
             for row in reader:
                 builds.append(row[1])
         file.close()
-        # st + crash
-        if result == "Single":
-            for combo in combos:
-                count = 0
-                for build in builds:
-                    filler = ""
-                    fillers = ["_ME", "_DR"]
-                    for name in fillers:
-                        if name in build:
-                            filler = name
-                    if combo[0] in build and filler == combo[1] and "_SC" in build:
-                        st_crash_builds.append(build)
-                        talent_names.append(build)
-                        count = count + 1
-                        # add a buffer to get more diversity
-                        if count >= jitter:
-                            break
         # get top x builds
         talent_names.extend(builds[1 : matches + 1])
         for combo in combos:
@@ -59,8 +41,6 @@ def get_top_talents(results, combos, directory, matches, jitter):
                     # add a buffer to get more diversity
                     if count >= jitter:
                         break
-    if len(st_crash_builds) > 0:
-        print(f"Found ST + Crash builds: {st_crash_builds}")
     return list(set(talent_names))
 
 
@@ -68,7 +48,7 @@ def get_hero_builds(ht, cds, idols):
     # overwriting this for now to limit combos
     hero_talent_combos = list(config["hero"][ht].keys())
     if ht == "AR":
-        hero_talent_combos = ["AR_EC", "AR_SP"]
+        hero_talent_combos = ["AR_EC_ES", "AR_SP_ES", "AR_EC_SW", "AR_SP_SW"]
     if ht =="VW":
         hero_talent_combos = ["VW_VE_DoS", "VW_DH_DoS", "VW_DH_VW", "VW_DH_VW"]
     return [
@@ -84,13 +64,14 @@ def get_builds():
     ar_idols = [
         "nzoth_cthun",
         "nzoth_yogg_cthun",
+        "yogg_cthun"
     ]
     combos.extend(get_hero_builds("AR", ar_cds, ar_idols))
     ## Voidweaver
     vw_idols = [
         "nzoth_cthun",
-        "yshaarj_nzoth_cthun",
-        "nzoth_yogg_cthun"
+        "nzoth_yogg_cthun",
+        "yogg_cthun"
     ]
     combos.extend(get_hero_builds("VW", vw_cds, vw_idols))
     return combos

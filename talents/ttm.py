@@ -7,6 +7,14 @@ with open("../config.yml", "r", encoding="utf8") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 
+def generate_suffix(list_of_talents):
+    suffix = ""
+    for talent in list_of_talents:
+        suffix = suffix + talent + "_"
+    # trim off last _ when we are done
+    return suffix[:-1]
+
+
 def apply_rules(line):
     # Don't add combos that waste points on TS without Yogg
     if "tormented_spirits" in line and "idol_of_yoggsaron" not in line:
@@ -15,9 +23,7 @@ def apply_rules(line):
     # # Make sure you are efficiently spending points
     HALF_SELECTED_MID_TALENTS = 0
     for t in [
-        "maddening_touch",
         "instilled_doubt",
-        "phantasmal_pathogen",
         "mastermind",
     ]:  # noqa: E501
         if t + ":1" in line:
@@ -37,17 +43,15 @@ def apply_rules(line):
     for t in [
         "mindbender",
         "deathspeaker",
+        "death_and_madness",
         "mind_devourer",
         "auspicious_spirits",
-        "void_torrent",
         "inescapable_torment",
         "madness_weaving",
         "deaths_torment",
-        "insidious_ire",
         "screams_of_the_void",
         "tormented_spirits",
         "insidious_ire",
-        "void_volley",
         "idol_of_yshaarj",
         "idol_of_nzoth",
         "idol_of_yoggsaron",
@@ -79,8 +83,6 @@ def convert_builds(profile):
         return
 
     for line in data:
-        # Since we only have one Shadow Crash, force to the target version
-        line = line.replace("shadow_crash:1", "133524:1")
         if "Solved loadout " not in line:
             if line not in lines_seen or line.isspace():
                 if "profileset" in line and apply_rules(line):
@@ -88,36 +90,36 @@ def convert_builds(profile):
                 lines_seen.add(line)
                 OUTPUT_FILE = OUTPUT_FILE + line
             continue
-        prefix = ""
-        if "dark_ascension" in line:
-            prefix = "DA"
-        elif "void_eruption" in line:
-            prefix = "VF"
-        TALENT = prefix
+        TALENT = "VF"
         line = line.replace("Solved loadout ", TALENT + "_")
-        # detect flay or spike and dr or me
-        has_shadow_crash = "133524" in line
+        # detect choice nodes
+        has_improved_voidform = "improved_voidform" in line
+        has_ancient_madness = "ancient_madness" in line
         has_distorted_reality = "distorted_reality" in line
         has_minds_eye = "minds_eye" in line
-        has_mental_decay = "mental_decay" in line
-        has_shattered_psyche = "shattered_psyche" in line
+        has_deathspeaker = "deathspeaker" in line
+        has_death_and_madness = "death_and_madness" in line
         suffix = ""
+        choice_nodes = []
+        # IV or AM
+        if has_improved_voidform:
+            choice_nodes.append("IV")
+        elif has_ancient_madness:
+            choice_nodes.append("AM")
         # ME or DR
         if has_distorted_reality:
-            suffix += "DR"
+            choice_nodes.append("DR")
         elif has_minds_eye:
-            suffix += "ME"
-        # Shadow Crash
-        if has_shadow_crash:
-            suffix += "_SC"
-        # MeD or ShP
-        if has_mental_decay:
-            suffix += "_MeD"
-        elif has_shattered_psyche:
-            suffix += "_ShP"
+            choice_nodes.append("ME")
+        # DS or DaM
+        if has_deathspeaker:
+            choice_nodes.append("DS")
+        elif has_death_and_madness:
+            choice_nodes.append("DaM")
+        suffix = generate_suffix(choice_nodes)
         # TODO: figure out a better way to do this
-        line = line.replace(" 21111", "_" + suffix)
-        line = line.replace(" 21121", "_" + suffix)
+        line = line.replace(" 2211", "_" + suffix)
+        line = line.replace(" 2111", "_" + suffix)
 
         if apply_rules(line):
             continue
@@ -167,13 +169,6 @@ def duplicate_builds():
         me_data = list(map(lambda x: x.replace("_ME", "_DR"), me_data))
         data = me_data + data
         print(f"{len(data)} builds after duplicating for Mind's Eye")
-        # duplicate all builds for void_eruption
-        vf_data = list(
-            map(lambda x: x.replace("dark_ascension", "void_eruption"), data)
-        )
-        vf_data = list(map(lambda x: x.replace("DA_", "VF_"), vf_data))
-        data = vf_data + data
-        print(f"{len(data)} builds after duplicating for Void Eruption")
         # create talent dictionary
         talents = {}
         for line in data:
@@ -191,10 +186,6 @@ def duplicate_builds():
                 name = f"{build}_{talent}"
                 hero_line = f'profileset."{name}"+="hero_talents={talent_string}"\n'
                 class_line = ""
-                if hero_talent == "AR":
-                    class_line = (
-                        f'profileset."{name}"+="class_talents+=/halo:1/divine_star:0"\n'
-                    )
                 spec_line = f'profileset."{name}"+="{talents[talent]}"\n'
                 hero_talents[name] = Talents(spec_line, class_line, hero_line)
         print(f"Writing builds to hero_{hero_talent}_duplicated.simc")

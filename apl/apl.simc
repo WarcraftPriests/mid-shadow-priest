@@ -1,5 +1,5 @@
 priest="Base"
-level=80
+level=90
 role=spell
 position=back
 spec=shadow
@@ -25,7 +25,7 @@ main_hand=${gear.main_hand},enchant=${enchants.main_hand}
 ${gear.off_hand}
 
 priest="simple_halo-2blast_opener-push_voit"
-level=80
+level=90
 role=spell
 position=back
 spec=shadow
@@ -172,7 +172,7 @@ main_hand=${gear.main_hand},enchant=${enchants.main_hand}
 ${gear.off_hand}
 
 priest="simple_halo-2blast_opener-push_voit-delay_bender"
-level=80
+level=90
 role=spell
 position=back
 spec=shadow

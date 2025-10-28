@@ -1,5 +1,5 @@
 priest="Base"
-level=80
+level=90
 role=spell
 position=back
 spec=shadow
@@ -30,32 +30,31 @@ flask=disabled
 # Flasks/Phials
 profileset."Flask_of_Alchemical_Chaos_1"+=flask=flask_of_alchemical_chaos_1
 profileset."Flask_of_Alchemical_Chaos_2"+=flask=flask_of_alchemical_chaos_2
-profileset."Flask_of_Alchemical_Chaos_3"+=flask=flask_of_alchemical_chaos_3
 
-profileset."Flask_of_Tempered_Aggression_1"+=flask=flask_of_tempered_aggression_1
-profileset."Flask_of_Tempered_Aggression_2"+=flask=flask_of_tempered_aggression_2
-profileset."Flask_of_Tempered_Aggression_3"+=flask=flask_of_tempered_aggression_3
+profileset."Midnight_Critical_Strike_Flask_1"+=flask=midnight_critical_strike_flask_1
+profileset."Midnight_Critical_Strike_Flask_2"+=flask=midnight_critical_strike_flask_2
 
-profileset."Flask_of_Tempered_Mastery_1"+=flask=flask_of_tempered_mastery_1
-profileset."Flask_of_Tempered_Mastery_2"+=flask=flask_of_tempered_mastery_2
-profileset."Flask_of_Tempered_Mastery_3"+=flask=flask_of_tempered_mastery_3
+profileset."Midnight_Mastery_Flask_1"+=flask=midnight_mastery_flask_1
+profileset."Midnight_Mastery_Flask_2"+=flask=midnight_mastery_flask_2
 
-profileset."Flask_of_Tempered_Swiftness_1"+=flask=flask_of_tempered_swiftness_1
-profileset."Flask_of_Tempered_Swiftness_2"+=flask=flask_of_tempered_swiftness_2
-profileset."Flask_of_Tempered_Swiftness_3"+=flask=flask_of_tempered_swiftness_3
+profileset."Midnight_Haste_Flask_1"+=flask=midnight_haste_flask_1
+profileset."Midnight_Haste_Flask_2"+=flask=midnight_haste_flask_2
 
-profileset."Flask_of_Tempered_Versatility_1"+=flask=flask_of_tempered_versatility_1
-profileset."Flask_of_Tempered_Versatility_2"+=flask=flask_of_tempered_versatility_2
-profileset."Flask_of_Tempered_Versatility_3"+=flask=flask_of_tempered_versatility_3
+profileset."Midnight_Versatility_Flask_1"+=flask=midnight_versatility_flask_1
+profileset."Midnight_Versatility_Flask_2"+=flask=midnight_versatility_flask_2
 
 # Potions
-profileset."Potion_of_Unwavering_Focus_1"+=potion=potion_of_unwavering_focus_1
-profileset."Potion_of_Unwavering_Focus_2"+=potion=potion_of_unwavering_focus_2
-profileset."Potion_of_Unwavering_Focus_3"+=potion=potion_of_unwavering_focus_3
+profileset."Draught_of_Rampant_Abandon_1"+=potion=draught_of_rampant_abandon_1
+profileset."Draught_of_Rampant_Abandon_2"+=potion=draught_of_rampant_abandon_2
 
-profileset."Tempered_Potion_1"+=potion=tempered_potion_1
-profileset."Tempered_Potion_2"+=potion=tempered_potion_2
-profileset."Tempered_Potion_3"+=potion=tempered_potion_3
+profileset."Lights_Potential_1"+=potion=lights_potential_1
+profileset."Lights_Potential_2"+=potion=lights_potential_2
+
+profileset."Potion_of_Recklessness_1"+=potion=potion_of_recklessness_1
+profileset."Potion_of_Recklessness_2"+=potion=potion_of_recklessness_2
+
+profileset."Potion_of_Zealotry_1"+=potion=potion_of_zealotry_1
+profileset."Potion_of_Zealotry_2"+=potion=potion_of_zealotry_2
 
 # Flask + Potion Combos
 ## Tempered Flasks make Tempered Potion weaker
