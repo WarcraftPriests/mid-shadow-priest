@@ -57,18 +57,17 @@ actions.main=variable,name=dots_up,op=set,value=active_dot.vampiric_touch=active
 actions.main+=/call_action_list,name=cds,if=fight_remains<30|target.time_to_die>15&(!variable.holding_tentacle_slam|active_enemies>2)
 # High Priority Shadow Word: Death when you are forcing the bonus from Devour Matter
 actions.main+=/shadow_word_death,target_if=max:(target.health.pct<=20)*100+dot.shadow_word_madness.ticking,if=priest.force_devour_matter&talent.devour_matter
-# High priority SW:M if you are about to cap on insanity, the dot is about to expire, or mind devourer is active
+# Do not overcap on insanity
 actions.main+=/shadow_word_madness,target_if=max:target.time_to_die*(dot.shadow_word_madness.remains<=gcd.max|variable.dr_force_prio|!talent.distorted_reality&variable.me_force_prio),if=active_dot.shadow_word_madness<=1&dot.shadow_word_madness.remains<=gcd.max|insanity.deficit<=35|buff.mind_devourer.up
 actions.main+=/void_volley
 # Blast more burst :wicked:
 actions.main+=/void_blast,target_if=max:(dot.shadow_word_madness.remains*1000+target.time_to_die)
-# Use Tentacle Slam as long as you are not holding for adds and Vampiric Touch is within pandemic range, or if void apparitions is talented.
+# Use Tentacle Slam as long as you are not holding for adds and Vampiric Touch is within pandemic range, or if void apparitions.
 actions.main+=/tentacle_slam,target_if=min:dot.vampiric_touch.remains,if=raid_event.adds.in>30&(talent.void_apparitions|cooldown.tentacle_slam.full_recharge_time<=gcd.max&dot.vampiric_touch.refreshable)
 # Use Void Torrent if it will get near full Mastery Value
 actions.main+=/void_torrent,target_if=max:(dot.shadow_word_madness.remains*1000+target.time_to_die),if=!variable.holding_tentacle_slam
-actions.main+=/mind_flay_insanity,target_if=max:dot.shadow_word_madness.remains,if=talent.idol_of_cthun&priest.cthun_last_trigger_attempt>=3.5&cooldown.mind_blast.full_recharge_time>=gcd.max
 # Use all charges of Mind Blast if Vampiric Touch and Shadow Word: Pain are active and Mind Devourer is not active or you are prepping Void Eruption
-actions.main+=/mind_blast,target_if=max:dot.shadow_word_madness.remains,if=(!buff.mind_devourer.react|!talent.mind_devourer)&(full_recharge_time<=gcd.max*2|!talent.idol_of_cthun|priest.cthun_last_trigger_attempt<3.5|talent.overwhelming_shadows)
+actions.main+=/mind_blast,target_if=max:dot.shadow_word_madness.remains,if=(!buff.mind_devourer.react|!talent.mind_devourer)
 # MFI is a good button
 actions.main+=/mind_flay_insanity,target_if=max:dot.shadow_word_madness.remains
 # Put out Vampiric Touch on enemies that will live at least 12s and Tentacle Slam is not available soon
@@ -78,7 +77,7 @@ actions.main+=/call_action_list,name=heal_for_tof,if=!buff.twist_of_fate.up&buff
 # Put out Vampiric Touch on enemies that will live at least 12s as a filler action.
 actions.main+=/vampiric_touch,target_if=max:(refreshable*10000+target.time_to_die),if=refreshable&target.time_to_die>12
 # Use Shadowfiend and Mindbender on cooldown as long as Vampiric Touch and Shadow Word: Pain are active and sync with Dark Ascension
-actions.main+=/mindbender,if=!talent.idol_of_cthun|priest.cthun_last_trigger_attempt<3.5
+actions.main+=/mindbender
 actions.main+=/mind_flay,target_if=max:dot.shadow_word_madness.remains,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2,interrupt_global=1
 # Use Tentacle Slam while moving as a low-priority action when adds will not spawn in 20 seconds.
 actions.main+=/tentacle_slam,if=raid_event.adds.in>20
