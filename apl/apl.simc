@@ -8,13 +8,13 @@ talents=${talents}
 default_actions=1
 
 head=${gear.head},gem_id=${gems.meta},enchant=${enchants.head}
-neck=${gear.neck},gem_id=${gems.emerald}/${gems.ruby}
+neck=${gear.neck},gem_id=${gems.peridot}/${gems.garnet}
 shoulders=${gear.shoulders}
 back=${gear.back}
 chest=${gear.chest},enchant=${enchants.chest}
-wrists=${gear.wrists},gem_id=${gems.onyx}
+wrists=${gear.wrists},gem_id=${gems.amethyst}
 hands=${gear.hands}
-waist=${gear.waist},gem_id=${gems.sapphire}
+waist=${gear.waist},gem_id=${gems.lapis}
 legs=${gear.legs},enchant=${enchants.legs}
 feet=${gear.feet}
 finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
@@ -155,13 +155,13 @@ actions.trinkets+=/use_item,use_off_gcd=1,name=perfidious_projector,if=gcd.remai
 actions.trinkets+=/use_items,if=(buff.voidform.up|buff.power_infusion.remains>=10|buff.dark_ascension.up|equipped.neural_synapse_enhancer&buff.entropic_rift.up)|fight_remains<20
 
 head=${gear.head},gem_id=${gems.meta},enchant=${enchants.head}
-neck=${gear.neck},gem_id=${gems.emerald}/${gems.ruby}
+neck=${gear.neck},gem_id=${gems.peridot}/${gems.garnet}
 shoulders=${gear.shoulders}
 back=${gear.back}
 chest=${gear.chest},enchant=${enchants.chest}
-wrists=${gear.wrists},gem_id=${gems.onyx}
+wrists=${gear.wrists},gem_id=${gems.amethyst}
 hands=${gear.hands}
-waist=${gear.waist},gem_id=${gems.sapphire}
+waist=${gear.waist},gem_id=${gems.lapis}
 legs=${gear.legs},enchant=${enchants.legs}
 feet=${gear.feet}
 finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
@@ -302,13 +302,13 @@ actions.trinkets+=/use_item,use_off_gcd=1,name=perfidious_projector,if=gcd.remai
 actions.trinkets+=/use_items,if=(buff.voidform.up|buff.power_infusion.remains>=10|buff.dark_ascension.up|equipped.neural_synapse_enhancer&buff.entropic_rift.up)|fight_remains<20
 
 head=${gear.head},gem_id=${gems.meta},enchant=${enchants.head}
-neck=${gear.neck},gem_id=${gems.emerald}/${gems.ruby}
+neck=${gear.neck},gem_id=${gems.peridot}/${gems.garnet}
 shoulders=${gear.shoulders}
 back=${gear.back}
 chest=${gear.chest},enchant=${enchants.chest}
-wrists=${gear.wrists},gem_id=${gems.onyx}
+wrists=${gear.wrists},gem_id=${gems.amethyst}
 hands=${gear.hands}
-waist=${gear.waist},gem_id=${gems.sapphire}
+waist=${gear.waist},gem_id=${gems.lapis}
 legs=${gear.legs},enchant=${enchants.legs}
 feet=${gear.feet}
 finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}

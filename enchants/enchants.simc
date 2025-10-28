@@ -8,13 +8,13 @@ talents=${talents}
 ${apl}
 
 head=${gear.head},gem_id=${gems.meta}
-neck=${gear.neck},gem_id=${gems.emerald}/${gems.ruby}
+neck=${gear.neck},gem_id=${gems.peridot}/${gems.garnet}
 shoulders=${gear.shoulders}
 back=${gear.back}
 chest=${gear.chest}
-wrists=${gear.wrists},gem_id=${gems.onyx}
+wrists=${gear.wrists},gem_id=${gems.amethyst}
 hands=${gear.hands}
-waist=${gear.waist},gem_id=${gems.sapphire}
+waist=${gear.waist},gem_id=${gems.lapis}
 legs=${gear.legs}
 feet=${gear.feet}
 finger1=${gear.finger1},gem_id=${gems.main}/${gems.main}

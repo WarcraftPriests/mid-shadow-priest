@@ -17,13 +17,13 @@ set_bonus=name=thewarwithin_season_3,pc=4,hero_tree=voidweaver,enable=0
 ${apl}
 
 head=${gear.head},gem_id=${gems.meta},enchant=${enchants.head}
-neck=${gear.neck},gem_id=${gems.emerald}/${gems.ruby}
+neck=${gear.neck},gem_id=${gems.peridot}/${gems.garnet}
 shoulders=${gear.shoulders}
 back=${gear.back}
 chest=${gear.chest},enchant=${enchants.chest}
-wrists=${gear.wrists},gem_id=${gems.onyx}
+wrists=${gear.wrists},gem_id=${gems.amethyst}
 hands=${gear.hands}
-waist=${gear.waist},gem_id=${gems.sapphire}
+waist=${gear.waist},gem_id=${gems.lapis}
 legs=${gear.legs},enchant=${enchants.legs}
 feet=${gear.feet}
 finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
