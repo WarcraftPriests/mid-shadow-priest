@@ -28,9 +28,6 @@ potion=disabled
 flask=disabled
 
 # Flasks/Phials
-profileset."Flask_of_Alchemical_Chaos_1"+=flask=flask_of_alchemical_chaos_1
-profileset."Flask_of_Alchemical_Chaos_2"+=flask=flask_of_alchemical_chaos_2
-
 profileset."Midnight_Critical_Strike_Flask_1"+=flask=midnight_critical_strike_flask_1
 profileset."Midnight_Critical_Strike_Flask_2"+=flask=midnight_critical_strike_flask_2
 
@@ -44,8 +41,9 @@ profileset."Midnight_Versatility_Flask_1"+=flask=midnight_versatility_flask_1
 profileset."Midnight_Versatility_Flask_2"+=flask=midnight_versatility_flask_2
 
 # Potions
-profileset."Draught_of_Rampant_Abandon_1"+=potion=draught_of_rampant_abandon_1
-profileset."Draught_of_Rampant_Abandon_2"+=potion=draught_of_rampant_abandon_2
+## NYI
+# profileset."Draught_of_Rampant_Abandon_1"+=potion=draught_of_rampant_abandon_1
+# profileset."Draught_of_Rampant_Abandon_2"+=potion=draught_of_rampant_abandon_2
 
 profileset."Lights_Potential_1"+=potion=lights_potential_1
 profileset."Lights_Potential_2"+=potion=lights_potential_2
@@ -53,37 +51,6 @@ profileset."Lights_Potential_2"+=potion=lights_potential_2
 profileset."Potion_of_Recklessness_1"+=potion=potion_of_recklessness_1
 profileset."Potion_of_Recklessness_2"+=potion=potion_of_recklessness_2
 
-profileset."Potion_of_Zealotry_1"+=potion=potion_of_zealotry_1
-profileset."Potion_of_Zealotry_2"+=potion=potion_of_zealotry_2
-
-# Flask + Potion Combos
-## Tempered Flasks make Tempered Potion weaker
-profileset."Flask_of_Alchemical_Chaos_3-Tempered_Potion_3"+=flask=flask_of_alchemical_chaos_3
-profileset."Flask_of_Alchemical_Chaos_3-Tempered_Potion_3"+=potion=tempered_potion_3
-
-profileset."Flask_of_Tempered_Aggression_3-Tempered_Potion_3"+=flask=flask_of_tempered_aggression_3
-profileset."Flask_of_Tempered_Aggression_3-Tempered_Potion_3"+=potion=tempered_potion_3
-
-profileset."Flask_of_Tempered_Mastery_3-Tempered_Potion_3"+=flask=flask_of_tempered_mastery_3
-profileset."Flask_of_Tempered_Mastery_3-Tempered_Potion_3"+=potion=tempered_potion_3
-
-profileset."Flask_of_Tempered_Swiftness_3-Tempered_Potion_3"+=flask=flask_of_tempered_swiftness_3
-profileset."Flask_of_Tempered_Swiftness_3-Tempered_Potion_3"+=potion=tempered_potion_3
-
-profileset."Flask_of_Tempered_Versatility_3-Tempered_Potion_3"+=flask=flask_of_tempered_versatility_3
-profileset."Flask_of_Tempered_Versatility_3-Tempered_Potion_3"+=potion=tempered_potion_3
-
-profileset."Flask_of_Alchemical_Chaos_3-Potion_of_Unwavering_Focus_3"+=flask=flask_of_alchemical_chaos_3
-profileset."Flask_of_Alchemical_Chaos_3-Potion_of_Unwavering_Focus_3"+=potion=potion_of_unwavering_focus_3
-
-profileset."Flask_of_Tempered_Aggression_3-Potion_of_Unwavering_Focus_3"+=flask=flask_of_tempered_aggression_3
-profileset."Flask_of_Tempered_Aggression_3-Potion_of_Unwavering_Focus_3"+=potion=potion_of_unwavering_focus_3
-
-profileset."Flask_of_Tempered_Mastery_3-Potion_of_Unwavering_Focus_3"+=flask=flask_of_tempered_mastery_3
-profileset."Flask_of_Tempered_Mastery_3-Potion_of_Unwavering_Focus_3"+=potion=potion_of_unwavering_focus_3
-
-profileset."Flask_of_Tempered_Swiftness_3-Potion_of_Unwavering_Focus_3"+=flask=flask_of_tempered_swiftness_3
-profileset."Flask_of_Tempered_Swiftness_3-Potion_of_Unwavering_Focus_3"+=potion=potion_of_unwavering_focus_3
-
-profileset."Flask_of_Tempered_Versatility_3-Potion_of_Unwavering_Focus_3"+=flask=flask_of_tempered_versatility_3
-profileset."Flask_of_Tempered_Versatility_3-Potion_of_Unwavering_Focus_3"+=potion=potion_of_unwavering_focus_3
+## NYI
+# profileset."Potion_of_Zealotry_1"+=potion=potion_of_zealotry_1
+# profileset."Potion_of_Zealotry_2"+=potion=potion_of_zealotry_2
