@@ -1,0 +1,345 @@
+builds:
+  archon:
+    name: Archon
+    gearSetup: default
+    talents:
+      composite:
+        name: AR_SP_VF_nzoth_yogg_cthun_405907269549007_ME_SC_MeD
+        string:  CIQAAAAAAAAAAAAAAAAAAAAAAMMMeAAAAAAAAAAAAAjxyYMzMbLYmZmZmZWGMbMzMzY2YgxYYWMbTNzgFMDwMbWGNbGAyYsAAbzA
+      dungeons:
+        name: AR_SP_VF_nzoth_yogg_cthun_405915859483599_ME_SC_MeD
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMmBAAAAAAAAAAAAjxCjZmZbZjZmZmZmZZwsxMzMjZjBGjhZxsN1MDWwMAzsZZ0sZAIjxCAsNDA
+      single:
+        name: AR_SP_VF_nzoth_yogg_cthun_405907403242447_ME_SC_MeD
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMMGAAAAAAAAAAAAjxyYMzMbLYmZmZmZWGMbMzMzY2YgxYYWMbTNzgFMDwMbWGNbGAyYsAAbDA
+      2t:
+        name: AR_SP_VF_nzoth_yogg_cthun_405907269549007_ME_SC_MeD
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMMeAAAAAAAAAAAAAjxyYMzMbLYmZmZmZWGMbMzMzY2YgxYYWMbTNzgFMDwMbWGNbGAyYsAAbzA
+      3t:
+        name: AR_SP_VF_nzoth_yogg_cthun_405907269549007_ME_SC_MeD
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMmxDAAAAAAAAAAAAYMWgZmZbZjZmZmZmZZwsxMzMjZjBGjhZxsN1MDWwMAzsZZY2MAkxYBA2mB
+      8t:
+        name: AR_EC_VF_nzoth_yogg_cthun_396553108650959_ME_SC_MeD
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMMAAAAAAAAAAAAYMziZMzMbLYmZmZMzygZjZmZGzGDMGDziZbqZGsgZAmZxyoZzAQGjFAYzYA
+  voidweaver:
+    gearSetup: default
+    name: Voidweaver
+    talents:
+      composite:
+        name: VW_DH_DoS_DA_yshaarj_nzoth_cthun_480714862427087_DR_SC_ShP
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMDmZeAAAAAAAAAAAAAjxGMzMLbbMzYmZmZZwsxMzMjZjBGjhZxsN1MDWgZmBACwsNbLBzGLA2mB
+      dungeons:
+        name: VW_DH_DoS_DA_yshaarj_nzoth_cthun_480714854169551_DR_SC_ShP
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMDmZAAAAAAAAAAAAYM2YMzMLbbMzYmZmZZwsxMzMjZjBGjhZxsN1MDWgZmBACwsNbLBzGLA2mB
+      single:
+        name: VW_DH_DoS_DA_yshaarj_nzoth_cthun_480714862427087_DR_SC_ShP
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMDmZeAAAAAAAAAAAAAjxGMzMLbbMzYmZmZZwsxMzMjZjBGjhZxsN1MDWgZmBACwsNbLBzGLA2mB
+      2t:
+        name: VW_DH_DoS_DA_yshaarj_nzoth_cthun_480714854039503_DR_SC_ShP
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMDmZAAAAAAAAAAAAYM2YMzMLbYmxMzMzygZjZmZGzGDMGDziZbqZGsAzMDAEgZb2WCmNWAsNzA
+      3t:
+        name: VW_DH_DoS_DA_yshaarj_nzoth_cthun_480714854104015_DR_SC_ShP
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMDmZAAAAAAAAAAAAYM2gZmZZbbMzYmZmZZwsxMzMjZjBGjhZxsN1MDWgZmBACwsNbLgZjFAbzA
+      8t:
+        name: VW_DH_DoS_DA_nzoth_cthun_340527138274255_ME_SC_ShP
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMwMDAAAAAAAAAAAAjxiHYMzMLbYmxMzMzygZjZmZGzGDMGDziZbqZGsAzMDAEgZb2WCmNWAsNjHA
+hero:
+  AR:
+    AR_EC: "energy_compression:1/power_surge:1/perfected_form:1/resonant_energy:1/manifested_power:1/word_of_supremacy:1/incessant_screams:1/word_of_supremacy:1/empowered_surges:1/concentrated_infusion:1/energy_cycle:1/divine_halo:1"
+    AR_SP: "sustained_potency:1/power_surge:1/perfected_form:1/resonant_energy:1/manifested_power:1/word_of_supremacy:1/incessant_screams:1/word_of_supremacy:1/empowered_surges:1/concentrated_infusion:1/energy_cycle:1/divine_halo:1"
+  # Darkening Horizon is currently bugged, need to hard code 125982 for the ID
+  VW:
+    VW_VE_DoS: "void_empowerment:1/depth_of_shadows:1/entropic_rift:1/dark_energy:1/void_blast:1/inner_quietus:1/devour_matter:1/voidheart:1/void_infusion:1/void_leech:1/collapsing_void:1"
+    VW_DH_DoS: "125982:1/depth_of_shadows:1/entropic_rift:1/dark_energy:1/void_blast:1/inner_quietus:1/devour_matter:1/voidheart:1/void_infusion:1/void_leech:1/collapsing_void:1"
+    VW_VE_VW: "void_empowerment:1/voidwraith:1/entropic_rift:1/dark_energy:1/void_blast:1/inner_quietus:1/devour_matter:1/voidheart:1/void_infusion:1/void_leech:1/collapsing_void:1"
+    VW_DH_VW: "125982:1/voidwraith:1/entropic_rift:1/dark_energy:1/void_blast:1/inner_quietus:1/devour_matter:1/voidheart:1/void_infusion:1/void_leech:1/collapsing_void:1"
+gear:
+  # 24.2k Mastery | 19.6k Haste | 15.7k Crit | 200 Vers
+  default:
+    head: "dying_stars_veil,id=237709,ilevel=730" # mastery/haste
+    neck: "duskblazes_desperation,id=237569,ilevel=730" # haste/mastery
+    shoulders: "harmonious_spaulders,id=185804,ilevel=730" # crit/haste
+    back: "reshii_wraps,id=235499,ilevel=730,bonus_id=12256" # mastery
+    chest: "dying_stars_cassock,id=237712,ilevel=730" # haste/mastery
+    wrists: "consecrated_cuffs,id=222815,bonus_id=8793/11109,ilevel=726" # haste/mastery
+    hands: "dying_stars_caress,id=237710,ilevel=730" # haste/crit
+    waist: "singularity_cincture,id=237559,ilevel=730" # mastery/crit
+    legs: "dying_stars_leggings,id=237708,ilevel=730" # crit/mastery
+    feet: "interlopers_silken_striders,id=243305,ilevel=730,bonus_id=13504" # mastery/haste
+    finger1: "logic_gate_omega,id=237570,ilevel=730" # mastery/haste
+    finger2: "logic_gate_alpha,id=237567,ilevel=730" # crit/mastery
+    trinket1: "azhiccaran_parapodia,id=242497,ilevel=730"
+    trinket2: "arazs_ritual_forge,id=242402,ilevel=730"
+    main_hand: "voidglass_kris,id=237728,ilevel=730" # mastery/crit
+    off_hand: "vagabonds_torch,id=222566,ilevel=726,bonus_id=11300/8793" # haste/mastery
+  # Xk Mastery (0.0%) | Xk Haste (0.0%) | Xk Crit (0.0%) | Xk Vers (0.0%)
+  noCantrip:
+    head: "dying_stars_veil,id=237709,ilevel=730" # mastery/haste
+    neck: "duskblazes_desperation,id=237569,ilevel=730" # haste/mastery
+    shoulders: "sinlight_shoulderpads,id=246276,ilevel=730" # mastery/haste
+    back: "dying_stars_memory,id=237704,ilevel=730" # mastery/haste
+    chest: "dying_stars_cassock,id=237712,ilevel=730" # haste/mastery
+    wrists: "illicit_bankroll_bracers,id=228881,ilevel=730" # haste/mastery
+    hands: "dying_stars_caress,id=237710,ilevel=730" # haste/crit
+    waist: "singularity_cincture,id=237559,ilevel=730" # mastery/crit
+    legs: "dying_stars_leggings,id=237708,ilevel=730" # crit/mastery
+    feet: "dying_stars_soles,id=237711,ilevel=730" # haste/mastery
+    finger1: "logic_gate_omega,id=237570,ilevel=730" # mastery/haste
+    finger2: "logic_gate_alpha,id=237567,ilevel=730" # crit/mastery
+    trinket1: "azhiccaran_parapodia,id=242497,ilevel=730"
+    trinket2: "arazs_ritual_forge,id=242402,ilevel=730"
+    main_hand: "stixs_metal_detector,id=228896,ilevel=730" # haste/mastery
+    off_hand: "fractillus_last_breath,id=237742,ilevel=730" # mastery/haste
+gems:
+  meta: "213743" # Culminating Blasphemite
+  main: "213494" # Quick Onyx
+  emerald: "213482" # Masterful Emerald
+  ruby: "213458" # Masterful Ruby
+  onyx: "213497" # Masterful Onyx
+  sapphire: "213470" # Quick Sapphire
+  amber: "213506" # Quick Amber
+enchants:
+  head: ""
+  chest: "crystalline_radiance_3"
+  ring: "radiant_mastery_3"
+  legs: "sunset_spellthread_3"
+  main_hand: "stonebound_artistry_3"
+sims:
+  alchemy:
+    description: "Sims alchemy consumables you can use to augment your character. Lists each consumable at ranks 1, 2, and 3."
+    gearOverride: none
+    builds: true
+    weights: false
+    chart: true
+    lookupType: spell
+    steps:
+      - 1
+      - 2
+      - 3
+    files:
+      - alchemy.simc
+  apl:
+    description: "APL Sims used for testing rotational changes only."
+    gearOverride: none
+    builds: true
+    weights: false
+    chart: false
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - apl.simc
+  consumables:
+    description: "Sims Food and Augment Rune consumables you can use to augment your character."
+    gearOverride: none
+    iterations: 20000
+    builds: true
+    weights: false
+    chart: true
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - consumables.simc
+  enchants:
+    description: "Sims all possible enchants to your characters gear by slot. Lists each enchant at ranks 1, 2, and 3."
+    gearOverride: none
+    iterations: 20000
+    builds: true
+    weights: false
+    chart: true
+    lookupType: spell
+    steps:
+      - 1
+      - 2
+      - 3
+    files:
+      - enchants.simc
+  gem-combos:
+    description: "Sims combinations of gems to optimize the meta gems using 1 of each color. Only uses max rank of gems"
+    gearOverride: none
+    iterations: 20000
+    builds: true
+    weights: false
+    chart: false
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - generated.simc
+  gems:
+    description: "Sims all available gems against each other. Lists each gem at ranks 1, 2, and 3."
+    gearOverride: none
+    iterations: 20000
+    builds: true
+    weights: false
+    chart: true
+    lookupType: spell
+    steps:
+      - 1
+      - 2
+      - 3
+    files:
+      - gems.simc
+  racials:
+    description: "Swaps out the racial that includes all stat effects or special abilities where they prove to be a DPS increase."
+    gearOverride: none
+    builds: true
+    weights: false
+    chart: true
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - racials.simc
+  special-gear:
+    description: "Sims unique gear with effects to see the DPS gain. Includes Tailoring, Jewelcrafting, and Inscription gear, crafted with BiS stats when possible. Compared against Mythic BiS gear from the Raid or Mythic+ gear.<br><br>A negative DPS gain means the crafted piece with BiS stats is worse than the Mythic BiS piece. This usually means the BiS piece has a higher ilvl than the crafted piece."
+    gearOverride: noCantrip
+    builds: true
+    weights: false
+    chart: true
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - gear.simc
+  stats:
+    description: "Stat distribution sim to see where we would want to add stats given the option. Each letter stands for a secondary stat and the number indicates how many steps were added to that build. So H10 means we add 10 steps of haste (currently 1000 stat each step)."
+    gearOverride: none
+    builds: true
+    weights: false
+    chart: true
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - generated.simc
+  talents:
+    description: "Sims various talent builds generated by Talent Tree Manager. Shows the major cooldown and Idol combination used for that actor, names in gold can be clicked to copy the import string."
+    gearOverride: none
+    iterations: smart
+    builds: false
+    weights: false
+    chart: false
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - DA-Spike.simc
+      - DA-Flay.simc
+      - DA-Spike_DR.simc
+      - DA-Flay_DR.simc
+      - VF-Spike.simc
+      - VF-Flay.simc
+      - VF-Spike_DR.simc
+      - VF-Flay_DR.simc
+  talents-top:
+    description: "Shows top talents."
+    gearOverride: none
+    iterations: 20000
+    builds: false
+    weights: false
+    chart: true
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - talents.simc
+  tiersets:
+    description: "Sims each tier set currently available by just activating just the set effect, not with the gear."
+    gearOverride: none
+    builds: true
+    weights: false
+    chart: true
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - tiersets.simc
+  trinket-combos:
+    description: "Combines the top trinkets together to get your BiS 2 trinkets."
+    gearOverride: none
+    builds: true
+    weights: false
+    chart: true
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - generated.simc
+  trinkets:
+    description: "Sims all trinkets by themselves (no second trinket)."
+    gearOverride: none
+    builds: true
+    weights: false
+    chart: true
+    lookupType: item
+    steps:
+      - 684
+      - 697
+      - 710
+      - 717
+      - 730
+    files:
+      - raid.simc
+      - dungeons.simc
+      - other.simc
+  weights:
+    description: Stat weight sims for current BiS gear setup..
+    gearOverride: none
+    builds: true
+    weights: true
+    chart: false
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - weights.simc
+compositeWeights: weightsLiberationofUndermine
+singleTargetWeights: weightsSingle
+twoTargetWeights: weightsTwoTargets
+threeTargetWeights: weightsThreeTargets
+fourTargetWeights: weightsFourTargets
+eightTargetWeights: weightsEightTargets
+singleTargetProfiles:
+  - pw_na_1
+  - lm_na_1
+  - hm_na_1
+councilTargets: 3
+dungeonSeason: 2
+dungeonStandardWeights: weightsSeasonTwo
+dungeonPushWeights: weightsSeasonTwo
+dungeonType: slice
+simcBuild: latest
+forceHeroTalents: false
+defaultIterations: 10000
+raidbots:
+  apiUrlBase: https://mimiron.raidbots.com
+  numOfRetries: 100
+  retryInterval: 10
+charts:
+  wowheadUrl: https://www.wowhead.com/beta/
+analyze:
+  dungeonCharts: false
+  markdown: true
+  csv: true
+  json: true
+stats:
+  base: 4000
+  steps: 1500
+  total: 58000
+  min:
+    haste: 8000
+    mastery: 14000
+    crit: 5000
+    vers: 0
+  max:
+    haste: 30000
+    mastery: 30000
+    crit: 30000
+    vers: 8500
+  include:
+    - mastery
+    - haste
+    - crit
+    - versatility

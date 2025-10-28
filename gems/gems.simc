@@ -1,0 +1,152 @@
+priest="Base"
+level=80
+role=spell
+position=back
+spec=shadow
+talents=${talents}
+
+${apl}
+
+head=${gear.head}
+neck=${gear.neck}
+shoulders=${gear.shoulders}
+back=${gear.back}
+chest=${gear.chest},enchant=${enchants.chest}
+wrists=${gear.wrists}
+hands=${gear.hands}
+waist=${gear.waist}
+legs=${gear.legs},enchant=${enchants.legs}
+feet=${gear.feet}
+finger1=${gear.finger1},enchant=${enchants.ring}
+finger2=${gear.finger2},enchant=${enchants.ring}
+trinket1=${gear.trinket1}
+trinket2=${gear.trinket2}
+main_hand=${gear.main_hand},enchant=${enchants.main_hand}
+${gear.off_hand}
+
+# Epic Gems
+## Intellect + Perceived Fame
+profileset."Cubic_Blasphemia_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=217113
+profileset."Cubic_Blasphemia_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=217114
+profileset."Cubic_Blasphemia_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=217115
+
+## Intellect + Critical Effect
+profileset."Culminating_Blasphemite_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213741
+profileset."Culminating_Blasphemite_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213742
+profileset."Culminating_Blasphemite_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213743
+
+## Intellect + Movement Speed
+profileset."Elusive_Blasphemite_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213744
+profileset."Elusive_Blasphemite_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213745
+profileset."Elusive_Blasphemite_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213746
+
+# Rare Gems
+## Emerald
+### Haste
+profileset."Quick_Emerald_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213486
+profileset."Quick_Emerald_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213487
+profileset."Quick_Emerald_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213488
+
+### Haste/Vers
+profileset."Versatile_Emerald_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213483
+profileset."Versatile_Emerald_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213484
+profileset."Versatile_Emerald_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213485
+
+### Haste/Mastery
+profileset."Masterful_Emerald_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213480
+profileset."Masterful_Emerald_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213481
+profileset."Masterful_Emerald_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213482
+
+### Haste/Crit
+profileset."Deadly_Emerald_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213477
+profileset."Deadly_Emerald_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213478
+profileset."Deadly_Emerald_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213479
+
+## Ruby
+### Crit/Mastery
+profileset."Masterful_Ruby_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213456
+profileset."Masterful_Ruby_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213457
+profileset."Masterful_Ruby_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213458
+
+### Crit/Haste
+profileset."Quick_Ruby_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213453
+profileset."Quick_Ruby_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213454
+profileset."Quick_Ruby_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213455
+
+### Crit
+profileset."Deadly_Ruby_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213462
+profileset."Deadly_Ruby_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213463
+profileset."Deadly_Ruby_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213464
+
+### Crit/Vers
+profileset."Versatile_Ruby_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213459
+profileset."Versatile_Ruby_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213460
+profileset."Versatile_Ruby_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213461
+
+## Onyx
+### Mastery
+profileset."Masterful_Onyx_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213498
+profileset."Masterful_Onyx_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213499
+profileset."Masterful_Onyx_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213500
+
+### Mastery/Crit
+profileset."Deadly_Onyx_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213489
+profileset."Deadly_Onyx_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213490
+profileset."Deadly_Onyx_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213491
+
+### Mastery/Haste
+profileset."Quick_Onyx_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213492
+profileset."Quick_Onyx_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213493
+profileset."Quick_Onyx_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213494
+
+### Mastery/Vers
+profileset."Versatile_Onyx_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213495
+profileset."Versatile_Onyx_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213496
+profileset."Versatile_Onyx_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213497
+
+## Sapphire
+### Vers/Crit
+profileset."Deadly_Sapphire_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213465
+profileset."Deadly_Sapphire_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213466
+profileset."Deadly_Sapphire_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213467
+
+### Vers
+profileset."Versatile_Sapphire_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213474
+profileset."Versatile_Sapphire_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213475
+profileset."Versatile_Sapphire_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213476
+
+### Vers/Mastery
+profileset."Masterful_Sapphire_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213471
+profileset."Masterful_Sapphire_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213472
+profileset."Masterful_Sapphire_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213473
+
+### Vers/Haste
+profileset."Quick_Sapphire_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213468
+profileset."Quick_Sapphire_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213469
+profileset."Quick_Sapphire_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213470
+
+## Amber
+### Stamina/Mastery
+profileset."Masterful_Amber_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213507
+profileset."Masterful_Amber_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213508
+profileset."Masterful_Amber_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213509
+
+### Stamina/Versatility
+profileset."Versatile_Amber_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213510
+profileset."Versatile_Amber_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213511
+profileset."Versatile_Amber_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213512
+
+### Stamina
+profileset."Solid_Amber_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213515
+profileset."Solid_Amber_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213516
+profileset."Solid_Amber_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213517
+
+### Stamina/Crit
+profileset."Deadly_Amber_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213501
+profileset."Deadly_Amber_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213502
+profileset."Deadly_Amber_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213503
+
+### Stamina/Haste
+profileset."Quick_Amber_1"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213504
+profileset."Quick_Amber_2"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213505
+profileset."Quick_Amber_3"+=main_hand=${gear.main_hand},enchant=${enchants.main_hand},gem_id=213506

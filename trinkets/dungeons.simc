@@ -1,0 +1,152 @@
+priest="Base"
+level=80
+role=spell
+position=back
+spec=shadow
+talents=${talents}
+
+${apl}
+
+head=${gear.head},gem_id=${gems.meta},enchant=${enchants.head}
+neck=${gear.neck},gem_id=${gems.emerald}/${gems.ruby}
+shoulders=${gear.shoulders}
+back=${gear.back}
+chest=${gear.chest},enchant=${enchants.chest}
+wrists=${gear.wrists},gem_id=${gems.onyx}
+hands=${gear.hands}
+waist=${gear.waist},gem_id=${gems.sapphire}
+legs=${gear.legs},enchant=${enchants.legs}
+feet=${gear.feet}
+finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+finger2=${gear.finger2},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+main_hand=${gear.main_hand},enchant=${enchants.main_hand}
+${gear.off_hand}
+
+## Season 3
+## End of Dungeon: 717 | Vault: 730
+## The Dawnbreaker
+profileset."Empowering_Crystal_of_Anubikkaj_717"+=trinket1=empowering_crystal_of_anubikkaj,id=219312,ilevel=717
+profileset."Empowering_Crystal_of_Anubikkaj_730"+=trinket1=empowering_crystal_of_anubikkaj,id=219312,ilevel=730
+
+profileset."Mereldars_Toll_717"+=trinket1=mereldars_toll,id=219313,ilevel=717
+profileset."Mereldars_Toll_730"+=trinket1=mereldars_toll,id=219313,ilevel=730
+
+## Ara-Kara
+profileset."AraKara_Sacbrood_717"+=trinket1=arakara_sacbrood,id=219314,ilevel=717
+profileset."AraKara_Sacbrood_730"+=trinket1=arakara_sacbrood,id=219314,ilevel=730
+
+### Chance to collect orb
+### 20% is default
+profileset."Harvesters_Edict_20%_717"+=trinket1=harvesters_edict,id=219317,ilevel=717
+profileset."Harvesters_Edict_20%_717"+=thewarwithin.harvesters_edict_intercept_chance=0.2
+profileset."Harvesters_Edict_20%_730"+=trinket1=harvesters_edict,id=219317,ilevel=730
+profileset."Harvesters_Edict_20%_730"+=thewarwithin.harvesters_edict_intercept_chance=0.2
+
+## Operation: Floodgate
+profileset."Gigazaps_Zap_Cap_717"+=trinket1=gigazaps_zapcap,id=232545,ilevel=717
+profileset."Gigazaps_Zap_Cap_730"+=trinket1=gigazaps_zapcap,id=232545,ilevel=730
+
+## Priory of the Sacred Flame
+profileset."Signet_of_the_Priory_717"+=trinket1=signet_of_the_priory,id=219308,ilevel=717
+profileset."Signet_of_the_Priory_730"+=trinket1=signet_of_the_priory,id=219308,ilevel=730
+
+profileset."Bursting_Lightshard_717"+=trinket1=bursting_lightshard,id=219310,ilevel=717
+profileset."Bursting_Lightshard_730"+=trinket1=bursting_lightshard,id=219310,ilevel=730
+
+## Eco-Dome Al'dani
+profileset."Lily_of_the_Eternal_Weave_717"+=trinket1=lily_of_the_eternal_weave,id=242494,ilevel=717
+profileset."Lily_of_the_Eternal_Weave_730"+=trinket1=lily_of_the_eternal_weave,id=242494,ilevel=730
+
+profileset."Azhiccaran_Parapodia_717"+=trinket1=azhiccaran_parapodia,id=242497,ilevel=717
+profileset."Azhiccaran_Parapodia_730"+=trinket1=azhiccaran_parapodia,id=242497,ilevel=730
+
+## Halls of Atonement
+profileset."Sunblood_Amethyst_717"+=trinket1=sunblood_amethyst,id=178826,ilevel=717
+profileset."Sunblood_Amethyst_730"+=trinket1=sunblood_amethyst,id=178826,ilevel=730
+
+## Tazavesh: Streets of Wonder
+profileset."Miniscule_Mailemental_in_an_Envelope_717"+=trinket1=miniscule_mailemental_in_an_envelope,id=185846,ilevel=717
+profileset."Miniscule_Mailemental_in_an_Envelope_730"+=trinket1=miniscule_mailemental_in_an_envelope,id=185846,ilevel=730
+
+## Tazavesh: So'leah's Gambit
+profileset."Soleahs_Secret_Technique_Crit_717"+=trinket1=soleahs_secret_technique_crit,id=190958,ilevel=717
+profileset."Soleahs_Secret_Technique_Crit_717"+=shadowlands.soleahs_secret_technique_type=crit
+profileset."Soleahs_Secret_Technique_Haste_717"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=717
+profileset."Soleahs_Secret_Technique_Haste_717"+=shadowlands.soleahs_secret_technique_type=haste
+profileset."Soleahs_Secret_Technique_Mastery_717"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=717
+profileset."Soleahs_Secret_Technique_Mastery_717"+=shadowlands.soleahs_secret_technique_type=mastery
+profileset."Soleahs_Secret_Technique_Versatility_717"+=trinket1=soleahs_secret_technique_versatility,id=190958,ilevel=717
+profileset."Soleahs_Secret_Technique_Versatility_717"+=shadowlands.soleahs_secret_technique_type=versatility
+
+profileset."Soleahs_Secret_Technique_Crit_730"+=trinket1=soleahs_secret_technique_crit,id=190958,ilevel=730
+profileset."Soleahs_Secret_Technique_Crit_730"+=shadowlands.soleahs_secret_technique_type=crit
+profileset."Soleahs_Secret_Technique_Haste_730"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=730
+profileset."Soleahs_Secret_Technique_Haste_730"+=shadowlands.soleahs_secret_technique_type=haste
+profileset."Soleahs_Secret_Technique_Mastery_730"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=730
+profileset."Soleahs_Secret_Technique_Mastery_730"+=shadowlands.soleahs_secret_technique_type=mastery
+profileset."Soleahs_Secret_Technique_Versatility_730"+=trinket1=soleahs_secret_technique_versatility,id=190958,ilevel=730
+profileset."Soleahs_Secret_Technique_Versatility_730"+=shadowlands.soleahs_secret_technique_type=versatility
+
+## Season 2
+## End of Dungeon: 671 | Vault: 684
+## The Rookery
+# profileset."Entropic_Skardyn_Core_684"+=trinket1=entropic_skardyn_core,id=219296,ilevel=684
+
+# profileset."Sigil_of_Algari_Concordance_684"+=trinket1=sigil_of_algari_concordance,id=219295,ilevel=684
+
+## Cinderbrew Meadery
+# profileset."Synergistic_Brewterializer_DMG_ToF_684"+=trinket1=synergistic_brewterializer,id=219299,ilevel=684
+# profileset."Synergistic_Brewterializer_DMG_ToF_684"+=priest.synergistic_brewterializer_barrel_hit_chance=0.75
+# profileset."Synergistic_Brewterializer_DMG_ToF_684"+=priest.synergistic_brewterializer_tof_chance=0.90
+
+### Sims as if the barrel gets exploded 100% of the time by other group members, you get the damage but not ToF procs
+# profileset."Synergistic_Brewterializer_DMG_684"+=trinket1=synergistic_brewterializer,id=219299,ilevel=684
+# profileset."Synergistic_Brewterializer_DMG_684"+=priest.synergistic_brewterializer_tof_chance=0.0
+# profileset."Synergistic_Brewterializer_DMG_684"+=priest.synergistic_brewterializer_barrel_hit_chance=0.75
+
+### Sims as if the barrel is exploded, but never around any targets, you still get ToF tho
+# profileset."Synergistic_Brewterializer_ToF_684"+=trinket1=synergistic_brewterializer,id=219299,ilevel=684
+# profileset."Synergistic_Brewterializer_ToF_684"+=priest.synergistic_brewterializer_barrel_hit_chance=0.0
+# profileset."Synergistic_Brewterializer_ToF_684"+=priest.synergistic_brewterializer_tof_chance=0.90
+
+## Darkflame Cleft
+# profileset."Remnant_of_Darkness_684"+=trinket1=remnant_of_darkness,id=219307,ilevel=684
+
+# profileset."Carved_Blazikon_Wax_684"+=trinket1=carved_blazikon_wax,id=219305,ilevel=684
+
+## Theater of Pain
+# profileset."Soulletting_Ruby_684"+=trinket1=soulletting_ruby,id=178809,ilevel=684
+
+## Operation: Mechagon: Workshop
+### Technically a healer trinket
+# profileset."Ingenious_Mana_Battery_684"+=trinket1=ingenious_mana_battery,id=169344,ilevel=684
+
+# Season 1
+## City of Threads
+# profileset."Cirral_Concoctory_639"+=trinket1=cirral_concoctory,id=219321,ilevel=639
+
+## The Stonevault
+# profileset."High_Speakers_Accretion_639"+=trinket1=high_speakers_accretion,id=219303,ilevel=639
+
+## Mists of Tirna Scithe
+### all, crit, haste, mastery
+# profileset."Unbound_Changeling_All_639"+=shadowlands.unbound_changeling_stat_type=all
+# profileset."Unbound_Changeling_All_639"+=trinket1=unbound_changeling,id=178708,ilevel=639
+
+# profileset."Unbound_Changeling_Crit_639"+=shadowlands.unbound_changeling_stat_type=crit
+# profileset."Unbound_Changeling_Crit_639"+=trinket1=unbound_changeling,id=178708,ilevel=639
+
+# profileset."Unbound_Changeling_Haste_639"+=shadowlands.unbound_changeling_stat_type=haste
+# profileset."Unbound_Changeling_Haste_639"+=trinket1=unbound_changeling,id=178708,ilevel=639
+
+# profileset."Unbound_Changeling_Mastery_639"+=shadowlands.unbound_changeling_stat_type=mastery
+# profileset."Unbound_Changeling_Mastery_639"+=trinket1=unbound_changeling,id=178708,ilevel=639
+
+## The Necrotic Wake
+# profileset."Satchel_of_Misbegotten_Minions_639"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=639
+
+## Siege of Boralus
+# profileset."Hadals_Nautilus_639"+=trinket1=hadals_nautilus,id=159622,ilevel=639
+
+## Grim Batol
+# profileset."Gale_of_Shadows_639"+=trinket1=gale_of_shadows,id=133304,ilevel=639

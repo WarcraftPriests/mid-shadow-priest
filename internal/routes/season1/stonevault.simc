@@ -1,0 +1,33 @@
+# !1rvtpYjmm0)sy(C46S9Ywvr3kQ6HEiQZhoBPLfwXe2D6L(BVXoeIdDgPiuWe)Ep7Njkq9vv74XFHNmxSBnQ25UZQ2xQ)cU)1V)Xh2)UQ9W5ZJdFdNU0noOAksGcv75oTU70CV5pQg693o0pJewNMNMWbZtZ992VKVgOD(yp(gsbvTtDAZN16litAdWmBwp7hMhEghhE88v73GevRbXx6gEwDu1Eb7TALucNirHnXxT0TcL)bTs5vgVYvnLw9l2urldDK)pb35Y5nz0HYUlQKeSpU)Njmkysl5YCSFCs1Q1zOw753hLIvJwCQwb0SsF5smhd5lKyOYGAHn7CEOGGmKOocPCzpQMrANhdkuMOcapQ36dbjxtfIfRapmPg)MGL4aaajH5CSIBva6JubuhjGCbQRAIPQmIQeP2fCa7e6u22LuLY(YMoxL0dkyelzet2y(uUPrEfiNr4HoaUHmiryDFVW9CTJXOIl36igRetcfIn8SgLxLpJuP7KVcSujHMPST4MrPgtqL1SVeQB3yKTZYyK463qeVPchQbkDj4kjWPCk9cx6LmMM1snOh(FMaolD3ehoqu5e8CFupmhaNBdrJSPjX29I0Z20Dc)w7OR4o(iPtipAkG)xfk3mT4)l2SswE0mMZulfusiiPoG(MRrmlGT9kHuiQu5BFn4v7ZpnpC6NhhV(3FKUK1th6rJbFCqpsiDy2m(afNUrE)MZqxzZ3i)oI)2HU6F)
+fight_style=DungeonRoute
+override.skyfury=0
+override.arcane_intellect=0
+override.power_word_fortitude=1
+override.battle_shout=0
+override.mark_of_the_wild=0
+override.mystic_touch=0
+override.chaos_brand=0
+override.hunters_mark=0
+override.mortal_wounds=0
+override.bleeding=0
+single_actor_batch=1
+max_time=2700
+enemy="The Stonevault 15"
+enemy_health=99999999
+keystone_level=15
+keystone_pct_hp=27
+
+raid_events+=/pull,pull=01,bloodlust=1,delay=005,enemies="Cursedheart_Invader_1":29431219:Humanoid|"Cursedheart_Invader_2":29431219:Humanoid|"Cursedheart_Invader_3":29431219:Humanoid|"Cursedheart_Invader_4":29431219:Humanoid|"Cursedheart_Invader_5":29431219:Humanoid|"Cursedheart_Invader_6":29431219:Humanoid|"Cursedheart_Invader_7":29431219:Humanoid|"Earth_Infused_Golem_1":47089950:Mechanical|"Earth_Infused_Golem_2":47089950:Mechanical|"Earth_Infused_Golem_3":47089950:Mechanical|"Earth_Infused_Golem_4":47089950:Mechanical|"Earth_Infused_Golem_5":47089950:Mechanical|"Ghastly_Voidsoul_1":26488098:Humanoid|"Ghastly_Voidsoul_2":26488098:Humanoid|"Ghastly_Voidsoul_3":26488098:Humanoid|"Ghastly_Voidsoul_4":26488098:Humanoid|"Repurposed_Loaderbot_1":30902780:Mechanical|"Repurposed_Loaderbot_2":30902780:Mechanical|"Repurposed_Loaderbot_3":30902780:Mechanical|"Repurposed_Loaderbot_4":30902780:Mechanical|"Repurposed_Loaderbot_5":30902780:Mechanical|"Repurposed_Loaderbot_6":30902780:Mechanical
+raid_events+=/pull,pull=02,bloodlust=0,delay=006,enemies="BOSS_E.D.N.A":244902116:Mechanical
+raid_events+=/pull,pull=03,bloodlust=0,delay=007,enemies="Engine_Speaker_1":32374341:Humanoid|"Engine_Speaker_2":32374341:Humanoid|"Engine_Speaker_3":32374341:Humanoid|"Void_Bound_Despoiler_1":47089950:Humanoid
+raid_events+=/pull,pull=04,bloodlust=0,delay=010,enemies="Cursedheart_Invader_1":29431219:Humanoid|"Cursedheart_Invader_2":29431219:Humanoid|"Void_Bound_Howler_1":27959658:Humanoid|"Void_Bound_Howler_2":27959658:Humanoid|"Void_Bound_Howler_3":27959658:Humanoid|"Turned_Speaker_1":30902780:Aberration|"Turned_Speaker_2":30902780:Aberration|"Turned_Speaker_3":30902780:Aberration|"Void_Touched_Elemental_1":32374341:Elemental
+raid_events+=/pull,pull=05,bloodlust=0,delay=015,enemies="Cursedheart_Invader_1":29431219:Humanoid|"Cursedheart_Invader_2":29431219:Humanoid|"Void_Bound_Howler_1":27959658:Humanoid|"Void_Bound_Howler_2":27959658:Humanoid|"Void_Touched_Elemental_1":32374341:Elemental|"Void_Touched_Elemental_2":32374341:Elemental|"Void_Bound_Despoiler_1":47089950:Humanoid|"Void_Bound_Despoiler_2":47089950:Humanoid
+raid_events+=/pull,pull=06,bloodlust=0,delay=007,enemies="Cursedheart_Invader_1":29431219:Humanoid|"Turned_Speaker_1":30902780:Aberration|"Turned_Speaker_2":30902780:Aberration|"BOSS_Skarmorak":214289351:Elemental|"Void_Touched_Elemental_1":32374341:Elemental|"BOSS_Crystal_Shard":2449021:Uncategorized
+raid_events+=/pull,pull=07,bloodlust=0,delay=005,enemies="Engine_Speaker_1":32374341:Humanoid|"Engine_Speaker_2":32374341:Humanoid|"Aspiring_Forgehand_1":17658731:Humanoid|"Aspiring_Forgehand_2":17658731:Humanoid|"Cursedheart_Invader_1":29431219:Humanoid|"Cursedheart_Invader_2":29431219:Humanoid|"Repurposed_Loaderbot_1":30902780:Mechanical|"Forgebound_Mender_1":26488098:Humanoid
+raid_events+=/pull,pull=08,bloodlust=0,delay=005,enemies="Engine_Speaker_1":32374341:Humanoid|"Engine_Speaker_2":32374341:Humanoid|"Engine_Speaker_3":32374341:Humanoid|"Aspiring_Forgehand_1":17658731:Humanoid|"Aspiring_Forgehand_2":17658731:Humanoid|"Aspiring_Forgehand_3":17658731:Humanoid|"Aspiring_Forgehand_4":17658731:Humanoid|"Aspiring_Forgehand_5":17658731:Humanoid|"Aspiring_Forgehand_6":17658731:Humanoid|"Aspiring_Forgehand_7":17658731:Humanoid|"Forge_Loader_1":52976194:Mechanical|"Repurposed_Loaderbot_1":30902780:Mechanical|"Forgebound_Mender_1":26488098:Humanoid|"Forgebound_Mender_2":26488098:Humanoid
+raid_events+=/pull,pull=09,bloodlust=0,delay=005,enemies="Aspiring_Forgehand_1":17658731:Humanoid|"Aspiring_Forgehand_2":17658731:Humanoid|"Aspiring_Forgehand_3":17658731:Humanoid|"Aspiring_Forgehand_4":17658731:Humanoid|"Forge_Loader_1":52976194:Mechanical|"Engine_Speaker_1":32374341:Humanoid|"Engine_Speaker_2":32374341:Humanoid|"Engine_Speaker_3":32374341:Humanoid|"Engine_Speaker_4":32374341:Humanoid|"Engine_Speaker_5":32374341:Humanoid|"Engine_Speaker_6":32374341:Humanoid
+raid_events+=/pull,pull=10,bloodlust=0,delay=007,enemies="Engine_Speaker_1":32374341:Humanoid|"Engine_Speaker_2":32374341:Humanoid|"Engine_Speaker_3":32374341:Humanoid|"Forgebound_Mender_1":26488098:Humanoid|"Forgebound_Mender_2":26488098:Humanoid
+raid_events+=/pull,pull=11,bloodlust=0,delay=009,enemies="BOSS_Speaker_Brokk":137757441:Humanoid|"BOSS_Speaker_Dorlita":165308928:Humanoid
+raid_events+=/pull,pull=12,bloodlust=0,delay=015,enemies="Cursedforge_Honor_Guard_1":47089950:Humanoid|"Cursedforge_Honor_Guard_2":47089950:Humanoid|"Cursedforge_Honor_Guard_3":47089950:Humanoid|"Cursedforge_Honor_Guard_4":47089950:Humanoid|"Rock_Smasher_1":58862438:Elemental|"Cursedforge_Stoneshaper_1":27959658:Humanoid|"Cursedforge_Stoneshaper_2":27959658:Humanoid|"Cursedforge_Mender_1":26488098:Humanoid|"Cursedforge_Mender_2":26488098:Humanoid|"Cursedforge_Mender_3":26488098:Humanoid
+raid_events+=/pull,pull=13,bloodlust=0,delay=015,enemies="Cursedforge_Stoneshaper_1":27959658:Humanoid|"Cursedforge_Stoneshaper_2":27959658:Humanoid|"Cursedforge_Stoneshaper_3":27959658:Humanoid|"Cursedforge_Stoneshaper_4":27959658:Humanoid|"Rock_Smasher_1":58862438:Elemental|"Rock_Smasher_2":58862438:Elemental
+raid_events+=/pull,pull=14,bloodlust=1,delay=015,enemies="BOSS_Void_Speaker_Eirich":244902116:Humanoid

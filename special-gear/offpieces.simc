@@ -1,0 +1,195 @@
+# Head
+# crit/haste (R)
+profileset."Head_Twilight_Tyrants_Veil_723"+=head=twilight_tyrants_veil,id=237548,ilevel=723
+profileset."Head_Twilight_Tyrants_Veil_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# mastery/vers (D)
+profileset."Head_Elysian_Flame_Crown_723"+=head=elysian_flame_crown,id=221131,ilevel=723
+profileset."Head_Elysian_Flame_Crown_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# haste/crit (D)
+profileset."Head_Wasteland_Devotees_Wrappings_723"+=head=wasteland_devotees_wrappings,id=242477,ilevel=723
+profileset."Head_Wasteland_Devotees_Wrappings_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# Neck
+# vers/haste (R)
+profileset."Neck_Chrysalis_of_Sundered_Souls_723"+=neck=chrysalis_of_sundered_souls,id=237568,ilevel=723,gem_id=213482/213458
+
+# mastery/crit (R)
+profileset."Neck_Salhadaars_Folly_723"+=neck=salhadaars_folly,id=242406,ilevel=723,gem_id=213482/213458
+
+# haste/mastery (R)
+profileset."Neck_Duskblazes_Desperation_723"+=neck=duskblazes_desperation,id=237569,ilevel=723,gem_id=213482/213458
+
+# mastery/vers (D)
+profileset."Neck_Mommas_Mega_Medallion_723"+=neck=mommas_mega_medallion,id=251880,ilevel=723,gem_id=213482/213458
+
+# haste/mastery (D)
+profileset."Neck_Sin_Stained_Pendant_723"+=neck=sin_stained_pendant,id=178827,ilevel=723,gem_id=213482/213458
+
+# haste/vers (D)
+profileset."Neck_Cabochon_of_the_Infinite_Flight_723"+=neck=cabochon_of_the_infinite_flight,id=185820,ilevel=723,gem_id=213482/213458
+
+# crit/haste (D)
+profileset."Neck_Ornately_Engraved_Amplifier_723"+=neck=ornately_engraved_amplifier,id=185842,ilevel=723,gem_id=213482/213458
+
+# Shoulders
+# haste/vers (R)
+profileset."Shoulder_Mounted_Manacannons_723"+=shoulder=mounted_manacannons,id=237547,ilevel=723
+
+# mastery/haste (D)
+profileset."Shoulder_Sinlight_Shoulderpads_723"+=shoulder=sinlight_shoulderpads,id=246276,ilevel=723
+
+# crit/haste (D)
+profileset."Shoulder_Harmonious_Spaulders_723"+=shoulder=harmonious_spaulders,id=185804,ilevel=723
+
+# Chest
+# mastery/haste (R)
+profileset."Chest_Frock_of_Spirits_Reunion_723"+=chest=frock_of_spirits_reunion,id=237527,ilevel=723,enchant=crystalline_radiance_3
+profileset."Chest_Frock_of_Spirits_Reunion_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# haste/crit (D)
+profileset."Chest_Saboteurs_Rubber_Jacket_723"+=chest=saboteurs_rubber_jacket,id=234496,ilevel=723,enchant=crystalline_radiance_3
+profileset."Chest_Saboteurs_Rubber_Jacket_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# mastery/vers (D)
+profileset."Chest_Robes_of_Midnight_Bargains_723"+=chest=robes_of_midnight_bargains,id=185782,ilevel=723,enchant=crystalline_radiance_3
+profileset."Chest_Robes_of_Midnight_Bargains_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# Wrists
+# haste/mastery
+profileset."Wrists_Conjoined_Glass_Bracers_723"+=wrists=conjoined_glass_bracers,id=237558,ilevel=723,gem_id=213497
+profileset."Wrists_Conjoined_Glass_Bracers_723"+=waist=consecrated_cord,id=222816,bonus_id=8793/11109,ilevel=720,gem_id=213497
+
+# haste/mastery (D)
+profileset."Wrists_Fizzlefuse_Cuffs_723"+=wrists=fizzlefuse_cuffs,id=246279,ilevel=723,gem_id=213497
+
+# haste/crit (D)
+profileset."Wrists_Auctioneers_Counting_Bracers_723"+=wrists=auctioneers_counting_bracers,id=185814,ilevel=723,gem_id=213497
+
+# Hands
+# mastery/crit (R)
+profileset."Hands_Bloodwraths_Gnarled_Claws_723"+=hands=bloodwraths_gnarled_claws,id=237549,ilevel=723
+profileset."Hands_Bloodwraths_Gnarled_Claws_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# mastery/haste (D)
+profileset."Hands_Ancient_Oracles_Caress_723"+=hands=ancient_oracles_caress,id=242490,ilevel=723
+profileset."Hands_Ancient_Oracles_Caress_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# crit/haste (D)
+profileset."Hands_Stonefiend_Shapers_Mitts_723"+=hands=stonefiend_shapers_mitts,id=178833,ilevel=723
+profileset."Hands_Stonefiend_Shapers_Mitts_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# mastery/vers (D)
+profileset."Hands_Codebreakers_Cunning_Handwraps_723"+=hands=codebreakers_cunning_handwraps,id=246275,ilevel=723
+profileset."Hands_Codebreakers_Cunning_Handwraps_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# mastery/haste (D)
+profileset."Hands_Cyphered_Gloves_723"+=hands=cyphered_gloves,id=185793,ilevel=723
+profileset."Hands_Cyphered_Gloves_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# Waist
+# haste/vers (R)
+profileset."Waist_Forgeweavers_Journal_Holster_723"+=waist=forgeweavers_journal_holster,id=237538,ilevel=723,gem_id=213470
+
+# mastery/crit (Catalyst)
+profileset."Waist_Dying_Stars_Waistlight_723"+=waist=dying_stars_waistlight,id=237706,ilevel=723,gem_id=213470
+
+# D.I.S.C
+profileset."Waist_Durable_Information_Securing_Container_Electric_Current_701"+=waist=durable_information_securing_container,id=242664,titan_disc_id=1236961,ilevel=701,gem_id=213470
+
+# mastery/crit (R)
+# profileset."Waist_Singularity_Cincture_723"+=waist=singularity_cincture,id=237559,ilevel=723,gem_id=213470
+
+# crit/haste (D)
+profileset."Waist_Burrowers_Cinch_723"+=waist=burrowers_cinch,id=221158,ilevel=723,gem_id=213470
+
+# mastery/crit (D)
+profileset."Waist_Pandimensional_Packing_Cord_723"+=waist=pandimensional_packing_cord,id=185807,ilevel=723,gem_id=213470
+
+# mastery/crit (D)
+profileset."Waist_Honorbound_Retainers_Sash_723"+=waist=honorbound_retainers_sash,id=221121,ilevel=723,gem_id=213470
+
+# Legs
+# haste/crit (R)
+profileset."Legs_Stellar_Navigation_Slacks_723"+=legs=stellar_navigation_slacks,id=237542,ilevel=723,enchant=sunset_spellthread_3
+profileset."Legs_Stellar_Navigation_Slacks_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# haste/crit (D)
+profileset."Legs_Archaic_Venomancers_Footwraps_723"+=legs=archaic_venomancers_footwraps,id=221164,ilevel=723,enchant=sunset_spellthread_3
+profileset."Legs_Archaic_Venomancers_Footwraps_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# crit/mastery (D)
+profileset."Legs_Razorchoke_Slacks_723"+=legs=razorchoke_slacks,id=234495,ilevel=723,enchant=sunset_spellthread_3
+profileset."Legs_Razorchoke_Slacks_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# mastery/crit (D)
+profileset."Legs_Hyperlight_Leggings_723"+=legs=hyperlight_leggings,id=185799,ilevel=723,enchant=sunset_spellthread_3
+profileset."Legs_Hyperlight_Leggings_723"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=723
+
+# Feet
+# mastery/haste (R)
+# profileset."Feet_Interlopers_Silken_Striders_723"+=feet=interlopers_silken_striders,id=243305,ilevel=723
+
+# Rings 
+# mastery/crit (R)
+# profileset."Finger1_Logic_Gate_Alpha_723"+=finger1=logic_gate_alpha,id=237567,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+# profileset."Finger2_Logic_Gate_Alpha_723"+=finger2=logic_gate_alpha,id=237567,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+
+# mastery/haste (R)
+# profileset."Finger1_Logic_Gate_Omega_723"+=finger1=logic_gate_omega,id=237570,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+# profileset."Finger2_Logic_Gate_Omega_723"+=finger2=logic_gate_omega,id=237570,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+
+# haste/crit (R)
+profileset."Finger1_Band_of_the_Shattered_Soul_723"+=finger1=band_of_the_shattered_soul,id=242405,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+profileset."Finger2_Band_of_the_Shattered_Soul_723"+=finger2=band_of_the_shattered_soul,id=242405,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+
+# crit/haste (D)
+profileset."Finger1_Devout_Zealots_Ring_723"+=finger1=devout_zealots_ring,id=221136,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+profileset."Finger2_Devout_Zealots_Ring_723"+=finger2=devout_zealots_ring,id=221136,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+
+# vers/mastery (D)
+profileset."Finger1_High_Nerubian_Signet_723"+=finger1=high_nerubian_signet,id=221141,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+profileset."Finger2_High_Nerubian_Signet_723"+=finger2=high_nerubian_signet,id=221141,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+
+# mastery/vers (D)
+profileset."Finger1_Radiant_Necromancers_Band_723"+=finger1=radiant_necromancers_band,id=221200,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+profileset."Finger2_Radiant_Necromancers_Band_723"+=finger2=radiant_necromancers_band,id=221200,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+
+# haste/mastery (D)
+profileset."Finger1_Whispers_of_Karesh_723"+=finger1=whispers_of_karesh,id=242491,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+profileset."Finger2_Whispers_of_Karesh_723"+=finger2=whispers_of_karesh,id=242491,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+
+# mastery/haste (D)
+profileset."Finger1_Signet_of_the_False_Accuser_723"+=finger1=signet_of_the_false_accuser,id=178824,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+profileset."Finger2_Signet_of_the_False_Accuser_723"+=finger2=signet_of_the_false_accuser,id=178824,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+
+# haste/crit (D)
+profileset."Finger1_Ring_of_the_Panoply_723"+=finger1=ring_of_the_panoply,id=246281,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+profileset."Finger2_Ring_of_the_Panoply_723"+=finger2=ring_of_the_panoply,id=246281,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+
+# vers/haste (D)
+profileset."Finger1_Signet_of_Collapsing_Stars_723"+=finger1=signet_of_collapsing_stars,id=185813,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+profileset."Finger2_Signet_of_Collapsing_Stars_723"+=finger2=signet_of_collapsing_stars,id=185813,ilevel=723,enchant=radiant_mastery_3,gem_id=213494/213494
+
+# 1H + OH
+# mastery/crit (R)
+# profileset."1h_Voidglass_Kris_723-OH_Vagabonds_Torch_720"+=main_hand=voidglass_kris,id=237728,ilevel=723,enchant=stonebound_artistry_3
+# profileset."1h_Voidglass_Kris_723-OH_Vagabonds_Torch_720"+=off_hand=vagabonds_torch,id=222566,ilevel=720,bonus_id=11300/8793
+
+# 2H
+# voltaic stormcaller # crit (D)
+# profileset."2H_Voltaic_Stormcaller_684"+=main_hand=voltaic_stormcaller,id=221032,ilevel=684,enchant=authority_of_the_depths_3 
+# profileset."2H_Voltaic_Stormcaller_684"+=off_hand=disabled
+# profileset."2H_Voltaic_Stormcaller_684"+=wrists=consecrated_cuffs,id=222815,bonus_id=8793/11303,ilevel=675,gem_id=213497
+# profileset."2H_Voltaic_Stormcaller_684"+=waist=consecrated_cord,id=222816,bonus_id=8793/11303,ilevel=675,gem_id=213497
+
+# Season 3 Tier Items
+# head=dying_stars_veil,id=237709,ilevel=723 # mastery/haste
+# shoulder=dying_stars_pyrelights,id=237707,ilevel=723 # crit/vers
+# chest=dying_stars_cassock,id=237712,ilevel=723,enchant=crystalline_radiance_3 # haste/mastery
+# wrists=dying_stars_bangles,id=237705,ilevel=723,gem_id=213497 # crit/vers
+# hands=dying_stars_caress,id=237710,ilevel=723 # haste/crit
+# waist=dying_stars_waistlight,id=237706,ilevel=723,gem_id=213470 # mastery/crit
+# legs=dying_stars_leggings,id=237708,ilevel=723,enchant=sunset_spellthread_3 # crit/mastery
+# feet=dying_stars_soles,id=237711,ilevel=723 # haste/mastery

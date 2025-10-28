@@ -1,0 +1,124 @@
+priest="Base"
+level=80
+role=spell
+position=back
+spec=shadow
+talents=${talents}
+
+${apl}
+
+head=${gear.head},gem_id=${gems.meta},enchant=${enchants.head}
+neck=${gear.neck},gem_id=${gems.emerald}/${gems.ruby}
+shoulders=${gear.shoulders}
+back=${gear.back}
+chest=${gear.chest},enchant=${enchants.chest}
+wrists=${gear.wrists},gem_id=${gems.onyx}
+hands=${gear.hands}
+waist=${gear.waist},gem_id=${gems.sapphire}
+legs=${gear.legs},enchant=${enchants.legs}
+feet=${gear.feet}
+finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+finger2=${gear.finger2},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+trinket1=${gear.trinket1}
+trinket2=${gear.trinket2}
+main_hand=${gear.main_hand},enchant=${enchants.main_hand}
+${gear.off_hand}
+
+food=disabled
+augmentation=disabled
+
+# Runes
+profileset."Crystallized_Augment_Rune"+=augmentation=crystallized_augment_rune
+# profileset."Ethereal_Augment_Rune"+=augmentation=ethereal_augment_rune
+# profileset."Soulgorged_Augment_Rune"+=augmentation=soulgorged_augment_rune
+
+# Food
+## 446 intellect
+profileset."Feast_of_the_Divine_Day"+=food=feast_of_the_divine_day
+# profileset."Hearty_Feast_of_the_Divine_Day"+=food=hearty_feast_of_the_divine_day
+# profileset."Feast_of_the_Midnight_Masquerade"+=food=feast_of_the_midnight_masquerade
+# profileset."Hearty_Feast_of_the_Midnight_Masquerade"+=food=hearty_feast_of_the_midnight_masquerade
+
+## 469 highest secondary
+profileset."Beledars_Bounty"+=food=beledars_bounty
+# profileset."Hearty_Beledars_Bounty"+=food=hearty_beledars_bounty
+# profileset."Empress_Farewell"+=food=empress_farewell
+# profileset."Hearty_Empress_Farewell"+=food=hearty_empress_farewell
+# profileset."Jesters_Board"+=food=jesters_board
+# profileset."Hearty_Jesters_Board"+=food=hearty_jesters_board
+# profileset."Outsiders_Provisions"+=food=outsiders_provisions
+# profileset."Hearty_Outsiders_Provisions"+=food=hearty_outsiders_provisions
+# profileset."The_Sushi_Special"+=food=the_sushi_special
+# profileset."Sushi_Special"+=food=sushi_special
+# profileset."Hearty_Sushi_Special"+=food=hearty_sushi_special
+
+## 328 crit
+profileset."Fiery_Fish_Sticks"+=food=fiery_fish_sticks
+# profileset."Hearty_Fiery_Fish_Sticks"+=food=hearty_fiery_fish_sticks
+
+## 328 vers
+profileset."GingerGlazed_Fillet"+=food=gingerglazed_fillet
+# profileset."Hearty_Ginger_Glazed_Fillet"+=food=hearty_ginger_glazed_fillet
+
+## 328 mastery
+profileset."Salty_Dog"+=food=salty_dog
+# profileset."Hearty_Salty_Dog"+=food=hearty_salty_dog
+
+## 328 haste
+profileset."Zesty_Nibblers"+=food=zesty_nibblers
+# profileset."Hearty_Zesty_Nibblers"+=food=hearty_zesty_nibblers
+
+## 235 crit and 235 vers
+profileset."Fish_and_Chips"+=food=fish_and_chips
+# profileset."Hearty_Fish_and_Chips"+=food=hearty_fish_and_chips
+
+## 235 mastery and 235 haste
+profileset."Chippy_Tea"+=food=chippy_tea
+
+## 235 haste and 235 crit
+profileset."Deepfin_Patty"+=food=deepfin_patty
+# profileset."Hearty_Deepfin_Patty"+=food=hearty_deepfin_patty
+
+## 235 mastery and 235 vers
+profileset."Marinated_Tenderloins"+=food=marinated_tenderloins
+# profileset."Hearty_Marinated_Tenderloins"+=food=hearty_marinated_tenderloins
+
+## 235 mastery and 235 crit
+profileset."Salt_Baked_Seafood"+=food=salt_baked_seafood
+# profileset."Hearty_Salt_Baked_Seafood"+=food=hearty_salt_baked_seafood
+
+## 235 haste and 235 vers
+profileset."Sweet_and_Spicy_Soup"+=food=sweet_and_spicy_soup
+# profileset."Hearty_Sweet_and_Spicy_Soup"+=food=hearty_sweet_and_spicy_soup
+
+## 446 stamina and 223 intellect
+profileset."Stuffed_Cave_Peppers"+=food=stuffed_cave_peppers
+# profileset."Hearty_Stuffed_Cave_Peppers"+=food=hearty_stuffed_cave_peppers
+
+## 312 stamina and 156 intellect
+# profileset."Sweet_and_Sour_Meatballs"+=food=sweet_and_sour_meatballs
+# profileset."Hearty_Sweet_and_Sour_Meatballs"+=food=hearty_sweet_and_sour_meatballs
+
+## 328 lowest secondary
+# profileset."Hearty_Chippy_Tea"+=food=hearty_chippy_tea
+# profileset."Coreway_Kabob"+=food=coreway_kabob
+# profileset."Hearty_Coreway_Kabob"+=food=hearty_coreway_kabob
+# profileset."Flash_Fire_Fillet"+=food=flash_fire_fillet
+# profileset."Hearty_Flash_Fire_Fillet"+=food=hearty_flash_fire_fillet
+# profileset."Hallowfall_Chilli"+=food=hallowfall_chilli
+# profileset."Hearty_Hallowfall_Chilli"+=food=hearty_hallowfall_chilli
+# profileset."Pan_Seared_Mycobloom"+=food=panseared_mycobloom
+# profileset."Hearty_Pan_Seared_Mycobloom"+=food=hearty_panseared_mycobloom
+# profileset."Roasted_Mycobloom"+=food=roasted_mycobloom
+# profileset."Hearty_Roasted_Mycobloom"+=food=hearty_roasted_mycobloom
+# profileset."Simple_Stew"+=food=simple_stew
+# profileset."Hearty_Simple_Stew"+=food=hearty_simple_stew
+# profileset."Skewered_Fillet"+=food=skewered_fillet
+# profileset."Hearty_Skewered_Fillet"+=food=hearty_skewered_fillet
+# profileset."Unseasoned_Field_Steak"+=food=unseasoned_field_steak
+# profileset."Hearty_Unseasoned_Field_Steak"+=food=hearty_unseasoned_field_steak
+
+## 273 lowest secondary
+## Currently turbo broken
+# profileset."Everything_Stew"+=food=everything_stew
+# profileset."Hearty_Everything_Stew"+=food=hearty_everything_stew

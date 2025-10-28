@@ -1,0 +1,194 @@
+priest="Base"
+level=80
+role=spell
+position=back
+spec=shadow
+talents=${talents}
+
+${apl}
+
+head=${gear.head},gem_id=${gems.meta},enchant=${enchants.head}
+neck=${gear.neck},gem_id=${gems.emerald}/${gems.ruby}
+shoulders=${gear.shoulders}
+back=${gear.back}
+chest=${gear.chest},enchant=${enchants.chest}
+wrists=${gear.wrists},gem_id=${gems.onyx}
+hands=${gear.hands}
+waist=${gear.waist},gem_id=${gems.sapphire}
+legs=${gear.legs},enchant=${enchants.legs}
+feet=${gear.feet}
+finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+finger2=${gear.finger2},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+main_hand=${gear.main_hand},enchant=${enchants.main_hand}
+${gear.off_hand}
+
+# 11.1.5
+## Flame's Radiance: 658
+# profileset."Shining_Arathor_Insignia_658"+=trinket1=shining_arathor_insignia,id=225647,ilevel=658
+# profileset."Shining_Arathor_Insignia_Cloak_658"+=trinket1=shining_arathor_insignia,id=225647,ilevel=658
+# profileset."Shining_Arathor_Insignia_Cloak_658"+=back=arathi_crusaders_drape,id=237420,ilevel=658
+
+# profileset."Arathi_Ministers_Receptacle_658"+=trinket1=arathi_ministers_receptacle,id=238391,ilevel=658
+# profileset."Arathi_Ministers_Receptacle_Cloak_658"+=trinket1=arathi_ministers_receptacle,id=238391,ilevel=658
+# profileset."Arathi_Ministers_Receptacle_Cloak_658"+=back=arathi_crusaders_drape,id=237420,ilevel=658
+
+# profileset."Hallowed_Tome_Haste_658"+=trinket1=hallowed_tome,id=237494,bonus_id=6722/12215,ilevel=658
+# profileset."Hallowed_Tome_Haste_Cloak_658"+=trinket1=hallowed_tome,id=237494,bonus_id=6722/12215,ilevel=658
+# profileset."Hallowed_Tome_Haste_Cloak_658"+=back=arathi_crusaders_drape,id=237420,ilevel=658
+# profileset."Hallowed_Tome_Crit_658"+=trinket1=hallowed_tome,id=237494,bonus_id=6722/12216,ilevel=658
+# profileset."Hallowed_Tome_Crit_Cloak_658"+=trinket1=hallowed_tome,id=237494,bonus_id=6722/12216,ilevel=658
+# profileset."Hallowed_Tome_Crit_Cloak_658"+=back=arathi_crusaders_drape,id=237420,ilevel=658
+# profileset."Hallowed_Tome_Vers_658"+=trinket1=hallowed_tome,id=237494,bonus_id=6722/12217,ilevel=658
+# profileset."Hallowed_Tome_Vers_Cloak_658"+=trinket1=hallowed_tome,id=237494,bonus_id=6722/12217,ilevel=658
+# profileset."Hallowed_Tome_Vers_Cloak_658"+=back=arathi_crusaders_drape,id=237420,ilevel=658
+# profileset."Hallowed_Tome_Mastery_658"+=trinket1=hallowed_tome,id=237494,bonus_id=6722/12218,ilevel=658
+# profileset."Hallowed_Tome_Mastery_Cloak_658"+=trinket1=hallowed_tome,id=237494,bonus_id=6722/12218,ilevel=658
+# profileset."Hallowed_Tome_Mastery_Cloak_658"+=back=arathi_crusaders_drape,id=237420,ilevel=658
+
+# Delves
+## Season 3 Drop: 710 / Vault: 717
+## TODO: Confirm which ones are available
+profileset."Essence_Hunters_Eyeglass_710"+=trinket1=essencehunters_eyeglass,id=246939,ilevel=710
+profileset."Essence_Hunters_Eyeglass_717"+=trinket1=essencehunters_eyeglass,id=246939,ilevel=717
+
+# profileset."Depleted_Kareshi_Battery_710"+=trinket1=depleted_kareshi_battery,id=240172,ilevel=710
+# profileset."Depleted_Kareshi_Battery_717"+=trinket1=depleted_kareshi_battery,id=240172,ilevel=717
+
+profileset."Incorporeal_Essence_Gorger_NonEthereal_710"+=trinket1=incorporeal_essencegorger,id=246945,ilevel=710
+profileset."Incorporeal_Essence_Gorger_NonEthereal_717"+=trinket1=incorporeal_essencegorger,id=246945,ilevel=717
+
+profileset."Incorporeal_Essence_Gorger_Ethereal_710"+=trinket1=incorporeal_essencegorger,id=246945,ilevel=710
+profileset."Incorporeal_Essence_Gorger_Ethereal_710"+=thewarwithin.incorporeal_essence_gorger_ethereal=1
+profileset."Incorporeal_Essence_Gorger_Ethereal_717"+=trinket1=incorporeal_essencegorger,id=246945,ilevel=717
+profileset."Incorporeal_Essence_Gorger_Ethereal_717"+=thewarwithin.incorporeal_essence_gorger_ethereal=1
+
+profileset."Automatic_Footbomb_Dispenser_710"+=trinket1=automatic_footbomb_dispenser,id=242867,ilevel=710
+profileset."Automatic_Footbomb_Dispenser_717"+=trinket1=automatic_footbomb_dispenser,id=242867,ilevel=717
+
+profileset."Chaotic_Nethergate_710"+=trinket1=chaotic_nethergate,id=246825,ilevel=710
+profileset."Chaotic_Nethergate_717"+=trinket1=chaotic_nethergate,id=246825,ilevel=717
+
+profileset."Soulbreakers_Sigil_710"+=trinket1=soulbreakers_sigil,id=238390,ilevel=710
+profileset."Soulbreakers_Sigil_717"+=trinket1=soulbreakers_sigil,id=238390,ilevel=717
+
+profileset."Voidtouched_Fragment_710"+=trinket1=voidtouched_fragment,id=238386,ilevel=710
+profileset."Voidtouched_Fragment_717"+=trinket1=voidtouched_fragment,id=238386,ilevel=717
+
+# profileset."Turbo_Drain_5000_658"+=trinket1=turbodrain_5000,id=232883,ilevel=658
+# profileset."Turbo_Drain_5000_671"+=trinket1=turbodrain_5000,id=232883,ilevel=671
+
+# profileset."Bashful_Book_658"+=trinket1=bashful_book,id=235283,ilevel=658
+# profileset."Bashful_Book_671"+=trinket1=bashful_book,id=235283,ilevel=671
+
+# profileset."Abyssal_Volt_658"+=trinket1=abyssal_volt,id=235373,ilevel=658
+# profileset."Abyssal_Volt_671"+=trinket1=abyssal_volt,id=235373,ilevel=671
+
+# profileset."Garbagemancers_Last_Resort_658"+=trinket1=garbagemancers_last_resort,id=235984,ilevel=658
+# profileset."Garbagemancers_Last_Resort_671"+=trinket1=garbagemancers_last_resort,id=235984,ilevel=671
+
+# profileset."Blastmaster3000_658"+=trinket1=blastmaster3000,id=234717,ilevel=658
+# profileset."Blastmaster3000_671"+=trinket1=blastmaster3000,id=234717,ilevel=671
+
+# profileset."Noggenfogger_Ultimate_Deluxe_658"+=trinket1=noggenfogger_ultimate_deluxe,id=232486,ilevel=658
+# profileset."Noggenfogger_Ultimate_Deluxe_671"+=trinket1=noggenfogger_ultimate_deluxe,id=232486,ilevel=671
+
+# profileset."Gooblin_Grenade_658"+=trinket1=gooblin_grenade,id=234218,ilevel=658
+# profileset."Gooblin_Grenade_671"+=trinket1=gooblin_grenade,id=234218,ilevel=671
+
+# profileset."Fungal_Friend_Flute_658"+=trinket1=fungal_friend_flute,id=215171,ilevel=658
+# profileset."Fungal_Friend_Flute_671"+=trinket1=fungal_friend_flute,id=215171,ilevel=671
+
+# profileset."Kaheti_Shadeweavers_Emblem_658"+=trinket1=kaheti_shadeweavers_emblem,id=225651,ilevel=658
+# profileset."Kaheti_Shadeweavers_Emblem_671"+=trinket1=kaheti_shadeweavers_emblem,id=225651,ilevel=671
+
+# profileset."Imperfect_Ascendancy_Serum_658"+=trinket1=imperfect_ascendancy_serum,id=225654,ilevel=658
+# profileset."Imperfect_Ascendancy_Serum_671"+=trinket1=imperfect_ascendancy_serum,id=225654,ilevel=671
+
+# profileset."Concoction_Kiss_of_Death_658"+=trinket1=concoction_kiss_of_death,id=215174,ilevel=658
+# profileset."Concoction_Kiss_of_Death_671"+=trinket1=concoction_kiss_of_death,id=215174,ilevel=671
+
+# profileset."Shadowbinding_Ritual_Knife_658"+=trinket1=shadowbinding_ritual_knife,id=215178,ilevel=658
+# profileset."Shadowbinding_Ritual_Knife_671"+=trinket1=shadowbinding_ritual_knife,id=215178,ilevel=671
+
+# profileset."Nizreks_Holographic_Manipulator_658"+=trinket1=nizreks_holographic_manipulator,id=225970,ilevel=658
+# profileset."Nizreks_Holographic_Manipulator_671"+=trinket1=nizreks_holographic_manipulator,id=225970,ilevel=671
+
+# profileset."Quickwick_Candlestick_658"+=trinket1=quickwick_candlestick,id=225649,ilevel=658
+# profileset."Quickwick_Candlestick_671"+=trinket1=quickwick_candlestick,id=225649,ilevel=671
+
+# mostly sim bait and doesnt drop from delves
+# profileset."Horn_of_Declaration_658"+=trinket1=horn_of_declaration,id=217101,ilevel=658
+# profileset."Horn_of_Declaration_671"+=trinket1=horn_of_declaration,id=217101,ilevel=671
+
+# profileset."Candle_Confidant_658"+=trinket1=candle_confidant,id=225648,ilevel=658
+# profileset."Candle_Confidant_671"+=trinket1=candle_confidant,id=225648,ilevel=671
+
+# profileset."Everburning_Lantern_658"+=trinket1=everburning_lantern,id=215169,ilevel=658
+# profileset."Everburning_Lantern_671"+=trinket1=everburning_lantern,id=215169,ilevel=671
+
+# profileset."Unstable_Power_Suit_Core_658"+=trinket1=unstable_power_suit_core,id=225668,ilevel=658
+# profileset."Unstable_Power_Suit_Core_671"+=trinket1=unstable_power_suit_core,id=225668,ilevel=671
+
+# profileset."Suspicious_Energy_Drink_658"+=trinket1=suspicious_energy_drink,id=235363,ilevel=658
+# profileset."Suspicious_Energy_Drink_671"+=trinket1=suspicious_energy_drink,id=235363,ilevel=671
+
+# profileset."Funhouse_Lens_658"+=trinket1=funhouse_lens,id=234217,ilevel=658
+# profileset."Funhouse_Lens_671"+=trinket1=funhouse_lens,id=234217,ilevel=671
+
+# profileset."Ratfang_Toxin_658"+=trinket1=ratfang_toxin,id=235359,ilevel=658
+# profileset."Ratfang_Toxin_671"+=trinket1=ratfang_toxin,id=235359,ilevel=671
+
+# profileset."Amorphous_Relic_658"+=trinket1=amorphous_relic,id=232891,ilevel=658
+# profileset."Amorphous_Relic_671"+=trinket1=amorphous_relic,id=232891,ilevel=671
+
+## TODO: Confirm item level on this
+# profileset."Bronzebeard_Family_Compass_626"+=trinket1=bronzebeard_family_compass,id=219916,ilevel=626
+
+# Anniversary Event
+## Blackrock Depths (Hero Track - 717)
+# profileset."Burst_of_Knowledge_717"+=trinket1=burst_of_knowledge,id=231424,ilevel=717
+# profileset."Doperels_Calling_Rune_717"+=trinket1=doperels_calling_rune,id=231476,ilevel=717
+
+## Timewalking Dungeons (? - Explorer)
+# profileset."Cannonball_Runner_606"+=trinket1=cannonball_runner,id=13382,ilevel=606
+# profileset."Mindtap_Talisman_580"+=trinket1=mindtap_talisman,id=18371,ilevel=580
+# profileset."Ramsteins_Lightning_Bolts_606"+=trinket1=ramsteins_lightning_bolts,id=13515,ilevel=606
+# profileset."Vigilance_Charm_606"+=trinket1=vigilance_charm,id=18370,ilevel=606
+
+## World Bosses (Veteran - 697)
+profileset."Hibernation_Crystal_697"+=trinket1=hibernation_crystal,id=150388,ilevel=697
+
+# Darkmoon Cards (can't be upgraded - 577)
+# Darkmoon Sigil: Ascension (11300) - Gain Ascendance every 8s in combat. Grants secondary stat for 15s stacks up to 10 times
+# profileset."Darkmoon_Deck_Ascend_577"+=trinket1=darkmoon_deck_ascend,id=222680,ilevel=629
+# Darkmoon Sigil: Radiance (11299) - Radiant Focus - Grants highest secondary stat after dealing enough damage
+# profileset."Darkmoon_Deck_Radiance_577"+=trinket1=darkmoon_deck_radiance,id=219672,ilevel=629
+# Darkmoon Sigil: Symbiosis (11302) - Every 10s take 1% of HP to gain a stack of Vers up to 5 times
+# profileset."Darkmoon_Deck_Symbiosis_577"+=trinket1=darkmoon_deck_symbiosis,id=222653,ilevel=629
+# Darkmoon Sigil: Vivacity (11301) - Secondary Stat + Speed or Avoidance
+# profileset."Darkmoon_Deck_Vivacity_577"+=trinket1=darkmoon_deck_vivacity,id=222671,ilevel=629
+
+# Alchemy Stones
+## Currently Epic level trinket is NYI
+
+# PVP Trinkets
+#    Honor: ?
+# Conquest: Champion Track
+profileset."Astral_Gladiators_Badge_of_Ferocity_710"+=trinket1=astral_gladiators_badge_of_ferocity,id=230638,ilevel=710
+profileset."Astral_Gladiators_Insignia_of_Alacrity_710"+=trinket1=astral_gladiators_insignia_of_alacrity,id=230639,ilevel=710
+
+# Ulduar Timewalking (Champion)
+profileset."Energy_Siphon_710"+=trinket1=energy_siphon,id=156021,ilevel=710
+profileset."Eye_of_the_Broodmother_710"+=trinket1=eye_of_the_broodmother,id=156036,ilevel=710
+profileset."Living_Flame_710"+=trinket1=living_flame,id=155947,ilevel=710
+profileset."Elemental_Focus_Stone_710"+=trinket1=elemental_focus_stone,id=156288,ilevel=710
+profileset."Scale_of_Fates_710"+=trinket1=scale_of_fates,id=156187,ilevel=710
+profileset."Pandoras_Plea_710"+=trinket1=pandoras_plea,id=156207,ilevel=710
+profileset."Flare_of_the_Heavens_710"+=trinket1=flare_of_the_heavens,id=156230,ilevel=710
+profileset."Vanquished_Clutches_of_Yogg_Saron_710"+=trinket1=vanquished_clutches_of_yoggsaron,id=156458,ilevel=710
+
+# Firelands Timewalking (Champion) 
+profileset."Variable_Pulse_Lightning_Capacitor_710"+=trinket1=variable_pulse_lightning_capacitor,id=171640,ilevel=710
+
+# Black Temple Timewalking (Champion)
+profileset."The_Skull_of_Guldan_710"+=trinket1=the_skull_of_guldan,id=150522,ilevel=710
