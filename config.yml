@@ -58,39 +58,39 @@ gear:
   # x Mastery | x Haste | x Crit | x Vers
   default:
     head: "12.0_raid__class_set__priest__armor__cloth___head,id=250051,ilevel=276" # haste/crit
-    neck: "chrysalis_of_sundered_souls,id=237568,ilevel=276" # vers/haste
+    neck: "eternal_voidsong_chain,id=249368,ilevel=276" # 
     shoulders: "12.0_raid__class_set__priest__armor__cloth___shoulder,id=250049,ilevel=276" # crit/mastery
-    back: "item__cloth__cloak,id=251190,ilevel=276" # haste/mastery
+    back: "12.0_raid__generic__cloak,id=249370,ilevel=276" # 
     chest: "12.0_raid__class_set__priest__armor__cloth__robe,id=250054,ilevel=276" # mastery/haste
-    wrists: "entropic_wristwraps,id=151305,ilevel=276" # mastery/haste
-    hands: "item__cloth__hand,id=251129,ilevel=276" # mastery/vers
-    waist: "singularity_cincture,id=237559,ilevel=276" # mastery/crit
+    wrists: "12.0_raid__cloth__wrist,id=249315,ilevel=276" # 
+    hands: "item__cloth__hand,id=251172,ilevel=276" # 
+    waist: "12.0_raid__cloth__waist,id=249319,ilevel=276" # 
     legs: "12.0_raid__class_set__priest__armor__cloth___legs,id=250050,ilevel=276" # haste/mastery
     feet: "lightbinder_treads,id=109796,ilevel=276" # haste/mastery
     finger1: "omission_of_light,id=251093,ilevel=276" # haste/mastery
-    finger2: "item__accessory__finger,id=251115,ilevel=276" # mastery/haste
-    trinket1: "vessel_of_souls,id=250258,ilevel=276"
-    trinket2: "heart_of_wind,id=250256,ilevel=276"
-    main_hand: "final_grade,id=193707,ilevel=276" # mastery/haste
-    off_hand: ""
+    finger2: "eye_of_midnight,id=249920,ilevel=276" # 
+    trinket1: "placeholder1,id=153860,ilevel=276"
+    trinket2: "placeholder2,id=153864,ilevel=276"
+    main_hand: "12.0_raid__dagger__int__boss_name__weapon,id=249283,ilevel=276" # 
+    off_hand: "12.0_raid__generic__holdable,id=249922,ilevel=276" #
   # x Mastery | x Haste | x Crit | x Vers
   noCantrip:
     head: "12.0_raid__class_set__priest__armor__cloth___head,id=250051,ilevel=276" # haste/crit
-    neck: "chrysalis_of_sundered_souls,id=237568,ilevel=276" # vers/haste
+    neck: "eternal_voidsong_chain,id=249368,ilevel=276" # 
     shoulders: "12.0_raid__class_set__priest__armor__cloth___shoulder,id=250049,ilevel=276" # crit/mastery
-    back: "item__cloth__cloak,id=251190,ilevel=276" # haste/mastery
+    back: "12.0_raid__generic__cloak,id=249370,ilevel=276" # 
     chest: "12.0_raid__class_set__priest__armor__cloth__robe,id=250054,ilevel=276" # mastery/haste
-    wrists: "entropic_wristwraps,id=151305,ilevel=276" # mastery/haste
-    hands: "item__cloth__hand,id=251129,ilevel=276" # mastery/vers
-    waist: "singularity_cincture,id=237559,ilevel=276" # mastery/crit
+    wrists: "12.0_raid__cloth__wrist,id=249315,ilevel=276" # 
+    hands: "item__cloth__hand,id=251172,ilevel=276" # 
+    waist: "12.0_raid__cloth__waist,id=249319,ilevel=276" # 
     legs: "12.0_raid__class_set__priest__armor__cloth___legs,id=250050,ilevel=276" # haste/mastery
     feet: "lightbinder_treads,id=109796,ilevel=276" # haste/mastery
     finger1: "omission_of_light,id=251093,ilevel=276" # haste/mastery
-    finger2: "item__accessory__finger,id=251115,ilevel=276" # mastery/haste
-    trinket1: "vessel_of_souls,id=250258,ilevel=276"
-    trinket2: "heart_of_wind,id=250256,ilevel=276"
-    main_hand: "final_grade,id=193707,ilevel=276" # mastery/haste
-    off_hand: ""
+    finger2: "eye_of_midnight,id=249920,ilevel=276" # 
+    trinket1: "placeholder1,id=153860,ilevel=276"
+    trinket2: "placeholder2,id=153864,ilevel=276"
+    main_hand: "12.0_raid__dagger__int__boss_name__weapon,id=249283,ilevel=276" # 
+    off_hand: "12.0_raid__generic__holdable,id=249922,ilevel=276" #
 gems:
   meta: "" # Powerful Eversong Diamond 240967
   main: "" # Flawless Quick Amethyst 240900
