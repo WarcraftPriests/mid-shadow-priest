@@ -48,7 +48,7 @@ def get_hero_builds(ht, cds, idols):
     # overwriting this for now to limit combos
     hero_talent_combos = list(config["hero"][ht].keys())
     if ht == "AR":
-        hero_talent_combos = ["AR_EC_ES", "AR_SP_ES", "AR_EC_SW", "AR_SP_SW"]
+        hero_talent_combos = ["AR_EC_SW", "AR_SP_SW"]
     if ht =="VW":
         hero_talent_combos = ["VW_VE_DoS", "VW_DH_DoS", "VW_DH_VW", "VW_DH_VW"]
     return [
@@ -184,8 +184,8 @@ def populate_talents(talent_string_dictionary):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--top_matches", nargs="?", default=5, type=int)
-    parser.add_argument("--match_jitter", nargs="?", default=3, type=int)
+    parser.add_argument("--top_matches", nargs="?", default=7, type=int)
+    parser.add_argument("--match_jitter", nargs="?", default=5, type=int)
     parser.add_argument("--analyze_only", nargs="?", default=False, type=bool)
     args = parser.parse_args()
 

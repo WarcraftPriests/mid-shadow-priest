@@ -5,6 +5,9 @@ import requests
 import yaml
 import tqdm
 
+from requests.exceptions import ConnectionError, Timeout, RequestException
+from urllib3.exceptions import ProtocolError
+
 with open("config.yml", "r", encoding="utf8") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
@@ -16,6 +19,17 @@ session.headers = {
     'Content-Type': 'application/json',
     'User-Agent': 'Publik\'s Raidbots API Script'
 }
+
+def safe_request(method, url, **kwargs):
+    for attempt in range(num_of_retries):
+        try:
+            return session.request(method, url, timeout=30, **kwargs)
+        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout, ProtocolError) as e:
+            print(f"[!] Attempt {attempt+1}/{num_of_retries}: {e}")
+            time.sleep(retry_interval * (attempt + 1))
+    print("Exceeded retries - exiting")
+    return None
+
 
 
 def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name, iterations):  # noqa: E501
@@ -93,8 +107,23 @@ def poll_status(api_url_base, sim_id):
 
     with tqdm.tqdm(total=100, unit='%', ncols=100) as pbar:
         while current_try < num_of_retries:
-            response = session.get(api_url)
-            status = response.status_code
+            try:
+                response = session.get(api_url)
+                status = response.status_code
+
+            except (ConnectionError, Timeout, ProtocolError) as e:
+                current_try += 1
+                pbar.write(f"[!] Connection error ({type(e).__name__}): {e}")
+                time.sleep(retry_interval * current_try)
+                continue
+
+            except RequestException as e:
+                # Generic catch-all for other requests exceptions
+                current_try += 1
+                pbar.write(f"[!] Request error: {e}")
+                time.sleep(retry_interval * current_try)
+                continue
+
             if status >= 500:
                 current_try += 1
                 pbar.write(f'[!] [{status}] Server Error')
@@ -164,7 +193,7 @@ def retrieve_data(api_url_base, sim_id, data_file):
     current_try = 0
 
     while current_try < num_of_retries:
-        response = session.get(api_url)
+        response = safe_request("GET", api_url)
         status = response.status_code
         if status >= 500:
             current_try += 1
