@@ -56,6 +56,8 @@ def apply_rules(line):
         "idol_of_nzoth",
         "idol_of_yoggsaron",
         "idol_of_cthun",
+        "maddening_tentacles",
+        "crushing_void"
     ]:
         if t + ":1" in line:
             BOTTOM_TALENTS = BOTTOM_TALENTS + 1
@@ -99,8 +101,15 @@ def convert_builds(profile):
         has_minds_eye = "minds_eye" in line
         has_deathspeaker = "deathspeaker" in line
         has_death_and_madness = "death_and_madness" in line
+        has_misery = "misery" in line
+        has_invoked_nightmare = "invoked_nightmare" in line
         suffix = ""
         choice_nodes = []
+        # Mis or IN
+        if has_misery:
+            choice_nodes.append("Mis")
+        elif has_invoked_nightmare:
+            choice_nodes.append("IN")
         # IV or AM
         if has_improved_voidform:
             choice_nodes.append("IV")
@@ -118,8 +127,10 @@ def convert_builds(profile):
             choice_nodes.append("DaM")
         suffix = generate_suffix(choice_nodes)
         # TODO: figure out a better way to do this
-        line = line.replace(" 2211", "_" + suffix)
-        line = line.replace(" 2111", "_" + suffix)
+        line = line.replace(" 22111", "_" + suffix)
+        line = line.replace(" 22211", "_" + suffix)
+        line = line.replace(" 21211", "_" + suffix)
+        line = line.replace(" 21111", "_" + suffix)
 
         if apply_rules(line):
             continue

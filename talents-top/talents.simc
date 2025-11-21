@@ -3,8 +3,7 @@ level=90
 role=spell
 position=back
 spec=shadow
-class_talents=mind_blast:1/psychic_scream:1/angelic_feather:1/dispel_magic:1/spiritual_guidance:1/leap_of_faith:1/power_infusion:1/painful_invocation:1/body_and_soul:1/twins_of_the_sun_priestess:1/strength_of_soul:1/move_with_grace:1/twin_disciplines:1/dark_enlightenment:1/inspiration:1/shadow_word_death:1/sanguine_teachings:1/desperate_prayer:1/twist_of_fate:2/tithe_evasion:1/fade:1/angels_mercy:1/protective_light:1/mindpierce:1/spectral_illusion:1/improved_fade:2/lights_inspiration:1/spell_warding:2/phantasm:1/angelic_bulwark:1/focused_power:1/phantom_reach:1/translucent_image:1
-spec_talents=shadow_word_madness:1/psychic_link:1/misery:1/tentacle_slam:1/mental_fortitude:1/shadowy_apparitions:1/thought_harvester:1/tormenting_whispers:1/voidform:1/shadowy_insight:1/shadowfiend:1/subservient_shadows:1/minds_eye:1/phantom_menace:1/spectral_horrors:1/mastermind:2/idol_of_cthun:1/idol_of_nzoth:1/idol_of_yoggsaron:1/auspicious_spirits:1/tormented_spirits:1
+talents=CIQAAAAAAAAAAAAAAAAAAAAAAMMjxAAAAAAAAAAAAYYWMzMz2MDzsNzwMzsNmxMzMMmMwMNAzAMziZ0sZAIjxCAwMywMzMzsNmBbLDAMzMB
 
 ${apl}
 

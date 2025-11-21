@@ -49,8 +49,8 @@ def get_hero_builds(ht, cds, idols):
     hero_talent_combos = list(config["hero"][ht].keys())
     if ht == "AR":
         hero_talent_combos = ["AR_EC_SW", "AR_SP_SW"]
-    if ht =="VW":
-        hero_talent_combos = ["VW_VE_DoS", "VW_DH_DoS", "VW_DH_VW", "VW_DH_VW"]
+    if ht == "VW":
+        hero_talent_combos = ["VW_VE", "VW_DH"]
     return [
         f"{ht}_{cd}_{idol}" for ht in hero_talent_combos for cd in cds for idol in idols
     ]
@@ -191,11 +191,7 @@ if __name__ == "__main__":
 
     # Setup Vars
     build_configs = get_builds()
-    combos = [
-        (cd, filler)
-        for cd in build_configs
-        for filler in ["_ME", "_DR"]
-    ]  # noqa: E501    
+    combos = [(cd, filler) for cd in build_configs for filler in ["_ME", "_DR"]]  # noqa: E501
     results = utils.get_sim_types()
     push_results = list(utils.get_dungeon_combos())
 
