@@ -3,7 +3,7 @@ level=90
 role=spell
 position=back
 spec=shadow
-talents=CIQAAAAAAAAAAAAAAAAAAAAAAMMjxAAAAAAAAAAAAYYWMzMz2MDzsNzwMzsNmxMzMMmMwMNAzAMziZ0sZAIjxCAwMywMzMzsNmBbLDAMzMB
+talents=${talents}
 
 ${apl}
 
@@ -19,9 +19,5 @@ legs=${gear.legs},enchant=${enchants.legs}
 feet=${gear.feet}
 finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
 finger2=${gear.finger2},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
-trinket1=${gear.trinket1}
-trinket2=${gear.trinket2}
 main_hand=${gear.main_hand},enchant=${enchants.main_hand}
 ${gear.off_hand}
-
-${builds}

@@ -8,13 +8,6 @@ spec_talents=shadow_word_madness:1/psychic_link:1/misery:1/tentacle_slam:1/menta
 
 ${apl}
 
-# TODO: fix this
-temporary_enchant=disabled
-flask=disabled
-potion=disabled
-food=disabled
-augmentation=disabled
-
 head=${gear.head},gem_id=${gems.meta},enchant=${enchants.head}
 neck=${gear.neck},gem_id=${gems.peridot}/${gems.garnet}
 shoulders=${gear.shoulders}

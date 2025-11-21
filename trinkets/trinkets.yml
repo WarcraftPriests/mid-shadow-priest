@@ -1,0 +1,112 @@
+item_levels:
+  champion: [263]
+  hero: [276]
+  raid: [250, 263, 276, 289]
+  delves: [263, 276]
+  dungeons_both: [263, 276, 289]
+  dungeons: [276, 289]
+dungeons:
+  item_levels: "dungeons"
+  trinkets:
+    - id: 250257
+      name: "Eye_of_the_Drowning_Void"
+      item_levels: dungeons_both
+    - id: 250223
+      name: "Soulcatchers_Charm"
+      item_levels: dungeons_both
+    - id: 250258
+      name: "Vessel_of_Souls"
+      item_levels: dungeons_both
+    - id: 250144
+      name: "Emberwing_Feather"
+      item_levels: dungeons_both
+    - id: 250256
+      name: "Heart_of_Wind"
+      item_levels: dungeons_both
+    - id: 193718
+      name: "Emerald_Coachs_Whistle"
+    - id: 50259
+      name: "Nevermelting_Ice_Crystal"
+    - id: 151310
+      name: "Reality_Breacher"
+    - id: 250215
+      name: "Freightrunners_Flask"
+      item_levels: champion
+    - id: 250214
+      name: "Lightspire_Core"
+      item_levels: champion
+    - id: 250259
+      name: "Sapling_of_the_Dawnroot"
+      item_levels: champion
+    - id: 250224
+      name: "Mindpiercers_Sigil"
+      item_levels: champion
+other:
+  item_levels: "champion"
+  trinkets:
+    - id: 251792
+      name: "Glorious_Crusaders_Keepsake"
+      item_levels: delves
+    - id: 264878
+      name: "Astalors_Anguish_Agitator"
+      item_levels: delves
+    - id: 248583
+      name: "Drum_of_Renewed_Bonds"
+      item_levels: delves
+    - id: 251786
+      name: "Ever-Collapsing_Void_Fissure"
+      item_levels: delves
+    - id: 251787
+      name: "Sealed_Chaos_Urn"
+      item_levels: delves
+    - id: 252957
+      name: "Tangle_of_Vibrant_Vines"
+      item_levels: delves
+    - id: 251785
+      name: "Void-Reapers_Libram"
+      item_levels: delves
+    - id: 255613
+      name: "Galactic_Gladiators_Badge_of_Ferocity"
+    - id: 255614
+      name: "Galactic_Gladiators_Insignia_of_Alacrity"
+    - id: 156021
+      name: "Energy_Siphon"
+    - id: 156036
+      name: "Eye_of_the_Broodmother"
+    - id: 155947
+      name: "Living_Flame"
+    - id: 156288
+      name: "Elemental_Focus_Stone"
+    - id: 156187
+      name: "Scale_of_Fates"
+    - id: 156207
+      name: "Pandoras_Plea"
+    - id: 156230
+      name: "Flare_of_the_Heavens"
+    - id: 156458
+      name: "Vanquished_Clutches_of_Yogg_Saron"
+    - id: 171640
+      name: "Variable_Pulse_Lightning_Capacitor"
+    - id: 150522
+      name: "The_Skull_of_Guldan"
+    - id: 231424
+      name: "Burst_of_Knowledge"
+      item_levels: hero
+    - id: 231476
+      name: "Doperels_Calling_Rune"
+      item_levels: hero
+raid:
+  item_levels: "raid"
+  trinkets:
+    - id: 249810
+      name: "Shadow_of_the_Empyrean_Requiem"
+    - id: 249343
+      name: "Gaze_of_the_Alnseer"
+    - id: 249808
+      name: "Litany_of_Lightblind_Wrath"
+    - id: 249809
+      name: "Locus-Walkers_Ribbon"
+    - id: 249346
+      name: "Vaelgors_Final_Stare"
+    - id: 249340
+      name: "Wraps_of_Cosmic_Madness"

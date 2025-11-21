@@ -28,17 +28,17 @@ food=disabled
 augmentation=disabled
 
 # Runes
-profileset."Void_Touched_Augment_Rune"+=augmentation=voidtouched_augment_rune
+profileset."Void_Touched_Augment_Rune"+=augmentation=void_touched
 
 # Food
 ## 15 Primary Stat
-profileset."Blooming_Feast"+=food=blooming_feast
+# profileset."Blooming_Feast"+=food=blooming_feast
 # profileset."Queldorei_Medley"+=food=queldorei_medley
 # profileset."Rootland_Celebration"+=food=rootland_celebration
 # profileset."Silvermoon_Parade"+=food=silvermoon_parade
 
 ## 16 Highest Secondary
-profileset."Bloom_Skewers"+=food=bloom_skewers
+# profileset."Bloom_Skewers"+=food=bloom_skewers
 # profileset."Braised_Blood_Hunter"+=food=braised_blood_hunter
 # profileset."Crimson_Calamari"+=food=crimson_calamari
 # profileset."Felberry_Figs"+=food=felberry_figs
@@ -46,37 +46,37 @@ profileset."Bloom_Skewers"+=food=bloom_skewers
 # profileset."Twilight_Anglers_Medley"+=food=twilight_anglers_medley
 
 ## 16 Haste
-profileset."Fel_Kissed_Filet"+=food=felkissed_filet
+# profileset."Fel_Kissed_Filet"+=food=felkissed_filet
 
 ## 16 Critical Strike
-profileset."Arcano_Cutlets"+=food=arcano_cutlets
+# profileset."Arcano_Cutlets"+=food=arcano_cutlets
 
 ## 16 Versatility
-profileset."Void_Kissed_Fish_Rolls"+=food=foodkissed_fish_rolls
+# profileset."Void_Kissed_Fish_Rolls"+=food=foodkissed_fish_rolls
 
 ## 16 Mastery
-profileset."Warped_Wise_Wings"+=food=warped_wise_wings
+# profileset."Warped_Wise_Wings"+=food=warped_wise_wings
 
 ## 8 Mastery and 8 Haste
-profileset."Bloodthistle_wrapped_Cutlets"+=food=bloodthistlewrapped_cutlets
+# profileset."Bloodthistle_wrapped_Cutlets"+=food=bloodthistlewrapped_cutlets
 # profileset."Farstriders_Rations"+=food=farstrider_rations
 
 ## 8 Mastery and 8 Critical Strike
-profileset."Eversong_Pudding"+=food=eversong_pudding
+# profileset."Eversong_Pudding"+=food=eversong_pudding
 # profileset."Foragers_Medley"+=food=foragers_medley
 # profileset."Fried_Bloomtail"+=food=fried_bloomtail
 
 ## 8 Critical Strike and 8 Haste
-profileset."Hearthflame_Supper"+=food=hearthflame_supper
+# profileset."Hearthflame_Supper"+=food=hearthflame_supper
 # profileset."Portable_Snack"+=food=portable_snack
 
 ## 8 Versatility and 8 Haste
-profileset."Quick_Sandwich"+=food=quick_sandwich
+# profileset."Quick_Sandwich"+=food=quick_sandwich
 # profileset."Sunwell_Delight"+=food=sunwell_delight
 
 ## 8 Mastery and 8 Versatility
-profileset."Silvermoon_Standard"+=food=silvermoon_standard
+# profileset."Silvermoon_Standard"+=food=silvermoon_standard
 
 ## 8 Critical Strike and 8 Versatility
-profileset."Spiced_Biscuits"+=food=spiced_biscuits
+# profileset."Spiced_Biscuits"+=food=spiced_biscuits
 # profileset."Wise_Tails"+=food=wise_tails

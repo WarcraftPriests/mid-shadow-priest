@@ -41,8 +41,8 @@ profileset."Midnight_Versatility_Flask_1"+=flask=midnight_versatility_flask_1
 profileset."Midnight_Versatility_Flask_2"+=flask=midnight_versatility_flask_2
 
 # Potions
-## NYI
-# profileset."Draught_of_Rampant_Abandon_1"+=potion=draught_of_rampant_abandon_1
+## Rank 2 NYI
+profileset."Draught_of_Rampant_Abandon_1"+=potion=draught_of_rampant_abandon_1
 # profileset."Draught_of_Rampant_Abandon_2"+=potion=draught_of_rampant_abandon_2
 
 profileset."Lights_Potential_1"+=potion=lights_potential_1
