@@ -1,16 +1,17 @@
 # 8T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Potion_of_Recklessness_2|1464128|269.23%|
-|Potion_of_Recklessness_1|1394579|251.69%|
-|Lights_Potential_2|1109114|179.70%|
-|Lights_Potential_1|1015556|156.11%|
-|Midnight_Mastery_Flask_2|613708|54.77%|
-|Midnight_Versatility_Flask_2|599892|51.28%|
-|Midnight_Mastery_Flask_1|594045|49.81%|
-|Midnight_Versatility_Flask_1|580307|46.34%|
-|Midnight_Haste_Flask_2|533055|34.43%|
-|Midnight_Haste_Flask_1|525955|32.64%|
-|Midnight_Critical_Strike_Flask_2|448037|12.99%|
-|Midnight_Critical_Strike_Flask_1|444327|12.05%|
-|Base|396535|0.00%|
+|Potion_of_Recklessness_2|1095817|141.40%|
+|Potion_of_Recklessness_1|1032639|127.49%|
+|Lights_Potential_2|650049|43.20%|
+|Draught_of_Rampant_Abandon_1|626955|38.12%|
+|Lights_Potential_1|621126|36.83%|
+|Midnight_Critical_Strike_Flask_2|471874|3.95%|
+|Midnight_Mastery_Flask_2|471396|3.85%|
+|Midnight_Mastery_Flask_1|469828|3.50%|
+|Midnight_Critical_Strike_Flask_1|469645|3.46%|
+|Midnight_Versatility_Flask_2|467396|2.96%|
+|Midnight_Versatility_Flask_1|466307|2.73%|
+|Midnight_Haste_Flask_2|463554|2.12%|
+|Midnight_Haste_Flask_1|462622|1.91%|
+|Base|453937|0.00%|

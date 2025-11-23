@@ -1,16 +1,17 @@
 # 3T - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Potion_of_Recklessness_2|284644|81.52%|
-|Potion_of_Recklessness_1|275742|75.84%|
-|Midnight_Haste_Flask_2|252180|60.82%|
-|Midnight_Haste_Flask_1|244065|55.64%|
-|Midnight_Mastery_Flask_2|241495|54.00%|
-|Midnight_Versatility_Flask_2|237183|51.25%|
-|Lights_Potential_2|233916|49.17%|
-|Midnight_Mastery_Flask_1|233667|49.01%|
-|Midnight_Versatility_Flask_1|229705|46.48%|
-|Lights_Potential_1|223593|42.59%|
-|Midnight_Critical_Strike_Flask_2|176748|12.71%|
-|Midnight_Critical_Strike_Flask_1|175576|11.97%|
-|Base|156813|0.00%|
+|Potion_of_Recklessness_2|235584|34.71%|
+|Potion_of_Recklessness_1|229517|31.24%|
+|Lights_Potential_2|193249|10.50%|
+|Draught_of_Rampant_Abandon_1|190923|9.17%|
+|Lights_Potential_1|190532|8.95%|
+|Midnight_Critical_Strike_Flask_2|181736|3.92%|
+|Midnight_Mastery_Flask_2|181517|3.79%|
+|Midnight_Critical_Strike_Flask_1|181147|3.58%|
+|Midnight_Mastery_Flask_1|180994|3.49%|
+|Midnight_Versatility_Flask_2|179953|2.90%|
+|Midnight_Versatility_Flask_1|179556|2.67%|
+|Midnight_Haste_Flask_2|176476|0.91%|
+|Midnight_Haste_Flask_1|176007|0.64%|
+|Base|174882|0.00%|
