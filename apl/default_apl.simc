@@ -51,7 +51,8 @@ actions.cds+=/desperate_prayer,if=health.pct<=75
 # Use Halo to acquire Twist of Fate if an ally can be healed for it and it is not currently up.
 actions.heal_for_tof=holy_nova,if=talent.lightburst
 
-actions.main=variable,name=dots_up,op=set,value=active_dot.vampiric_touch=active_enemies|action.tentacle_slam.in_flight,if=active_enemies<3
+actions.main=variable,name=dots_up,op=set,value=active_dot.vampiric_touch=active_enemies&active_dot.shadow_word_pain>=active_dot.vampiric_touch|action.tentacle_slam.in_flight,if=active_enemies<3
+actions.main+=/shadow_word_pain,target_if=max:(refreshable*100000+target.time_to_die+dot.vampiric_touch.ticking*10000),if=talent.invoked_nightmare&refreshable&target.time_to_die>12
 actions.main+=/call_action_list,name=cds,if=fight_remains<30|target.time_to_die>15&(!variable.holding_tentacle_slam|active_enemies>2)
 # High Priority Shadow Word: Death when you are forcing the bonus from Devour Matter
 actions.main+=/shadow_word_death,target_if=max:(target.health.pct<=20)*100+dot.shadow_word_madness.ticking,if=priest.force_devour_matter&talent.devour_matter
@@ -61,7 +62,8 @@ actions.main+=/void_volley
 # Blast more burst :wicked:
 actions.main+=/void_blast,target_if=max:(dot.shadow_word_madness.remains*1000+target.time_to_die)
 # Use Tentacle Slam as long as you are not holding for adds and Vampiric Touch is within pandemic range, or if void apparitions.
-actions.main+=/tentacle_slam,target_if=min:dot.vampiric_touch.remains,if=raid_event.adds.in>30&(talent.void_apparitions|cooldown.tentacle_slam.full_recharge_time<=gcd.max&dot.vampiric_touch.refreshable)
+actions.main+=/tentacle_slam,target_if=min:dot.vampiric_touch.remains,if=raid_event.adds.in>30&(talent.void_apparitions|cooldown.tentacle_slam.full_recharge_time<=gcd.max&dot.vampiric_touch.refreshable)&(!talent.maddening_tentacles|(insanity+6)>=action.shadow_word_madness.cost|active_dot.vampiric_touch<active_enemies)
+actions.main+=/shadow_word_madness,target_if=max:dot.shadow_word_madness.remains,if=dot.shadow_word_madness.pmultiplier<1&dot.shadow_word_madness.ticking
 # Use Void Torrent if it will get near full Mastery Value
 actions.main+=/void_torrent,target_if=max:(dot.shadow_word_madness.remains*1000+target.time_to_die),if=!variable.holding_tentacle_slam
 # Use all charges of Mind Blast if Vampiric Touch and Shadow Word: Pain are active and Mind Devourer is not active or you are prepping Void Eruption
@@ -74,9 +76,7 @@ actions.main+=/vampiric_touch,target_if=max:(refreshable*10000+target.time_to_di
 actions.main+=/call_action_list,name=heal_for_tof,if=!buff.twist_of_fate.up&buff.twist_of_fate_can_trigger_on_ally_heal.up&talent.halo
 # Put out Vampiric Touch on enemies that will live at least 12s as a filler action.
 actions.main+=/vampiric_touch,target_if=max:(refreshable*10000+target.time_to_die),if=refreshable&target.time_to_die>12
-# Put out Shadow Word: Pain on enemies that will live at least 12s as a filler when talented into Invoked Nightmare.
-actions.main+=/shadow_word_pain,target_if=max:(refreshable*10000+target.time_to_die),if=talent.invoked_nightmare&refreshable&target.time_to_die>12
-actions.main+=/shadow_word_death,target_if=target.health.pct<(20+15*talent.deathspeaker),if=talent.depth_of_shadows&!talent.shattered_psyche
+actions.main+=/shadow_word_death,target_if=target.health.pct<(20+15*talent.deathspeaker),if=talent.depth_of_shadows
 actions.main+=/mind_flay,target_if=max:dot.shadow_word_madness.remains,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2,interrupt_global=1
 # Use Tentacle Slam while moving as a low-priority action when adds will not spawn in 20 seconds.
 actions.main+=/tentacle_slam,if=raid_event.adds.in>20
