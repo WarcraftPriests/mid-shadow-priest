@@ -1,17 +1,17 @@
 # Composite - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Potion_of_Recklessness_2|101458|38.14%|
-|Potion_of_Recklessness_1|99051|34.86%|
-|Lights_Potential_2|82382|12.17%|
-|Draught_of_Rampant_Abandon_1|81313|10.71%|
-|Lights_Potential_1|81067|10.38%|
-|Midnight_Mastery_Flask_2|76440|4.08%|
-|Midnight_Critical_Strike_Flask_2|76235|3.80%|
-|Midnight_Mastery_Flask_1|76183|3.73%|
-|Midnight_Critical_Strike_Flask_1|76026|3.52%|
-|Midnight_Versatility_Flask_2|75638|2.99%|
-|Midnight_Versatility_Flask_1|75449|2.73%|
-|Midnight_Haste_Flask_2|75326|2.56%|
-|Midnight_Haste_Flask_1|75209|2.40%|
-|Base|73445|0.00%|
+|Lights_Potential_2|82386|12.13%|
+|Draught_of_Rampant_Abandon_1|81318|10.67%|
+|Lights_Potential_1|81086|10.36%|
+|Midnight_Mastery_Flask_2|76432|4.02%|
+|Midnight_Critical_Strike_Flask_2|76224|3.74%|
+|Midnight_Mastery_Flask_1|76180|3.68%|
+|Midnight_Critical_Strike_Flask_1|76005|3.44%|
+|Potion_of_Recklessness_2|75822|3.19%|
+|Midnight_Versatility_Flask_2|75634|2.94%|
+|Potion_of_Recklessness_1|75613|2.91%|
+|Midnight_Versatility_Flask_1|75459|2.70%|
+|Midnight_Haste_Flask_2|75325|2.52%|
+|Midnight_Haste_Flask_1|75204|2.35%|
+|Base|73476|0.00%|

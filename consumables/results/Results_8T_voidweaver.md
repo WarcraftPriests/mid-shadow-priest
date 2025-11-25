@@ -1,17 +1,17 @@
 # 8T - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Blooming_Feast|732599|1.61%|
-|Arcano_Cutlets|732023|1.53%|
-|Warped_Wise_Wings|731192|1.41%|
-|Eversong_Pudding|731078|1.40%|
-|Spiced_Biscuits|729970|1.24%|
-|Silvermoon_Standard|729965|1.24%|
-|Bloodthistle_wrapped_Cutlets|729661|1.20%|
-|Void_Kissed_Fish_Rolls|728982|1.11%|
-|Quick_Sandwich|728306|1.01%|
-|Fel_Kissed_Filet|727778|0.94%|
-|Bloom_Skewers|727595|0.91%|
-|Void_Touched_Augment_Rune|726851|0.81%|
-|Hearthflame_Supper|725275|0.59%|
-|Base|721008|0.00%|
+|Blooming_Feast|733105|1.62%|
+|Arcano_Cutlets|732438|1.53%|
+|Eversong_Pudding|732306|1.51%|
+|Warped_Wise_Wings|731854|1.45%|
+|Spiced_Biscuits|731662|1.42%|
+|Silvermoon_Standard|730923|1.32%|
+|Bloodthistle_wrapped_Cutlets|729846|1.17%|
+|Void_Kissed_Fish_Rolls|729746|1.16%|
+|Quick_Sandwich|728416|0.97%|
+|Fel_Kissed_Filet|728033|0.92%|
+|Bloom_Skewers|727888|0.90%|
+|Void_Touched_Augment_Rune|727278|0.81%|
+|Hearthflame_Supper|726073|0.65%|
+|Base|721409|0.00%|

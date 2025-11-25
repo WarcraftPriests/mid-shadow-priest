@@ -1,17 +1,17 @@
 # 2T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Blooming_Feast|133275|2.09%|
-|Fel_Kissed_Filet|132567|1.54%|
-|Arcano_Cutlets|132562|1.54%|
-|Warped_Wise_Wings|132541|1.52%|
-|Bloom_Skewers|132535|1.52%|
-|Eversong_Pudding|132518|1.51%|
-|Bloodthistle_wrapped_Cutlets|132439|1.45%|
-|Silvermoon_Standard|132292|1.33%|
-|Quick_Sandwich|132237|1.29%|
-|Spiced_Biscuits|132231|1.29%|
-|Void_Kissed_Fish_Rolls|132087|1.18%|
-|Void_Touched_Augment_Rune|131820|0.97%|
-|Hearthflame_Supper|131537|0.75%|
-|Base|130552|0.00%|
+|Blooming_Feast|133247|2.07%|
+|Fel_Kissed_Filet|132594|1.57%|
+|Eversong_Pudding|132584|1.56%|
+|Bloom_Skewers|132541|1.53%|
+|Arcano_Cutlets|132531|1.52%|
+|Warped_Wise_Wings|132496|1.49%|
+|Bloodthistle_wrapped_Cutlets|132428|1.44%|
+|Spiced_Biscuits|132280|1.33%|
+|Silvermoon_Standard|132252|1.31%|
+|Quick_Sandwich|132200|1.27%|
+|Void_Kissed_Fish_Rolls|132098|1.19%|
+|Void_Touched_Augment_Rune|131907|1.04%|
+|Hearthflame_Supper|131570|0.79%|
+|Base|130545|0.00%|
