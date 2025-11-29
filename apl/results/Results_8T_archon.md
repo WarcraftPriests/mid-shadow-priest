@@ -1,5 +1,5 @@
 # 8T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|saeldur_cook|587681|2.70%|
-|Base|572240|0.00%|
+|Base|587994|0.00%|
+|saeldur_cook|587481|-0.09%|

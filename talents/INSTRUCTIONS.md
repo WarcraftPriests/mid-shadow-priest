@@ -17,6 +17,8 @@ This runs the following commands in order:
 
 If you would only like to run one half of the suite you can pass in `--composite` or `--dungeons` respectively.
 
+Note: At some point might be worth to swap out TTM with https://github.com/vituscze/simc-talent-generator
+
 ## Why are there two talent folders?
 The simple answer is to get a balance between running more combinations of talents and precision. We do a first pass of all the builds in `talents_duplicated` using Raidbots Smart iterations. This will use a range of iterations based on the error margins and drastically cuts down on how long things take to run by relying on margin of error ranges.
 

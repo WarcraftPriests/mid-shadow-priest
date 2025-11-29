@@ -1,5 +1,5 @@
 # Single - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|saeldur_cook|98818|4.34%|
-|Base|94712|0.00%|
+|saeldur_cook|99308|0.49%|
+|Base|98819|0.00%|

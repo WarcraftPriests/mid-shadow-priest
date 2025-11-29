@@ -1,1 +1,1 @@
-{"name": "Dungeons-Slice - voidweaver", "data": {"saeldur_cook": {"DPS": 103960}, "Base": {"DPS": 103624}}, "ids": {"saeldur_cook": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur_cook"], "last_updated": "2025-11-24"}
+{"name": "Dungeons-Slice - voidweaver", "data": {"Base": {"DPS": 103952}, "saeldur_cook": {"DPS": 101106}}, "ids": {"saeldur_cook": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur_cook"], "last_updated": "2025-11-29"}

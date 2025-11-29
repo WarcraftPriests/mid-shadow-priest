@@ -1,5 +1,5 @@
 # Dungeons-Slice - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|saeldur_cook|90070|1.56%|
-|Base|88683|0.00%|
+|Base|90213|0.00%|
+|saeldur_cook|89706|-0.56%|

@@ -1,1 +1,1 @@
-{"name": "Composite - voidweaver", "data": {"saeldur_cook": {"DPS": 99310}, "Base": {"DPS": 94960}}, "ids": {"saeldur_cook": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur_cook"], "last_updated": "2025-11-24"}
+{"name": "Composite - voidweaver", "data": {"Base": {"DPS": 99287}, "saeldur_cook": {"DPS": 99113}}, "ids": {"saeldur_cook": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur_cook"], "last_updated": "2025-11-29"}

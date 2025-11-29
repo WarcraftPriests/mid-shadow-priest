@@ -1,1 +1,1 @@
-{"name": "Dungeons-Slice - archon", "data": {"saeldur_cook": {"DPS": 90070}, "Base": {"DPS": 88683}}, "ids": {"saeldur_cook": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur_cook"], "last_updated": "2025-11-24"}
+{"name": "Dungeons-Slice - archon", "data": {"Base": {"DPS": 90213}, "saeldur_cook": {"DPS": 89706}}, "ids": {"saeldur_cook": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur_cook"], "last_updated": "2025-11-29"}

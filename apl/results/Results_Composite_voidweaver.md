@@ -1,5 +1,5 @@
 # Composite - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|saeldur_cook|99310|4.58%|
-|Base|94960|0.00%|
+|Base|99287|0.00%|
+|saeldur_cook|99113|-0.18%|
