@@ -150,8 +150,8 @@ def convert_builds(profile):
             f'profileset."{TALENT}', f'profileset."{TALENT}{IDOLS_USED}'
         )
 
-        # ONLY ALLOW 1+ IDOL BUILDS
-        if IDOLS_COUNT > 0 and line not in lines_seen:
+        # ONLY ALLOW 3 IDOL BUILDS
+        if IDOLS_COUNT > 2 and line not in lines_seen:
             lines_seen.add(line)
             OUTPUT_FILE = OUTPUT_FILE + line
 
