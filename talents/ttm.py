@@ -92,7 +92,9 @@ def convert_builds(profile):
                 lines_seen.add(line)
                 OUTPUT_FILE = OUTPUT_FILE + line
             continue
-        TALENT = "VF"
+        TALENT = "NOCD"
+        if "voidform" in line:
+            TALENT = "VF"
         line = line.replace("Solved loadout ", TALENT + "_")
         # detect choice nodes
         has_improved_voidform = "improved_voidform" in line

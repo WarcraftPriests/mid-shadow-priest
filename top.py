@@ -59,7 +59,7 @@ def get_hero_builds(ht, cds, idols):
 def get_builds():
     combos = []
     ar_cds = ["VF"]
-    vw_cds = ["VF"]
+    vw_cds = ["VF", "NOCD"]
     # Archon and Voidweaver can have different Idol options, manually splitting
     ar_idols = [
         "nzoth_yogg_cthun",
