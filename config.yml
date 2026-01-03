@@ -7,8 +7,8 @@ builds:
         name: AR_SP_SW_VF_nzoth_yogg_cthun_3299881948929519_IN_IV_ME
         string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMMz2MDzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZQGzMzY2GzgtlBAzMzE
       dungeons:
-        name: AR_SP_SW_VF_nzoth_yogg_cthun_3299881948929519_Mis_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMMzyMDzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZQGzMzY2GzgtlBAzMzE
+        name: AR_EC_SW_VF_nzoth_yogg_cthun_3299881948929519_Mis_IV_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMMzyMDzw2MzYmZGbIzYxMNAzAMziZ0sZAIjxCAmZQGzMzY2GzgtlBAzMzE
       single:
         name: AR_SP_SW_VF_nzoth_yogg_cthun_3299881948930029_IN_IV_ME
         string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMY2mZGzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZQGzMzY2GzgtlBAzMzE
@@ -26,17 +26,17 @@ builds:
     name: Voidweaver
     talents:
       composite:
-        name: VW_DH_VF_nzoth_yogg_cthun_3299881948929519_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMMz2MDzw2MzYmZGbIzYxMNAzMzAABY2mtlgZjBYmBZMzMjZbMDwMDwMzMB
+        name: VW_DH_VF_nzoth_yogg_cthun_3282428418095599_IN_IV_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjxAAAAAAAAAAAAMMLmxMLzMMz2MDzw2MzYmZGbIzYxMNAzMzAABY2mtlgZjBAzMZMzMjZbMDwMDwMzMB
       dungeons:
-        name: VW_DH_VF_nzoth_yogg_cthun_3299882091444719_Mis_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMMzyMDzw2MzYmZGbIzYxMNAzMzAABY2mtlgZjBAzIjZmZMbjZAmZAmZmJA
+        name: VW_DH_VF_nzoth_yogg_cthun_3299881948929519_Mis_IV_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMMzyMDzw2MzYmZGbIzYxMNAzMzAABY2mtlgZjBYmBZMzMjZbMDwMDwMzMB
       single:
-        name: VW_DH_VF_nzoth_yogg_cthun_3299881948930029_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMY2mZGzw2MzYmZGbIzYxMNAzMzAABY2mtlgZjBYmBZMzMjZbMDwMDwMzMB
+        name: VW_DH_VF_nzoth_yogg_cthun_3282428418096109_IN_IV_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjxAAAAAAAAAAAAMMLmxMLzMY2mZGzw2MzYmZGbIzYxMNAzMzAABY2mtlgZjBAzMZMzMjZbMDwMDwMzMB
       2t:
-        name: VW_DH_VF_nzoth_yogg_cthun_3282428420184559_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjxAAAAAAAAAAAAMMLmxMLzMmZ2mZYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwMZMzMjZbMDwMDwMzMB
+        name: VW_DH_VF_nzoth_yogg_cthun_3282428418095599_IN_IV_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjxAAAAAAAAAAAAMMLmxMLzMMz2MDzw2MzYmZGbIzYxMNAzMzAABY2mtlgZjBAzMZMzMjZbMDwMDwMzMB
       3t:
         name: VW_DH_VF_nzoth_yogg_cthun_3282428420184559_IN_IV_ME
         string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjxAAAAAAAAAAAAMMLmxMLzMmZ2mZYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwMZMzMjZbMDwMDwMzMB
@@ -55,53 +55,53 @@ hero:
 gear:
   # x Mastery | x Haste | x Crit | x Vers
   default:
-    head: "12.0_raid__class_set__priest__armor__cloth___head,id=250051,ilevel=276" # haste/crit
-    neck: "eternal_voidsong_chain,id=249368,ilevel=276" # 
-    shoulders: "12.0_raid__class_set__priest__armor__cloth___shoulder,id=250049,ilevel=276" # crit/mastery
-    back: "12.0_raid__generic__cloak,id=249370,ilevel=276" # 
-    chest: "12.0_raid__class_set__priest__armor__cloth__robe,id=250054,ilevel=276" # mastery/haste
-    wrists: "12.0_raid__cloth__wrist,id=249315,ilevel=276" # 
-    hands: "item__cloth__hand,id=251172,ilevel=276" # 
-    waist: "12.0_raid__cloth__waist,id=249319,ilevel=276" # 
-    legs: "12.0_raid__class_set__priest__armor__cloth___legs,id=250050,ilevel=276" # haste/mastery
-    feet: "lightbinder_treads,id=109796,ilevel=276" # haste/mastery
-    finger1: "omission_of_light,id=251093,ilevel=276" # haste/mastery
-    finger2: "eye_of_midnight,id=249920,ilevel=276" # 
-    trinket1: "placeholder1,id=153860,ilevel=276"
-    trinket2: "placeholder2,id=153864,ilevel=276"
-    main_hand: "12.0_raid__dagger__int__boss_name__weapon,id=249283,ilevel=276" # 
-    off_hand: "12.0_raid__generic__holdable,id=249922,ilevel=276" #
+    head: "blind_oaths_winged_crest,id=250051,ilevel=289" # haste/crit
+    neck: "eternal_voidsong_chain,id=249368,ilevel=289" # haste/mastery
+    shoulders: "blind_oaths_seraphguards,id=250049,ilevel=289" # crit/mastery
+    back: "draconic_nullcape,id=249370,ilevel=289" # haste/mastery
+    chest: "blind_oaths_raiment,id=250054,ilevel=289" # mastery/haste
+    wrists: "voracious_wristwraps,id=249315,ilevel=289" # haste/mastery 
+    hands: "vilehex_bonds,id=251172,ilevel=289" # crit/haste
+    waist: "endless_march_waistwrap,id=249319,ilevel=289" # haste/crit
+    legs: "blind_oaths_leggings,id=250050,ilevel=289" # haste/mastery
+    feet: "lightbinder_treads,id=109796,ilevel=289" # haste/mastery
+    finger1: "omission_of_light,id=251093,ilevel=289" # haste/mastery
+    finger2: "eye_of_midnight,id=249920,ilevel=289" # haste
+    trinket1: "shadow_of_the_empyrean_requiem,id=249810,ilevel=289"
+    trinket2: "vaelgors_final_stare,id=249346,ilevel=289"
+    main_hand: "belomelorn_the_shattered_talon,id=249283,ilevel=289" # haste/mastery
+    off_hand: "tome_of_alnscorned_regret,id=249922,ilevel=289" # haste/mastery
   # x Mastery | x Haste | x Crit | x Vers
   noCantrip:
-    head: "12.0_raid__class_set__priest__armor__cloth___head,id=250051,ilevel=276" # haste/crit
-    neck: "eternal_voidsong_chain,id=249368,ilevel=276" # 
-    shoulders: "12.0_raid__class_set__priest__armor__cloth___shoulder,id=250049,ilevel=276" # crit/mastery
-    back: "12.0_raid__generic__cloak,id=249370,ilevel=276" # 
-    chest: "12.0_raid__class_set__priest__armor__cloth__robe,id=250054,ilevel=276" # mastery/haste
-    wrists: "12.0_raid__cloth__wrist,id=249315,ilevel=276" # 
-    hands: "item__cloth__hand,id=251172,ilevel=276" # 
-    waist: "12.0_raid__cloth__waist,id=249319,ilevel=276" # 
-    legs: "12.0_raid__class_set__priest__armor__cloth___legs,id=250050,ilevel=276" # haste/mastery
-    feet: "lightbinder_treads,id=109796,ilevel=276" # haste/mastery
-    finger1: "omission_of_light,id=251093,ilevel=276" # haste/mastery
-    finger2: "eye_of_midnight,id=249920,ilevel=276" # 
-    trinket1: "placeholder1,id=153860,ilevel=276"
-    trinket2: "placeholder2,id=153864,ilevel=276"
-    main_hand: "12.0_raid__dagger__int__boss_name__weapon,id=249283,ilevel=276" # 
-    off_hand: "12.0_raid__generic__holdable,id=249922,ilevel=276" #
+    head: "blind_oaths_winged_crest,id=250051,ilevel=289" # haste/crit
+    neck: "amulet_of_the_abyssal_hymn,id=250247,ilevel=289" # mastery/haste
+    shoulders: "blind_oaths_seraphguards,id=250049,ilevel=289" # crit/mastery
+    back: "draconic_nullcape,id=249370,ilevel=289" # haste/mastery
+    chest: "blind_oaths_raiment,id=250054,ilevel=289" # mastery/haste
+    wrists: "voracious_wristwraps,id=249315,ilevel=289" # haste/mastery 
+    hands: "vilehex_bonds,id=251172,ilevel=289" # crit/haste
+    waist: "endless_march_waistwrap,id=249319,ilevel=289" # haste/crit
+    legs: "blind_oaths_leggings,id=250050,ilevel=289" # haste/mastery
+    feet: "lightbinder_treads,id=109796,ilevel=289" # haste/mastery
+    finger1: "omission_of_light,id=251093,ilevel=289" # haste/mastery
+    finger2: "eye_of_midnight,id=249920,ilevel=289" # haste
+    trinket1: "shadow_of_the_empyrean_requiem,id=249810,ilevel=289"
+    trinket2: "vaelgors_final_stare,id=249346,ilevel=289"
+    main_hand: "belomelorn_the_shattered_talon,id=249283,ilevel=289" # haste/mastery
+    off_hand: "tome_of_alnscorned_regret,id=249922,ilevel=289" # haste/mastery
 gems:
-  meta: "" # Powerful Eversong Diamond 240967
-  main: "" # Flawless Quick Amethyst 240900
-  peridot: "" # Flawless Masterful Peridot 240891
-  garnet: "" # Flawless Masterful Garnet 240908
-  amethyst: "" # Flawless Quick Amethyst 213497
-  lapis: "" # Flawless Masterful Lapis 240918
+  meta: "240967" # Powerful Eversong Diamond
+  main: "240900" # Flawless Quick Amethyst
+  peridot: "240892" # Flawless Masterful Peridot
+  garnet: "240908" # Flawless Masterful Garnet
+  amethyst: "240900" # Flawless Quick Amethyst
+  lapis: "240918" # Flawless Masterful Lapis
 enchants:
   head: ""
-  chest: "" # mark_of_the_worldsoul_2
-  ring: "" # zuljins_mastery_2
-  legs: "" # sunfire_silk_spellthread_2
-  main_hand: "" # acuity_of_the_rendorei_2
+  chest: "mark_of_the_worldsoul_2"
+  ring: "zuljins_mastery_2"
+  legs: "sunfire_silk_spellthread_2"
+  main_hand: "acuity_of_the_rendorei_2"
 sims:
   alchemy:
     description: "Sims alchemy consumables you can use to augment your character. Lists each consumable at ranks 1, 2, and 3."

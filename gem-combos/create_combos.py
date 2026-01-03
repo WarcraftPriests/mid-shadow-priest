@@ -4,60 +4,52 @@ python create_combos.py
 """
 
 meta = {
-    "CB": 213743, # crit
+    "IED": 240983, # int + crit
+    "PED": 240967, # int
 }
 
-emerald = {
-    "VE": 213485, # haste/vers
-    "ME": 213482, # haste/mastery
-    "DE": 213479, # haste/crit
+# only do color combos for these
+meta_combos = {
+    "IED": 240983, # int + crit
 }
 
-ruby = {
-    "MR": 213458, # crit/mastery
-    "QR": 213455, # crit/haste
+peridot = {
+    "FVP": 240894, # haste/vers
+    "FMP": 240892, # haste/mastery
+    "FDP": 240890, # haste/crit
 }
 
-onyx = {
-    "DO": 213491, # mastery/crit
-    "QO": 213494, # mastery/haste
-    "VO": 213497, # mastery/vers
+garnet = {
+    "FMG": 240908, # crit/mastery
+    "FQG": 240906, # crit/haste
 }
 
-sapphire = {
-    "MS": 213473, # vers/mastery
-    "QS": 213470, # vers/haste
+amethyst = {
+    "FDA": 240898, # mastery/crit
+    "FQA": 240900, # mastery/haste
+    "FVA": 240902, # mastery/vers
 }
 
-amber = {
-    "MA": 213509, # stam/mastery
-    "QA": 213506, # stam/haste
+lapis = {
+    "FML": 240918, # vers/mastery
+    "FQL": 240916, # vers/haste
 }
 
 top = {
-    "QO": 213494, # mastery/haste
-    "ME": 213482, # haste/mastery
+    "FQA": 240900, # mastery/haste
+    "FMP": 240892, # haste/mastery
 }
 
 
 def build_combos():
     combos = []
-    five_colors = [
-        f"{b}1_{e}1_{r}1_{o}1_{s}1_{a}1"
-        for b in meta.keys()
-        for e in emerald.keys()
-        for r in ruby.keys()
-        for o in onyx.keys()
-        for s in sapphire.keys()
-        for a in amber.keys()
-    ]
     four_colors = [
-        f"{b}1_{e}1_{r}1_{o}1_{s}1"
-        for b in meta.keys()
-        for e in emerald.keys()
-        for r in ruby.keys()
-        for o in onyx.keys()
-        for s in sapphire.keys()
+        f"{m}1_{p}1_{g}1_{a}1_{l}1"
+        for m in meta_combos.keys()
+        for p in peridot.keys()
+        for g in garnet.keys()
+        for a in amethyst.keys()
+        for l in lapis.keys()  # noqa: E741
     ]
     three_top = []
     four_top = []
@@ -69,14 +61,7 @@ def build_combos():
             combos.append(f"{b}1_{gem}8")
         # Add all top gems without meta in case it sucks
         combos.append(f"{gem}9")
-    # 1 per color (5) + 4 from top
-    five_colors_three_top = [
-        f"{color_gems}_{top_gems}"
-        for color_gems in five_colors
-        for top_gems in three_top
-    ]
-    combos.extend(five_colors_three_top)
-    # 1 per color, not stam (4) + 5 from top
+    # 1 per color (4) + 5 from top
     four_colors_four_top = [
         f"{color_gems}_{top_gems}"
         for color_gems in four_colors
@@ -86,23 +71,21 @@ def build_combos():
     return combos
 
 def get_gem_string(name):
-    key_name = name[0:2]
-    gem_color_a = name[1:2]
-    gem_count = name[2:3]
+    key_name = name[0:3]
+    gem_color_a = name[2:3]
+    gem_count = name[3:4]
     string = ""
     match gem_color_a:
-        case "B":
+        case "D":
             string = f"{meta[key_name]}:{gem_count}"
-        case "E":
-            string = f"{emerald[key_name]}:{gem_count}"
-        case "R":
-            string = f"{ruby[key_name]}:{gem_count}"
-        case "O":
-            string = f"{onyx[key_name]}:{gem_count}"
-        case "S":
-            string = f"{sapphire[key_name]}:{gem_count}"
+        case "P":
+            string = f"{peridot[key_name]}:{gem_count}"
+        case "G":
+            string = f"{garnet[key_name]}:{gem_count}"
         case "A":
-            string = f"{amber[key_name]}:{gem_count}"
+            string = f"{amethyst[key_name]}:{gem_count}"
+        case "L":
+            string = f"{lapis[key_name]}:{gem_count}"
     return string
 
 

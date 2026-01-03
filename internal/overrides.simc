@@ -1,2 +1,4 @@
 
 # Overrides are added below here
+## Void Torrent CD 30s
+override.spell_data=spell.263165.cooldown=30000

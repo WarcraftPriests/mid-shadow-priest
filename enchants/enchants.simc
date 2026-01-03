@@ -34,6 +34,9 @@ profileset."Temp_Weapon_Thalassian_Phoenix_Oil_1"+=temporary_enchant=main_hand:t
 profileset."Temp_Weapon_Thalassian_Phoenix_Oil_2"+=temporary_enchant=main_hand:thalassian_phoenix_oil_2
 
 # Legs
+profileset."Legs_Bright_Linen_Spellthread_1"+=legs=${gear.legs},enchant=bright_linen_spellthread_1
+profileset."Legs_Bright_Linen_Spellthread_2"+=legs=${gear.legs},enchant=bright_linen_spellthread_2
+
 profileset."Legs_Arcanoweave_Spellthread_1"+=legs=${gear.legs},enchant=arcanoweave_spellthread_1
 profileset."Legs_Arcanoweave_Spellthread_2"+=legs=${gear.legs},enchant=arcanoweave_spellthread_2
 
@@ -79,7 +82,6 @@ profileset."Chest_Mark_of_the_Worldsoul_1"+=chest=${gear.chest},enchant=mark_of_
 profileset."Chest_Mark_of_the_Worldsoul_2"+=chest=${gear.chest},enchant=mark_of_the_worldsoul_2
 
 # Ring
-
 ## % crit strike effectiveness
 profileset."Ring_Eyes_of_the_Eagle_1"+=finger1=${gear.finger1},enchant=eyes_of_the_eagle_1,gem_id=${gems.main}/${gems.main}
 profileset."Ring_Eyes_of_the_Eagle_2"+=finger1=${gear.finger1},enchant=eyes_of_the_eagle_2,gem_id=${gems.main}/${gems.main}

@@ -28,22 +28,25 @@ potion=disabled
 flask=disabled
 
 # Flasks/Phials
-profileset."Midnight_Critical_Strike_Flask_1"+=flask=midnight_critical_strike_flask_1
-profileset."Midnight_Critical_Strike_Flask_2"+=flask=midnight_critical_strike_flask_2
+## Crit
+profileset."Flask_of_the_Shattered_Sun_1"+=flask=flask_of_the_shattered_sun_1
+profileset."Flask_of_the_Shattered_Sun_2"+=flask=flask_of_the_shattered_sun_2
 
-profileset."Midnight_Mastery_Flask_1"+=flask=midnight_mastery_flask_1
-profileset."Midnight_Mastery_Flask_2"+=flask=midnight_mastery_flask_2
+## Mastery
+profileset."Flask_of_the_Magisters_1"+=flask=flask_of_the_magisters_1
+profileset."Flask_of_the_Magisters_2"+=flask=flask_of_the_magisters_2
 
-profileset."Midnight_Haste_Flask_1"+=flask=midnight_haste_flask_1
-profileset."Midnight_Haste_Flask_2"+=flask=midnight_haste_flask_2
+## Haste
+profileset."Flask_of_the_Blood_Knights_1"+=flask=flask_of_the_blood_knights_1
+profileset."Flask_of_the_Blood_Knights_2"+=flask=flask_of_the_blood_knights_2
 
-profileset."Midnight_Versatility_Flask_1"+=flask=midnight_versatility_flask_1
-profileset."Midnight_Versatility_Flask_2"+=flask=midnight_versatility_flask_2
+## Vers
+profileset."Flask_of_Thalassian_Resistance_1"+=flask=flask_of_thalassian_resistance_1
+profileset."Flask_of_Thalassian_Resistance_2"+=flask=flask_of_thalassian_resistance_2
 
 # Potions
-## Rank 2 NYI
 profileset."Draught_of_Rampant_Abandon_1"+=potion=draught_of_rampant_abandon_1
-# profileset."Draught_of_Rampant_Abandon_2"+=potion=draught_of_rampant_abandon_2
+profileset."Draught_of_Rampant_Abandon_2"+=potion=draught_of_rampant_abandon_2
 
 profileset."Lights_Potential_1"+=potion=lights_potential_1
 profileset."Lights_Potential_2"+=potion=lights_potential_2
@@ -51,6 +54,5 @@ profileset."Lights_Potential_2"+=potion=lights_potential_2
 profileset."Potion_of_Recklessness_1"+=potion=potion_of_recklessness_1
 profileset."Potion_of_Recklessness_2"+=potion=potion_of_recklessness_2
 
-## NYI
-# profileset."Potion_of_Zealotry_1"+=potion=potion_of_zealotry_1
-# profileset."Potion_of_Zealotry_2"+=potion=potion_of_zealotry_2
+profileset."Potion_of_Zealotry_1"+=potion=potion_of_zealotry_1
+profileset."Potion_of_Zealotry_2"+=potion=potion_of_zealotry_2

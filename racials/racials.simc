@@ -49,17 +49,7 @@ profileset."Draenei"+=race=draenei
 profileset."Worgen"+=race=worgen
 
 profileset."Panda_Feast"+=race=pandaren
-profileset."Panda_Feast"+=food=feast_of_the_divine_day
-# profileset."Panda_Fortune_Cookie"+=race=pandaren
-# profileset."Panda_Fortune_Cookie"+=food=fated_fortune_cookie
-# profileset."Panda_Haste"+=race=pandaren
-# profileset."Panda_Haste"+=food=timely_demise
-# profileset."Panda_Crit"+=race=pandaren
-# profileset."Panda_Crit"+=food=filet_of_fangs
-# profileset."Panda_Mastery"+=race=pandaren
-# profileset."Panda_Mastery"+=food=saltbaked_fishcake
-# profileset."Panda_Vers"+=race=pandaren
-# profileset."Panda_Vers"+=food=seamoth_surprise
+profileset."Panda_Feast"+=food=blooming_feast
 
 profileset."Undead"+=race=undead
 

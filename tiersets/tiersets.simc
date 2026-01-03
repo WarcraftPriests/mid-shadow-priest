@@ -5,14 +5,8 @@ position=back
 spec=shadow
 talents=${talents}
 
-set_bonus=tww1_2pc=0
-set_bonus=tww1_4pc=0
-set_bonus=tww2_2pc=0
-set_bonus=tww2_4pc=0
-set_bonus=name=thewarwithin_season_3,pc=2,hero_tree=archon,enable=0
-set_bonus=name=thewarwithin_season_3,pc=4,hero_tree=archon,enable=0
-set_bonus=name=thewarwithin_season_3,pc=2,hero_tree=voidweaver,enable=0
-set_bonus=name=thewarwithin_season_3,pc=4,hero_tree=voidweaver,enable=0
+set_bonus=mid1_2pc=0
+set_bonus=mid1_4pc=0
 
 ${apl}
 
@@ -33,17 +27,6 @@ trinket2=${gear.trinket2}
 main_hand=${gear.main_hand},enchant=${enchants.main_hand}
 ${gear.off_hand}
 
-profileset."TWW1-2-set"+=set_bonus=tww1_2pc=1
-profileset."TWW1-2_4-set"+=set_bonus=tww1_2pc=1
-profileset."TWW1-2_4-set"+=set_bonus=tww1_4pc=1
-
-profileset."TWW2-2-set"+=set_bonus=tww2_2pc=1
-profileset."TWW2-2_4-set"+=set_bonus=tww2_2pc=1
-profileset."TWW2-2_4-set"+=set_bonus=tww2_4pc=1
-
-profileset."TWW3-2-set"+=set_bonus=name=thewarwithin_season_3,pc=2,hero_tree=voidweaver,enable=1
-profileset."TWW3-2-set"+=set_bonus=name=thewarwithin_season_3,pc=2,hero_tree=archon,enable=1
-profileset."TWW3-2_4-set"+=set_bonus=name=thewarwithin_season_3,pc=2,hero_tree=voidweaver,enable=1
-profileset."TWW3-2_4-set"+=set_bonus=name=thewarwithin_season_3,pc=4,hero_tree=voidweaver,enable=1
-profileset."TWW3-2_4-set"+=set_bonus=name=thewarwithin_season_3,pc=2,hero_tree=archon,enable=1
-profileset."TWW3-2_4-set"+=set_bonus=name=thewarwithin_season_3,pc=4,hero_tree=archon,enable=1
+profileset."MID1-2-set"+=set_bonus=mid1_2pc=1
+profileset."MID1-2_4-set"+=set_bonus=mid1_2pc=1
+profileset."MID1-2_4-set"+=set_bonus=mid1_4pc=1
