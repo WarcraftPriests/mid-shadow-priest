@@ -35,146 +35,123 @@ ${gear.off_hand}
 
 ## Embellishments
 ### 11303 - Dawnthread Lining (Crit above 80%)
-profileset."Embellishment_Dawnthread_Lining_90%_1"+=feet=${gear.feet},ilevel=726,bonus_id=11303
-profileset."Embellishment_Dawnthread_Lining_90%_1"+=thewarwithin.dawn_dusk_thread_lining_uptime=0.9
+# profileset."Embellishment_Dawnthread_Lining_90%_1"+=feet=${gear.feet},ilevel=726,bonus_id=11303
+# profileset."Embellishment_Dawnthread_Lining_90%_1"+=thewarwithin.dawn_dusk_thread_lining_uptime=0.9
 
-profileset."Embellishment_Dawnthread_Lining_70%_1"+=feet=${gear.feet},ilevel=726,bonus_id=11303
-profileset."Embellishment_Dawnthread_Lining_70%_1"+=thewarwithin.dawn_dusk_thread_lining_uptime=0.7
+# profileset."Embellishment_Dawnthread_Lining_70%_1"+=feet=${gear.feet},ilevel=726,bonus_id=11303
+# profileset."Embellishment_Dawnthread_Lining_70%_1"+=thewarwithin.dawn_dusk_thread_lining_uptime=0.7
 
-profileset."Embellishment_Dawnthread_Lining_60%_1"+=feet=${gear.feet},ilevel=726,bonus_id=11303
-profileset."Embellishment_Dawnthread_Lining_60%_1"+=thewarwithin.dawn_dusk_thread_lining_uptime=0.6
-
-### 11304 - Duskthread Lining (Vers above 80%)
-profileset."Embellishment_Duskthread_Lining_90%_1"+=feet=${gear.feet},ilevel=726,bonus_id=11304
-profileset."Embellishment_Duskthread_Lining_90%_1"+=thewarwithin.dawn_dusk_thread_lining_uptime=0.9
-
-profileset."Embellishment_Duskthread_Lining_70%_1"+=feet=${gear.feet},ilevel=726,bonus_id=11304
-profileset."Embellishment_Duskthread_Lining_70%_1"+=thewarwithin.dawn_dusk_thread_lining_uptime=0.7
-
-profileset."Embellishment_Duskthread_Lining_60%_1"+=feet=${gear.feet},ilevel=726,bonus_id=11304
-profileset."Embellishment_Duskthread_Lining_60%_1"+=thewarwithin.dawn_dusk_thread_lining_uptime=0.6
-
-### 10520 - Elemental Focusing Lens (Spells deal damage - school based on socketed gems)
-profileset."Embellishment_Elemental_Focusing_Lens_1"+=feet=${gear.feet},ilevel=726,bonus_id=10520
-
-### 10518 - Prismatic Null Stone (Increases effectiveness of Blasphemite secondary effects by 50%.)
-### TODO: need to use different colored gems in base profile
-profileset."Embellishment_Prismatic_Null_Stone_1"+=feet=${gear.feet},ilevel=726,bonus_id=10518
-
-### 11209 - Pouch of Pocket Grenades (Split AoE damage proc)
-profileset."Embellishment_Pouch_of_Pocket_Grenades_1"+=feet=${gear.feet},ilevel=726,bonus_id=11209
+# profileset."Embellishment_Dawnthread_Lining_60%_1"+=feet=${gear.feet},ilevel=726,bonus_id=11303
+# profileset."Embellishment_Dawnthread_Lining_60%_1"+=thewarwithin.dawn_dusk_thread_lining_uptime=0.6
 
 ### Weapon Only Embellishments
 ### 11103 - Blessed Weapon Grip (Procs highest secondary - Weapon Only)
-profileset."Embellishment_Blessed_Weapon_Grip_MH_1"+=main_hand=scepter_of_radiant_magics,id=224405,bonus_id=11103/8793,ilevel=726,enchant=${enchants.main_hand}
-profileset."Embellishment_Blessed_Weapon_Grip_MH_1"+=off_hand=operators_fraud_detector,id=228906,ilevel=730
-
-profileset."Embellishment_Blessed_Weapon_Grip_OH_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
-profileset."Embellishment_Blessed_Weapon_Grip_OH_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11103/8793
+# profileset."Embellishment_Blessed_Weapon_Grip_MH_1"+=main_hand=scepter_of_radiant_magics,id=224405,bonus_id=11103/8793,ilevel=726,enchant=${enchants.main_hand}
+# profileset."Embellishment_Blessed_Weapon_Grip_MH_1"+=off_hand=operators_fraud_detector,id=228906,ilevel=730
 
 ### 11299 - Darkmoon Sigil: Radiance (Weapon Only)
-profileset."Embellishment_Darkmoon_Sigil_Radiance_MH_1"+=main_hand=scepter_of_radiant_magics,id=224405,bonus_id=11299/8793,ilevel=726,enchant=${enchants.main_hand}
-profileset."Embellishment_Darkmoon_Sigil_Radiance_MH_1"+=off_hand=operators_fraud_detector,id=228906,ilevel=730
+# profileset."Embellishment_Darkmoon_Sigil_Radiance_MH_1"+=main_hand=scepter_of_radiant_magics,id=224405,bonus_id=11299/8793,ilevel=726,enchant=${enchants.main_hand}
+# profileset."Embellishment_Darkmoon_Sigil_Radiance_MH_1"+=off_hand=operators_fraud_detector,id=228906,ilevel=730
 
-profileset."Embellishment_Darkmoon_Sigil_Radiance_OH_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
-profileset."Embellishment_Darkmoon_Sigil_Radiance_OH_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11299/8793
+# profileset."Embellishment_Darkmoon_Sigil_Radiance_OH_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
+# profileset."Embellishment_Darkmoon_Sigil_Radiance_OH_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11299/8793
 
 ### 11300 - Darkmoon Sigil: Ascension (Weapon Only)
-profileset."Embellishment_Darkmoon_Sigil_Ascension_MH_1"+=main_hand=scepter_of_radiant_magics,id=224405,bonus_id=11300/8793,ilevel=726,enchant=${enchants.main_hand}
-profileset."Embellishment_Darkmoon_Sigil_Ascension_MH_1"+=off_hand=operators_fraud_detector,id=228906,ilevel=730
+# profileset."Embellishment_Darkmoon_Sigil_Ascension_MH_1"+=main_hand=scepter_of_radiant_magics,id=224405,bonus_id=11300/8793,ilevel=726,enchant=${enchants.main_hand}
+# profileset."Embellishment_Darkmoon_Sigil_Ascension_MH_1"+=off_hand=operators_fraud_detector,id=228906,ilevel=730
 
-profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
-profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11300/8793
+# profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
+# profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11300/8793
 
-#### 11109 - Writhing Armor Banding
-profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Wrists_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
-profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Wrists_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11300/8793
-profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Wrists_1"+=wrists=consecrated_cuffs,id=222815,bonus_id=8793/11109,ilevel=726,gem_id=${gems.amethyst}
+# #### 11109 - Writhing Armor Banding
+# profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Wrists_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
+# profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Wrists_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11300/8793
+# profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Wrists_1"+=wrists=consecrated_cuffs,id=222815,bonus_id=8793/11109,ilevel=726,gem_id=${gems.amethyst}
 
 # profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Feet_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
 # profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Feet_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11300/8793
 # profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Feet_1"+=feet=consecrated_slippers,id=222814,bonus_id=8793/11109,ilevel=726
 
-profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Waist_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
-profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Waist_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11300/8793
-profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Waist_1"+=waist=consecrated_cord,id=222816,bonus_id=8793/11109,ilevel=726,gem_id=${gems.lapis}
+# profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Waist_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
+# profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Waist_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11300/8793
+# profileset."Embellishment_Darkmoon_Sigil_Ascension_OH_1_Writhing_Waist_1"+=waist=consecrated_cord,id=222816,bonus_id=8793/11109,ilevel=726,gem_id=${gems.lapis}
 
 ### 11302 - Darkmoon Sigil: Symbiosis (Weapon Only)
-profileset."Embellishment_Darkmoon_Sigil_Symbiosis_MH_1"+=main_hand=scepter_of_radiant_magics,id=224405,bonus_id=11302/8793,ilevel=726,enchant=${enchants.main_hand}
-profileset."Embellishment_Darkmoon_Sigil_Symbiosis_MH_1"+=off_hand=operators_fraud_detector,id=228906,ilevel=730
+# profileset."Embellishment_Darkmoon_Sigil_Symbiosis_MH_1"+=main_hand=scepter_of_radiant_magics,id=224405,bonus_id=11302/8793,ilevel=726,enchant=${enchants.main_hand}
+# profileset."Embellishment_Darkmoon_Sigil_Symbiosis_MH_1"+=off_hand=operators_fraud_detector,id=228906,ilevel=730
 
-profileset."Embellishment_Darkmoon_Sigil_Symbiosis_OH_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
-profileset."Embellishment_Darkmoon_Sigil_Symbiosis_OH_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11302/8793
+# profileset."Embellishment_Darkmoon_Sigil_Symbiosis_OH_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
+# profileset."Embellishment_Darkmoon_Sigil_Symbiosis_OH_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11302/8793
 
 ### 11301 - Darkmoon Sigil: Vivacity (Weapon Only)
-profileset."Embellishment_Darkmoon_Sigil_Vivacity_MH_1"+=main_hand=scepter_of_radiant_magics,id=224405,bonus_id=11301/8793,ilevel=726,enchant=${enchants.main_hand}
-profileset."Embellishment_Darkmoon_Sigil_Vivacity_MH_1"+=off_hand=operators_fraud_detector,id=228906,ilevel=730
+# profileset."Embellishment_Darkmoon_Sigil_Vivacity_MH_1"+=main_hand=scepter_of_radiant_magics,id=224405,bonus_id=11301/8793,ilevel=726,enchant=${enchants.main_hand}
+# profileset."Embellishment_Darkmoon_Sigil_Vivacity_MH_1"+=off_hand=operators_fraud_detector,id=228906,ilevel=730
 
-profileset."Embellishment_Darkmoon_Sigil_Vivacity_OH_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
-profileset."Embellishment_Darkmoon_Sigil_Vivacity_OH_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11301/8793
+# profileset."Embellishment_Darkmoon_Sigil_Vivacity_OH_1"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
+# profileset."Embellishment_Darkmoon_Sigil_Vivacity_OH_1"+=off_hand=vagabonds_torch,id=222566,ilevel=726,bonus_id=11301/8793
 
 ## Tailoring
 ### Woven Dusk (DPS - Haste)
-profileset."Woven_Dusk_Gloves_Slippers_726"+=hands=gloves_of_the_woven_dusk,id=222809,ilevel=726
-profileset."Woven_Dusk_Gloves_Slippers_726"+=feet=slippers_of_the_woven_dusk,id=222810,ilevel=726
-profileset."Woven_Dusk_Gloves_Slippers_726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
+# profileset."Woven_Dusk_Gloves_Slippers_726"+=hands=gloves_of_the_woven_dusk,id=222809,ilevel=726
+# profileset."Woven_Dusk_Gloves_Slippers_726"+=feet=slippers_of_the_woven_dusk,id=222810,ilevel=726
+# profileset."Woven_Dusk_Gloves_Slippers_726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
 
 ### Woven Dawn (Healing - Mastery)
 ### Note: Currently procs with near full uptime as Shadow Priest
-profileset."Woven_Dawn_Grips_Treads_726"+=hands=grips_of_the_woven_dawn,id=222807,ilevel=726
-profileset."Woven_Dawn_Grips_Treads_726"+=feet=treads_of_the_woven_dawn,id=222808,ilevel=726
-profileset."Woven_Dawn_Grips_Treads_726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
+# profileset."Woven_Dawn_Grips_Treads_726"+=hands=grips_of_the_woven_dawn,id=222807,ilevel=726
+# profileset."Woven_Dawn_Grips_Treads_726"+=feet=treads_of_the_woven_dawn,id=222808,ilevel=726
+# profileset."Woven_Dawn_Grips_Treads_726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
 
 ### Base Items
-profileset."Consecrated_Cloak_726"+=back=consecrated_cloak,id=222817,bonus_id=8793,ilevel=726
-profileset."Consecrated_Cord_726"+=waist=consecrated_cord,id=222816,bonus_id=8793,ilevel=726,gem_id=${gems.lapis}
-profileset."Consecrated_Cuffs_726"+=wrists=consecrated_cuffs,id=222815,bonus_id=8793,ilevel=726,gem_id=${gems.amethyst}
-profileset."Consecrated_Gloves_726"+=hands=consecrated_gloves,id=222822,bonus_id=8793,ilevel=726
-profileset."Consecrated_Gloves_726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
-profileset."Consecrated_Hood_726"+=head=consecrated_hood,id=222818,bonus_id=8793,ilevel=726,enchant=${enchants.head},gem_id=${gems.meta}
-profileset."Consecrated_Hood_726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
-profileset."Consecrated_Leggings_726"+=legs=consecrated_leggings,id=222820,bonus_id=8793,ilevel=726,enchant=${enchants.legs}
-profileset."Consecrated_Leggings_726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
-profileset."Consecrated_Mantle_726"+=shoulder=consecrated_mantle,id=222821,bonus_id=8793,ilevel=726
-profileset."Consecrated_Robe_726"+=chest=consecrated_robe,id=222819,bonus_id=8793,ilevel=726,enchant=${enchants.chest}
-profileset."Consecrated_Robe_726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
-profileset."Consecrated_Slippers_726"+=feet=consecrated_slippers,id=222814,bonus_id=8793,ilevel=726
+# profileset."Consecrated_Cloak_726"+=back=consecrated_cloak,id=222817,bonus_id=8793,ilevel=726
+# profileset."Consecrated_Cord_726"+=waist=consecrated_cord,id=222816,bonus_id=8793,ilevel=726,gem_id=${gems.lapis}
+# profileset."Consecrated_Cuffs_726"+=wrists=consecrated_cuffs,id=222815,bonus_id=8793,ilevel=726,gem_id=${gems.amethyst}
+# profileset."Consecrated_Gloves_726"+=hands=consecrated_gloves,id=222822,bonus_id=8793,ilevel=726
+# profileset."Consecrated_Gloves_726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
+# profileset."Consecrated_Hood_726"+=head=consecrated_hood,id=222818,bonus_id=8793,ilevel=726,enchant=${enchants.head},gem_id=${gems.meta}
+# profileset."Consecrated_Hood_726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
+# profileset."Consecrated_Leggings_726"+=legs=consecrated_leggings,id=222820,bonus_id=8793,ilevel=726,enchant=${enchants.legs}
+# profileset."Consecrated_Leggings_726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
+# profileset."Consecrated_Mantle_726"+=shoulder=consecrated_mantle,id=222821,bonus_id=8793,ilevel=726
+# profileset."Consecrated_Robe_726"+=chest=consecrated_robe,id=222819,bonus_id=8793,ilevel=726,enchant=${enchants.chest}
+# profileset."Consecrated_Robe_726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
+# profileset."Consecrated_Slippers_726"+=feet=consecrated_slippers,id=222814,bonus_id=8793,ilevel=726
 
 # profileset."Feet_Base"+=feet=${gear.feet}
 
 ## Jewelcrafting
-profileset."Finger1_Binding_of_Binding_726"+=finger1=binding_of_binding,id=215133,bonus_id=8793,ilevel=726,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
-profileset."Finger1_Binding_of_Binding_726"+=thewarwithin.binding_of_binding_on_you=1
-profileset."Finger2_Binding_of_Binding_726"+=finger2=binding_of_binding,id=215133,bonus_id=8793,ilevel=726,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
-profileset."Finger2_Binding_of_Binding_726"+=thewarwithin.binding_of_binding_on_you=1
+# profileset."Finger1_Binding_of_Binding_726"+=finger1=binding_of_binding,id=215133,bonus_id=8793,ilevel=726,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+# profileset."Finger1_Binding_of_Binding_726"+=thewarwithin.binding_of_binding_on_you=1
+# profileset."Finger2_Binding_of_Binding_726"+=finger2=binding_of_binding,id=215133,bonus_id=8793,ilevel=726,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+# profileset."Finger2_Binding_of_Binding_726"+=thewarwithin.binding_of_binding_on_you=1
 
 ### Base Items
-profileset."Neck_Amulet_of_Earthen_Craftsmanship_726"+=neck=amulet_of_earthen_craftsmanship,id=215136,bonus_id=8793,ilevel=726,gem_id=${gems.peridot}/${gems.garnet}
-profileset."Finger1_Ring_of_Earthen_Craftsmanship_726"+=finger1=ring_of_earthen_craftsmanship,id=215135,bonus_id=8793,ilevel=726,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
-profileset."Finger2_Ring_of_Earthen_Craftsmanship_726"+=finger2=ring_of_earthen_craftsmanship,id=215135,bonus_id=8793,ilevel=726,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+# profileset."Neck_Amulet_of_Earthen_Craftsmanship_726"+=neck=amulet_of_earthen_craftsmanship,id=215136,bonus_id=8793,ilevel=726,gem_id=${gems.peridot}/${gems.garnet}
+# profileset."Finger1_Ring_of_Earthen_Craftsmanship_726"+=finger1=ring_of_earthen_craftsmanship,id=215135,bonus_id=8793,ilevel=726,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+# profileset."Finger2_Ring_of_Earthen_Craftsmanship_726"+=finger2=ring_of_earthen_craftsmanship,id=215135,bonus_id=8793,ilevel=726,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
 
 ## Enchanting
-profileset."1H_Scepter_of_Radiant_Magics_726_OH_Operators_Fraud_Detector_730"+=main_hand=scepter_of_radiant_magics,id=224405,bonus_id=8793,ilevel=726,enchant=${enchants.main_hand}
-profileset."1H_Scepter_of_Radiant_Magics_726_OH_Operators_Fraud_Detector_730"+=off_hand=operators_fraud_detector,id=228906,ilevel=730
+# profileset."1H_Scepter_of_Radiant_Magics_726_OH_Operators_Fraud_Detector_730"+=main_hand=scepter_of_radiant_magics,id=224405,bonus_id=8793,ilevel=726,enchant=${enchants.main_hand}
+# profileset."1H_Scepter_of_Radiant_Magics_726_OH_Operators_Fraud_Detector_730"+=off_hand=operators_fraud_detector,id=228906,ilevel=730
 
 ## Inscription
-profileset."2H_Vagabonds_Bounding_Baton_726"+=main_hand=vagabonds_bounding_baton,id=222568,bonus_id=8793,ilevel=726,enchant=${enchants.main_hand}
-profileset."2H_Vagabonds_Bounding_Baton_726"+=off_hand=disabled
+# profileset."2H_Vagabonds_Bounding_Baton_726"+=main_hand=vagabonds_bounding_baton,id=222568,bonus_id=8793,ilevel=726,enchant=${enchants.main_hand}
+# profileset."2H_Vagabonds_Bounding_Baton_726"+=off_hand=disabled
 
-profileset."1H_Stixs_Metal_Detector_730_OH_Vagabonds_Torch_726"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
-profileset."1H_Stixs_Metal_Detector_730_OH_Vagabonds_Torch_726"+=off_hand=vagabonds_torch,id=222566,bonus_id=8793,ilevel=726
+# profileset."1H_Stixs_Metal_Detector_730_OH_Vagabonds_Torch_726"+=main_hand=stixs_metal_detector,id=228896,ilevel=730,enchant=${enchants.main_hand}
+# profileset."1H_Stixs_Metal_Detector_730_OH_Vagabonds_Torch_726"+=off_hand=vagabonds_torch,id=222566,bonus_id=8793,ilevel=726
 
 ## Engineering
-profileset."Wrists_Blasting_Bracers_Crit_726"+=wrists=blasting_bracers,id=221805,bonus_id=6647,ilevel=726,gem_id=${gems.amethyst}
-profileset."Wrists_Blasting_Bracers_Mastery_726"+=wrists=blasting_bracers,id=221805,bonus_id=6648,ilevel=726,gem_id=${gems.amethyst}
-profileset."Wrists_Blasting_Bracers_Haste_726"+=wrists=blasting_bracers,id=221805,bonus_id=6649,ilevel=726,gem_id=${gems.amethyst}
-profileset."Wrists_Blasting_Bracers_Vers_726"+=wrists=blasting_bracers,id=221805,bonus_id=6650,ilevel=726,gem_id=${gems.amethyst}
+# profileset."Wrists_Blasting_Bracers_Crit_726"+=wrists=blasting_bracers,id=221805,bonus_id=6647,ilevel=726,gem_id=${gems.amethyst}
+# profileset."Wrists_Blasting_Bracers_Mastery_726"+=wrists=blasting_bracers,id=221805,bonus_id=6648,ilevel=726,gem_id=${gems.amethyst}
+# profileset."Wrists_Blasting_Bracers_Haste_726"+=wrists=blasting_bracers,id=221805,bonus_id=6649,ilevel=726,gem_id=${gems.amethyst}
+# profileset."Wrists_Blasting_Bracers_Vers_726"+=wrists=blasting_bracers,id=221805,bonus_id=6650,ilevel=726,gem_id=${gems.amethyst}
 
-profileset."Head_Studious_Brilliance_Expeditor_Crit-726"+=head=studious_brilliance_expeditor,id=221801,bonus_id=6647,ilevel=726,gem_id=${gems.meta},enchant=${enchants.head}
-profileset."Head_Studious_Brilliance_Expeditor_Crit-726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
-profileset."Head_Studious_Brilliance_Expeditor_Mastery-726"+=head=studious_brilliance_expeditor,id=221801,bonus_id=6648,ilevel=726,gem_id=${gems.meta},enchant=${enchants.head}
-profileset."Head_Studious_Brilliance_Expeditor_Mastery-726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
-profileset."Head_Studious_Brilliance_Expeditor_Haste-726"+=head=studious_brilliance_expeditor,id=221801,bonus_id=6649,ilevel=726,gem_id=${gems.meta},enchant=${enchants.head}
-profileset."Head_Studious_Brilliance_Expeditor_Haste-726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
-profileset."Head_Studious_Brilliance_Expeditor_Vers-726"+=head=studious_brilliance_expeditor,id=221801,bonus_id=6650,ilevel=726,gem_id=${gems.meta},enchant=${enchants.head}
-profileset."Head_Studious_Brilliance_Expeditor_Vers-726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
+# profileset."Head_Studious_Brilliance_Expeditor_Crit-726"+=head=studious_brilliance_expeditor,id=221801,bonus_id=6647,ilevel=726,gem_id=${gems.meta},enchant=${enchants.head}
+# profileset."Head_Studious_Brilliance_Expeditor_Crit-726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
+# profileset."Head_Studious_Brilliance_Expeditor_Mastery-726"+=head=studious_brilliance_expeditor,id=221801,bonus_id=6648,ilevel=726,gem_id=${gems.meta},enchant=${enchants.head}
+# profileset."Head_Studious_Brilliance_Expeditor_Mastery-726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
+# profileset."Head_Studious_Brilliance_Expeditor_Haste-726"+=head=studious_brilliance_expeditor,id=221801,bonus_id=6649,ilevel=726,gem_id=${gems.meta},enchant=${enchants.head}
+# profileset."Head_Studious_Brilliance_Expeditor_Haste-726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730
+# profileset."Head_Studious_Brilliance_Expeditor_Vers-726"+=head=studious_brilliance_expeditor,id=221801,bonus_id=6650,ilevel=726,gem_id=${gems.meta},enchant=${enchants.head}
+# profileset."Head_Studious_Brilliance_Expeditor_Vers-726"+=shoulder=dying_stars_pyrelights,id=237707,ilevel=730

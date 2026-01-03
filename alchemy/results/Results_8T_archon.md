@@ -1,17 +1,18 @@
 # 8T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Lights_Potential_2|650301|43.35%|
-|Draught_of_Rampant_Abandon_1|626709|38.15%|
-|Lights_Potential_1|622390|37.19%|
-|Potion_of_Recklessness_2|501315|10.51%|
-|Potion_of_Recklessness_1|498882|9.97%|
-|Midnight_Mastery_Flask_2|472008|4.05%|
-|Midnight_Critical_Strike_Flask_2|471985|4.04%|
-|Midnight_Critical_Strike_Flask_1|470086|3.62%|
-|Midnight_Mastery_Flask_1|470049|3.61%|
-|Midnight_Versatility_Flask_2|466848|2.91%|
-|Midnight_Versatility_Flask_1|466058|2.73%|
-|Midnight_Haste_Flask_2|463089|2.08%|
-|Midnight_Haste_Flask_1|462519|1.95%|
-|Base|453656|0.00%|
+|Draught_of_Rampant_Abandon_2|453227|47.17%|
+|Lights_Potential_2|438894|42.52%|
+|Draught_of_Rampant_Abandon_1|431761|40.20%|
+|Lights_Potential_1|418962|36.05%|
+|Potion_of_Recklessness_2|343043|11.39%|
+|Potion_of_Recklessness_1|340554|10.58%|
+|Flask_of_the_Magisters_2|319713|3.82%|
+|Flask_of_the_Shattered_Sun_2|319628|3.79%|
+|Flask_of_the_Shattered_Sun_1|318968|3.58%|
+|Flask_of_the_Magisters_1|318503|3.42%|
+|Flask_of_Thalassian_Resistance_2|316842|2.88%|
+|Flask_of_Thalassian_Resistance_1|316264|2.70%|
+|Flask_of_the_Blood_Knights_2|313454|1.78%|
+|Flask_of_the_Blood_Knights_1|312460|1.46%|
+|Base|307957|0.00%|

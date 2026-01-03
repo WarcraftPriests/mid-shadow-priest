@@ -98,10 +98,10 @@ gems:
   lapis: "240918" # Flawless Masterful Lapis
 enchants:
   head: ""
-  chest: "mark_of_the_worldsoul_2"
-  ring: "zuljins_mastery_2"
-  legs: "sunfire_silk_spellthread_2"
-  main_hand: "acuity_of_the_rendorei_2"
+  chest: "" # "mark_of_the_worldsoul_2"
+  ring: "" # "zuljins_mastery_2"
+  legs: "" # "sunfire_silk_spellthread_2"
+  main_hand: "" # "acuity_of_the_rendorei_2"
 sims:
   alchemy:
     description: "Sims alchemy consumables you can use to augment your character. Lists each consumable at ranks 1, 2, and 3."
@@ -323,19 +323,19 @@ analyze:
   csv: true
   json: true
 stats:
-  base: 4000
-  steps: 1500
-  total: 58000
+  base: 400
+  steps: 100
+  total: 2400
   min:
-    haste: 8000
-    mastery: 14000
-    crit: 5000
+    haste: 400
+    mastery: 400
+    crit: 0
     vers: 0
   max:
-    haste: 30000
-    mastery: 30000
-    crit: 30000
-    vers: 8500
+    haste: 1600
+    mastery: 1600
+    crit: 1600
+    vers: 1000
   include:
     - mastery
     - haste

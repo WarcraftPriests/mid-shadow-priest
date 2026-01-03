@@ -1,17 +1,18 @@
 # Single - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Lights_Potential_2|81267|12.20%|
-|Draught_of_Rampant_Abandon_1|80184|10.70%|
-|Lights_Potential_1|79957|10.39%|
-|Midnight_Mastery_Flask_2|75360|4.04%|
-|Midnight_Critical_Strike_Flask_2|75185|3.80%|
-|Midnight_Mastery_Flask_1|75142|3.74%|
-|Midnight_Critical_Strike_Flask_1|74952|3.48%|
-|Potion_of_Recklessness_2|74810|3.28%|
-|Potion_of_Recklessness_1|74637|3.04%|
-|Midnight_Versatility_Flask_2|74542|2.91%|
-|Midnight_Versatility_Flask_1|74384|2.69%|
-|Midnight_Haste_Flask_2|74288|2.56%|
-|Midnight_Haste_Flask_1|74179|2.41%|
-|Base|72433|0.00%|
+|Draught_of_Rampant_Abandon_2|72776|12.79%|
+|Lights_Potential_2|71951|11.51%|
+|Draught_of_Rampant_Abandon_1|71580|10.94%|
+|Lights_Potential_1|70859|9.82%|
+|Flask_of_the_Magisters_2|67070|3.95%|
+|Flask_of_the_Magisters_1|66866|3.63%|
+|Flask_of_the_Shattered_Sun_2|66846|3.60%|
+|Flask_of_the_Shattered_Sun_1|66635|3.27%|
+|Potion_of_Recklessness_2|66624|3.26%|
+|Potion_of_Recklessness_1|66527|3.11%|
+|Flask_of_Thalassian_Resistance_2|66411|2.93%|
+|Flask_of_Thalassian_Resistance_1|66276|2.72%|
+|Flask_of_the_Blood_Knights_2|66182|2.57%|
+|Flask_of_the_Blood_Knights_1|65950|2.21%|
+|Base|64522|0.00%|

@@ -1,0 +1,35 @@
+# slice - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Panda_Feast|81954|3.88%|
+|Mechagnome|80518|2.06%|
+|Orc|80370|1.88%|
+|Troll|80306|1.79%|
+|Gnome|80242|1.71%|
+|Void_Elf|80202|1.66%|
+|Blood_Elf|80166|1.62%|
+|Draenei|80153|1.60%|
+|Goblin|80136|1.58%|
+|Night_Elf_Haste|80114|1.55%|
+|Dracthyr|79958|1.35%|
+|Maghar_Orc|79935|1.32%|
+|Human|79934|1.32%|
+|Highmountain_Tauren|79866|1.24%|
+|Dark_Iron_Dwarf|79778|1.13%|
+|Night_Elf_Crit|79775|1.12%|
+|Zandalari_Troll_Paku|79770|1.12%|
+|Kul_Tiran|79767|1.11%|
+|Nightborne|79721|1.05%|
+|Worgen|79694|1.02%|
+|Tauren|79536|0.82%|
+|Dwarf|79417|0.67%|
+|Vulpera|79190|0.38%|
+|Zandalari_Troll_Kimbul|79107|0.28%|
+|Earthen_Sapphire|79058|0.21%|
+|Lightforged_Draenei|79044|0.20%|
+|Zandalari_Troll_Bwonsamdi|79032|0.18%|
+|Earthen_Ruby|79014|0.16%|
+|Earthen_Onyx|79009|0.15%|
+|Undead|78987|0.12%|
+|Earthen_Emerald|78967|0.10%|
+|Base|78890|0.00%|

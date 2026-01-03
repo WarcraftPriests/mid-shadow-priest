@@ -1,0 +1,35 @@
+# slice - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Panda_Feast|85292|3.99%|
+|Mechagnome|83703|2.05%|
+|Goblin|83524|1.83%|
+|Troll|83517|1.82%|
+|Gnome|83452|1.74%|
+|Night_Elf_Haste|83352|1.62%|
+|Void_Elf|83297|1.55%|
+|Maghar_Orc|83201|1.44%|
+|Draenei|83200|1.43%|
+|Orc|83171|1.40%|
+|Blood_Elf|83041|1.24%|
+|Human|83014|1.21%|
+|Night_Elf_Crit|82975|1.16%|
+|Dracthyr|82938|1.12%|
+|Dark_Iron_Dwarf|82933|1.11%|
+|Worgen|82908|1.08%|
+|Highmountain_Tauren|82903|1.07%|
+|Nightborne|82884|1.05%|
+|Kul_Tiran|82861|1.02%|
+|Zandalari_Troll_Paku|82827|0.98%|
+|Dwarf|82575|0.67%|
+|Tauren|82500|0.58%|
+|Zandalari_Troll_Kimbul|82163|0.17%|
+|Vulpera|82152|0.16%|
+|Lightforged_Draenei|82143|0.15%|
+|Earthen_Sapphire|82063|0.05%|
+|Zandalari_Troll_Bwonsamdi|82045|0.03%|
+|Undead|82036|0.02%|
+|Base|82023|0.00%|
+|Earthen_Ruby|82001|-0.03%|
+|Earthen_Onyx|82000|-0.03%|
+|Earthen_Emerald|81982|-0.05%|

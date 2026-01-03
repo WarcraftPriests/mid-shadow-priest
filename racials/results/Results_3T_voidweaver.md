@@ -1,0 +1,35 @@
+# 3T - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Panda_Feast|157512|3.85%|
+|Mechagnome|154624|1.95%|
+|Blood_Elf|154130|1.62%|
+|Void_Elf|153891|1.46%|
+|Orc|153807|1.41%|
+|Troll|153657|1.31%|
+|Draenei|153598|1.27%|
+|Zandalari_Troll_Paku|153410|1.15%|
+|Night_Elf_Crit|153330|1.09%|
+|Dracthyr|153271|1.05%|
+|Dark_Iron_Dwarf|153254|1.04%|
+|Nightborne|153244|1.04%|
+|Worgen|153203|1.01%|
+|Maghar_Orc|153196|1.01%|
+|Highmountain_Tauren|153154|0.98%|
+|Kul_Tiran|153124|0.96%|
+|Dwarf|152688|0.67%|
+|Tauren|152596|0.61%|
+|Zandalari_Troll_Kimbul|151764|0.06%|
+|Vulpera|151735|0.04%|
+|Undead|151672|0.00%|
+|Base|151671|0.00%|
+|Earthen_Ruby|151652|-0.01%|
+|Earthen_Onyx|151646|-0.02%|
+|Lightforged_Draenei|151640|-0.02%|
+|Earthen_Sapphire|151595|-0.05%|
+|Earthen_Emerald|151585|-0.06%|
+|Zandalari_Troll_Bwonsamdi|151554|-0.08%|
+|Goblin|151031|-0.42%|
+|Gnome|150996|-0.45%|
+|Night_Elf_Haste|150861|-0.53%|
+|Human|150606|-0.70%|

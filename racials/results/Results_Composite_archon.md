@@ -1,0 +1,35 @@
+# Composite - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Panda_Feast|77852|3.76%|
+|Mechagnome|76420|1.85%|
+|Orc|76185|1.54%|
+|Void_Elf|76090|1.41%|
+|Draenei|75964|1.25%|
+|Dark_Iron_Dwarf|75887|1.14%|
+|Blood_Elf|75874|1.13%|
+|Dracthyr|75832|1.07%|
+|Night_Elf_Crit|75781|1.00%|
+|Nightborne|75775|1.00%|
+|Zandalari_Troll_Paku|75775|1.00%|
+|Maghar_Orc|75762|0.98%|
+|Kul_Tiran|75731|0.94%|
+|Highmountain_Tauren|75725|0.93%|
+|Troll|75691|0.88%|
+|Worgen|75670|0.86%|
+|Gnome|75664|0.85%|
+|Goblin|75656|0.84%|
+|Night_Elf_Haste|75587|0.75%|
+|Human|75522|0.66%|
+|Dwarf|75463|0.58%|
+|Tauren|75446|0.56%|
+|Zandalari_Troll_Kimbul|75208|0.24%|
+|Vulpera|75066|0.05%|
+|Undead|75036|0.01%|
+|Base|75028|0.00%|
+|Lightforged_Draenei|75010|-0.02%|
+|Earthen_Onyx|74993|-0.05%|
+|Earthen_Emerald|74984|-0.06%|
+|Earthen_Ruby|74976|-0.07%|
+|Zandalari_Troll_Bwonsamdi|74973|-0.07%|
+|Earthen_Sapphire|74968|-0.08%|

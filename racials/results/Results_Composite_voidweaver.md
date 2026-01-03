@@ -1,0 +1,35 @@
+# Composite - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Panda_Feast|78122|3.80%|
+|Mechagnome|76694|1.90%|
+|Orc|76370|1.47%|
+|Void_Elf|76326|1.41%|
+|Blood_Elf|76314|1.40%|
+|Troll|76239|1.30%|
+|Draenei|76230|1.29%|
+|Gnome|76146|1.18%|
+|Goblin|76142|1.17%|
+|Dark_Iron_Dwarf|76077|1.08%|
+|Night_Elf_Haste|76074|1.08%|
+|Dracthyr|76072|1.08%|
+|Night_Elf_Crit|76057|1.06%|
+|Zandalari_Troll_Paku|76056|1.05%|
+|Maghar_Orc|76048|1.04%|
+|Nightborne|76029|1.02%|
+|Highmountain_Tauren|75975|0.95%|
+|Kul_Tiran|75965|0.93%|
+|Worgen|75926|0.88%|
+|Human|75891|0.84%|
+|Dwarf|75695|0.58%|
+|Tauren|75666|0.54%|
+|Zandalari_Troll_Kimbul|75459|0.26%|
+|Vulpera|75290|0.04%|
+|Base|75262|0.00%|
+|Lightforged_Draenei|75259|0.00%|
+|Undead|75253|-0.01%|
+|Earthen_Ruby|75248|-0.02%|
+|Earthen_Onyx|75229|-0.04%|
+|Zandalari_Troll_Bwonsamdi|75223|-0.05%|
+|Earthen_Emerald|75214|-0.06%|
+|Earthen_Sapphire|75211|-0.07%|

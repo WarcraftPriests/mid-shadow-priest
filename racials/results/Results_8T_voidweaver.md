@@ -1,0 +1,35 @@
+# 8T - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Troll|509305|3.01%|
+|Panda_Feast|508824|2.91%|
+|Orc|504458|2.03%|
+|Maghar_Orc|502910|1.72%|
+|Blood_Elf|502368|1.61%|
+|Void_Elf|502078|1.55%|
+|Dark_Iron_Dwarf|501157|1.36%|
+|Zandalari_Troll_Paku|501045|1.34%|
+|Night_Elf_Crit|499544|1.04%|
+|Dracthyr|499518|1.03%|
+|Mechagnome|499471|1.02%|
+|Nightborne|499367|1.00%|
+|Draenei|499280|0.98%|
+|Kul_Tiran|499047|0.93%|
+|Gnome|498878|0.90%|
+|Worgen|498747|0.87%|
+|Highmountain_Tauren|498404|0.80%|
+|Goblin|498096|0.74%|
+|Night_Elf_Haste|497924|0.71%|
+|Tauren|497571|0.64%|
+|Human|497499|0.62%|
+|Dwarf|497081|0.54%|
+|Vulpera|494473|0.01%|
+|Base|494426|0.00%|
+|Zandalari_Troll_Bwonsamdi|494311|-0.02%|
+|Earthen_Emerald|494254|-0.03%|
+|Earthen_Onyx|494191|-0.05%|
+|Undead|494141|-0.06%|
+|Lightforged_Draenei|494069|-0.07%|
+|Earthen_Ruby|494049|-0.08%|
+|Zandalari_Troll_Kimbul|494020|-0.08%|
+|Earthen_Sapphire|494005|-0.09%|

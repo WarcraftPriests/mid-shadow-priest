@@ -1,0 +1,35 @@
+# Single - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Panda_Feast|77638|3.79%|
+|Mechagnome|76189|1.85%|
+|Orc|75973|1.56%|
+|Void_Elf|75863|1.42%|
+|Draenei|75759|1.28%|
+|Dark_Iron_Dwarf|75655|1.14%|
+|Blood_Elf|75648|1.13%|
+|Gnome|75639|1.12%|
+|Goblin|75618|1.09%|
+|Dracthyr|75613|1.08%|
+|Night_Elf_Haste|75587|1.05%|
+|Night_Elf_Crit|75581|1.04%|
+|Nightborne|75574|1.03%|
+|Zandalari_Troll_Paku|75568|1.02%|
+|Human|75545|0.99%|
+|Kul_Tiran|75524|0.96%|
+|Maghar_Orc|75518|0.96%|
+|Highmountain_Tauren|75513|0.95%|
+|Worgen|75447|0.86%|
+|Troll|75415|0.82%|
+|Dwarf|75244|0.59%|
+|Tauren|75227|0.57%|
+|Zandalari_Troll_Kimbul|74972|0.23%|
+|Vulpera|74846|0.06%|
+|Undead|74820|0.02%|
+|Base|74803|0.00%|
+|Lightforged_Draenei|74797|-0.01%|
+|Earthen_Sapphire|74769|-0.05%|
+|Earthen_Emerald|74765|-0.05%|
+|Zandalari_Troll_Bwonsamdi|74763|-0.05%|
+|Earthen_Onyx|74758|-0.06%|
+|Earthen_Ruby|74749|-0.07%|

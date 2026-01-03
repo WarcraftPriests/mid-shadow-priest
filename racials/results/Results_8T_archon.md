@@ -1,0 +1,35 @@
+# 8T - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Panda_Feast|468431|2.96%|
+|Orc|463722|1.93%|
+|Void_Elf|462685|1.70%|
+|Troll|462409|1.64%|
+|Maghar_Orc|461785|1.50%|
+|Blood_Elf|461688|1.48%|
+|Dark_Iron_Dwarf|460865|1.30%|
+|Zandalari_Troll_Paku|460655|1.25%|
+|Draenei|460494|1.22%|
+|Mechagnome|459973|1.10%|
+|Kul_Tiran|459734|1.05%|
+|Highmountain_Tauren|459723|1.05%|
+|Nightborne|459681|1.04%|
+|Night_Elf_Crit|459454|0.99%|
+|Worgen|459436|0.99%|
+|Dracthyr|459430|0.99%|
+|Human|458234|0.72%|
+|Dwarf|458187|0.71%|
+|Tauren|457977|0.67%|
+|Gnome|457713|0.61%|
+|Goblin|457623|0.59%|
+|Night_Elf_Haste|457570|0.58%|
+|Earthen_Ruby|455309|0.08%|
+|Earthen_Onyx|455242|0.06%|
+|Earthen_Emerald|455220|0.06%|
+|Lightforged_Draenei|455159|0.05%|
+|Earthen_Sapphire|455108|0.04%|
+|Zandalari_Troll_Kimbul|455076|0.03%|
+|Undead|455026|0.02%|
+|Base|454949|0.00%|
+|Vulpera|454685|-0.06%|
+|Zandalari_Troll_Bwonsamdi|454015|-0.21%|

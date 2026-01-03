@@ -6,26 +6,32 @@ python build_combos.py
 from itertools import combinations
 
 combos = {
-    # Liberation of Undermine (684)
-    "Mugs_Moxie_Jug_684": "mugs_moxie_jug,id=230192,ilevel=684",
-    # s3 dungeons (x/730)
-    "Empowering_Crystal_of_Anubikkaj_730": "empowering_crystal_of_anubikkaj,id=219312,ilevel=730",
-    "Signet_of_the_Priory_730": "signet_of_the_priory,id=219308,ilevel=730",
-    "AraKara_Sacbrood_730": "arakara_sacbrood,id=219314,ilevel=730",
-    "Lily_of_the_Eternal_Weave_730": "lily_of_the_eternal_weave,id=242494,ilevel=730",
-    "Azhiccaran_Parapodia_730": "azhiccaran_parapodia,id=242497,ilevel=730",
-    "Soleahs_Secret_Technique_Haste_730": "soleahs_secret_technique_mastery,id=190958,ilevel=730",
-    "Soleahs_Secret_Technique_Mastery_730": "soleahs_secret_technique_mastery,id=190958,ilevel=730",
-    # Manaforge Omega (?/730)
-    "Diamantine_Voidcore_730":"diamantine_voidcore,id=242392,ilevel=730",
-    "Astral_Antenna_730":"astral_antenna,id=242395,ilevel=730",
-    "Naazindhris_Mystic_Lash_730":"naazindhris_mystic_lash,id=242398,ilevel=730",
-    "Screams_of_a_Forgotten_Sky_730":"screams_of_a_forgotten_sky,id=242399,ilevel=730",
-    "Arazs_Ritual_Forge_730":"arazs_ritual_forge,id=242402,ilevel=730",
-    # delves (717)
-    "Incorporeal_Essence_Gorger_NonEthereal_717": "incorporeal_essencegorger,id=246945,ilevel=717",
-    # pvp (710)
-    "Astral_Gladiators_Badge_of_Ferocity_710": "astral_gladiators_badge_of_ferocity,id=230638,ilevel=710",
+    # s1 dungeons (276/289)
+    "Eye_of_the_Drowning_Void_289": "eye_of_the_drowning_void,id=250257,ilevel=289",
+    "Soulcatchers_Charm_289": "soulcatchers_charm,id=250223,ilevel=289",
+    "Vessel_of_Souls_289": "vessel_of_souls,id=250258,ilevel=289",
+    "Emberwing_Feather_289": "emberwing_feather,id=250144,ilevel=289",
+    "Heart_of_Wind_289": "heart_of_wind,id=250256,ilevel=289",
+    "Emerald_Coachs_Whistle_289": "emerald_coachs_whistle,id=193718,ilevel=289",
+    "Nevermelting_Ice_Crystal_289": "nevermelting_ice_crystal,id=50259,ilevel=289",
+    "Reality_Breacher_289": "reality_breacher,id=151310,ilevel=289",
+    # s1 raids (?/289)
+    "Shadow_of_the_Empyrean_Requiem_289":"shadow_of_the_empyrean_requiem,id=249810,ilevel=289",
+    "Gaze_of_the_Alnseer_289":"gaze_of_the_alnseer,id=249343,ilevel=289",
+    "Litany_of_Lightblind_Wrath_289":"litany_of_lightblind_wrath,id=249808,ilevel=289",
+    "Locus-Walkers_Ribbon_289":"locuswalkers_ribbon,id=249809,ilevel=289",
+    "Vaelgors_Final_Stare_289":"vaelgors_final_stare,id=249346,ilevel=289",
+    "Wraps_of_Cosmic_Madness_289":"wraps_of_cosmic_madness,id=249340,ilevel=289",
+    # delves (276)
+    "Glorious_Crusaders_Keepsake_276": "glorious_crusaders_keepsake,id=251792,ilevel=276",
+    "Astalors_Anguish_Agitator_276": "astalors_anguish_agitator,id=264878,ilevel=276",
+    "Drum_of_Renewed_Bonds_276": "drum_of_renewed_bonds,id=248583,ilevel=276",
+    "Ever-Collapsing_Void_Fissure_276": "evercollapsing_void_fissure,id=251786,ilevel=276",
+    "Sealed_Chaos_Urn_276": "sealed_chaos_urn,id=251787,ilevel=276",
+    "Tangle_of_Vibrant_Vines_276": "tangle_of_vibrant_vines,id=252957,ilevel=276",
+    "Void-Reapers_Libram_276": "voidreapers_libram,id=251785,ilevel=276",
+    # pvp (263)
+    "Galactic_Gladiators_Badge_of_Ferocity_263": "galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263",
 }
 
 

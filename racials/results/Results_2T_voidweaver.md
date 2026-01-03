@@ -1,0 +1,35 @@
+# 2T - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Panda_Feast|115910|3.83%|
+|Mechagnome|113788|1.93%|
+|Blood_Elf|113322|1.51%|
+|Void_Elf|113294|1.49%|
+|Orc|113279|1.48%|
+|Troll|113252|1.45%|
+|Draenei|113040|1.26%|
+|Zandalari_Troll_Paku|112920|1.15%|
+|Night_Elf_Crit|112906|1.14%|
+|Maghar_Orc|112873|1.11%|
+|Dark_Iron_Dwarf|112841|1.08%|
+|Dracthyr|112819|1.06%|
+|Nightborne|112805|1.05%|
+|Highmountain_Tauren|112730|0.98%|
+|Worgen|112700|0.96%|
+|Kul_Tiran|112666|0.93%|
+|Dwarf|112369|0.66%|
+|Tauren|112319|0.62%|
+|Zandalari_Troll_Kimbul|111853|0.20%|
+|Vulpera|111717|0.08%|
+|Undead|111650|0.02%|
+|Base|111631|0.00%|
+|Lightforged_Draenei|111625|-0.01%|
+|Earthen_Ruby|111603|-0.03%|
+|Earthen_Onyx|111597|-0.03%|
+|Earthen_Emerald|111586|-0.04%|
+|Earthen_Sapphire|111583|-0.04%|
+|Zandalari_Troll_Bwonsamdi|111530|-0.09%|
+|Gnome|110847|-0.70%|
+|Goblin|110846|-0.70%|
+|Night_Elf_Haste|110791|-0.75%|
+|Human|110477|-1.03%|

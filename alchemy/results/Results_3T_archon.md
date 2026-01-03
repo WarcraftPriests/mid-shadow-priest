@@ -1,17 +1,18 @@
 # 3T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Lights_Potential_2|175740|11.43%|
-|Draught_of_Rampant_Abandon_1|173550|10.04%|
-|Lights_Potential_1|173037|9.71%|
-|Midnight_Mastery_Flask_2|163982|3.97%|
-|Midnight_Critical_Strike_Flask_2|163956|3.96%|
-|Midnight_Mastery_Flask_1|163460|3.64%|
-|Midnight_Critical_Strike_Flask_1|163398|3.60%|
-|Potion_of_Recklessness_2|162395|2.97%|
-|Midnight_Versatility_Flask_2|162325|2.92%|
-|Midnight_Versatility_Flask_1|161974|2.70%|
-|Potion_of_Recklessness_1|161135|2.17%|
-|Base|157717|0.00%|
-|Midnight_Haste_Flask_2|153376|-2.75%|
-|Midnight_Haste_Flask_1|153082|-2.94%|
+|Draught_of_Rampant_Abandon_2|143179|12.56%|
+|Lights_Potential_2|141604|11.32%|
+|Draught_of_Rampant_Abandon_1|140869|10.75%|
+|Lights_Potential_1|139542|9.70%|
+|Flask_of_the_Magisters_2|132147|3.89%|
+|Flask_of_the_Shattered_Sun_2|131866|3.67%|
+|Flask_of_the_Magisters_1|131739|3.57%|
+|Flask_of_the_Shattered_Sun_1|131496|3.38%|
+|Flask_of_Thalassian_Resistance_2|130997|2.98%|
+|Potion_of_Recklessness_2|130930|2.93%|
+|Potion_of_Recklessness_1|130816|2.84%|
+|Flask_of_Thalassian_Resistance_1|130640|2.70%|
+|Base|127201|0.00%|
+|Flask_of_the_Blood_Knights_2|125390|-1.42%|
+|Flask_of_the_Blood_Knights_1|124308|-2.27%|

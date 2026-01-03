@@ -1,0 +1,35 @@
+# 2T - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Panda_Feast|114980|3.74%|
+|Mechagnome|112904|1.87%|
+|Orc|112480|1.48%|
+|Void_Elf|112451|1.46%|
+|Draenei|112228|1.26%|
+|Troll|112112|1.15%|
+|Blood_Elf|112093|1.14%|
+|Zandalari_Troll_Paku|112032|1.08%|
+|Dracthyr|112019|1.07%|
+|Dark_Iron_Dwarf|111996|1.05%|
+|Maghar_Orc|111970|1.02%|
+|Nightborne|111964|1.02%|
+|Night_Elf_Crit|111933|0.99%|
+|Kul_Tiran|111836|0.90%|
+|Highmountain_Tauren|111832|0.90%|
+|Worgen|111780|0.85%|
+|Dwarf|111517|0.62%|
+|Tauren|111441|0.55%|
+|Zandalari_Troll_Kimbul|111025|0.17%|
+|Vulpera|110871|0.03%|
+|Lightforged_Draenei|110850|0.01%|
+|Base|110835|0.00%|
+|Undead|110802|-0.03%|
+|Earthen_Onyx|110781|-0.05%|
+|Earthen_Ruby|110770|-0.06%|
+|Earthen_Emerald|110769|-0.06%|
+|Earthen_Sapphire|110750|-0.08%|
+|Zandalari_Troll_Bwonsamdi|110721|-0.10%|
+|Goblin|106313|-4.08%|
+|Gnome|106307|-4.09%|
+|Night_Elf_Haste|106242|-4.14%|
+|Human|105903|-4.45%|

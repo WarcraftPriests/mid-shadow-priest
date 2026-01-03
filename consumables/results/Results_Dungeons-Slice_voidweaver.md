@@ -1,17 +1,17 @@
 # Dungeons-Slice - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Blooming_Feast|116249|2.25%|
-|Eversong_Pudding|115290|1.41%|
-|Arcano_Cutlets|115222|1.35%|
-|Warped_Wise_Wings|115201|1.33%|
-|Bloodthistle_wrapped_Cutlets|115185|1.32%|
-|Silvermoon_Standard|115111|1.25%|
-|Fel_Kissed_Filet|115057|1.21%|
-|Spiced_Biscuits|115041|1.19%|
-|Quick_Sandwich|115026|1.18%|
-|Bloom_Skewers|115001|1.16%|
-|Void_Kissed_Fish_Rolls|114908|1.07%|
-|Void_Touched_Augment_Rune|114764|0.95%|
-|Hearthflame_Supper|114530|0.74%|
-|Base|113686|0.00%|
+|Blooming_Feast|83409|1.97%|
+|Fel_Kissed_Filet|83100|1.59%|
+|Bloom_Skewers|83073|1.56%|
+|Warped_Wise_Wings|82989|1.45%|
+|Arcano_Cutlets|82965|1.43%|
+|Bloodthistle_wrapped_Cutlets|82918|1.37%|
+|Silvermoon_Standard|82909|1.36%|
+|Eversong_Pudding|82901|1.35%|
+|Quick_Sandwich|82843|1.28%|
+|Spiced_Biscuits|82839|1.27%|
+|Void_Kissed_Fish_Rolls|82754|1.17%|
+|Void_Touched_Augment_Rune|82540|0.91%|
+|Hearthflame_Supper|82305|0.62%|
+|Base|81799|0.00%|

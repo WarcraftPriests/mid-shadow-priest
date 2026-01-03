@@ -1,17 +1,18 @@
 # slice - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Lights_Potential_2|93859|12.90%|
-|Draught_of_Rampant_Abandon_1|92421|11.17%|
-|Lights_Potential_1|92236|10.95%|
-|Potion_of_Recklessness_2|87166|4.85%|
-|Potion_of_Recklessness_1|86917|4.55%|
-|Midnight_Mastery_Flask_2|86369|3.89%|
-|Midnight_Critical_Strike_Flask_2|86229|3.73%|
-|Midnight_Mastery_Flask_1|86057|3.52%|
-|Midnight_Haste_Flask_2|85877|3.30%|
-|Midnight_Critical_Strike_Flask_1|85842|3.26%|
-|Midnight_Versatility_Flask_1|85448|2.79%|
-|Midnight_Haste_Flask_1|85437|2.77%|
-|Midnight_Versatility_Flask_2|85423|2.76%|
-|Base|83132|0.00%|
+|Draught_of_Rampant_Abandon_2|76905|13.71%|
+|Lights_Potential_2|76083|12.49%|
+|Draught_of_Rampant_Abandon_1|75703|11.93%|
+|Lights_Potential_1|74771|10.55%|
+|Potion_of_Recklessness_2|71048|5.05%|
+|Potion_of_Recklessness_1|70775|4.65%|
+|Flask_of_the_Magisters_2|70465|4.19%|
+|Flask_of_the_Magisters_1|70187|3.78%|
+|Flask_of_the_Shattered_Sun_2|70025|3.54%|
+|Flask_of_Thalassian_Resistance_2|69823|3.24%|
+|Flask_of_the_Shattered_Sun_1|69772|3.16%|
+|Flask_of_Thalassian_Resistance_1|69607|2.92%|
+|Flask_of_the_Blood_Knights_1|69295|2.46%|
+|Flask_of_the_Blood_Knights_2|69265|2.41%|
+|Base|67633|0.00%|

@@ -1,17 +1,17 @@
 # slice - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Blooming_Feast|99250|1.99%|
-|Eversong_Pudding|98840|1.57%|
-|Arcano_Cutlets|98690|1.42%|
-|Warped_Wise_Wings|98654|1.38%|
-|Spiced_Biscuits|98612|1.33%|
-|Void_Kissed_Fish_Rolls|98514|1.23%|
-|Silvermoon_Standard|98496|1.22%|
-|Bloodthistle_wrapped_Cutlets|98494|1.21%|
-|Quick_Sandwich|98386|1.10%|
-|Fel_Kissed_Filet|98302|1.02%|
-|Void_Touched_Augment_Rune|98248|0.96%|
-|Bloom_Skewers|98191|0.90%|
-|Hearthflame_Supper|97919|0.62%|
-|Base|97313|0.00%|
+|Blooming_Feast|80219|1.81%|
+|Warped_Wise_Wings|79954|1.48%|
+|Bloodthistle_wrapped_Cutlets|79931|1.45%|
+|Eversong_Pudding|79837|1.33%|
+|Silvermoon_Standard|79832|1.32%|
+|Quick_Sandwich|79813|1.30%|
+|Arcano_Cutlets|79786|1.26%|
+|Bloom_Skewers|79781|1.26%|
+|Fel_Kissed_Filet|79750|1.22%|
+|Void_Kissed_Fish_Rolls|79727|1.19%|
+|Spiced_Biscuits|79713|1.17%|
+|Void_Touched_Augment_Rune|79563|0.98%|
+|Hearthflame_Supper|79280|0.62%|
+|Base|78791|0.00%|

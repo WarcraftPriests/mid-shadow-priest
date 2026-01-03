@@ -1,0 +1,35 @@
+# 3T - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Panda_Feast|152701|3.78%|
+|Mechagnome|149841|1.83%|
+|Orc|149344|1.49%|
+|Void_Elf|149223|1.41%|
+|Draenei|148980|1.25%|
+|Blood_Elf|148721|1.07%|
+|Zandalari_Troll_Paku|148697|1.05%|
+|Dark_Iron_Dwarf|148671|1.04%|
+|Dracthyr|148657|1.03%|
+|Nightborne|148655|1.03%|
+|Night_Elf_Crit|148642|1.02%|
+|Highmountain_Tauren|148510|0.93%|
+|Troll|148503|0.92%|
+|Kul_Tiran|148477|0.90%|
+|Worgen|148391|0.85%|
+|Maghar_Orc|148363|0.83%|
+|Dwarf|147963|0.56%|
+|Tauren|147933|0.54%|
+|Zandalari_Troll_Kimbul|147262|0.08%|
+|Vulpera|147168|0.01%|
+|Base|147146|0.00%|
+|Lightforged_Draenei|147102|-0.03%|
+|Earthen_Sapphire|147049|-0.07%|
+|Earthen_Ruby|147036|-0.07%|
+|Earthen_Onyx|147031|-0.08%|
+|Undead|147010|-0.09%|
+|Zandalari_Troll_Bwonsamdi|146962|-0.12%|
+|Earthen_Emerald|146929|-0.15%|
+|Goblin|141714|-3.69%|
+|Gnome|141677|-3.72%|
+|Night_Elf_Haste|141571|-3.79%|
+|Human|141250|-4.01%|
