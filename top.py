@@ -47,10 +47,10 @@ def get_top_talents(results, combos, directory, matches, jitter):
 def get_hero_builds(ht, cds, idols):
     # overwriting this for now to limit combos
     hero_talent_combos = list(config["hero"][ht].keys())
-    if ht == "AR":
-        hero_talent_combos = ["AR_EC_SW", "AR_SP_SW"]
-    if ht == "VW":
-        hero_talent_combos = ["VW_VE", "VW_DH"]
+    # if ht == "AR":
+    #     hero_talent_combos = ["AR_EC_SW", "AR_SP_SW"]
+    # if ht == "VW":
+    #     hero_talent_combos = ["VW_VE", "VW_DH"]
     return [
         f"{ht}_{cd}_{idol}" for ht in hero_talent_combos for cd in cds for idol in idols
     ]
