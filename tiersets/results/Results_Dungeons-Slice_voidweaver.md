@@ -1,6 +1,6 @@
 # Dungeons-Slice - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|MID1-2_4-set|84156|9.25%|
-|MID1-2-set|80328|4.28%|
-|Base|77031|0.00%|
+|MID1-2_4-set|84872|8.73%|
+|MID1-2-set|81595|4.53%|
+|Base|78060|0.00%|

@@ -1,1 +1,1 @@
-{"name": "8T - voidweaver", "data": {"MID1-2_4-set": {"DPS": 504525}, "MID1-2-set": {"DPS": 477286}, "Base": {"DPS": 452345}}, "ids": {"MID1-2_4-set": null, "MID1-2-set": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["MID1-2_4-set", "MID1-2-set"], "last_updated": "2026-01-03"}
+{"name": "8T - voidweaver", "data": {"MID1-2_4-set": {"DPS": 515615}, "MID1-2-set": {"DPS": 488133}, "Base": {"DPS": 462410}}, "ids": {"MID1-2_4-set": null, "MID1-2-set": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["MID1-2_4-set", "MID1-2-set"], "last_updated": "2026-01-16"}
