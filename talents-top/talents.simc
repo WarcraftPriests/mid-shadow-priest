@@ -3,7 +3,8 @@ level=90
 role=spell
 position=back
 spec=shadow
-talents=CIQAcD2s+TwUNPc7av5HWi+FHaMzyYAAAAAAAAAAAAmxsMGzsNzYmZbmhZmhZGzMzwYyAz0AMzMDAEgZb2WCmNGAYwYmHYmZ2mZGgZGgZmZA
+talents=CIQAAAAAAAAAAAAAAAAAAAAAAMMjxAAAAAAAAAAAAMMbmxMLzMMz2MDzw2MzYmZGbIzYxMNAzAMziZ0sZAIjxCAmZ8AyYmZGz2YmtlBYmYA
+spec_talents+=/s1264096:1/s1264104:2/s1264107:1
 
 ${apl}
 

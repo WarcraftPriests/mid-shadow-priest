@@ -59,17 +59,14 @@ def get_hero_builds(ht, cds, idols):
 def get_builds():
     combos = []
     ar_cds = ["VF"]
-    vw_cds = ["VF", "NOCD"]
+    vw_cds = ["VF"]
     # Archon and Voidweaver can have different Idol options, manually splitting
     ar_idols = [
         "nzoth_yogg_cthun",
     ]
     combos.extend(get_hero_builds("AR", ar_cds, ar_idols))
     ## Voidweaver
-    vw_idols = [
-        "nzoth_yogg_cthun",
-        "yshaarj_nzoth_yogg"
-    ]
+    vw_idols = ["nzoth_yogg_cthun", "yshaarj_nzoth_yogg"]
     combos.extend(get_hero_builds("VW", vw_cds, vw_idols))
     return combos
 
@@ -118,7 +115,7 @@ def find_talents(talent):
     return Talents(spec_talents, class_talents, hero_talents)
 
 
-def get_base_actor():
+def get_base_actor(ptr=False):
     file_name = os.listdir("talents/profiles/")[0]
     with open(f"talents/profiles/{file_name}", "r", encoding="utf8") as file:
         ending_line = 27
@@ -130,6 +127,8 @@ def get_base_actor():
         head = [next(file) for _ in range(ending_line)]
     file.close()
     head.extend("\n")
+    if ptr:
+        head.insert(0, "ptr=1\n")
     return head
 
 
@@ -188,6 +187,7 @@ if __name__ == "__main__":
     parser.add_argument("--top_matches", nargs="?", default=7, type=int)
     parser.add_argument("--match_jitter", nargs="?", default=5, type=int)
     parser.add_argument("--analyze_only", nargs="?", default=False, type=bool)
+    parser.add_argument("--ptr", nargs="?", default=False, type=bool)
     args = parser.parse_args()
 
     # Setup Vars
@@ -224,7 +224,7 @@ if __name__ == "__main__":
         talent_dictionary[talent] = find_talents(talent)
 
     # Get base actor data
-    base = get_base_actor()
+    base = get_base_actor(args.ptr)
 
     # Create copy actor files we will run (top_talents_X.simc)
     batches = math.ceil(len(talent_dictionary) / 199)

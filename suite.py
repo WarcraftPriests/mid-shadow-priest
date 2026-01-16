@@ -68,8 +68,11 @@ def run_suite(sim_dir, sim_type, output_file, sim, args):
         call_process(generate_args(sim_dir, sim_type, "sim.py", args))
         update_state(sim_dir, sim_type, output_file, "sim")
         if sim == "talents" and args.talents:
+            arguments = ["python", "top.py"]
+            if args.ptr:
+                arguments.append("--ptr")
             subprocess.check_call(
-                ["python", "top.py"], stdout=sys.stdout, stderr=subprocess.STDOUT
+                arguments, stdout=sys.stdout, stderr=subprocess.STDOUT
             )
 
 
