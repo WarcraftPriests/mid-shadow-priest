@@ -1,1 +1,1 @@
-{"name": "Composite - archon", "data": {"MID1-2_4-set": {"DPS": 77053}, "MID1-2-set": {"DPS": 72384}, "Base": {"DPS": 68681}}, "ids": {"MID1-2_4-set": null, "MID1-2-set": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["MID1-2_4-set", "MID1-2-set"], "last_updated": "2026-01-16"}
+{"name": "Composite - archon", "data": {"MID1-2_4-set": {"DPS": 77052}, "MID1-2-set": {"DPS": 72374}, "Base": {"DPS": 68679}}, "ids": {"MID1-2_4-set": null, "MID1-2-set": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["MID1-2_4-set", "MID1-2-set"], "last_updated": "2026-01-19"}

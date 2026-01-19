@@ -1,4 +1,4 @@
 # 8T - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|498860|0.00%|
+|Base|520091|0.00%|

@@ -1,4 +1,4 @@
 # slice - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|82610|0.00%|
+|Base|85288|0.00%|

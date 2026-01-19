@@ -1,4 +1,4 @@
 # Single - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|75803|0.00%|
+|Base|77669|0.00%|

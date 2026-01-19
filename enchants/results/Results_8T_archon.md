@@ -1,8 +1,8 @@
 # 8T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Temp_Weapon_Thalassian_Phoenix_Oil_2|455222|0.64%|
-|Temp_Weapon_Thalassian_Phoenix_Oil_1|454457|0.47%|
-|Base|452348|0.00%|
-|Temp_Weapon_Smugglers_Enchanted_Edge_2|452171|-0.04%|
-|Temp_Weapon_Smugglers_Enchanted_Edge_1|451978|-0.08%|
+|Temp_Weapon_Thalassian_Phoenix_Oil_2|480473|0.69%|
+|Temp_Weapon_Thalassian_Phoenix_Oil_1|479386|0.46%|
+|Base|477202|0.00%|
+|Temp_Weapon_Smugglers_Enchanted_Edge_1|477193|0.00%|
+|Temp_Weapon_Smugglers_Enchanted_Edge_2|476882|-0.07%|

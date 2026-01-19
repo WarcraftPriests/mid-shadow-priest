@@ -12,7 +12,7 @@ combos = {
     "Vessel_of_Souls_289": "vessel_of_souls,id=250258,ilevel=289",
     "Emberwing_Feather_289": "emberwing_feather,id=250144,ilevel=289",
     "Heart_of_Wind_289": "heart_of_wind,id=250256,ilevel=289",
-    "Emerald_Coachs_Whistle_289": "emerald_coachs_whistle,id=193718,ilevel=289",
+    # "Emerald_Coachs_Whistle_289": "emerald_coachs_whistle,id=193718,ilevel=289",
     "Nevermelting_Ice_Crystal_289": "nevermelting_ice_crystal,id=50259,ilevel=289",
     "Reality_Breacher_289": "reality_breacher,id=151310,ilevel=289",
     # s1 raids (?/289)

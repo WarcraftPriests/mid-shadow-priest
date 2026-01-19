@@ -1,17 +1,17 @@
 # Composite - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Blooming_Feast|76473|1.95%|
-|Arcano_Cutlets|76115|1.47%|
-|Warped_Wise_Wings|76105|1.46%|
-|Eversong_Pudding|76090|1.44%|
-|Silvermoon_Standard|75993|1.31%|
-|Spiced_Biscuits|75977|1.29%|
-|Void_Kissed_Fish_Rolls|75876|1.16%|
-|Bloodthistle_wrapped_Cutlets|75843|1.11%|
-|Fel_Kissed_Filet|75771|1.02%|
-|Bloom_Skewers|75769|1.01%|
-|Void_Touched_Augment_Rune|75766|1.01%|
-|Quick_Sandwich|75748|0.98%|
-|Hearthflame_Supper|75543|0.71%|
-|Base|75010|0.00%|
+|Blooming_Feast|75997|1.95%|
+|Warped_Wise_Wings|75642|1.47%|
+|Arcano_Cutlets|75635|1.46%|
+|Eversong_Pudding|75617|1.44%|
+|Silvermoon_Standard|75494|1.28%|
+|Spiced_Biscuits|75485|1.26%|
+|Void_Kissed_Fish_Rolls|75409|1.16%|
+|Bloodthistle_wrapped_Cutlets|75386|1.13%|
+|Fel_Kissed_Filet|75337|1.07%|
+|Bloom_Skewers|75323|1.05%|
+|Void_Touched_Augment_Rune|75293|1.01%|
+|Quick_Sandwich|75278|0.99%|
+|Hearthflame_Supper|75080|0.72%|
+|Base|74543|0.00%|

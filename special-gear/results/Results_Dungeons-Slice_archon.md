@@ -1,4 +1,4 @@
 # Dungeons-Slice - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|80112|0.00%|
+|Base|83505|0.00%|

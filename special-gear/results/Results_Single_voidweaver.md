@@ -1,4 +1,4 @@
 # Single - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|75813|0.00%|
+|Base|77158|0.00%|

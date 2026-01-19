@@ -23,8 +23,6 @@ dungeons:
     - id: 250256
       name: "Heart_of_Wind"
       item_levels: dungeons_both
-    - id: 193718
-      name: "Emerald_Coachs_Whistle"
     - id: 50259
       name: "Nevermelting_Ice_Crystal"
     - id: 151310

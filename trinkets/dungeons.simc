@@ -7,6 +7,7 @@ role=spell
 position=back
 spec=shadow
 talents=${talents}
+spec_talents+=/s1264096:1/s1264104:2/s1264107:1
 
 ${apl}
 
@@ -40,8 +41,6 @@ profileset."Emberwing_Feather_289"+=trinket1=emberwing_feather,id=250144,ilevel=
 profileset."Heart_of_Wind_263"+=trinket1=heart_of_wind,id=250256,ilevel=263
 profileset."Heart_of_Wind_276"+=trinket1=heart_of_wind,id=250256,ilevel=276
 profileset."Heart_of_Wind_289"+=trinket1=heart_of_wind,id=250256,ilevel=289
-profileset."Emerald_Coachs_Whistle_276"+=trinket1=emerald_coachs_whistle,id=193718,ilevel=276
-profileset."Emerald_Coachs_Whistle_289"+=trinket1=emerald_coachs_whistle,id=193718,ilevel=289
 profileset."Nevermelting_Ice_Crystal_276"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=276
 profileset."Nevermelting_Ice_Crystal_289"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=289
 profileset."Reality_Breacher_276"+=trinket1=reality_breacher,id=151310,ilevel=276

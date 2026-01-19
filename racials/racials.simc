@@ -32,6 +32,11 @@ profileset."Lightforged_Draenei"+=race=lightforged_draenei
 
 profileset."Void_Elf"+=race=void_elf
 
+# https://www.wowhead.com/beta/spell=1232189/overflowing-power
+# unsure if this will be active in raid, as of 1/18 it was not
+# profileset."Void_Elf_Voidstorm"+=race=void_elf
+# profileset."Void_Elf_Voidstorm"+=override.player.spell_data=spell.256374.duration=24000
+
 profileset."Human"+=race=human
 
 profileset."Dwarf"+=race=dwarf
@@ -115,3 +120,5 @@ profileset."Earthen_Sapphire"+=race=earthen
 profileset."Earthen_Sapphire"+=earthen_mineral=sapphire
 
 profileset."Dracthyr"+=race=dracthyr
+
+profileset."Haranir"+=race=haranir

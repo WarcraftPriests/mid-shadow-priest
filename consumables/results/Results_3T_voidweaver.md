@@ -1,17 +1,17 @@
 # 3T - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Blooming_Feast|154152|1.99%|
-|Arcano_Cutlets|153517|1.57%|
-|Eversong_Pudding|153374|1.48%|
-|Warped_Wise_Wings|153335|1.45%|
-|Spiced_Biscuits|153125|1.32%|
-|Silvermoon_Standard|153102|1.30%|
-|Void_Kissed_Fish_Rolls|152867|1.14%|
-|Void_Touched_Augment_Rune|152686|1.02%|
-|Hearthflame_Supper|152263|0.74%|
-|Base|151138|0.00%|
-|Bloodthistle_wrapped_Cutlets|150479|-0.44%|
-|Fel_Kissed_Filet|150386|-0.50%|
-|Bloom_Skewers|150300|-0.55%|
-|Quick_Sandwich|150277|-0.57%|
+|Blooming_Feast|155582|1.94%|
+|Arcano_Cutlets|154986|1.55%|
+|Eversong_Pudding|154771|1.41%|
+|Warped_Wise_Wings|154725|1.38%|
+|Spiced_Biscuits|154603|1.30%|
+|Silvermoon_Standard|154547|1.26%|
+|Void_Kissed_Fish_Rolls|154381|1.16%|
+|Void_Touched_Augment_Rune|154159|1.01%|
+|Hearthflame_Supper|153626|0.66%|
+|Base|152617|0.00%|
+|Bloodthistle_wrapped_Cutlets|152198|-0.27%|
+|Bloom_Skewers|152184|-0.28%|
+|Fel_Kissed_Filet|152181|-0.29%|
+|Quick_Sandwich|152093|-0.34%|

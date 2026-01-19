@@ -1,17 +1,17 @@
 # 8T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Blooming_Feast|461239|1.67%|
-|Arcano_Cutlets|460851|1.58%|
-|Warped_Wise_Wings|460723|1.56%|
-|Eversong_Pudding|460586|1.53%|
-|Silvermoon_Standard|460012|1.40%|
-|Spiced_Biscuits|459581|1.31%|
-|Void_Kissed_Fish_Rolls|459154|1.21%|
-|Bloodthistle_wrapped_Cutlets|458030|0.96%|
-|Quick_Sandwich|457401|0.82%|
-|Void_Touched_Augment_Rune|457341|0.81%|
-|Hearthflame_Supper|457058|0.75%|
-|Fel_Kissed_Filet|456626|0.65%|
-|Bloom_Skewers|456127|0.54%|
-|Base|453661|0.00%|
+|Blooming_Feast|477051|1.56%|
+|Eversong_Pudding|476559|1.45%|
+|Warped_Wise_Wings|476450|1.43%|
+|Arcano_Cutlets|476312|1.40%|
+|Spiced_Biscuits|475482|1.23%|
+|Silvermoon_Standard|475322|1.19%|
+|Void_Kissed_Fish_Rolls|475016|1.13%|
+|Bloodthistle_wrapped_Cutlets|473519|0.81%|
+|Void_Touched_Augment_Rune|473058|0.71%|
+|Hearthflame_Supper|472960|0.69%|
+|Quick_Sandwich|472859|0.67%|
+|Bloom_Skewers|471998|0.48%|
+|Fel_Kissed_Filet|471764|0.43%|
+|Base|469727|0.00%|
