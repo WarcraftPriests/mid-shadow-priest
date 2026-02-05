@@ -1,1 +1,1 @@
-{"name": "3T - archon", "data": {"saeldur_cook": {"DPS": 185329}, "Base": {"DPS": 184738}}, "ids": {"saeldur_cook": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur_cook"], "last_updated": "2025-11-29"}
+{"name": "3T - archon", "data": {"Base": {"DPS": 157640}, "chatgpt_writes_an_apl": {"DPS": 156356}}, "ids": {"chatgpt_writes_an_apl": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["chatgpt_writes_an_apl"], "last_updated": "2026-02-04"}

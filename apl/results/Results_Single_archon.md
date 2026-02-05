@@ -1,5 +1,5 @@
 # Single - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|saeldur_cook|90431|0.20%|
-|Base|90253|0.00%|
+|Base|71444|0.00%|
+|chatgpt_writes_an_apl|70877|-0.79%|

@@ -1,5 +1,5 @@
 # Composite - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|saeldur_cook|90729|0.44%|
-|Base|90328|0.00%|
+|Base|72854|0.00%|
+|chatgpt_writes_an_apl|71375|-2.03%|

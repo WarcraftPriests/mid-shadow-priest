@@ -1,5 +1,5 @@
 # slice - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|90213|0.00%|
-|saeldur_cook|89706|-0.56%|
+|Base|82729|0.00%|
+|void_volley_1|82411|-0.38%|

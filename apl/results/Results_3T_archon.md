@@ -1,5 +1,5 @@
 # 3T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|saeldur_cook|185329|0.32%|
-|Base|184738|0.00%|
+|Base|157640|0.00%|
+|chatgpt_writes_an_apl|156356|-0.81%|

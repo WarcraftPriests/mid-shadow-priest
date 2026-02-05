@@ -1,1 +1,1 @@
-{"name": "8T - voidweaver", "data": {"saeldur_cook": {"DPS": 639872}, "Base": {"DPS": 631182}}, "ids": {"saeldur_cook": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur_cook"], "last_updated": "2025-11-29"}
+{"name": "8T - voidweaver", "data": {"Base": {"DPS": 546353}, "fuck_you_swd": {"DPS": 543251}}, "ids": {"fuck_you_swd": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["fuck_you_swd"], "last_updated": "2026-02-04"}

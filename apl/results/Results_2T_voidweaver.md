@@ -1,5 +1,5 @@
 # 2T - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|saeldur_cook|150849|1.27%|
-|Base|148951|0.00%|
+|Base|110598|0.00%|
+|fuck_you_swd|110496|-0.09%|

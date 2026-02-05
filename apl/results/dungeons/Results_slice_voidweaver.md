@@ -1,5 +1,5 @@
 # slice - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|103952|0.00%|
-|saeldur_cook|101106|-2.74%|
+|void_volley_1|85039|0.05%|
+|Base|84996|0.00%|
