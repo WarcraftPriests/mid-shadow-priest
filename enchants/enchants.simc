@@ -35,14 +35,14 @@ profileset."Temp_Weapon_Thalassian_Phoenix_Oil_1"+=temporary_enchant=main_hand:t
 profileset."Temp_Weapon_Thalassian_Phoenix_Oil_2"+=temporary_enchant=main_hand:thalassian_phoenix_oil_2
 
 # Legs
-# profileset."Legs_Bright_Linen_Spellthread_1"+=legs=${gear.legs},enchant=bright_linen_spellthread_1
-# profileset."Legs_Bright_Linen_Spellthread_2"+=legs=${gear.legs},enchant=bright_linen_spellthread_2
+profileset."Legs_Bright_Linen_Spellthread_1"+=legs=${gear.legs},enchant=bright_linen_spellthread_1
+profileset."Legs_Bright_Linen_Spellthread_2"+=legs=${gear.legs},enchant=bright_linen_spellthread_2
 
-# profileset."Legs_Arcanoweave_Spellthread_1"+=legs=${gear.legs},enchant=arcanoweave_spellthread_1
-# profileset."Legs_Arcanoweave_Spellthread_2"+=legs=${gear.legs},enchant=arcanoweave_spellthread_2
+profileset."Legs_Arcanoweave_Spellthread_1"+=legs=${gear.legs},enchant=arcanoweave_spellthread_1
+profileset."Legs_Arcanoweave_Spellthread_2"+=legs=${gear.legs},enchant=arcanoweave_spellthread_2
 
-# profileset."Legs_Sunfire_Silk_Spellthread_1"+=legs=${gear.legs},enchant=sunfire_silk_spellthread_1
-# profileset."Legs_Sunfire_Silk_Spellthread_2"+=legs=${gear.legs},enchant=sunfire_silk_spellthread_2
+profileset."Legs_Sunfire_Silk_Spellthread_1"+=legs=${gear.legs},enchant=sunfire_silk_spellthread_1
+profileset."Legs_Sunfire_Silk_Spellthread_2"+=legs=${gear.legs},enchant=sunfire_silk_spellthread_2
 
 # Weapons
 ## Primary Stat Proc
@@ -74,47 +74,47 @@ profileset."Temp_Weapon_Thalassian_Phoenix_Oil_2"+=temporary_enchant=main_hand:t
 # profileset."Weapon_Strength_of_Halazzi_2"+=main_hand=${gear.main_hand},enchant=strength_of_halazzi_2
 
 # Chest
-## Intellect + Mana
-# profileset."Chest_Mark_of_the_Magister_1"+=chest=${gear.chest},enchant=mark_of_the_magister_1
-# profileset."Chest_Mark_of_the_Magister_2"+=chest=${gear.chest},enchant=mark_of_the_magister_2
+# Intellect + Mana
+profileset."Chest_Mark_of_the_Magister_1"+=chest=${gear.chest},enchant=mark_of_the_magister_1
+profileset."Chest_Mark_of_the_Magister_2"+=chest=${gear.chest},enchant=mark_of_the_magister_2
 
-## Primary Stat
-# profileset."Chest_Mark_of_the_Worldsoul_1"+=chest=${gear.chest},enchant=mark_of_the_worldsoul_1
-# profileset."Chest_Mark_of_the_Worldsoul_2"+=chest=${gear.chest},enchant=mark_of_the_worldsoul_2
+# Primary Stat
+profileset."Chest_Mark_of_the_Worldsoul_1"+=chest=${gear.chest},enchant=mark_of_the_worldsoul_1
+profileset."Chest_Mark_of_the_Worldsoul_2"+=chest=${gear.chest},enchant=mark_of_the_worldsoul_2
 
 # Ring
-## % crit strike effectiveness
-# profileset."Ring_Eyes_of_the_Eagle_1"+=finger1=${gear.finger1},enchant=eyes_of_the_eagle_1,gem_id=${gems.main}/${gems.main}
-# profileset."Ring_Eyes_of_the_Eagle_2"+=finger1=${gear.finger1},enchant=eyes_of_the_eagle_2,gem_id=${gems.main}/${gems.main}
+# % crit strike effectiveness
+profileset."Ring_Eyes_of_the_Eagle_1"+=finger1=${gear.finger1},enchant=eyes_of_the_eagle_1,gem_id=${gems.main}/${gems.main}
+profileset."Ring_Eyes_of_the_Eagle_2"+=finger1=${gear.finger1},enchant=eyes_of_the_eagle_2,gem_id=${gems.main}/${gems.main}
 
-## 17 crit
-# profileset."Ring_Natures_Fury_1"+=finger1=${gear.finger1},enchant=natures_fury_1,gem_id=${gems.main}/${gems.main}
-# profileset."Ring_Natures_Fury_2"+=finger1=${gear.finger1},enchant=natures_fury_2,gem_id=${gems.main}/${gems.main}
+# 17 crit
+profileset."Ring_Natures_Fury_1"+=finger1=${gear.finger1},enchant=natures_fury_1,gem_id=${gems.main}/${gems.main}
+profileset."Ring_Natures_Fury_2"+=finger1=${gear.finger1},enchant=natures_fury_2,gem_id=${gems.main}/${gems.main}
 
-## 17 haste
-# profileset."Ring_Silvermoons_Alacrity_1"+=finger1=${gear.finger1},enchant=silvermoons_alacrity_1,gem_id=${gems.main}/${gems.main}
-# profileset."Ring_Silvermoons_Alacrity_2"+=finger1=${gear.finger1},enchant=silvermoons_alacrity_2,gem_id=${gems.main}/${gems.main}
+# 17 haste
+profileset."Ring_Silvermoons_Alacrity_1"+=finger1=${gear.finger1},enchant=silvermoons_alacrity_1,gem_id=${gems.main}/${gems.main}
+profileset."Ring_Silvermoons_Alacrity_2"+=finger1=${gear.finger1},enchant=silvermoons_alacrity_2,gem_id=${gems.main}/${gems.main}
 
-## 17 vers
-# profileset."Ring_Silvermoons_Tenacity_1"+=finger1=${gear.finger1},enchant=silvermoons_tenacity_1,gem_id=${gems.main}/${gems.main}
-# profileset."Ring_Silvermoons_Tenacity_2"+=finger1=${gear.finger1},enchant=silvermoons_tenacity_2,gem_id=${gems.main}/${gems.main}
+# 17 vers
+profileset."Ring_Silvermoons_Tenacity_1"+=finger1=${gear.finger1},enchant=silvermoons_tenacity_1,gem_id=${gems.main}/${gems.main}
+profileset."Ring_Silvermoons_Tenacity_2"+=finger1=${gear.finger1},enchant=silvermoons_tenacity_2,gem_id=${gems.main}/${gems.main}
 
-## 17 mastery
-# profileset."Ring_Zuljins_Mastery_1"+=finger1=${gear.finger1},enchant=zuljins_mastery_1,gem_id=${gems.main}/${gems.main}
-# profileset."Ring_Zuljins_Mastery_2"+=finger1=${gear.finger1},enchant=zuljins_mastery_2,gem_id=${gems.main}/${gems.main}
+# 17 mastery
+profileset."Ring_Zuljins_Mastery_1"+=finger1=${gear.finger1},enchant=zuljins_mastery_1,gem_id=${gems.main}/${gems.main}
+profileset."Ring_Zuljins_Mastery_2"+=finger1=${gear.finger1},enchant=zuljins_mastery_2,gem_id=${gems.main}/${gems.main}
 
-## 9 crit
-# profileset."Ring_Natures_Wrath_1"+=finger1=${gear.finger1},enchant=natures_wrath_1,gem_id=${gems.main}/${gems.main}
-# profileset."Ring_Natures_Wrath_2"+=finger1=${gear.finger1},enchant=natures_wrath_2,gem_id=${gems.main}/${gems.main}
+# 9 crit
+profileset."Ring_Natures_Wrath_1"+=finger1=${gear.finger1},enchant=natures_wrath_1,gem_id=${gems.main}/${gems.main}
+profileset."Ring_Natures_Wrath_2"+=finger1=${gear.finger1},enchant=natures_wrath_2,gem_id=${gems.main}/${gems.main}
 
-## 9 Mastery
-# profileset."Ring_Amani_Mastery_1"+=finger1=${gear.finger1},enchant=amani_mastery_1,gem_id=${gems.main}/${gems.main}
-# profileset."Ring_Amani_Mastery_2"+=finger1=${gear.finger1},enchant=amani_mastery_2,gem_id=${gems.main}/${gems.main}
+# 9 Mastery
+profileset."Ring_Amani_Mastery_1"+=finger1=${gear.finger1},enchant=amani_mastery_1,gem_id=${gems.main}/${gems.main}
+profileset."Ring_Amani_Mastery_2"+=finger1=${gear.finger1},enchant=amani_mastery_2,gem_id=${gems.main}/${gems.main}
 
-## 9 haste
-# profileset."Ring_Thalassian_Haste_1"+=finger1=${gear.finger1},enchant=thalassian_haste_1,gem_id=${gems.main}/${gems.main}
-# profileset."Ring_Thalassian_Haste_2"+=finger1=${gear.finger1},enchant=thalassian_haste_2,gem_id=${gems.main}/${gems.main}
+# 9 haste
+profileset."Ring_Thalassian_Haste_1"+=finger1=${gear.finger1},enchant=thalassian_haste_1,gem_id=${gems.main}/${gems.main}
+profileset."Ring_Thalassian_Haste_2"+=finger1=${gear.finger1},enchant=thalassian_haste_2,gem_id=${gems.main}/${gems.main}
 
-## 9 vers
-# profileset."Ring_Thalassian_Versatility_1"+=finger1=${gear.finger1},enchant=thalassian_versatility_1,gem_id=${gems.main}/${gems.main}
-# profileset."Ring_Thalassian_Versatility_2"+=finger1=${gear.finger1},enchant=thalassian_versatility_2,gem_id=${gems.main}/${gems.main}
+# 9 vers
+profileset."Ring_Thalassian_Versatility_1"+=finger1=${gear.finger1},enchant=thalassian_versatility_1,gem_id=${gems.main}/${gems.main}
+profileset."Ring_Thalassian_Versatility_2"+=finger1=${gear.finger1},enchant=thalassian_versatility_2,gem_id=${gems.main}/${gems.main}
