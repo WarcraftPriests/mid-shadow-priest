@@ -11,7 +11,7 @@ This repo includes scripts and sims for shadow priests.
 - [Website](https://warcraftpriests.github.io/)
 
 ## Contributing
-Contributions are always welcome, this project uses `ruff` for linting.
+Contributions are always welcome, this project uses `ruff` for linting. You can run `ruff check .`.
 
 ### Tests
 - `pytest`
