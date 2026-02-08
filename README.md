@@ -13,6 +13,10 @@ This repo includes scripts and sims for shadow priests.
 ## Contributing
 Contributions are always welcome, this project uses `ruff` for linting.
 
+### Tests
+- `pytest`
+- `pytest --cov=. --cov-report=term-missing -q`
+
 ## How to Run
 All scripts are run built with python3, but should be able to be run with python2 (results may vary).
 
