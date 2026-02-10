@@ -105,6 +105,7 @@ def convert_builds(profile):
         has_death_and_madness = "death_and_madness" in line
         has_misery = "misery" in line
         has_invoked_nightmare = "invoked_nightmare" in line
+        has_voidtouched = "voidtouched" in line
         suffix = ""
         choice_nodes = []
         # Mis or IN
@@ -127,12 +128,19 @@ def convert_builds(profile):
             choice_nodes.append("DS")
         elif has_death_and_madness:
             choice_nodes.append("DaM")
+        # Voidtouched
+        if has_voidtouched:
+            choice_nodes.append("VT")
         suffix = generate_suffix(choice_nodes)
         # TODO: figure out a better way to do this
         line = line.replace(" 22111", "_" + suffix)
         line = line.replace(" 22211", "_" + suffix)
         line = line.replace(" 21211", "_" + suffix)
         line = line.replace(" 21111", "_" + suffix)
+        line = line.replace(" 22112", "_" + suffix)
+        line = line.replace(" 22212", "_" + suffix)
+        line = line.replace(" 21212", "_" + suffix)
+        line = line.replace(" 21112", "_" + suffix)
 
         if apply_rules(line):
             continue

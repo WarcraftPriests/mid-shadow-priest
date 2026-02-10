@@ -31,7 +31,7 @@ def get_top_talents(results, combos, directory, matches, jitter):
             count = 0
             for build in builds:
                 filler = ""
-                fillers = ["_ME", "_DR"]
+                fillers = ["_ME", "_DR", "_ME_VT", "_DR_VT"]
                 for name in fillers:
                     if name in build:
                         filler = name
@@ -48,7 +48,7 @@ def get_hero_builds(ht, cds, idols):
     # overwriting this for now to limit combos
     hero_talent_combos = list(config["hero"][ht].keys())
     if ht == "AR":
-        hero_talent_combos = ["AR_EC_SW", "AR_SP_SW"]
+        hero_talent_combos = ["AR_EC_SW", "AR_SP_SW", "AR_EC_RP", "AR_SP_RP"]
     if ht == "VW":
         hero_talent_combos = ["VW_VE", "VW_DH"]
     return [
@@ -59,7 +59,7 @@ def get_hero_builds(ht, cds, idols):
 def get_builds():
     combos = []
     ar_cds = ["VF"]
-    vw_cds = ["VF"]
+    vw_cds = ["VF", "NOCD"]
     # Archon and Voidweaver can have different Idol options, manually splitting
     ar_idols = [
         "nzoth_yogg_cthun",
