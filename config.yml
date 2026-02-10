@@ -341,3 +341,21 @@ stats:
     - haste
     - crit
     - versatility
+talents:
+  choice_pairs:
+    - keywords: [misery, invoked_nightmare]
+      suffixes: [Mis, IN]
+    - keywords: [improved_voidform, ancient_madness]
+      suffixes: [IV, AM]
+    - keywords: [distorted_reality, minds_eye]
+      suffixes: [DR, ME]
+    - keywords: [deathspeaker, death_and_madness]
+      suffixes: [DS, DaM]
+  choice_singletons:
+    - keyword: voidtouched
+      suffix: VT
+  idols:
+    - yshaarj
+    - nzoth
+    - yogg
+    - cthun
