@@ -1,7 +1,5 @@
 import os
 import importlib.util
-import shutil
-import math
 
 
 def load_ttm_module(root_dir):
@@ -168,7 +166,7 @@ def test_convert_builds_already_generated(tmp_path, monkeypatch, capsys):
 
     # calling convert_builds should detect signature and return early
     ttm.convert_builds(str(profile))
-    captured = capsys.readouterr()
+    capsys.readouterr()
     # file should be unchanged (still start with signature)
     with open(profile, "r", encoding="utf8") as f:
         contents = f.read()
