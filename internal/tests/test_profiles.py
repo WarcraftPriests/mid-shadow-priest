@@ -1,5 +1,6 @@
 import types
 from pathlib import Path
+import shutil
 
 
 import profiles
@@ -146,16 +147,36 @@ def test_build_stats_files(tmp_path, monkeypatch):
 
 
 def test_create_talent_builds_and_replace_talents(tmp_path, monkeypatch):
-    # write a small internal/talents.yml inside tmp cwd
-    monkeypatch.chdir(tmp_path)
-    ty = Path("internal") / "talents.yml"
-    ty.parent.mkdir(parents=True, exist_ok=True)
-    ty.write_text(
-        "builds:\n  mybuild: '1/2/3'\ngenerated:\n  g1: '4/5/6'\n"
-    )
-    profiles.config = {"forceHeroTalents": True, "hero": {"mybuild": {"mybuild": "HT"}}}
-    out = profiles.create_talent_builds()
-    assert 'profileset."mybuild"' in out
+    # protect repo-level internal/talents.yml from accidental overwrite
+    repo_root = Path(__file__).resolve().parents[2]
+    repo_talents = repo_root / "internal" / "talents.yml"
+    backup_path = None
+    if repo_talents.exists():
+        backup_path = tmp_path / "talents.yml.bak"
+        shutil.copy(repo_talents, backup_path)
+    try:
+        # write a small internal/talents.yml inside tmp cwd
+        monkeypatch.chdir(tmp_path)
+        ty = Path("internal") / "talents.yml"
+        ty.parent.mkdir(parents=True, exist_ok=True)
+        ty.write_text(
+            "builds:\n  mybuild: '1/2/3'\ngenerated:\n  g1: '4/5/6'\n"
+        )
+        profiles.config = {"forceHeroTalents": True, "hero": {"mybuild": {"mybuild": "HT"}}}
+        out = profiles.create_talent_builds()
+        assert 'profileset."mybuild"' in out
+    finally:
+        # restore any repo-level talents.yml that existed
+        if backup_path and backup_path.exists():
+            repo_talents.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy(backup_path, repo_talents)
+        else:
+            # if the test somehow created a repo-level file, remove it
+            if repo_talents.exists():
+                try:
+                    repo_talents.unlink()
+                except Exception:
+                    pass
 
 
 def test_replace_gear_variants(tmp_path, monkeypatch):
@@ -198,9 +219,27 @@ def test_build_profiles_basic(tmp_path, monkeypatch):
     sim_file = d / "base.simc"
     sim_file.write_text("LINE1\n${apl}\n${builds}\n")
 
-    # create internal/overrides.simc
-    Path("internal").mkdir(exist_ok=True)
-    (Path("internal") / "overrides.simc").write_text("OVR\n")
+    # create internal/overrides.simc inside tmp cwd (protect repo file)
+    repo_root = Path(__file__).resolve().parents[2]
+    repo_over = repo_root / "internal" / "overrides.simc"
+    backup_over = None
+    if repo_over.exists():
+        backup_over = tmp_path / "overrides.simc.bak"
+        shutil.copy(repo_over, backup_over)
+    try:
+        Path("internal").mkdir(exist_ok=True)
+        (Path("internal") / "overrides.simc").write_text("OVR\n")
+    finally:
+        # restore repo-level overrides if necessary
+        if backup_over and backup_over.exists():
+            repo_over.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy(backup_over, repo_over)
+        else:
+            if repo_over.exists():
+                try:
+                    repo_over.unlink()
+                except Exception:
+                    pass
 
     # monkeypatch find_weights to only enable one profile
     def fake_find(_):
@@ -323,8 +362,26 @@ def test_build_profiles_skips_when_all_weights_zero(tmp_path, monkeypatch):
     (d / "profiles").mkdir()
     (d / "output").mkdir()
     (d / "base.simc").write_text("L1\n${apl}\n${builds}\n")
-    Path("internal").mkdir(exist_ok=True)
-    (Path("internal") / "overrides.simc").write_text("O\n")
+    # protect repo-level overrides.simc while creating test file
+    repo_root = Path(__file__).resolve().parents[2]
+    repo_over = repo_root / "internal" / "overrides.simc"
+    backup_over = None
+    if repo_over.exists():
+        backup_over = tmp_path / "overrides.simc.bak"
+        shutil.copy(repo_over, backup_over)
+    try:
+        Path("internal").mkdir(exist_ok=True)
+        (Path("internal") / "overrides.simc").write_text("O\n")
+    finally:
+        if backup_over and backup_over.exists():
+            repo_over.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy(backup_over, repo_over)
+        else:
+            if repo_over.exists():
+                try:
+                    repo_over.unlink()
+                except Exception:
+                    pass
 
     profiles.config = {
         "sims": {profiles.args.dir[:-1]: {"files": ["base.simc"], "weights": True, "gearOverride": "none"}},
@@ -378,8 +435,26 @@ def test_build_profiles_with_talents(tmp_path, monkeypatch):
     (d / "profiles" / "t1").mkdir(parents=True, exist_ok=True)
     (d / "output").mkdir()
     (d / "base.simc").write_text("HEADER\n${apl}\n${builds}\n${talents}\n")
-    Path("internal").mkdir(exist_ok=True)
-    (Path("internal") / "overrides.simc").write_text("OVERRIDE\n")
+    # protect repo-level overrides.simc while creating test file
+    repo_root = Path(__file__).resolve().parents[2]
+    repo_over = repo_root / "internal" / "overrides.simc"
+    backup_over = None
+    if repo_over.exists():
+        backup_over = tmp_path / "overrides.simc.bak"
+        shutil.copy(repo_over, backup_over)
+    try:
+        Path("internal").mkdir(exist_ok=True)
+        (Path("internal") / "overrides.simc").write_text("OVERRIDE\n")
+    finally:
+        if backup_over and backup_over.exists():
+            repo_over.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy(backup_over, repo_over)
+        else:
+            if repo_over.exists():
+                try:
+                    repo_over.unlink()
+                except Exception:
+                    pass
     # provide a minimal talents.yml so create_talent_builds can run
     ty = Path("internal") / "talents.yml"
     ty.parent.mkdir(parents=True, exist_ok=True)

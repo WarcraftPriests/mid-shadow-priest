@@ -48,7 +48,7 @@ def get_hero_builds(ht, cds, idols):
     # overwriting this for now to limit combos
     hero_talent_combos = list(config["hero"][ht].keys())
     if ht == "AR":
-        hero_talent_combos = ["AR_EC_SW", "AR_SP_SW", "AR_EC_RP", "AR_SP_RP"]
+        hero_talent_combos = ["AR_EC_SW", "AR_SP_SW"]
     if ht == "VW":
         hero_talent_combos = ["VW_VE", "VW_DH"]
     return [
