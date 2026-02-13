@@ -134,6 +134,11 @@ def convert_builds(profile):
         line = line.replace(" 21211", "_" + suffix)
         line = line.replace(" 21111", "_" + suffix)
 
+        line = line.replace(" 12111", "_" + suffix)
+        line = line.replace(" 12211", "_" + suffix)
+        line = line.replace(" 11211", "_" + suffix)
+        line = line.replace(" 11111", "_" + suffix)
+
         if apply_rules(line):
             continue
 
@@ -152,8 +157,8 @@ def convert_builds(profile):
             f'profileset."{TALENT}', f'profileset."{TALENT}{IDOLS_USED}'
         )
 
-        # ONLY ALLOW 3 IDOL BUILDS
-        if IDOLS_COUNT > 2 and line not in lines_seen:
+        # ONLY ALLOW 1 IDOL BUILDS
+        if IDOLS_COUNT > 0 and line not in lines_seen:
             lines_seen.add(line)
             OUTPUT_FILE = OUTPUT_FILE + line
 

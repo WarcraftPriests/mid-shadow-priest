@@ -4,53 +4,53 @@ builds:
     gearSetup: default
     talents:
       composite:
-        name: AR_EC_VF_nzoth_yogg_cthun_3150313537527279_IN_IV_DR
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAgxDYzMGLzMMz2MDzwmBzMzYDZGLmpBYGgZWMjmNDAZMWAwMDyYmZGz2YGAMTA
+        name: AR_EC_VF_nzoth_2378395563447791_IN_IV_DR
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMYYAAAAAAAAAAAAwYbmxYZMmZ2MjZG2MYmZGbIzYxMNAGgZWMjmNDAZMWAwMjZYMzMjZjZAwMA
       dungeons:
-        name: AR_EC_VF_nzoth_yogg_cthun_3150313537527279_Mis_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAgxDYxMGLzMMzyMDzwmBzMzYDZGLmpBYGgZWMjmNDAZMWAwMDyYmZGz2YGAMTA
+        name: AR_EC_VF_nzoth_2378395420843519_Mis_IV_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMYYAAAAAAAAAAAAwYZmZGLzMmZWMjZG2MYmZGbIzYxMNAGgZWMjmNDAZMWAwMDDjZmZMbMDAmB
       single:
-        name: AR_EC_VF_nzoth_yogg_cthun_3150313537527789_IN_IV_DR
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAgxDYzMGLzMY2mZGzwmBzMzYDZGLmpBYGgZWMjmNDAZMWAwMDyYmZGz2YGAMTA
+        name: AR_EC_VF_nzoth_2378395563448301_IN_IV_DR
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMYYAAAAAAAAAAAAwYbmxYZMGzmZmZG2MYmZGbIzYxMNAGgZWMjmNDAZMWAwMjZYMzMjZjZAwMA
       2t:
-        name: AR_EC_VF_nzoth_yogg_cthun_3150313537527279_IN_IV_DR
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAgxDYzMGLzMMz2MDzwmBzMzYDZGLmpBYGgZWMjmNDAZMWAwMDyYmZGz2YGAMTA
+        name: AR_EC_VF_nzoth_2378395420849663_Mis_IV_DR
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMYYAAAAAAAAAAAAwYbmZGLjxMziZMzwmBzMzYDZGLmpBwAMziZ0sZAIjxCAmZGDjZmZMbMDAmBA
       3t:
-        name: AR_EC_VF_nzoth_yogg_cthun_3150313537527279_IN_IV_DR
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAgxDYzMGLzMMz2MDzwmBzMzYDZGLmpBYGgZWMjmNDAZMWAwMDyYmZGz2YGAMTA
+        name: AR_EC_VF_nzoth_2378395420849663_Mis_IV_DR
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMYYAAAAAAAAAAAAwYbmZGLjxMziZMzwmBzMzYDZGLmpBwAMziZ0sZAIjxCAmZGDjZmZMbMDAmBA
       8t:
-        name: AR_EC_VF_nzoth_yogg_cthun_3150313537527279_IN_IV_DR
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAgxDYzMGLzMMz2MDzwmBzMzYDZGLmpBYGgZWMjmNDAZMWAwMDyYmZGz2YGAMTA
+        name: AR_EC_VF_nzoth_2378395420843519_Mis_IV_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMYYAAAAAAAAAAAAwYZmZGLzMmZWMjZG2MYmZGbIzYxMNAGgZWMjmNDAZMWAwMDDjZmZMbMDAmB
   voidweaver:
     gearSetup: default
     name: Voidweaver
     talents:
       composite:
-        name: VW_DH_VW_VF_yshaarj_nzoth_yogg_3977567263841775_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMjZMGAAAAAAAAAAAADLzMGLzMMz2MDzwmBzMzYDZGLmpBYmZGAIAz2sJY2YAGjRGzMzY2GzAGMTA
+        name: VW_DH_VR_TV_VF_nzoth_2378395563447791_IN_IV_DR
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMYYAAAAAAAAAAAAwYbmxYZMmZ2MjZG2MYmZGbIzYxMNAmxAABY2mNBzGDwMjZYMzMjZjZgZwMA
       dungeons:
-        name: VW_DH_VW_VF_yshaarj_nzoth_yogg_3977567263841775_Mis_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMjZMGAAAAAAAAAAAADLzMGLzMMzyMDzwmBzMzYDZGLmpBYmZGAIAz2sJY2YAGjRGzMzY2GzAGMTA
+        name: VW_DH_VR_TV_VF_nzoth_2378395429230079_Mis_IV_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMYYAAAAAAAAAAAAwYZmZGLjxMziZMzwmBzMzYDZGLmpBwMGAIAz2sJY2YAmZ8ADjZmZMbMDMDmBA
       single:
-        name: VW_DH_VW_VF_yshaarj_nzoth_yogg_3977567263842285_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMjZMGAAAAAAAAAAAADLzMGLzMY2mZGzwmBzMzYDZGLmpBYmZGAIAz2sJY2YAGjRGzMzY2GzAGMTA
+        name: VW_DH_VR_TV_VF_nzoth_2378395563448301_IN_IV_DR
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMYYAAAAAAAAAAAAwYbmxYZMGzmZmZG2MYmZGbIzYxMNAmxAABY2mNBzGDwMjZYMzMjZjZgZwMA
       2t:
-        name: VW_DH_VW_VF_yshaarj_nzoth_yogg_3977567263841775_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMjZMGAAAAAAAAAAAADLzMGLzMMz2MDzwmBzMzYDZGLmpBYmZGAIAz2sJY2YAGjRGzMzY2GzAGMTA
+        name: VW_DH_VR_TV_VF_nzoth_2378395429230079_Mis_IV_DR
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMYYAAAAAAAAAAAAwYbmZGLjxMziZMzwmBzMzYDZGLmpBwMGAIAz2sJY2YAmZ8ADjZmZMbMDMDmBA
       3t:
-        name: VW_DH_VW_VF_yshaarj_nzoth_yogg_3977567263841775_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMjZMGAAAAAAAAAAAADLzMGLzMMz2MDzwmBzMzYDZGLmpBYmZGAIAz2sJY2YAGjRGzMzY2GzAGMTA
+        name: VW_DH_VR_TV_VF_nzoth_2378395429230079_Mis_IV_DR
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMYYAAAAAAAAAAAAwYbmZGLjxMziZMzwmBzMzYDZGLmpBwMGAIAz2sJY2YAmZ8ADjZmZMbMDMDmBA
       8t:
-        name: VW_DH_VW_VF_yshaarj_nzoth_yogg_3977567263841775_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMjZMGAAAAAAAAAAAADLzMGLzMMz2MDzwmBzMzYDZGLmpBYmZGAIAz2sJY2YAGjRGzMzY2GzAGMTA
+        name: VW_DH_VR_TV_VF_yshaarj_nzoth_3486703284245999_Mis_IV_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMDDPAAAAAAAAAAAAAGLzMGLjxMziZMzwmBzMzYDZGLmpBwMGAIAz2sJY2YAmZMDjZmZMbMDMDmBA
 hero:
   AR:
     AR_SP: "halo:1/perfected_form:1/power_surge:1/manifested_power:1/incessant_screams:1/energy_conservation:1/empowered_surges:1/sustained_potency:1/resonant_energy:1/energy_cycle:1/divine_halo:1"
     AR_EC: "halo:1/perfected_form:1/power_surge:1/manifested_power:1/incessant_screams:1/energy_conservation:1/empowered_surges:1/energy_compression:1/resonant_energy:1/energy_cycle:1/divine_halo:1"
     AR_SW: "halo:1/power_surge:1/manifested_power:1/focused_outburst:1/energy_conservation:1/empowered_surges:1/word_of_supremacy:1/resonant_energy:1/energy_cycle:1/spiritwell:1/divine_halo:1"
   VW:
-    VW_DH_TV: "void_torrent:1/dark_energy:1/void_blast:1/inner_quietus:1/voidheart:1/devour_matter:1/darkening_horizon:1/touch_of_the_void:1/quickened_pulse:1/void_infusion:1/collapsing_void:1"
-    VW_DH_VW: "void_torrent:1/dark_energy:1/void_blast:1/inner_quietus:1/voidheart:1/devour_matter:1/darkening_horizon:1/voidwraith:1/quickened_pulse:1/void_infusion:1/collapsing_void:1"
+    VW_DH_VR_TV: "void_torrent:1/dark_energy:1/void_blast:1/inner_quietus:1/voidheart:1/devour_matter:1/darkening_horizon:1/touch_of_the_void:1/quickened_pulse:1/voidwraith:1/collapsing_void:1"
+    VW_DH_VR_VI: "void_torrent:1/dark_energy:1/void_blast:1/inner_quietus:1/voidheart:1/devour_matter:1/darkening_horizon:1/voidwraith:1/quickened_pulse:1/void_infusion:1/collapsing_void:1"
 gear:
   # x Mastery | x Haste | x Crit | x Vers
   default:

@@ -1,9 +1,9 @@
 priest="Base"
-level=90
+level=80
 role=spell
 position=back
 spec=shadow
-talents=CIQAcD2s+TwUNPc7av5HWi+FHaMzyYAAAAAAAAAAAAmxsMGzsNzYmZbmhZmhZGzMzwYyAz0AMzMDAEgZb2WCmNGAYwYmHYmZ2mZGgZGgZmZA
+talents=CIQAAAAAAAAAAAAAAAAAAAAAAMYYAAAAAAAAAAAAwYZmZGLzMmZ2MjHYG2MYmZGbIzYxMNAmxAABY2mNBzGDwYMDjZmZMbMDMDmBA
 
 ${apl}
 

@@ -62,13 +62,14 @@ def get_builds():
     vw_cds = ["VF", "NOCD"]
     # Archon and Voidweaver can have different Idol options, manually splitting
     ar_idols = [
-        "nzoth_yogg_cthun",
+        "yshaarj_nzoth"
+        "nzoth",
     ]
     combos.extend(get_hero_builds("AR", ar_cds, ar_idols))
     ## Voidweaver
     vw_idols = [
-        "nzoth_yogg_cthun",
-        "yshaarj_nzoth_yogg"
+        "nzoth",
+        "yshaarj_nzoth"
     ]
     combos.extend(get_hero_builds("VW", vw_cds, vw_idols))
     return combos
