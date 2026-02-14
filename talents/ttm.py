@@ -212,11 +212,13 @@ def convert_builds(profile):
             if idol in line:
                 idols_used.append(idol)
         idols_count = len(idols_used)
-        idols_suffix = ("_" + "_".join(idols_used)) if len(idols_used) > 1 else ""
+        # prefix with underscore and join any used idols with underscores;
+        # for a single idol this yields e.g. "_nzoth", for multiple "_yshaarj_nzoth"
+        idols_suffix = ("_" + "_".join(idols_used)) if idols_used else ""
         line = line.replace(f'profileset."{TALENT}', f'profileset."{TALENT}{idols_suffix}')
 
-        # ONLY ALLOW 3 IDOL BUILDS
-        if idols_count > 2 and line not in lines_seen:
+        # ONLY ALLOW 1+ IDOL BUILDS
+        if idols_count > 0 and line not in lines_seen:
             lines_seen.add(line)
             output_file_content += line
 

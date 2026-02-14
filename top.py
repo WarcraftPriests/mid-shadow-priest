@@ -59,7 +59,7 @@ def get_hero_builds(ht, cds, idols):
 def get_builds():
     combos = []
     ar_cds = ["VF"]
-    vw_cds = ["VF", "NOCD"]
+    vw_cds = ["VF"]
     # Archon and Voidweaver can have different Idol options, manually splitting
     ar_idols = [
         "nzoth_yogg_cthun",
@@ -192,7 +192,7 @@ if __name__ == "__main__":
 
     # Setup Vars
     build_configs = get_builds()
-    combos = [(cd, filler) for cd in build_configs for filler in ["_ME", "_DR"]]  # noqa: E501
+    combos = [(cd, filler) for cd in build_configs for filler in ["_ME", "_DR", "_ME_VT", "_DR_VT"]]  # noqa: E501
     results = utils.get_sim_types()
     push_results = list(utils.get_dungeon_combos())
 
