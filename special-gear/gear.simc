@@ -104,13 +104,31 @@ profileset."Neck_Thalassian_Phoenix_Torque_285"+=neck=thalassian_phoenix_torque,
 profileset."Neck_Voidstone_Shielding_Array_285"+=neck=voidstone_shielding_array,id=251073,ilevel=285,gem_id=${gems.peridot}/${gems.garnet}
 
 ## Inscription
-# TBD
+profileset."2H_Alnhara_Cane_285"+=main_hand=alnhara_cane,id=245770,ilevel=285,bonus_id=8793,enchant=${enchants.main_hand}
+profileset."2H_Alnhara_Cane_285"+=off_hand=disabled
+
+profileset."OH_Alnhara_Lantern_285"+=main_hand=belomelorn_the_shattered_talon,id=249283,ilevel=289,enchant=${enchants.main_hand}
+profileset."OH_Alnhara_Lantern_285"+=off_hand=alnhara_lantern,id=245769,ilevel=285,bonus_id=8793
+
+### Blood: 12705 | Hunt: 12693 | Rot: 12692 | Void: 13640
+profileset."Embellishment_Darkmoon_Sigil_Blood"+=main_hand=belomelorn_the_shattered_talon,id=249283,ilevel=289,enchant=${enchants.main_hand}
+profileset."Embellishment_Darkmoon_Sigil_Blood"+=off_hand=alnhara_lantern,id=245769,ilevel=285,bonus_id=8793/12705
+
+profileset."Embellishment_Darkmoon_Sigil_Hunt"+=main_hand=belomelorn_the_shattered_talon,id=249283,ilevel=289,enchant=${enchants.main_hand}
+profileset."Embellishment_Darkmoon_Sigil_Hunt"+=off_hand=alnhara_lantern,id=245769,ilevel=285,bonus_id=8793/12693
+
+profileset."Embellishment_Darkmoon_Sigil_Rot"+=main_hand=belomelorn_the_shattered_talon,id=249283,ilevel=289,enchant=${enchants.main_hand}
+profileset."Embellishment_Darkmoon_Sigil_Rot"+=off_hand=alnhara_lantern,id=245769,ilevel=285,bonus_id=8793/12692
+
+profileset."Embellishment_Darkmoon_Sigil_Void"+=main_hand=belomelorn_the_shattered_talon,id=249283,ilevel=289,enchant=${enchants.main_hand}
+profileset."Embellishment_Darkmoon_Sigil_Void"+=off_hand=alnhara_lantern,id=245769,ilevel=285,bonus_id=8793/13640
 
 ## Engineering
 # TBD
 
 ## Enchanting
-# TBD
+profileset."1H_Magisters_Grand_Focus_285"+=main_hand=magisters_grand_focus,id=244179,ilevel=285,bonus_id=8793,enchant=${enchants.main_hand}
+profileset."1H_Magisters_Grand_Focus_285"+=off_hand=off_hand=tome_of_alnscorned_regret,id=249922,ilevel=289
 
 ## Base Items
 ### 8793 - mastery + haste

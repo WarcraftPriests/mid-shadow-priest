@@ -1,2 +1,4 @@
 
 # Overrides are added below here
+override.spell_data=effect.285130.base_value=20
+override.spell_data=effect.285131.base_value=20
