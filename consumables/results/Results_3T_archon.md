@@ -1,17 +1,17 @@
 # 3T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Blooming_Feast|152986|1.94%|
-|Warped_Wise_Wings|152212|1.42%|
-|Arcano_Cutlets|152169|1.39%|
-|Eversong_Pudding|152122|1.36%|
-|Silvermoon_Standard|151944|1.24%|
-|Spiced_Biscuits|151936|1.24%|
-|Void_Kissed_Fish_Rolls|151819|1.16%|
-|Void_Touched_Augment_Rune|151491|0.94%|
-|Hearthflame_Supper|151100|0.68%|
-|Base|150081|0.00%|
-|Bloodthistle_wrapped_Cutlets|144818|-3.51%|
-|Fel_Kissed_Filet|144808|-3.51%|
-|Bloom_Skewers|144749|-3.55%|
-|Quick_Sandwich|144679|-3.60%|
+|Blooming_Feast|151251|2.08%|
+|Arcano_Cutlets|150238|1.39%|
+|Warped_Wise_Wings|150238|1.39%|
+|Eversong_Pudding|150179|1.35%|
+|Spiced_Biscuits|150079|1.29%|
+|Silvermoon_Standard|150056|1.27%|
+|Bloodthistle_wrapped_Cutlets|149962|1.21%|
+|Void_Kissed_Fish_Rolls|149867|1.14%|
+|Quick_Sandwich|149796|1.09%|
+|Bloom_Skewers|149766|1.07%|
+|Fel_Kissed_Filet|149711|1.04%|
+|Void_Touched_Augment_Rune|149707|1.03%|
+|Hearthflame_Supper|149215|0.70%|
+|Base|148174|0.00%|
