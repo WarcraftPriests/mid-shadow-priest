@@ -217,8 +217,8 @@ def convert_builds(profile):
         idols_suffix = ("_" + "_".join(idols_used)) if idols_used else ""
         line = line.replace(f'profileset."{TALENT}', f'profileset."{TALENT}{idols_suffix}')
 
-        # ONLY ALLOW 1+ IDOL BUILDS
-        if idols_count > 0 and line not in lines_seen:
+        # ONLY ALLOW 3+ IDOL BUILDS
+        if idols_count > 2 and line not in lines_seen:
             lines_seen.add(line)
             output_file_content += line
 
