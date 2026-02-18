@@ -54,3 +54,7 @@ profileset."Variable_Pulse_Lightning_Capacitor_263"+=trinket1=variable_pulse_lig
 profileset."The_Skull_of_Guldan_263"+=trinket1=the_skull_of_guldan,id=150522,ilevel=263
 profileset."Burst_of_Knowledge_276"+=trinket1=burst_of_knowledge,id=231424,ilevel=276
 profileset."Doperels_Calling_Rune_276"+=trinket1=doperels_calling_rune,id=231476,ilevel=276
+profileset."Darkmoon_Dominion_Blood_285"+=trinket1=darkmoon_dominion_blood,id=246305,ilevel=285
+profileset."Darkmoon_Dominion_Hunt_285"+=trinket1=darkmoon_dominion_hunt,id=246304,ilevel=285
+profileset."Darkmoon_Dominion_Rot_285"+=trinket1=darkmoon_dominion_rot,id=246306,ilevel=285
+profileset."Darkmoon_Dominion_Void_285"+=trinket1=darkmoon_dominion_void,id=246307,ilevel=285

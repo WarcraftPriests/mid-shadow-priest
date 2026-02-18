@@ -32,9 +32,9 @@ profileset."Eye_of_the_Drowning_Void_289"+=trinket1=eye_of_the_drowning_void,id=
 profileset."Soulcatchers_Charm_263"+=trinket1=soulcatchers_charm,id=250223,ilevel=263
 profileset."Soulcatchers_Charm_276"+=trinket1=soulcatchers_charm,id=250223,ilevel=276
 profileset."Soulcatchers_Charm_289"+=trinket1=soulcatchers_charm,id=250223,ilevel=289
-profileset."Vessel_of_Souls_263"+=trinket1=vessel_of_souls,id=250258,ilevel=263
-profileset."Vessel_of_Souls_276"+=trinket1=vessel_of_souls,id=250258,ilevel=276
-profileset."Vessel_of_Souls_289"+=trinket1=vessel_of_souls,id=250258,ilevel=289
+profileset."Vessel_of_Tortured_Souls_263"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=263
+profileset."Vessel_of_Tortured_Souls_276"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=276
+profileset."Vessel_of_Tortured_Souls_289"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=289
 profileset."Emberwing_Feather_263"+=trinket1=emberwing_feather,id=250144,ilevel=263
 profileset."Emberwing_Feather_276"+=trinket1=emberwing_feather,id=250144,ilevel=276
 profileset."Emberwing_Feather_289"+=trinket1=emberwing_feather,id=250144,ilevel=289

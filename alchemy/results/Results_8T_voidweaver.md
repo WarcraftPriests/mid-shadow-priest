@@ -1,18 +1,18 @@
 # 8T - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Draught_of_Rampant_Abandon_2|475544|21.14%|
-|Lights_Potential_2|467436|19.08%|
-|Draught_of_Rampant_Abandon_1|463303|18.02%|
-|Lights_Potential_1|456138|16.20%|
-|Potion_of_Recklessness_2|451546|15.03%|
-|Potion_of_Recklessness_1|447525|14.00%|
-|Flask_of_the_Magisters_2|407248|3.74%|
-|Flask_of_the_Shattered_Sun_2|407145|3.72%|
-|Flask_of_the_Magisters_1|405537|3.31%|
-|Flask_of_the_Shattered_Sun_1|405474|3.29%|
-|Flask_of_Thalassian_Resistance_2|403815|2.87%|
-|Flask_of_Thalassian_Resistance_1|403012|2.67%|
-|Flask_of_the_Blood_Knights_2|401954|2.40%|
-|Flask_of_the_Blood_Knights_1|401022|2.16%|
-|Base|392550|0.00%|
+|Draught_of_Rampant_Abandon_2|475743|21.29%|
+|Lights_Potential_2|467273|19.14%|
+|Draught_of_Rampant_Abandon_1|463307|18.12%|
+|Lights_Potential_1|456247|16.32%|
+|Potion_of_Recklessness_2|451187|15.03%|
+|Potion_of_Recklessness_1|447580|14.11%|
+|Flask_of_the_Magisters_2|407297|3.84%|
+|Flask_of_the_Shattered_Sun_2|407091|3.79%|
+|Flask_of_the_Magisters_1|405867|3.48%|
+|Flask_of_the_Shattered_Sun_1|405497|3.39%|
+|Flask_of_Thalassian_Resistance_2|403990|3.00%|
+|Flask_of_Thalassian_Resistance_1|403449|2.86%|
+|Flask_of_the_Blood_Knights_2|401827|2.45%|
+|Flask_of_the_Blood_Knights_1|400942|2.22%|
+|Base|392220|0.00%|

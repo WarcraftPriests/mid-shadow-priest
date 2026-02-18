@@ -9,7 +9,7 @@ combos = {
     # s1 dungeons (276/289)
     "Eye_of_the_Drowning_Void_289": "eye_of_the_drowning_void,id=250257,ilevel=289",
     "Soulcatchers_Charm_289": "soulcatchers_charm,id=250223,ilevel=289",
-    "Vessel_of_Souls_289": "vessel_of_souls,id=250258,ilevel=289",
+    "Vessel_of_Tortured_Souls_289": "vessel_of_tortured_souls,id=250258,ilevel=289",
     "Emberwing_Feather_289": "emberwing_feather,id=250144,ilevel=289",
     "Heart_of_Wind_289": "heart_of_wind,id=250256,ilevel=289",
     # "Emerald_Coachs_Whistle_289": "emerald_coachs_whistle,id=193718,ilevel=289",

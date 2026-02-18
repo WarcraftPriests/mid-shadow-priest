@@ -5,6 +5,7 @@ item_levels:
   delves: [263, 276]
   dungeons_both: [263, 276, 289]
   dungeons: [276, 289]
+  crafted: [285]
 dungeons:
   item_levels: "dungeons"
   trinkets:
@@ -15,7 +16,7 @@ dungeons:
       name: "Soulcatchers_Charm"
       item_levels: dungeons_both
     - id: 250258
-      name: "Vessel_of_Souls"
+      name: "Vessel_of_Tortured_Souls"
       item_levels: dungeons_both
     - id: 250144
       name: "Emberwing_Feather"
@@ -93,6 +94,18 @@ other:
     - id: 231476
       name: "Doperels_Calling_Rune"
       item_levels: hero
+    - id: 246305
+      name: Darkmoon_Dominion_Blood
+      item_levels: crafted
+    - id: 246304
+      name: Darkmoon_Dominion_Hunt
+      item_levels: crafted 
+    - id: 246306
+      name: Darkmoon_Dominion_Rot
+      item_levels: crafted 
+    - id: 246307
+      name: Darkmoon_Dominion_Void
+      item_levels: crafted 
 raid:
   item_levels: "raid"
   trinkets:

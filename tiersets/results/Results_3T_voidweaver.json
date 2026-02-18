@@ -1,1 +1,1 @@
-{"name": "3T - voidweaver", "data": {"MID1-2_4-set": {"DPS": 152605}, "MID1-2-set": {"DPS": 147941}, "Base": {"DPS": 140377}}, "ids": {"MID1-2_4-set": null, "MID1-2-set": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["MID1-2_4-set", "MID1-2-set"], "last_updated": "2026-02-14"}
+{"name": "3T - voidweaver", "data": {"MID1-2_4-set": {"DPS": 152568}, "MID1-2-set": {"DPS": 147930}, "Base": {"DPS": 140390}}, "ids": {"MID1-2_4-set": null, "MID1-2-set": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["MID1-2_4-set", "MID1-2-set"], "last_updated": "2026-02-16"}
