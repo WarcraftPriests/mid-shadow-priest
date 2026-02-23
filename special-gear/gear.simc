@@ -9,7 +9,7 @@ spec_talents+=/s1264096:1/s1264104:2/s1264107:1
 ${apl}
 
 head=${gear.head},gem_id=${gems.meta},enchant=${enchants.head}
-neck=${gear.neck},gem_id=${gems.peridot}/${gems.garnet}
+neck=${gear.neck},gem_id=${gems.peridot}
 shoulders=${gear.shoulders}
 back=${gear.back}
 chest=${gear.chest},enchant=${enchants.chest}
@@ -18,8 +18,8 @@ hands=${gear.hands}
 waist=${gear.waist},gem_id=${gems.lapis}
 legs=${gear.legs},enchant=${enchants.legs}
 feet=${gear.feet}
-finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
-finger2=${gear.finger2},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.garnet}
+finger2=${gear.finger2},enchant=${enchants.ring},gem_id=${gems.main}
 trinket1=${gear.trinket1}
 trinket2=${gear.trinket2}
 main_hand=${gear.main_hand},enchant=${enchants.main_hand}
@@ -28,18 +28,18 @@ ${gear.off_hand}
 
 # Season 1 Cantrip Items
 ## The Voidspire
-profileset."Neck_Eternal_Voidsong_Chain_289"+=neck=eternal_voidsong_chain,id=249368,ilevel=289,gem_id=${gems.peridot}/${gems.garnet}
+profileset."Neck_Eternal_Voidsong_Chain_289"+=neck=eternal_voidsong_chain,id=249368,ilevel=289,gem_id=${gems.peridot}
 
 ## March on Isle of Quel'Danas
-profileset."Finger1_Eye_of_Midnight_289"+=finger1=eye_of_midnight,id=249920,ilevel=289,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+profileset."Finger1_Eye_of_Midnight_289"+=finger1=eye_of_midnight,id=249920,ilevel=289,enchant=${enchants.ring},gem_id=${gems.garnet}/${gems.main}
 profileset."Finger2_Eye_of_Midnight_289"+=finger2=eye_of_midnight,id=249920,ilevel=289,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
 
 ## Nexus-Point Xenas
-profileset."Fingers_Occulsion_Set_289"+=finger1=occulsion_of_void,id=251217,ilevel=289,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
-profileset."Fingers_Occulsion_Set_289"+=finger2=omission_of_light,id=251093,ilevel=289,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+profileset."Fingers_Omission_Occlusion_Set_289"+=finger1=occlusion_of_void,id=251217,ilevel=289,enchant=${enchants.ring},gem_id=${gems.garnet}
+profileset."Fingers_Omission_Occlusion_Set_289"+=finger2=omission_of_light,id=251093,ilevel=289,enchant=${enchants.ring},gem_id=${gems.main}
 
-profileset."Fingers_Occulsion_Set_276"+=finger1=occulsion_of_void,id=251217,ilevel=276,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
-profileset."Fingers_Occulsion_Set_276"+=finger2=omission_of_light,id=251093,ilevel=276,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+profileset."Fingers_Omission_Occlusion_Set_276"+=finger1=occlusion_of_void,id=251217,ilevel=276,enchant=${enchants.ring},gem_id=${gems.garnet}
+profileset."Fingers_Omission_Occlusion_Set_276"+=finger2=omission_of_light,id=251093,ilevel=276,enchant=${enchants.ring},gem_id=${gems.main}
 
 # Season 1 Crafted - 285 Item Level
 ## Embellishments
@@ -90,18 +90,18 @@ profileset."Waist_Sunfire_Sash_285"+=waist=sunfire_sash,id=239663,ilevel=285,gem
 
 ## Jewelcrafting
 ### Signet of Azerothian Blessings
-profileset."Finger1_Signet_of_Azerothian_Blessings_285"+=finger1=signet_of_azerothian_blessings,id=241140,ilevel=285,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
-profileset."Finger2_Signet_of_Azerothian_Blessings_285"+=finger2=signet_of_azerothian_blessings,id=241140,ilevel=285,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+profileset."Finger1_Signet_of_Azerothian_Blessings_285"+=finger1=signet_of_azerothian_blessings,id=241140,ilevel=285,enchant=${enchants.ring},gem_id=${gems.garnet}
+profileset."Finger2_Signet_of_Azerothian_Blessings_285"+=finger2=signet_of_azerothian_blessings,id=241140,ilevel=285,enchant=${enchants.ring},gem_id=${gems.main}
 
 ### Loa Worshiper's Band
-profileset."Finger1_Loa_Worshipers_Band_285"+=finger1=loa_worshipers_band,id=251513,ilevel=285,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
-profileset."Finger2_Loa_Worshipers_Band_285"+=finger2=loa_worshipers_band,id=251513,ilevel=285,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+profileset."Finger1_Loa_Worshipers_Band_285"+=finger1=loa_worshipers_band,id=251513,ilevel=285,enchant=${enchants.ring},gem_id=${gems.garnet}
+profileset."Finger2_Loa_Worshipers_Band_285"+=finger2=loa_worshipers_band,id=251513,ilevel=285,enchant=${enchants.ring},gem_id=${gems.main}
 
 ### Thalassian Phoenix Torque
-profileset."Neck_Thalassian_Phoenix_Torque_285"+=neck=thalassian_phoenix_torque,id=241139,ilevel=285,gem_id=${gems.peridot}/${gems.garnet}
+profileset."Neck_Thalassian_Phoenix_Torque_285"+=neck=thalassian_phoenix_torque,id=241139,ilevel=285,gem_id=${gems.peridot}
 
 ### Voidstone Shielding Array (Shield on-use / non-damage)
-profileset."Neck_Voidstone_Shielding_Array_285"+=neck=voidstone_shielding_array,id=251073,ilevel=285,gem_id=${gems.peridot}/${gems.garnet}
+profileset."Neck_Voidstone_Shielding_Array_285"+=neck=voidstone_shielding_array,id=251073,ilevel=285,gem_id=${gems.peridot}
 
 ## Inscription
 profileset."2H_Alnhara_Cane_285"+=main_hand=alnhara_cane,id=245770,ilevel=285,bonus_id=8793,enchant=${enchants.main_hand}
@@ -146,6 +146,6 @@ profileset."Martyrs_Vestments_285"+=chest=martyrs_vestments,id=239655,ilevel=285
 profileset."Martyrs_Vestments_285"+=hands=blind_oaths_touch,id=250052,ilevel=289
 profileset."Martyrs_Slippers_285"+=feet=martyrs_slippers,id=239654,ilevel=285,bonus_id=8793
 
-profileset."Neck_Masterwork_Sindorei_Amulet_285"+=neck=masterwork_sindorei_amulet,id=240950,bonus_id=8793,ilevel=285,gem_id=${gems.peridot}/${gems.garnet}
-profileset."Finger1_Masterwork_Sindorei_Band_285"+=finger1=masterwork_sindorei_band,id=240949,bonus_id=8793,ilevel=285,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
-profileset."Finger2_Masterwork_Sindorei_Band_285"+=finger2=masterwork_sindorei_band,id=240949,bonus_id=8793,ilevel=285,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+profileset."Neck_Masterwork_Sindorei_Amulet_285"+=neck=masterwork_sindorei_amulet,id=240950,bonus_id=8793,ilevel=285,gem_id=${gems.peridot}
+profileset."Finger1_Masterwork_Sindorei_Band_285"+=finger1=masterwork_sindorei_band,id=240949,bonus_id=8793,ilevel=285,enchant=${enchants.ring},gem_id=${gems.garnet}
+profileset."Finger2_Masterwork_Sindorei_Band_285"+=finger2=masterwork_sindorei_band,id=240949,bonus_id=8793,ilevel=285,enchant=${enchants.ring},gem_id=${gems.main}

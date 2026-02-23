@@ -1,4 +1,4 @@
-priest="Base"
+priest="tentacle_slam"
 level=90
 role=spell
 position=back
@@ -113,7 +113,7 @@ trinket2=${gear.trinket2}
 main_hand=${gear.main_hand},enchant=${enchants.main_hand}
 ${gear.off_hand}
 
-priest="earlier_vt"
+priest="mind_blast"
 level=90
 role=spell
 position=back
@@ -131,7 +131,7 @@ actions.precombat+=/variable,name=me_force_prio,default=1,op=reset
 actions.precombat+=/variable,name=max_vts,default=12,op=reset
 actions.precombat+=/variable,name=is_vt_possible,default=0,op=reset
 actions.precombat+=/arcane_torrent
-actions.precombat+=/tentacle_slam
+actions.precombat+=/mind_blast
 
 # Executed every time the actor is available.
 actions=variable,name=holding_tentacle_slam,op=set,value=raid_event.adds.in<15
@@ -172,9 +172,6 @@ actions.cds+=/desperate_prayer,if=health.pct<=75
 actions.heal_for_tof=holy_nova,if=talent.lightburst
 
 actions.main=variable,name=dots_up,op=set,value=active_dot.vampiric_touch=active_enemies&active_dot.shadow_word_pain>=active_dot.vampiric_touch,if=active_enemies<3
-actions.main+=/vampiric_touch,target_if=max:(refreshable*10000+target.time_to_die),if=refreshable&target.time_to_die>8
-actions.main+=/mind_blast,target_if=max:dot.shadow_word_madness.remains,if=dot.vampiric_touch.ticking&dot.shadow_word_pain.ticking
-actions.main+=/shadow_word_pain,target_if=min:remains,if=refreshable&target.time_to_die>10
 actions.main+=/call_action_list,name=cds,if=fight_remains<30|target.time_to_die>15&(!variable.holding_tentacle_slam|active_enemies>2)&variable.dots_up
 # High Priority Shadow Word: Death when you are forcing the bonus from Devour Matter
 actions.main+=/shadow_word_death,target_if=max:(target.health.pct<=20)*100+dot.shadow_word_madness.ticking,if=priest.force_devour_matter&talent.devour_matter

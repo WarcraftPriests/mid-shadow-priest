@@ -35,14 +35,14 @@ profileset."Temp_Weapon_Thalassian_Phoenix_Oil_1"+=temporary_enchant=main_hand:t
 profileset."Temp_Weapon_Thalassian_Phoenix_Oil_2"+=temporary_enchant=main_hand:thalassian_phoenix_oil_2
 
 # Legs
-profileset."Legs_Bright_Linen_Spellthread_1"+=legs=${gear.legs},enchant=bright_linen_spellthread_13
-profileset."Legs_Bright_Linen_Spellthread_2"+=legs=${gear.legs},enchant=bright_linen_spellthread_14
+profileset."Legs_Bright_Linen_Spellthread_1"+=legs=${gear.legs},enchant=bright_linen_spellthread_1
+profileset."Legs_Bright_Linen_Spellthread_2"+=legs=${gear.legs},enchant=bright_linen_spellthread_2
 
-profileset."Legs_Arcanoweave_Spellthread_1"+=legs=${gear.legs},enchant=arcanoweave_spellthread_13
-profileset."Legs_Arcanoweave_Spellthread_2"+=legs=${gear.legs},enchant=arcanoweave_spellthread_14
+profileset."Legs_Arcanoweave_Spellthread_1"+=legs=${gear.legs},enchant=arcanoweave_spellthread_1
+profileset."Legs_Arcanoweave_Spellthread_2"+=legs=${gear.legs},enchant=arcanoweave_spellthread_2
 
-profileset."Legs_Sunfire_Silk_Spellthread_1"+=legs=${gear.legs},enchant=sunfire_silk_spellthread_13
-profileset."Legs_Sunfire_Silk_Spellthread_2"+=legs=${gear.legs},enchant=sunfire_silk_spellthread_14
+profileset."Legs_Sunfire_Silk_Spellthread_1"+=legs=${gear.legs},enchant=sunfire_silk_spellthread_1
+profileset."Legs_Sunfire_Silk_Spellthread_2"+=legs=${gear.legs},enchant=sunfire_silk_spellthread_2
 
 # Weapons
 # Primary Stat Proc

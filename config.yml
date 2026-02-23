@@ -90,7 +90,7 @@ gear:
     main_hand: "belomelorn_the_shattered_talon,id=249283,ilevel=289" # haste/mastery
     off_hand: "tome_of_alnscorned_regret,id=249922,ilevel=289" # haste/mastery
 gems:
-  meta: "240967" # Powerful Eversong Diamond
+  meta: "240983" # Indecipherable_Eversong_Diamond_2
   main: "240900" # Flawless Quick Amethyst
   peridot: "240892" # Flawless Masterful Peridot
   garnet: "240908" # Flawless Masterful Garnet
@@ -276,6 +276,7 @@ sims:
       - 250
       - 263
       - 276
+      - 285
       - 289
     files:
       - raid.simc

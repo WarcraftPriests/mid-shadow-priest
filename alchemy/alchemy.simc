@@ -55,5 +55,5 @@ profileset."Lights_Potential_2"+=potion=lights_potential_2
 profileset."Potion_of_Recklessness_1"+=potion=potion_of_recklessness_1
 profileset."Potion_of_Recklessness_2"+=potion=potion_of_recklessness_2
 
-# profileset."Potion_of_Zealotry_1"+=potion=potion_of_zealotry_1
-# profileset."Potion_of_Zealotry_2"+=potion=potion_of_zealotry_2
+profileset."Potion_of_Zealotry_1"+=potion=potion_of_zealotry_1
+profileset."Potion_of_Zealotry_2"+=potion=potion_of_zealotry_2

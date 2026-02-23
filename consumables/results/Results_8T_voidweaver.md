@@ -1,14 +1,14 @@
 # 8T - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|467544|1.82%|
-|Champions_Bento|467458|1.80%|
-|Flora_Frenzy|467445|1.80%|
-|Silvermoon_Parade|467444|1.80%|
-|Blooming_Feast|467371|1.78%|
-|Arcano_Cutlets|465593|1.40%|
-|Void_Kissed_Fish_Rolls|464469|1.15%|
-|Void_Touched_Augment_Rune|463631|0.97%|
-|Fel_Kissed_Filet|462652|0.76%|
-|Warped_Wise_Wings|462129|0.64%|
-|Base|459181|0.00%|
+|Flora_Frenzy|511921|1.79%|
+|Champions_Bento|511897|1.78%|
+|Royal_Roast|511861|1.77%|
+|Blooming_Feast|511810|1.76%|
+|Silvermoon_Parade|511787|1.76%|
+|Arcano_Cutlets|509913|1.39%|
+|Warped_Wise_Wings|509098|1.23%|
+|Void_Kissed_Fish_Rolls|508490|1.10%|
+|Void_Touched_Augment_Rune|507358|0.88%|
+|Fel_Kissed_Filet|506479|0.70%|
+|Base|502935|0.00%|

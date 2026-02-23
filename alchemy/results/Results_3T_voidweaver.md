@@ -1,18 +1,20 @@
 # 3T - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Draught_of_Rampant_Abandon_2|132355|6.35%|
-|Lights_Potential_2|131508|5.67%|
-|Draught_of_Rampant_Abandon_1|131237|5.45%|
-|Lights_Potential_1|130521|4.88%|
-|Potion_of_Recklessness_2|130049|4.50%|
-|Potion_of_Recklessness_1|129840|4.33%|
-|Flask_of_the_Shattered_Sun_2|128862|3.54%|
-|Flask_of_the_Shattered_Sun_1|128521|3.27%|
-|Flask_of_the_Blood_Knights_2|128501|3.25%|
-|Flask_of_the_Blood_Knights_1|128160|2.98%|
-|Flask_of_Thalassian_Resistance_2|128096|2.93%|
-|Flask_of_Thalassian_Resistance_1|127794|2.69%|
-|Flask_of_the_Magisters_2|125087|0.51%|
-|Flask_of_the_Magisters_1|125027|0.46%|
-|Base|124452|0.00%|
+|Draught_of_Rampant_Abandon_2|154410|5.88%|
+|Lights_Potential_2|153539|5.28%|
+|Draught_of_Rampant_Abandon_1|153140|5.01%|
+|Lights_Potential_1|152389|4.50%|
+|Flask_of_the_Magisters_2|150996|3.54%|
+|Flask_of_the_Shattered_Sun_2|150992|3.54%|
+|Potion_of_Recklessness_2|150870|3.45%|
+|Potion_of_Recklessness_1|150686|3.33%|
+|Flask_of_the_Blood_Knights_2|150619|3.28%|
+|Flask_of_the_Shattered_Sun_1|150509|3.21%|
+|Flask_of_the_Magisters_1|150508|3.21%|
+|Flask_of_the_Blood_Knights_1|150230|3.02%|
+|Flask_of_Thalassian_Resistance_2|150199|2.99%|
+|Flask_of_Thalassian_Resistance_1|149787|2.71%|
+|Potion_of_Zealotry_2|146502|0.46%|
+|Potion_of_Zealotry_1|146358|0.36%|
+|Base|145833|0.00%|
