@@ -1,14 +1,14 @@
 # 3T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|157595|1.97%|
-|Arcano_Cutlets|156627|1.35%|
-|Warped_Wise_Wings|156557|1.30%|
-|Void_Kissed_Fish_Rolls|156286|1.13%|
-|Champions_Bento|156137|1.03%|
-|Fel_Kissed_Filet|156132|1.03%|
-|Blooming_Feast|156123|1.02%|
-|Flora_Frenzy|156102|1.01%|
-|Royal_Roast|156100|1.01%|
-|Void_Touched_Augment_Rune|156031|0.96%|
-|Base|154546|0.00%|
+|Silvermoon_Parade|146161|1.99%|
+|Arcano_Cutlets|145225|1.34%|
+|Warped_Wise_Wings|145135|1.27%|
+|Void_Kissed_Fish_Rolls|144927|1.13%|
+|Void_Touched_Augment_Rune|144701|0.97%|
+|Royal_Roast|144673|0.95%|
+|Fel_Kissed_Filet|144611|0.91%|
+|Flora_Frenzy|144590|0.89%|
+|Champions_Bento|144576|0.88%|
+|Blooming_Feast|144554|0.87%|
+|Base|143310|0.00%|

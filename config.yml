@@ -312,11 +312,11 @@ simcBuild: latest
 forceHeroTalents: false
 defaultIterations: 10000
 raidbots:
-  apiUrlBase: https://mimiron.raidbots.com
+  apiUrlBase: https://www.raidbots.com
   numOfRetries: 100
   retryInterval: 10
 charts:
-  wowheadUrl: https://www.wowhead.com/beta/
+  wowheadUrl: https://www.wowhead.com/
 analyze:
   dungeonCharts: false
   markdown: true

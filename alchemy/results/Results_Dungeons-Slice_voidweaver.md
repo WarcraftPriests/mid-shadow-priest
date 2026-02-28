@@ -1,20 +1,20 @@
 # Dungeons-Slice - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Draught_of_Rampant_Abandon_2|84169|5.94%|
-|Lights_Potential_2|83420|4.99%|
-|Draught_of_Rampant_Abandon_1|83364|4.92%|
-|Lights_Potential_1|82902|4.34%|
-|Potion_of_Recklessness_2|82818|4.24%|
-|Potion_of_Recklessness_1|82740|4.14%|
-|Flask_of_the_Magisters_2|82327|3.62%|
-|Flask_of_the_Shattered_Sun_2|82006|3.21%|
-|Flask_of_the_Magisters_1|82003|3.21%|
-|Flask_of_the_Shattered_Sun_1|81905|3.09%|
-|Flask_of_Thalassian_Resistance_2|81859|3.03%|
-|Flask_of_Thalassian_Resistance_1|81695|2.82%|
-|Flask_of_the_Blood_Knights_2|81671|2.79%|
-|Flask_of_the_Blood_Knights_1|81467|2.54%|
-|Potion_of_Zealotry_2|80069|0.78%|
-|Potion_of_Zealotry_1|79867|0.52%|
-|Base|79452|0.00%|
+|Draught_of_Rampant_Abandon_2|80656|5.71%|
+|Lights_Potential_2|80208|5.12%|
+|Draught_of_Rampant_Abandon_1|79920|4.75%|
+|Lights_Potential_1|79588|4.31%|
+|Potion_of_Recklessness_2|79228|3.84%|
+|Potion_of_Recklessness_1|79102|3.67%|
+|Flask_of_the_Magisters_2|79027|3.58%|
+|Flask_of_the_Magisters_1|78902|3.41%|
+|Flask_of_the_Shattered_Sun_2|78805|3.28%|
+|Flask_of_the_Shattered_Sun_1|78757|3.22%|
+|Flask_of_Thalassian_Resistance_2|78657|3.09%|
+|Flask_of_the_Blood_Knights_2|78385|2.73%|
+|Flask_of_Thalassian_Resistance_1|78380|2.73%|
+|Flask_of_the_Blood_Knights_1|78180|2.47%|
+|Potion_of_Zealotry_2|76872|0.75%|
+|Potion_of_Zealotry_1|76704|0.53%|
+|Base|76299|0.00%|

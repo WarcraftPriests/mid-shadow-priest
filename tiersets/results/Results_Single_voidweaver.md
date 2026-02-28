@@ -1,6 +1,6 @@
 # Single - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|MID1-2_4-set|72412|8.38%|
-|MID1-2-set|70057|4.86%|
-|Base|66813|0.00%|
+|MID1-2_4-set|69349|6.68%|
+|MID1-2-set|66979|3.03%|
+|Base|65008|0.00%|
