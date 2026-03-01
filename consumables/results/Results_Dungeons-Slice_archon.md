@@ -1,14 +1,14 @@
 # Dungeons-Slice - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|84170|2.09%|
-|Arcano_Cutlets|83525|1.31%|
-|Warped_Wise_Wings|83515|1.30%|
-|Royal_Roast|83494|1.27%|
-|Blooming_Feast|83446|1.21%|
-|Champions_Bento|83398|1.16%|
-|Fel_Kissed_Filet|83381|1.14%|
-|Void_Kissed_Fish_Rolls|83353|1.10%|
-|Flora_Frenzy|83281|1.01%|
-|Void_Touched_Augment_Rune|83237|0.96%|
-|Base|82445|0.00%|
+|Silvermoon_Parade|83474|1.94%|
+|Arcano_Cutlets|82962|1.32%|
+|Warped_Wise_Wings|82871|1.20%|
+|Fel_Kissed_Filet|82843|1.17%|
+|Flora_Frenzy|82820|1.14%|
+|Champions_Bento|82818|1.14%|
+|Blooming_Feast|82771|1.08%|
+|Void_Kissed_Fish_Rolls|82767|1.08%|
+|Royal_Roast|82739|1.04%|
+|Void_Touched_Augment_Rune|82715|1.01%|
+|Base|81885|0.00%|
