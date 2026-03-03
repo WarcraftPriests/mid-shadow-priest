@@ -54,7 +54,7 @@ profileset."Draenei"+=race=draenei
 profileset."Worgen"+=race=worgen
 
 profileset."Panda_Feast"+=race=pandaren
-profileset."Panda_Feast"+=food=blooming_feast
+profileset."Panda_Feast"+=food=silvermoon_parade
 
 profileset."Undead"+=race=undead
 
