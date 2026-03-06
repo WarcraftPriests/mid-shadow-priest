@@ -290,6 +290,32 @@ def build_json(sim_type, talent_string, results, directory, timestamp, dungeons)
     steps = config["sims"][directory[:-1]]["steps"]
     number_of_steps = len(steps)
 
+    # If we're analyzing the trinket-combos directory, populate ids
+    # directly from trinkets.yml so charts can reference item ids.
+    if directory[:-1] == "trinket-combos":
+        try:
+            with open("trinkets.yml", "r", encoding="utf8") as fh:
+                tdata = yaml.safe_load(fh) or {}
+                tcombos = tdata.get("combos", {})
+                for tname, tspec in tcombos.items():
+                    # structured spec: { id: <num>, ilevels: [..] }
+                    if isinstance(tspec, dict):
+                        tid = tspec.get("id")
+                        # Store id by base trinket name (ignore ilevels)
+                        if tid is not None:
+                            chart_data["ids"][tname] = int(tid)
+                    else:
+                        # legacy flat mapping: value is simc string containing id
+                        try:
+                            tid = int(str(tspec).split(",id=")[1].split(",")[0])
+                            chart_data["ids"][tname] = tid
+                        except Exception:
+                            # ignore parse errors
+                            continue
+        except FileNotFoundError:
+            # no trinkets.yml present; skip
+            pass
+
     # if there is only 1 step, we can just go right to iterating
     if number_of_steps == 1:
         chart_data["simulated_steps"] = ["DPS"]

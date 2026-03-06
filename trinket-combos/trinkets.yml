@@ -1,0 +1,66 @@
+# Structured trinket configuration for build_combos.py
+# Each key is a trinket base name. Provide an `id` (number) and `ilevels` (list).
+combos:
+  Eye_of_the_Drowning_Void:
+    id: 250257
+    ilevels: [289]
+  Soulcatchers_Charm:
+    id: 250223
+    ilevels: [289]
+  Vessel_of_Tortured_Souls:
+    id: 250258
+    ilevels: [289]
+  Emberwing_Feather:
+    id: 250144
+    ilevels: [289]
+  Heart_of_Wind:
+    id: 250256
+    ilevels: [289]
+  Nevermelting_Ice_Crystal:
+    id: 50259
+    ilevels: [289]
+  Reality_Breacher:
+    id: 151310
+    ilevels: [289]
+  Shadow_of_the_Empyrean_Requiem:
+    id: 249810
+    ilevels: [289]
+  Gaze_of_the_Alnseer:
+    id: 249343
+    ilevels: [289]
+  Litany_of_Lightblind_Wrath:
+    id: 249808
+    ilevels: [289]
+  Locus_Walkers_Ribbon:
+    id: 249809
+    ilevels: [289]
+  Vaelgors_Final_Stare:
+    id: 249346
+    ilevels: [289]
+  Wraps_of_Cosmic_Madness:
+    id: 249340
+    ilevels: [289]
+  Glorious_Crusaders_Keepsake:
+    id: 251792
+    ilevels: [276]
+  Astalors_Anguish_Agitator:
+    id: 264878
+    ilevels: [276]
+  Drum_of_Renewed_Bonds:
+    id: 248583
+    ilevels: [276]
+  Ever_Collapsing_Void_Fissure:
+    id: 251786
+    ilevels: [276]
+  Sealed_Chaos_Urn:
+    id: 251787
+    ilevels: [276]
+  Tangle_of_Vibrant_Vines:
+    id: 252957
+    ilevels: [276]
+  Void_Reapers_Libram:
+    id: 251785
+    ilevels: [276]
+  Galactic_Gladiators_Badge_of_Ferocity:
+    id: 255613
+    ilevels: [263]

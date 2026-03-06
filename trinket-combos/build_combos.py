@@ -4,35 +4,59 @@ python build_combos.py
 """
 
 from itertools import combinations
+import os
 
-combos = {
-    # s1 dungeons (276/289)
-    "Eye_of_the_Drowning_Void_289": "eye_of_the_drowning_void,id=250257,ilevel=289",
-    "Soulcatchers_Charm_289": "soulcatchers_charm,id=250223,ilevel=289",
-    "Vessel_of_Tortured_Souls_289": "vessel_of_tortured_souls,id=250258,ilevel=289",
-    "Emberwing_Feather_289": "emberwing_feather,id=250144,ilevel=289",
-    "Heart_of_Wind_289": "heart_of_wind,id=250256,ilevel=289",
-    # "Emerald_Coachs_Whistle_289": "emerald_coachs_whistle,id=193718,ilevel=289",
-    "Nevermelting_Ice_Crystal_289": "nevermelting_ice_crystal,id=50259,ilevel=289",
-    "Reality_Breacher_289": "reality_breacher,id=151310,ilevel=289",
-    # s1 raids (?/289)
-    "Shadow_of_the_Empyrean_Requiem_289":"shadow_of_the_empyrean_requiem,id=249810,ilevel=289",
-    "Gaze_of_the_Alnseer_289":"gaze_of_the_alnseer,id=249343,ilevel=289",
-    "Litany_of_Lightblind_Wrath_289":"litany_of_lightblind_wrath,id=249808,ilevel=289",
-    "Locus-Walkers_Ribbon_289":"locuswalkers_ribbon,id=249809,ilevel=289",
-    "Vaelgors_Final_Stare_289":"vaelgors_final_stare,id=249346,ilevel=289",
-    "Wraps_of_Cosmic_Madness_289":"wraps_of_cosmic_madness,id=249340,ilevel=289",
-    # delves (276)
-    "Glorious_Crusaders_Keepsake_276": "glorious_crusaders_keepsake,id=251792,ilevel=276",
-    "Astalors_Anguish_Agitator_276": "astalors_anguish_agitator,id=264878,ilevel=276",
-    "Drum_of_Renewed_Bonds_276": "drum_of_renewed_bonds,id=248583,ilevel=276",
-    "Ever-Collapsing_Void_Fissure_276": "evercollapsing_void_fissure,id=251786,ilevel=276",
-    "Sealed_Chaos_Urn_276": "sealed_chaos_urn,id=251787,ilevel=276",
-    "Tangle_of_Vibrant_Vines_276": "tangle_of_vibrant_vines,id=252957,ilevel=276",
-    "Void-Reapers_Libram_276": "voidreapers_libram,id=251785,ilevel=276",
-    # pvp (263)
-    "Galactic_Gladiators_Badge_of_Ferocity_263": "galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263",
-}
+# Load combos from trinkets.yml (simple mapping under 'combos').
+# Try PyYAML then fallback to a minimal parser for this simple format.
+combos = {}
+cfg_path = os.path.join(os.path.dirname(__file__), "trinkets.yml")
+raw_combos = {}
+if os.path.exists(cfg_path):
+    try:
+        import yaml
+
+        with open(cfg_path, 'r', encoding='utf8') as fh:
+            data = yaml.safe_load(fh)
+            if isinstance(data, dict) and 'combos' in data:
+                raw_combos = data['combos'] or {}
+    except Exception:
+        # Minimal fallback parser: lines with `key: "value"` under `combos:` -> raw mapping
+        with open(cfg_path, 'r', encoding='utf8') as fh:
+            in_combos = False
+            for line in fh:
+                s = line.strip()
+                if not s or s.startswith('#'):
+                    continue
+                if s.startswith('combos:'):
+                    in_combos = True
+                    continue
+                if in_combos:
+                    if ':' in s:
+                        key, val = s.split(':', 1)
+                        key = key.strip()
+                        val = val.strip()
+                        # remove surrounding quotes if present
+                        if (val.startswith('"') and val.endswith('"')) or (val.startswith("'") and val.endswith("'")):
+                            val = val[1:-1]
+                        raw_combos[key] = val
+
+# Expand structured entries into flattened combos mapping expected by the rest of the script
+for name, spec in raw_combos.items():
+    # If the value is a mapping with id + ilevels, expand into per-ilevel entries
+    if isinstance(spec, dict):
+        item_id_val = spec.get('id')
+        ilevels = spec.get('ilevels', []) or []
+        for ilevel in ilevels:
+            key = f"{name}_{ilevel}"
+            # trinket names must not contain hyphens; fail early so charts stay valid
+            if '-' in name:
+                raise ValueError(f"Invalid trinket name '{name}': hyphens are not allowed in trinket keys")
+            # build the simc base name: spaces -> underscore (do not alter hyphens here)
+            simc_name = name.lower().replace(' ', '_')
+            combos[key] = f"{simc_name},id={item_id_val},ilevel={ilevel}"
+    else:
+        # legacy/raw string; keep as-is
+        combos[name] = spec
 
 
 def item_id(trinket):

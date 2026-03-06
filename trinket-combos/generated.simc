@@ -50,8 +50,8 @@ profileset."Eye_of_the_Drowning_Void_289-Gaze_of_the_Alnseer_289"+=trinket2=gaze
 profileset."Eye_of_the_Drowning_Void_289-Litany_of_Lightblind_Wrath_289"+=trinket1=eye_of_the_drowning_void,id=250257,ilevel=289
 profileset."Eye_of_the_Drowning_Void_289-Litany_of_Lightblind_Wrath_289"+=trinket2=litany_of_lightblind_wrath,id=249808,ilevel=289
 
-profileset."Eye_of_the_Drowning_Void_289-Locus-Walkers_Ribbon_289"+=trinket1=eye_of_the_drowning_void,id=250257,ilevel=289
-profileset."Eye_of_the_Drowning_Void_289-Locus-Walkers_Ribbon_289"+=trinket2=locuswalkers_ribbon,id=249809,ilevel=289
+profileset."Eye_of_the_Drowning_Void_289-Locus_Walkers_Ribbon_289"+=trinket1=eye_of_the_drowning_void,id=250257,ilevel=289
+profileset."Eye_of_the_Drowning_Void_289-Locus_Walkers_Ribbon_289"+=trinket2=locus_walkers_ribbon,id=249809,ilevel=289
 
 profileset."Eye_of_the_Drowning_Void_289-Vaelgors_Final_Stare_289"+=trinket1=eye_of_the_drowning_void,id=250257,ilevel=289
 profileset."Eye_of_the_Drowning_Void_289-Vaelgors_Final_Stare_289"+=trinket2=vaelgors_final_stare,id=249346,ilevel=289
@@ -68,8 +68,8 @@ profileset."Eye_of_the_Drowning_Void_289-Astalors_Anguish_Agitator_276"+=trinket
 profileset."Eye_of_the_Drowning_Void_289-Drum_of_Renewed_Bonds_276"+=trinket1=eye_of_the_drowning_void,id=250257,ilevel=289
 profileset."Eye_of_the_Drowning_Void_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Eye_of_the_Drowning_Void_289-Ever-Collapsing_Void_Fissure_276"+=trinket1=eye_of_the_drowning_void,id=250257,ilevel=289
-profileset."Eye_of_the_Drowning_Void_289-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Eye_of_the_Drowning_Void_289-Ever_Collapsing_Void_Fissure_276"+=trinket1=eye_of_the_drowning_void,id=250257,ilevel=289
+profileset."Eye_of_the_Drowning_Void_289-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Eye_of_the_Drowning_Void_289-Sealed_Chaos_Urn_276"+=trinket1=eye_of_the_drowning_void,id=250257,ilevel=289
 profileset."Eye_of_the_Drowning_Void_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -77,8 +77,8 @@ profileset."Eye_of_the_Drowning_Void_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_
 profileset."Eye_of_the_Drowning_Void_289-Tangle_of_Vibrant_Vines_276"+=trinket1=eye_of_the_drowning_void,id=250257,ilevel=289
 profileset."Eye_of_the_Drowning_Void_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Eye_of_the_Drowning_Void_289-Void-Reapers_Libram_276"+=trinket1=eye_of_the_drowning_void,id=250257,ilevel=289
-profileset."Eye_of_the_Drowning_Void_289-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Eye_of_the_Drowning_Void_289-Void_Reapers_Libram_276"+=trinket1=eye_of_the_drowning_void,id=250257,ilevel=289
+profileset."Eye_of_the_Drowning_Void_289-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Eye_of_the_Drowning_Void_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=eye_of_the_drowning_void,id=250257,ilevel=289
 profileset."Eye_of_the_Drowning_Void_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
@@ -107,8 +107,8 @@ profileset."Soulcatchers_Charm_289-Gaze_of_the_Alnseer_289"+=trinket2=gaze_of_th
 profileset."Soulcatchers_Charm_289-Litany_of_Lightblind_Wrath_289"+=trinket1=soulcatchers_charm,id=250223,ilevel=289
 profileset."Soulcatchers_Charm_289-Litany_of_Lightblind_Wrath_289"+=trinket2=litany_of_lightblind_wrath,id=249808,ilevel=289
 
-profileset."Soulcatchers_Charm_289-Locus-Walkers_Ribbon_289"+=trinket1=soulcatchers_charm,id=250223,ilevel=289
-profileset."Soulcatchers_Charm_289-Locus-Walkers_Ribbon_289"+=trinket2=locuswalkers_ribbon,id=249809,ilevel=289
+profileset."Soulcatchers_Charm_289-Locus_Walkers_Ribbon_289"+=trinket1=soulcatchers_charm,id=250223,ilevel=289
+profileset."Soulcatchers_Charm_289-Locus_Walkers_Ribbon_289"+=trinket2=locus_walkers_ribbon,id=249809,ilevel=289
 
 profileset."Soulcatchers_Charm_289-Vaelgors_Final_Stare_289"+=trinket1=soulcatchers_charm,id=250223,ilevel=289
 profileset."Soulcatchers_Charm_289-Vaelgors_Final_Stare_289"+=trinket2=vaelgors_final_stare,id=249346,ilevel=289
@@ -125,8 +125,8 @@ profileset."Soulcatchers_Charm_289-Astalors_Anguish_Agitator_276"+=trinket2=asta
 profileset."Soulcatchers_Charm_289-Drum_of_Renewed_Bonds_276"+=trinket1=soulcatchers_charm,id=250223,ilevel=289
 profileset."Soulcatchers_Charm_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Soulcatchers_Charm_289-Ever-Collapsing_Void_Fissure_276"+=trinket1=soulcatchers_charm,id=250223,ilevel=289
-profileset."Soulcatchers_Charm_289-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Soulcatchers_Charm_289-Ever_Collapsing_Void_Fissure_276"+=trinket1=soulcatchers_charm,id=250223,ilevel=289
+profileset."Soulcatchers_Charm_289-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Soulcatchers_Charm_289-Sealed_Chaos_Urn_276"+=trinket1=soulcatchers_charm,id=250223,ilevel=289
 profileset."Soulcatchers_Charm_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -134,8 +134,8 @@ profileset."Soulcatchers_Charm_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_
 profileset."Soulcatchers_Charm_289-Tangle_of_Vibrant_Vines_276"+=trinket1=soulcatchers_charm,id=250223,ilevel=289
 profileset."Soulcatchers_Charm_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Soulcatchers_Charm_289-Void-Reapers_Libram_276"+=trinket1=soulcatchers_charm,id=250223,ilevel=289
-profileset."Soulcatchers_Charm_289-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Soulcatchers_Charm_289-Void_Reapers_Libram_276"+=trinket1=soulcatchers_charm,id=250223,ilevel=289
+profileset."Soulcatchers_Charm_289-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Soulcatchers_Charm_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=soulcatchers_charm,id=250223,ilevel=289
 profileset."Soulcatchers_Charm_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
@@ -161,8 +161,8 @@ profileset."Vessel_of_Tortured_Souls_289-Gaze_of_the_Alnseer_289"+=trinket2=gaze
 profileset."Vessel_of_Tortured_Souls_289-Litany_of_Lightblind_Wrath_289"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=289
 profileset."Vessel_of_Tortured_Souls_289-Litany_of_Lightblind_Wrath_289"+=trinket2=litany_of_lightblind_wrath,id=249808,ilevel=289
 
-profileset."Vessel_of_Tortured_Souls_289-Locus-Walkers_Ribbon_289"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=289
-profileset."Vessel_of_Tortured_Souls_289-Locus-Walkers_Ribbon_289"+=trinket2=locuswalkers_ribbon,id=249809,ilevel=289
+profileset."Vessel_of_Tortured_Souls_289-Locus_Walkers_Ribbon_289"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=289
+profileset."Vessel_of_Tortured_Souls_289-Locus_Walkers_Ribbon_289"+=trinket2=locus_walkers_ribbon,id=249809,ilevel=289
 
 profileset."Vessel_of_Tortured_Souls_289-Vaelgors_Final_Stare_289"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=289
 profileset."Vessel_of_Tortured_Souls_289-Vaelgors_Final_Stare_289"+=trinket2=vaelgors_final_stare,id=249346,ilevel=289
@@ -179,8 +179,8 @@ profileset."Vessel_of_Tortured_Souls_289-Astalors_Anguish_Agitator_276"+=trinket
 profileset."Vessel_of_Tortured_Souls_289-Drum_of_Renewed_Bonds_276"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=289
 profileset."Vessel_of_Tortured_Souls_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Vessel_of_Tortured_Souls_289-Ever-Collapsing_Void_Fissure_276"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=289
-profileset."Vessel_of_Tortured_Souls_289-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Vessel_of_Tortured_Souls_289-Ever_Collapsing_Void_Fissure_276"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=289
+profileset."Vessel_of_Tortured_Souls_289-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Vessel_of_Tortured_Souls_289-Sealed_Chaos_Urn_276"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=289
 profileset."Vessel_of_Tortured_Souls_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -188,8 +188,8 @@ profileset."Vessel_of_Tortured_Souls_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_
 profileset."Vessel_of_Tortured_Souls_289-Tangle_of_Vibrant_Vines_276"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=289
 profileset."Vessel_of_Tortured_Souls_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Vessel_of_Tortured_Souls_289-Void-Reapers_Libram_276"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=289
-profileset."Vessel_of_Tortured_Souls_289-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Vessel_of_Tortured_Souls_289-Void_Reapers_Libram_276"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=289
+profileset."Vessel_of_Tortured_Souls_289-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Vessel_of_Tortured_Souls_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=vessel_of_tortured_souls,id=250258,ilevel=289
 profileset."Vessel_of_Tortured_Souls_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
@@ -212,8 +212,8 @@ profileset."Emberwing_Feather_289-Gaze_of_the_Alnseer_289"+=trinket2=gaze_of_the
 profileset."Emberwing_Feather_289-Litany_of_Lightblind_Wrath_289"+=trinket1=emberwing_feather,id=250144,ilevel=289
 profileset."Emberwing_Feather_289-Litany_of_Lightblind_Wrath_289"+=trinket2=litany_of_lightblind_wrath,id=249808,ilevel=289
 
-profileset."Emberwing_Feather_289-Locus-Walkers_Ribbon_289"+=trinket1=emberwing_feather,id=250144,ilevel=289
-profileset."Emberwing_Feather_289-Locus-Walkers_Ribbon_289"+=trinket2=locuswalkers_ribbon,id=249809,ilevel=289
+profileset."Emberwing_Feather_289-Locus_Walkers_Ribbon_289"+=trinket1=emberwing_feather,id=250144,ilevel=289
+profileset."Emberwing_Feather_289-Locus_Walkers_Ribbon_289"+=trinket2=locus_walkers_ribbon,id=249809,ilevel=289
 
 profileset."Emberwing_Feather_289-Vaelgors_Final_Stare_289"+=trinket1=emberwing_feather,id=250144,ilevel=289
 profileset."Emberwing_Feather_289-Vaelgors_Final_Stare_289"+=trinket2=vaelgors_final_stare,id=249346,ilevel=289
@@ -230,8 +230,8 @@ profileset."Emberwing_Feather_289-Astalors_Anguish_Agitator_276"+=trinket2=astal
 profileset."Emberwing_Feather_289-Drum_of_Renewed_Bonds_276"+=trinket1=emberwing_feather,id=250144,ilevel=289
 profileset."Emberwing_Feather_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Emberwing_Feather_289-Ever-Collapsing_Void_Fissure_276"+=trinket1=emberwing_feather,id=250144,ilevel=289
-profileset."Emberwing_Feather_289-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Emberwing_Feather_289-Ever_Collapsing_Void_Fissure_276"+=trinket1=emberwing_feather,id=250144,ilevel=289
+profileset."Emberwing_Feather_289-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Emberwing_Feather_289-Sealed_Chaos_Urn_276"+=trinket1=emberwing_feather,id=250144,ilevel=289
 profileset."Emberwing_Feather_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -239,8 +239,8 @@ profileset."Emberwing_Feather_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_u
 profileset."Emberwing_Feather_289-Tangle_of_Vibrant_Vines_276"+=trinket1=emberwing_feather,id=250144,ilevel=289
 profileset."Emberwing_Feather_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Emberwing_Feather_289-Void-Reapers_Libram_276"+=trinket1=emberwing_feather,id=250144,ilevel=289
-profileset."Emberwing_Feather_289-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Emberwing_Feather_289-Void_Reapers_Libram_276"+=trinket1=emberwing_feather,id=250144,ilevel=289
+profileset."Emberwing_Feather_289-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Emberwing_Feather_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=emberwing_feather,id=250144,ilevel=289
 profileset."Emberwing_Feather_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
@@ -260,8 +260,8 @@ profileset."Heart_of_Wind_289-Gaze_of_the_Alnseer_289"+=trinket2=gaze_of_the_aln
 profileset."Heart_of_Wind_289-Litany_of_Lightblind_Wrath_289"+=trinket1=heart_of_wind,id=250256,ilevel=289
 profileset."Heart_of_Wind_289-Litany_of_Lightblind_Wrath_289"+=trinket2=litany_of_lightblind_wrath,id=249808,ilevel=289
 
-profileset."Heart_of_Wind_289-Locus-Walkers_Ribbon_289"+=trinket1=heart_of_wind,id=250256,ilevel=289
-profileset."Heart_of_Wind_289-Locus-Walkers_Ribbon_289"+=trinket2=locuswalkers_ribbon,id=249809,ilevel=289
+profileset."Heart_of_Wind_289-Locus_Walkers_Ribbon_289"+=trinket1=heart_of_wind,id=250256,ilevel=289
+profileset."Heart_of_Wind_289-Locus_Walkers_Ribbon_289"+=trinket2=locus_walkers_ribbon,id=249809,ilevel=289
 
 profileset."Heart_of_Wind_289-Vaelgors_Final_Stare_289"+=trinket1=heart_of_wind,id=250256,ilevel=289
 profileset."Heart_of_Wind_289-Vaelgors_Final_Stare_289"+=trinket2=vaelgors_final_stare,id=249346,ilevel=289
@@ -278,8 +278,8 @@ profileset."Heart_of_Wind_289-Astalors_Anguish_Agitator_276"+=trinket2=astalors_
 profileset."Heart_of_Wind_289-Drum_of_Renewed_Bonds_276"+=trinket1=heart_of_wind,id=250256,ilevel=289
 profileset."Heart_of_Wind_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Heart_of_Wind_289-Ever-Collapsing_Void_Fissure_276"+=trinket1=heart_of_wind,id=250256,ilevel=289
-profileset."Heart_of_Wind_289-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Heart_of_Wind_289-Ever_Collapsing_Void_Fissure_276"+=trinket1=heart_of_wind,id=250256,ilevel=289
+profileset."Heart_of_Wind_289-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Heart_of_Wind_289-Sealed_Chaos_Urn_276"+=trinket1=heart_of_wind,id=250256,ilevel=289
 profileset."Heart_of_Wind_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -287,8 +287,8 @@ profileset."Heart_of_Wind_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,i
 profileset."Heart_of_Wind_289-Tangle_of_Vibrant_Vines_276"+=trinket1=heart_of_wind,id=250256,ilevel=289
 profileset."Heart_of_Wind_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Heart_of_Wind_289-Void-Reapers_Libram_276"+=trinket1=heart_of_wind,id=250256,ilevel=289
-profileset."Heart_of_Wind_289-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Heart_of_Wind_289-Void_Reapers_Libram_276"+=trinket1=heart_of_wind,id=250256,ilevel=289
+profileset."Heart_of_Wind_289-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Heart_of_Wind_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=heart_of_wind,id=250256,ilevel=289
 profileset."Heart_of_Wind_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
@@ -305,8 +305,8 @@ profileset."Nevermelting_Ice_Crystal_289-Gaze_of_the_Alnseer_289"+=trinket2=gaze
 profileset."Nevermelting_Ice_Crystal_289-Litany_of_Lightblind_Wrath_289"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=289
 profileset."Nevermelting_Ice_Crystal_289-Litany_of_Lightblind_Wrath_289"+=trinket2=litany_of_lightblind_wrath,id=249808,ilevel=289
 
-profileset."Nevermelting_Ice_Crystal_289-Locus-Walkers_Ribbon_289"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=289
-profileset."Nevermelting_Ice_Crystal_289-Locus-Walkers_Ribbon_289"+=trinket2=locuswalkers_ribbon,id=249809,ilevel=289
+profileset."Nevermelting_Ice_Crystal_289-Locus_Walkers_Ribbon_289"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=289
+profileset."Nevermelting_Ice_Crystal_289-Locus_Walkers_Ribbon_289"+=trinket2=locus_walkers_ribbon,id=249809,ilevel=289
 
 profileset."Nevermelting_Ice_Crystal_289-Vaelgors_Final_Stare_289"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=289
 profileset."Nevermelting_Ice_Crystal_289-Vaelgors_Final_Stare_289"+=trinket2=vaelgors_final_stare,id=249346,ilevel=289
@@ -323,8 +323,8 @@ profileset."Nevermelting_Ice_Crystal_289-Astalors_Anguish_Agitator_276"+=trinket
 profileset."Nevermelting_Ice_Crystal_289-Drum_of_Renewed_Bonds_276"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=289
 profileset."Nevermelting_Ice_Crystal_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Nevermelting_Ice_Crystal_289-Ever-Collapsing_Void_Fissure_276"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=289
-profileset."Nevermelting_Ice_Crystal_289-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Nevermelting_Ice_Crystal_289-Ever_Collapsing_Void_Fissure_276"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=289
+profileset."Nevermelting_Ice_Crystal_289-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Nevermelting_Ice_Crystal_289-Sealed_Chaos_Urn_276"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=289
 profileset."Nevermelting_Ice_Crystal_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -332,8 +332,8 @@ profileset."Nevermelting_Ice_Crystal_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_
 profileset."Nevermelting_Ice_Crystal_289-Tangle_of_Vibrant_Vines_276"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=289
 profileset."Nevermelting_Ice_Crystal_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Nevermelting_Ice_Crystal_289-Void-Reapers_Libram_276"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=289
-profileset."Nevermelting_Ice_Crystal_289-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Nevermelting_Ice_Crystal_289-Void_Reapers_Libram_276"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=289
+profileset."Nevermelting_Ice_Crystal_289-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Nevermelting_Ice_Crystal_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=nevermelting_ice_crystal,id=50259,ilevel=289
 profileset."Nevermelting_Ice_Crystal_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
@@ -347,8 +347,8 @@ profileset."Reality_Breacher_289-Gaze_of_the_Alnseer_289"+=trinket2=gaze_of_the_
 profileset."Reality_Breacher_289-Litany_of_Lightblind_Wrath_289"+=trinket1=reality_breacher,id=151310,ilevel=289
 profileset."Reality_Breacher_289-Litany_of_Lightblind_Wrath_289"+=trinket2=litany_of_lightblind_wrath,id=249808,ilevel=289
 
-profileset."Reality_Breacher_289-Locus-Walkers_Ribbon_289"+=trinket1=reality_breacher,id=151310,ilevel=289
-profileset."Reality_Breacher_289-Locus-Walkers_Ribbon_289"+=trinket2=locuswalkers_ribbon,id=249809,ilevel=289
+profileset."Reality_Breacher_289-Locus_Walkers_Ribbon_289"+=trinket1=reality_breacher,id=151310,ilevel=289
+profileset."Reality_Breacher_289-Locus_Walkers_Ribbon_289"+=trinket2=locus_walkers_ribbon,id=249809,ilevel=289
 
 profileset."Reality_Breacher_289-Vaelgors_Final_Stare_289"+=trinket1=reality_breacher,id=151310,ilevel=289
 profileset."Reality_Breacher_289-Vaelgors_Final_Stare_289"+=trinket2=vaelgors_final_stare,id=249346,ilevel=289
@@ -365,8 +365,8 @@ profileset."Reality_Breacher_289-Astalors_Anguish_Agitator_276"+=trinket2=astalo
 profileset."Reality_Breacher_289-Drum_of_Renewed_Bonds_276"+=trinket1=reality_breacher,id=151310,ilevel=289
 profileset."Reality_Breacher_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Reality_Breacher_289-Ever-Collapsing_Void_Fissure_276"+=trinket1=reality_breacher,id=151310,ilevel=289
-profileset."Reality_Breacher_289-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Reality_Breacher_289-Ever_Collapsing_Void_Fissure_276"+=trinket1=reality_breacher,id=151310,ilevel=289
+profileset."Reality_Breacher_289-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Reality_Breacher_289-Sealed_Chaos_Urn_276"+=trinket1=reality_breacher,id=151310,ilevel=289
 profileset."Reality_Breacher_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -374,8 +374,8 @@ profileset."Reality_Breacher_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_ur
 profileset."Reality_Breacher_289-Tangle_of_Vibrant_Vines_276"+=trinket1=reality_breacher,id=151310,ilevel=289
 profileset."Reality_Breacher_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Reality_Breacher_289-Void-Reapers_Libram_276"+=trinket1=reality_breacher,id=151310,ilevel=289
-profileset."Reality_Breacher_289-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Reality_Breacher_289-Void_Reapers_Libram_276"+=trinket1=reality_breacher,id=151310,ilevel=289
+profileset."Reality_Breacher_289-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Reality_Breacher_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=reality_breacher,id=151310,ilevel=289
 profileset."Reality_Breacher_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
@@ -386,8 +386,8 @@ profileset."Shadow_of_the_Empyrean_Requiem_289-Gaze_of_the_Alnseer_289"+=trinket
 profileset."Shadow_of_the_Empyrean_Requiem_289-Litany_of_Lightblind_Wrath_289"+=trinket1=shadow_of_the_empyrean_requiem,id=249810,ilevel=289
 profileset."Shadow_of_the_Empyrean_Requiem_289-Litany_of_Lightblind_Wrath_289"+=trinket2=litany_of_lightblind_wrath,id=249808,ilevel=289
 
-profileset."Shadow_of_the_Empyrean_Requiem_289-Locus-Walkers_Ribbon_289"+=trinket1=shadow_of_the_empyrean_requiem,id=249810,ilevel=289
-profileset."Shadow_of_the_Empyrean_Requiem_289-Locus-Walkers_Ribbon_289"+=trinket2=locuswalkers_ribbon,id=249809,ilevel=289
+profileset."Shadow_of_the_Empyrean_Requiem_289-Locus_Walkers_Ribbon_289"+=trinket1=shadow_of_the_empyrean_requiem,id=249810,ilevel=289
+profileset."Shadow_of_the_Empyrean_Requiem_289-Locus_Walkers_Ribbon_289"+=trinket2=locus_walkers_ribbon,id=249809,ilevel=289
 
 profileset."Shadow_of_the_Empyrean_Requiem_289-Vaelgors_Final_Stare_289"+=trinket1=shadow_of_the_empyrean_requiem,id=249810,ilevel=289
 profileset."Shadow_of_the_Empyrean_Requiem_289-Vaelgors_Final_Stare_289"+=trinket2=vaelgors_final_stare,id=249346,ilevel=289
@@ -404,8 +404,8 @@ profileset."Shadow_of_the_Empyrean_Requiem_289-Astalors_Anguish_Agitator_276"+=t
 profileset."Shadow_of_the_Empyrean_Requiem_289-Drum_of_Renewed_Bonds_276"+=trinket1=shadow_of_the_empyrean_requiem,id=249810,ilevel=289
 profileset."Shadow_of_the_Empyrean_Requiem_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Shadow_of_the_Empyrean_Requiem_289-Ever-Collapsing_Void_Fissure_276"+=trinket1=shadow_of_the_empyrean_requiem,id=249810,ilevel=289
-profileset."Shadow_of_the_Empyrean_Requiem_289-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Shadow_of_the_Empyrean_Requiem_289-Ever_Collapsing_Void_Fissure_276"+=trinket1=shadow_of_the_empyrean_requiem,id=249810,ilevel=289
+profileset."Shadow_of_the_Empyrean_Requiem_289-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Shadow_of_the_Empyrean_Requiem_289-Sealed_Chaos_Urn_276"+=trinket1=shadow_of_the_empyrean_requiem,id=249810,ilevel=289
 profileset."Shadow_of_the_Empyrean_Requiem_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -413,8 +413,8 @@ profileset."Shadow_of_the_Empyrean_Requiem_289-Sealed_Chaos_Urn_276"+=trinket2=s
 profileset."Shadow_of_the_Empyrean_Requiem_289-Tangle_of_Vibrant_Vines_276"+=trinket1=shadow_of_the_empyrean_requiem,id=249810,ilevel=289
 profileset."Shadow_of_the_Empyrean_Requiem_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Shadow_of_the_Empyrean_Requiem_289-Void-Reapers_Libram_276"+=trinket1=shadow_of_the_empyrean_requiem,id=249810,ilevel=289
-profileset."Shadow_of_the_Empyrean_Requiem_289-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Shadow_of_the_Empyrean_Requiem_289-Void_Reapers_Libram_276"+=trinket1=shadow_of_the_empyrean_requiem,id=249810,ilevel=289
+profileset."Shadow_of_the_Empyrean_Requiem_289-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Shadow_of_the_Empyrean_Requiem_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=shadow_of_the_empyrean_requiem,id=249810,ilevel=289
 profileset."Shadow_of_the_Empyrean_Requiem_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
@@ -422,8 +422,8 @@ profileset."Shadow_of_the_Empyrean_Requiem_289-Galactic_Gladiators_Badge_of_Fero
 profileset."Gaze_of_the_Alnseer_289-Litany_of_Lightblind_Wrath_289"+=trinket1=gaze_of_the_alnseer,id=249343,ilevel=289
 profileset."Gaze_of_the_Alnseer_289-Litany_of_Lightblind_Wrath_289"+=trinket2=litany_of_lightblind_wrath,id=249808,ilevel=289
 
-profileset."Gaze_of_the_Alnseer_289-Locus-Walkers_Ribbon_289"+=trinket1=gaze_of_the_alnseer,id=249343,ilevel=289
-profileset."Gaze_of_the_Alnseer_289-Locus-Walkers_Ribbon_289"+=trinket2=locuswalkers_ribbon,id=249809,ilevel=289
+profileset."Gaze_of_the_Alnseer_289-Locus_Walkers_Ribbon_289"+=trinket1=gaze_of_the_alnseer,id=249343,ilevel=289
+profileset."Gaze_of_the_Alnseer_289-Locus_Walkers_Ribbon_289"+=trinket2=locus_walkers_ribbon,id=249809,ilevel=289
 
 profileset."Gaze_of_the_Alnseer_289-Vaelgors_Final_Stare_289"+=trinket1=gaze_of_the_alnseer,id=249343,ilevel=289
 profileset."Gaze_of_the_Alnseer_289-Vaelgors_Final_Stare_289"+=trinket2=vaelgors_final_stare,id=249346,ilevel=289
@@ -440,8 +440,8 @@ profileset."Gaze_of_the_Alnseer_289-Astalors_Anguish_Agitator_276"+=trinket2=ast
 profileset."Gaze_of_the_Alnseer_289-Drum_of_Renewed_Bonds_276"+=trinket1=gaze_of_the_alnseer,id=249343,ilevel=289
 profileset."Gaze_of_the_Alnseer_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Gaze_of_the_Alnseer_289-Ever-Collapsing_Void_Fissure_276"+=trinket1=gaze_of_the_alnseer,id=249343,ilevel=289
-profileset."Gaze_of_the_Alnseer_289-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Gaze_of_the_Alnseer_289-Ever_Collapsing_Void_Fissure_276"+=trinket1=gaze_of_the_alnseer,id=249343,ilevel=289
+profileset."Gaze_of_the_Alnseer_289-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Gaze_of_the_Alnseer_289-Sealed_Chaos_Urn_276"+=trinket1=gaze_of_the_alnseer,id=249343,ilevel=289
 profileset."Gaze_of_the_Alnseer_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -449,14 +449,14 @@ profileset."Gaze_of_the_Alnseer_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos
 profileset."Gaze_of_the_Alnseer_289-Tangle_of_Vibrant_Vines_276"+=trinket1=gaze_of_the_alnseer,id=249343,ilevel=289
 profileset."Gaze_of_the_Alnseer_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Gaze_of_the_Alnseer_289-Void-Reapers_Libram_276"+=trinket1=gaze_of_the_alnseer,id=249343,ilevel=289
-profileset."Gaze_of_the_Alnseer_289-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Gaze_of_the_Alnseer_289-Void_Reapers_Libram_276"+=trinket1=gaze_of_the_alnseer,id=249343,ilevel=289
+profileset."Gaze_of_the_Alnseer_289-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Gaze_of_the_Alnseer_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=gaze_of_the_alnseer,id=249343,ilevel=289
 profileset."Gaze_of_the_Alnseer_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
 
-profileset."Litany_of_Lightblind_Wrath_289-Locus-Walkers_Ribbon_289"+=trinket1=litany_of_lightblind_wrath,id=249808,ilevel=289
-profileset."Litany_of_Lightblind_Wrath_289-Locus-Walkers_Ribbon_289"+=trinket2=locuswalkers_ribbon,id=249809,ilevel=289
+profileset."Litany_of_Lightblind_Wrath_289-Locus_Walkers_Ribbon_289"+=trinket1=litany_of_lightblind_wrath,id=249808,ilevel=289
+profileset."Litany_of_Lightblind_Wrath_289-Locus_Walkers_Ribbon_289"+=trinket2=locus_walkers_ribbon,id=249809,ilevel=289
 
 profileset."Litany_of_Lightblind_Wrath_289-Vaelgors_Final_Stare_289"+=trinket1=litany_of_lightblind_wrath,id=249808,ilevel=289
 profileset."Litany_of_Lightblind_Wrath_289-Vaelgors_Final_Stare_289"+=trinket2=vaelgors_final_stare,id=249346,ilevel=289
@@ -473,8 +473,8 @@ profileset."Litany_of_Lightblind_Wrath_289-Astalors_Anguish_Agitator_276"+=trink
 profileset."Litany_of_Lightblind_Wrath_289-Drum_of_Renewed_Bonds_276"+=trinket1=litany_of_lightblind_wrath,id=249808,ilevel=289
 profileset."Litany_of_Lightblind_Wrath_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Litany_of_Lightblind_Wrath_289-Ever-Collapsing_Void_Fissure_276"+=trinket1=litany_of_lightblind_wrath,id=249808,ilevel=289
-profileset."Litany_of_Lightblind_Wrath_289-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Litany_of_Lightblind_Wrath_289-Ever_Collapsing_Void_Fissure_276"+=trinket1=litany_of_lightblind_wrath,id=249808,ilevel=289
+profileset."Litany_of_Lightblind_Wrath_289-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Litany_of_Lightblind_Wrath_289-Sealed_Chaos_Urn_276"+=trinket1=litany_of_lightblind_wrath,id=249808,ilevel=289
 profileset."Litany_of_Lightblind_Wrath_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -482,41 +482,41 @@ profileset."Litany_of_Lightblind_Wrath_289-Sealed_Chaos_Urn_276"+=trinket2=seale
 profileset."Litany_of_Lightblind_Wrath_289-Tangle_of_Vibrant_Vines_276"+=trinket1=litany_of_lightblind_wrath,id=249808,ilevel=289
 profileset."Litany_of_Lightblind_Wrath_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Litany_of_Lightblind_Wrath_289-Void-Reapers_Libram_276"+=trinket1=litany_of_lightblind_wrath,id=249808,ilevel=289
-profileset."Litany_of_Lightblind_Wrath_289-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Litany_of_Lightblind_Wrath_289-Void_Reapers_Libram_276"+=trinket1=litany_of_lightblind_wrath,id=249808,ilevel=289
+profileset."Litany_of_Lightblind_Wrath_289-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Litany_of_Lightblind_Wrath_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=litany_of_lightblind_wrath,id=249808,ilevel=289
 profileset."Litany_of_Lightblind_Wrath_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
 
-profileset."Locus-Walkers_Ribbon_289-Vaelgors_Final_Stare_289"+=trinket1=locuswalkers_ribbon,id=249809,ilevel=289
-profileset."Locus-Walkers_Ribbon_289-Vaelgors_Final_Stare_289"+=trinket2=vaelgors_final_stare,id=249346,ilevel=289
+profileset."Locus_Walkers_Ribbon_289-Vaelgors_Final_Stare_289"+=trinket1=locus_walkers_ribbon,id=249809,ilevel=289
+profileset."Locus_Walkers_Ribbon_289-Vaelgors_Final_Stare_289"+=trinket2=vaelgors_final_stare,id=249346,ilevel=289
 
-profileset."Locus-Walkers_Ribbon_289-Wraps_of_Cosmic_Madness_289"+=trinket1=locuswalkers_ribbon,id=249809,ilevel=289
-profileset."Locus-Walkers_Ribbon_289-Wraps_of_Cosmic_Madness_289"+=trinket2=wraps_of_cosmic_madness,id=249340,ilevel=289
+profileset."Locus_Walkers_Ribbon_289-Wraps_of_Cosmic_Madness_289"+=trinket1=locus_walkers_ribbon,id=249809,ilevel=289
+profileset."Locus_Walkers_Ribbon_289-Wraps_of_Cosmic_Madness_289"+=trinket2=wraps_of_cosmic_madness,id=249340,ilevel=289
 
-profileset."Locus-Walkers_Ribbon_289-Glorious_Crusaders_Keepsake_276"+=trinket1=locuswalkers_ribbon,id=249809,ilevel=289
-profileset."Locus-Walkers_Ribbon_289-Glorious_Crusaders_Keepsake_276"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=276
+profileset."Locus_Walkers_Ribbon_289-Glorious_Crusaders_Keepsake_276"+=trinket1=locus_walkers_ribbon,id=249809,ilevel=289
+profileset."Locus_Walkers_Ribbon_289-Glorious_Crusaders_Keepsake_276"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=276
 
-profileset."Locus-Walkers_Ribbon_289-Astalors_Anguish_Agitator_276"+=trinket1=locuswalkers_ribbon,id=249809,ilevel=289
-profileset."Locus-Walkers_Ribbon_289-Astalors_Anguish_Agitator_276"+=trinket2=astalors_anguish_agitator,id=264878,ilevel=276
+profileset."Locus_Walkers_Ribbon_289-Astalors_Anguish_Agitator_276"+=trinket1=locus_walkers_ribbon,id=249809,ilevel=289
+profileset."Locus_Walkers_Ribbon_289-Astalors_Anguish_Agitator_276"+=trinket2=astalors_anguish_agitator,id=264878,ilevel=276
 
-profileset."Locus-Walkers_Ribbon_289-Drum_of_Renewed_Bonds_276"+=trinket1=locuswalkers_ribbon,id=249809,ilevel=289
-profileset."Locus-Walkers_Ribbon_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
+profileset."Locus_Walkers_Ribbon_289-Drum_of_Renewed_Bonds_276"+=trinket1=locus_walkers_ribbon,id=249809,ilevel=289
+profileset."Locus_Walkers_Ribbon_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Locus-Walkers_Ribbon_289-Ever-Collapsing_Void_Fissure_276"+=trinket1=locuswalkers_ribbon,id=249809,ilevel=289
-profileset."Locus-Walkers_Ribbon_289-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Locus_Walkers_Ribbon_289-Ever_Collapsing_Void_Fissure_276"+=trinket1=locus_walkers_ribbon,id=249809,ilevel=289
+profileset."Locus_Walkers_Ribbon_289-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
-profileset."Locus-Walkers_Ribbon_289-Sealed_Chaos_Urn_276"+=trinket1=locuswalkers_ribbon,id=249809,ilevel=289
-profileset."Locus-Walkers_Ribbon_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
+profileset."Locus_Walkers_Ribbon_289-Sealed_Chaos_Urn_276"+=trinket1=locus_walkers_ribbon,id=249809,ilevel=289
+profileset."Locus_Walkers_Ribbon_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
 
-profileset."Locus-Walkers_Ribbon_289-Tangle_of_Vibrant_Vines_276"+=trinket1=locuswalkers_ribbon,id=249809,ilevel=289
-profileset."Locus-Walkers_Ribbon_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
+profileset."Locus_Walkers_Ribbon_289-Tangle_of_Vibrant_Vines_276"+=trinket1=locus_walkers_ribbon,id=249809,ilevel=289
+profileset."Locus_Walkers_Ribbon_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Locus-Walkers_Ribbon_289-Void-Reapers_Libram_276"+=trinket1=locuswalkers_ribbon,id=249809,ilevel=289
-profileset."Locus-Walkers_Ribbon_289-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Locus_Walkers_Ribbon_289-Void_Reapers_Libram_276"+=trinket1=locus_walkers_ribbon,id=249809,ilevel=289
+profileset."Locus_Walkers_Ribbon_289-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
-profileset."Locus-Walkers_Ribbon_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=locuswalkers_ribbon,id=249809,ilevel=289
-profileset."Locus-Walkers_Ribbon_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
+profileset."Locus_Walkers_Ribbon_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=locus_walkers_ribbon,id=249809,ilevel=289
+profileset."Locus_Walkers_Ribbon_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
 
 profileset."Vaelgors_Final_Stare_289-Wraps_of_Cosmic_Madness_289"+=trinket1=vaelgors_final_stare,id=249346,ilevel=289
 profileset."Vaelgors_Final_Stare_289-Wraps_of_Cosmic_Madness_289"+=trinket2=wraps_of_cosmic_madness,id=249340,ilevel=289
@@ -530,8 +530,8 @@ profileset."Vaelgors_Final_Stare_289-Astalors_Anguish_Agitator_276"+=trinket2=as
 profileset."Vaelgors_Final_Stare_289-Drum_of_Renewed_Bonds_276"+=trinket1=vaelgors_final_stare,id=249346,ilevel=289
 profileset."Vaelgors_Final_Stare_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Vaelgors_Final_Stare_289-Ever-Collapsing_Void_Fissure_276"+=trinket1=vaelgors_final_stare,id=249346,ilevel=289
-profileset."Vaelgors_Final_Stare_289-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Vaelgors_Final_Stare_289-Ever_Collapsing_Void_Fissure_276"+=trinket1=vaelgors_final_stare,id=249346,ilevel=289
+profileset."Vaelgors_Final_Stare_289-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Vaelgors_Final_Stare_289-Sealed_Chaos_Urn_276"+=trinket1=vaelgors_final_stare,id=249346,ilevel=289
 profileset."Vaelgors_Final_Stare_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -539,8 +539,8 @@ profileset."Vaelgors_Final_Stare_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chao
 profileset."Vaelgors_Final_Stare_289-Tangle_of_Vibrant_Vines_276"+=trinket1=vaelgors_final_stare,id=249346,ilevel=289
 profileset."Vaelgors_Final_Stare_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Vaelgors_Final_Stare_289-Void-Reapers_Libram_276"+=trinket1=vaelgors_final_stare,id=249346,ilevel=289
-profileset."Vaelgors_Final_Stare_289-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Vaelgors_Final_Stare_289-Void_Reapers_Libram_276"+=trinket1=vaelgors_final_stare,id=249346,ilevel=289
+profileset."Vaelgors_Final_Stare_289-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Vaelgors_Final_Stare_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=vaelgors_final_stare,id=249346,ilevel=289
 profileset."Vaelgors_Final_Stare_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
@@ -554,8 +554,8 @@ profileset."Wraps_of_Cosmic_Madness_289-Astalors_Anguish_Agitator_276"+=trinket2
 profileset."Wraps_of_Cosmic_Madness_289-Drum_of_Renewed_Bonds_276"+=trinket1=wraps_of_cosmic_madness,id=249340,ilevel=289
 profileset."Wraps_of_Cosmic_Madness_289-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Wraps_of_Cosmic_Madness_289-Ever-Collapsing_Void_Fissure_276"+=trinket1=wraps_of_cosmic_madness,id=249340,ilevel=289
-profileset."Wraps_of_Cosmic_Madness_289-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Wraps_of_Cosmic_Madness_289-Ever_Collapsing_Void_Fissure_276"+=trinket1=wraps_of_cosmic_madness,id=249340,ilevel=289
+profileset."Wraps_of_Cosmic_Madness_289-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Wraps_of_Cosmic_Madness_289-Sealed_Chaos_Urn_276"+=trinket1=wraps_of_cosmic_madness,id=249340,ilevel=289
 profileset."Wraps_of_Cosmic_Madness_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -563,8 +563,8 @@ profileset."Wraps_of_Cosmic_Madness_289-Sealed_Chaos_Urn_276"+=trinket2=sealed_c
 profileset."Wraps_of_Cosmic_Madness_289-Tangle_of_Vibrant_Vines_276"+=trinket1=wraps_of_cosmic_madness,id=249340,ilevel=289
 profileset."Wraps_of_Cosmic_Madness_289-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Wraps_of_Cosmic_Madness_289-Void-Reapers_Libram_276"+=trinket1=wraps_of_cosmic_madness,id=249340,ilevel=289
-profileset."Wraps_of_Cosmic_Madness_289-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Wraps_of_Cosmic_Madness_289-Void_Reapers_Libram_276"+=trinket1=wraps_of_cosmic_madness,id=249340,ilevel=289
+profileset."Wraps_of_Cosmic_Madness_289-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Wraps_of_Cosmic_Madness_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=wraps_of_cosmic_madness,id=249340,ilevel=289
 profileset."Wraps_of_Cosmic_Madness_289-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
@@ -575,8 +575,8 @@ profileset."Glorious_Crusaders_Keepsake_276-Astalors_Anguish_Agitator_276"+=trin
 profileset."Glorious_Crusaders_Keepsake_276-Drum_of_Renewed_Bonds_276"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=276
 profileset."Glorious_Crusaders_Keepsake_276-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Glorious_Crusaders_Keepsake_276-Ever-Collapsing_Void_Fissure_276"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=276
-profileset."Glorious_Crusaders_Keepsake_276-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Glorious_Crusaders_Keepsake_276-Ever_Collapsing_Void_Fissure_276"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=276
+profileset."Glorious_Crusaders_Keepsake_276-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Glorious_Crusaders_Keepsake_276-Sealed_Chaos_Urn_276"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=276
 profileset."Glorious_Crusaders_Keepsake_276-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -584,8 +584,8 @@ profileset."Glorious_Crusaders_Keepsake_276-Sealed_Chaos_Urn_276"+=trinket2=seal
 profileset."Glorious_Crusaders_Keepsake_276-Tangle_of_Vibrant_Vines_276"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=276
 profileset."Glorious_Crusaders_Keepsake_276-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Glorious_Crusaders_Keepsake_276-Void-Reapers_Libram_276"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=276
-profileset."Glorious_Crusaders_Keepsake_276-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Glorious_Crusaders_Keepsake_276-Void_Reapers_Libram_276"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=276
+profileset."Glorious_Crusaders_Keepsake_276-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Glorious_Crusaders_Keepsake_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=276
 profileset."Glorious_Crusaders_Keepsake_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
@@ -593,8 +593,8 @@ profileset."Glorious_Crusaders_Keepsake_276-Galactic_Gladiators_Badge_of_Ferocit
 profileset."Astalors_Anguish_Agitator_276-Drum_of_Renewed_Bonds_276"+=trinket1=astalors_anguish_agitator,id=264878,ilevel=276
 profileset."Astalors_Anguish_Agitator_276-Drum_of_Renewed_Bonds_276"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=276
 
-profileset."Astalors_Anguish_Agitator_276-Ever-Collapsing_Void_Fissure_276"+=trinket1=astalors_anguish_agitator,id=264878,ilevel=276
-profileset."Astalors_Anguish_Agitator_276-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Astalors_Anguish_Agitator_276-Ever_Collapsing_Void_Fissure_276"+=trinket1=astalors_anguish_agitator,id=264878,ilevel=276
+profileset."Astalors_Anguish_Agitator_276-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Astalors_Anguish_Agitator_276-Sealed_Chaos_Urn_276"+=trinket1=astalors_anguish_agitator,id=264878,ilevel=276
 profileset."Astalors_Anguish_Agitator_276-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -602,14 +602,14 @@ profileset."Astalors_Anguish_Agitator_276-Sealed_Chaos_Urn_276"+=trinket2=sealed
 profileset."Astalors_Anguish_Agitator_276-Tangle_of_Vibrant_Vines_276"+=trinket1=astalors_anguish_agitator,id=264878,ilevel=276
 profileset."Astalors_Anguish_Agitator_276-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Astalors_Anguish_Agitator_276-Void-Reapers_Libram_276"+=trinket1=astalors_anguish_agitator,id=264878,ilevel=276
-profileset."Astalors_Anguish_Agitator_276-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Astalors_Anguish_Agitator_276-Void_Reapers_Libram_276"+=trinket1=astalors_anguish_agitator,id=264878,ilevel=276
+profileset."Astalors_Anguish_Agitator_276-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Astalors_Anguish_Agitator_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=astalors_anguish_agitator,id=264878,ilevel=276
 profileset."Astalors_Anguish_Agitator_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
 
-profileset."Drum_of_Renewed_Bonds_276-Ever-Collapsing_Void_Fissure_276"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276
-profileset."Drum_of_Renewed_Bonds_276-Ever-Collapsing_Void_Fissure_276"+=trinket2=evercollapsing_void_fissure,id=251786,ilevel=276
+profileset."Drum_of_Renewed_Bonds_276-Ever_Collapsing_Void_Fissure_276"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276
+profileset."Drum_of_Renewed_Bonds_276-Ever_Collapsing_Void_Fissure_276"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=276
 
 profileset."Drum_of_Renewed_Bonds_276-Sealed_Chaos_Urn_276"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276
 profileset."Drum_of_Renewed_Bonds_276-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
@@ -617,39 +617,39 @@ profileset."Drum_of_Renewed_Bonds_276-Sealed_Chaos_Urn_276"+=trinket2=sealed_cha
 profileset."Drum_of_Renewed_Bonds_276-Tangle_of_Vibrant_Vines_276"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276
 profileset."Drum_of_Renewed_Bonds_276-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Drum_of_Renewed_Bonds_276-Void-Reapers_Libram_276"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276
-profileset."Drum_of_Renewed_Bonds_276-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Drum_of_Renewed_Bonds_276-Void_Reapers_Libram_276"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276
+profileset."Drum_of_Renewed_Bonds_276-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Drum_of_Renewed_Bonds_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276
 profileset."Drum_of_Renewed_Bonds_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
 
-profileset."Ever-Collapsing_Void_Fissure_276-Sealed_Chaos_Urn_276"+=trinket1=evercollapsing_void_fissure,id=251786,ilevel=276
-profileset."Ever-Collapsing_Void_Fissure_276-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
+profileset."Ever_Collapsing_Void_Fissure_276-Sealed_Chaos_Urn_276"+=trinket1=ever_collapsing_void_fissure,id=251786,ilevel=276
+profileset."Ever_Collapsing_Void_Fissure_276-Sealed_Chaos_Urn_276"+=trinket2=sealed_chaos_urn,id=251787,ilevel=276
 
-profileset."Ever-Collapsing_Void_Fissure_276-Tangle_of_Vibrant_Vines_276"+=trinket1=evercollapsing_void_fissure,id=251786,ilevel=276
-profileset."Ever-Collapsing_Void_Fissure_276-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
+profileset."Ever_Collapsing_Void_Fissure_276-Tangle_of_Vibrant_Vines_276"+=trinket1=ever_collapsing_void_fissure,id=251786,ilevel=276
+profileset."Ever_Collapsing_Void_Fissure_276-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Ever-Collapsing_Void_Fissure_276-Void-Reapers_Libram_276"+=trinket1=evercollapsing_void_fissure,id=251786,ilevel=276
-profileset."Ever-Collapsing_Void_Fissure_276-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Ever_Collapsing_Void_Fissure_276-Void_Reapers_Libram_276"+=trinket1=ever_collapsing_void_fissure,id=251786,ilevel=276
+profileset."Ever_Collapsing_Void_Fissure_276-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
-profileset."Ever-Collapsing_Void_Fissure_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=evercollapsing_void_fissure,id=251786,ilevel=276
-profileset."Ever-Collapsing_Void_Fissure_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
+profileset."Ever_Collapsing_Void_Fissure_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=ever_collapsing_void_fissure,id=251786,ilevel=276
+profileset."Ever_Collapsing_Void_Fissure_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
 
 profileset."Sealed_Chaos_Urn_276-Tangle_of_Vibrant_Vines_276"+=trinket1=sealed_chaos_urn,id=251787,ilevel=276
 profileset."Sealed_Chaos_Urn_276-Tangle_of_Vibrant_Vines_276"+=trinket2=tangle_of_vibrant_vines,id=252957,ilevel=276
 
-profileset."Sealed_Chaos_Urn_276-Void-Reapers_Libram_276"+=trinket1=sealed_chaos_urn,id=251787,ilevel=276
-profileset."Sealed_Chaos_Urn_276-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Sealed_Chaos_Urn_276-Void_Reapers_Libram_276"+=trinket1=sealed_chaos_urn,id=251787,ilevel=276
+profileset."Sealed_Chaos_Urn_276-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Sealed_Chaos_Urn_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=sealed_chaos_urn,id=251787,ilevel=276
 profileset."Sealed_Chaos_Urn_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
 
-profileset."Tangle_of_Vibrant_Vines_276-Void-Reapers_Libram_276"+=trinket1=tangle_of_vibrant_vines,id=252957,ilevel=276
-profileset."Tangle_of_Vibrant_Vines_276-Void-Reapers_Libram_276"+=trinket2=voidreapers_libram,id=251785,ilevel=276
+profileset."Tangle_of_Vibrant_Vines_276-Void_Reapers_Libram_276"+=trinket1=tangle_of_vibrant_vines,id=252957,ilevel=276
+profileset."Tangle_of_Vibrant_Vines_276-Void_Reapers_Libram_276"+=trinket2=void_reapers_libram,id=251785,ilevel=276
 
 profileset."Tangle_of_Vibrant_Vines_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=tangle_of_vibrant_vines,id=252957,ilevel=276
 profileset."Tangle_of_Vibrant_Vines_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
 
-profileset."Void-Reapers_Libram_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=voidreapers_libram,id=251785,ilevel=276
-profileset."Void-Reapers_Libram_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
+profileset."Void_Reapers_Libram_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket1=void_reapers_libram,id=251785,ilevel=276
+profileset."Void_Reapers_Libram_276-Galactic_Gladiators_Badge_of_Ferocity_263"+=trinket2=galactic_gladiators_badge_of_ferocity,id=255613,ilevel=263
 

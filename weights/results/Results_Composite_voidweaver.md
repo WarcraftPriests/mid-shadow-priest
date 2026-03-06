@@ -1,4 +1,4 @@
 # Composite - voidweaver
 | Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Base|69143|1.00|0.44|0.53|0.53|0.46|0.04|
+|Base|69768|1.00|0.47|0.54|0.55|0.47|0.04|

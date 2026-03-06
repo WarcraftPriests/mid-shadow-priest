@@ -1,20 +1,20 @@
 # Composite - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Draught_of_Rampant_Abandon_2|67387|5.90%|
-|Lights_Potential_2|66984|5.27%|
-|Draught_of_Rampant_Abandon_1|66839|5.04%|
-|Lights_Potential_1|66514|4.53%|
-|Flask_of_the_Magisters_2|65912|3.58%|
-|Flask_of_the_Shattered_Sun_2|65796|3.40%|
-|Flask_of_the_Magisters_1|65714|3.27%|
-|Flask_of_the_Shattered_Sun_1|65607|3.10%|
-|Flask_of_Thalassian_Resistance_2|65532|2.98%|
-|Flask_of_Thalassian_Resistance_1|65359|2.71%|
-|Flask_of_the_Blood_Knights_2|65117|2.33%|
-|Flask_of_the_Blood_Knights_1|64992|2.14%|
-|Potion_of_Recklessness_2|64992|2.14%|
-|Potion_of_Recklessness_1|64938|2.05%|
-|Potion_of_Zealotry_2|64478|1.33%|
-|Potion_of_Zealotry_1|64282|1.02%|
-|Base|63633|0.00%|
+|Draught_of_Rampant_Abandon_2|68139|5.77%|
+|Lights_Potential_2|67758|5.18%|
+|Draught_of_Rampant_Abandon_1|67586|4.91%|
+|Lights_Potential_1|67268|4.42%|
+|Flask_of_the_Magisters_2|66705|3.55%|
+|Flask_of_the_Shattered_Sun_2|66593|3.37%|
+|Flask_of_the_Magisters_1|66541|3.29%|
+|Flask_of_the_Shattered_Sun_1|66408|3.08%|
+|Flask_of_Thalassian_Resistance_2|66311|2.93%|
+|Flask_of_Thalassian_Resistance_1|66145|2.68%|
+|Flask_of_the_Blood_Knights_2|65900|2.30%|
+|Potion_of_Recklessness_2|65842|2.21%|
+|Flask_of_the_Blood_Knights_1|65771|2.10%|
+|Potion_of_Recklessness_1|65757|2.07%|
+|Potion_of_Zealotry_2|65238|1.27%|
+|Potion_of_Zealotry_1|65057|0.99%|
+|Base|64421|0.00%|
