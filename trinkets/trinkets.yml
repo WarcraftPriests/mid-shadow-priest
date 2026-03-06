@@ -105,7 +105,9 @@ other:
       item_levels: crafted 
     - id: 246307
       name: Darkmoon_Dominion_Void
-      item_levels: crafted 
+      item_levels: crafted
+    - id: 264507
+      name: "Crucible_of_Erratic_Energies"
 raid:
   item_levels: "raid"
   trinkets:

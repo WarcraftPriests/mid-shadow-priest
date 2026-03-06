@@ -47,7 +47,7 @@ profileset."Champions_Bento"+=food=blooming_feast
 profileset."Flora_Frenzy"+=food=blooming_feast
 
 ### 50 primary
-profileset."Royal_Roast"+=food=blooming_feast
+profileset."Royal_Roast"+=food=royal_roast
 
 ## Advanced (59 stat)
 ## Mastery
