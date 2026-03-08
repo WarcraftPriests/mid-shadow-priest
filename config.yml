@@ -113,7 +113,6 @@ sims:
     steps:
       - 1
       - 2
-      - 3
     files:
       - alchemy.simc
   apl:
@@ -150,7 +149,6 @@ sims:
     steps:
       - 1
       - 2
-      - 3
     files:
       - enchants.simc
   gem-combos:
@@ -176,7 +174,6 @@ sims:
     steps:
       - 1
       - 2
-      - 3
     files:
       - gems.simc
   racials:

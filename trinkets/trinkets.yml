@@ -108,6 +108,18 @@ other:
       item_levels: crafted
     - id: 264507
       name: "Crucible_of_Erratic_Energies"
+      option:
+        - name: "Violence"
+          value: "midnight.crucible_of_erratic_energies_violence=1"
+        - name: "Sustenance"
+          value: "midnight.crucible_of_erratic_energies_sustenance=1"
+        - name: "Predation"
+          value: "midnight.crucible_of_erratic_energies_predation=1"
+        - name: "All"
+          value: 
+            - "midnight.crucible_of_erratic_energies_violence=1"
+            - "midnight.crucible_of_erratic_energies_sustenance=1"
+            - "midnight.crucible_of_erratic_energies_predation=1"
 raid:
   item_levels: "raid"
   trinkets:

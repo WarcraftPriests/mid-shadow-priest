@@ -33,37 +33,35 @@ Item-level resolution priority:
 
 Option object keys:
 
-- **`name`**: (required) short option name (e.g. `Haste`, `Mastery`). This is used in the generated profile label and as the assigned option value (lowercased by default).
-- **`value`**: (required) the config key to assign for this option (e.g. `shadowlands.soleahs_secret_technique_type`). The script will generate a second `profileset` line to set that key to the option name (lowercased).
-- **`assign`**: (optional) if present, `assign` is used as the value assigned to `value` instead of deriving from `name.lower()`.
+- **`name`**: (required) short option name (e.g. Haste, Mastery). This is used in the generated profile label and as the suffix for the option-specific `trinket1=` identifier (normalized and lowercased).
+- **`value`**: (required) either a single string or a list of strings. Each string is written verbatim as a `profileset` assignment line following the generated `trinket1=` line. Example values are `midnight.crucible_of_erratic_energies_violence=1` or a list of such assignment strings to produce multiple assignment lines for a single option.
 
-Example trinket with options
+Example — multi-value option (from `trinkets.yml`):
 
 YAML:
 ```
-- id: 1
-  name: "Soleahs_Secret_Technique"
+- id: 264507
+  name: "Crucible_of_Erratic_Energies"
   option:
-    - name: "Haste"
-      value: "shadowlands.soleahs_secret_technique_type"
-    - name: "Mastery"
-      value: "shadowlands.soleahs_secret_technique_type"
+    - name: "All"
+      value:
+        - "midnight.crucible_of_erratic_energies_violence=1"
+        - "midnight.crucible_of_erratic_energies_sustenance=1"
+        - "midnight.crucible_of_erratic_energies_predation=1"
 ```
 
-Generates (for ilevel `697`):
+Generates (for ilevel `263`):
 ```
-profileset."Soleahs_Secret_Technique_Haste_697"+=trinket1=soleahs_secret_technique_haste,id=1,ilevel=697
-profileset."Soleahs_Secret_Technique_Haste_697"+=shadowlands.soleahs_secret_technique_type=haste
-
-profileset."Soleahs_Secret_Technique_Mastery_697"+=trinket1=soleahs_secret_technique_mastery,id=1,ilevel=697
-profileset."Soleahs_Secret_Technique_Mastery_697"+=shadowlands.soleahs_secret_technique_type=mastery
+profileset."Crucible_of_Erratic_Energies_All_263"+=trinket1=crucible_of_erratic_energies_all,id=264507,ilevel=263
+profileset."Crucible_of_Erratic_Energies_All_263"+=midnight.crucible_of_erratic_energies_violence=1
+profileset."Crucible_of_Erratic_Energies_All_263"+=midnight.crucible_of_erratic_energies_sustenance=1
+profileset."Crucible_of_Erratic_Energies_All_263"+=midnight.crucible_of_erratic_energies_predation=1
 ```
 
 Notes about normalization
 
 - The script derives the `trinket1=` identifier by lowercasing the `name` and replacing non-alphanumeric characters with underscores (e.g. `Soleahs_Secret_Technique` -> `soleahs_secret_technique`).
 - For option-specific trinket ids the script appends the normalized option name (also lowercased and cleaned) separated by an underscore: e.g. `soleahs_secret_technique_haste`.
-- The option assignment uses `assign` if provided; otherwise it uses `name.lower()`.
 
 Script usage
 

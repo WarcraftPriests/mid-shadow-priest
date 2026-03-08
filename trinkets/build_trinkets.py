@@ -92,7 +92,7 @@ def write_simc_for_section(section_name: str, section: Dict[str, Any], out_path:
                 for opt in opts:
                     opt_name = opt.get("name")
                     opt_val_key = opt.get("value")
-                    if not opt_name or not opt_val_key:
+                    if not opt_name or opt_val_key is None:
                         continue
                     opt_norm = normalize_trinket_name(opt_name)
 
@@ -101,10 +101,12 @@ def write_simc_for_section(section_name: str, section: Dict[str, Any], out_path:
                         trinket_id = f'{normalized}_{opt_norm}'
                         line = f'profileset."{label}"+=trinket1={trinket_id},id={tr_id},ilevel={il}\n'
                         f.write(line)
-                        # write the option assignment using the provided value key and the option name as the assigned value
-                        assigned_value = opt_name.lower()
-                        opt_line = f'profileset."{label}"+={opt_val_key}={assigned_value}\n'
-                        f.write(opt_line)
+                        # write one or more option assignment lines depending on the type of `value`
+                        if isinstance(opt_val_key, list):
+                            for v in opt_val_key:
+                                f.write(f'profileset."{label}"+={v}\n')
+                        else:
+                            f.write(f'profileset."{label}"+={opt_val_key}\n')
             else:
                 for il in tr_item_levels:
                     label = f"{tr_name}_{il}"
@@ -186,7 +188,7 @@ def main(argv: list[str] | None = None) -> int:
                     for opt in opts:
                         opt_name = opt.get("name")
                         opt_val_key = opt.get("value")
-                        if not opt_name or not opt_val_key:
+                        if not opt_name or opt_val_key is None:
                             continue
                         opt_norm = normalize_trinket_name(opt_name)
                         for il in item_levels:
@@ -194,9 +196,12 @@ def main(argv: list[str] | None = None) -> int:
                             trinket_id = f'{normalized}_{opt_norm}'
                             line = f'profileset."{label}"+=trinket1={trinket_id},id={tr_id},ilevel={il}'
                             print(line)
-                            assigned_value = opt_name.lower()
-                            opt_line = f'profileset."{label}"+={opt_val_key}={assigned_value}'
-                            print(opt_line)
+                            # print one or more option assignment lines depending on the type of `value`
+                            if isinstance(opt_val_key, list):
+                                for v in opt_val_key:
+                                    print(f'profileset."{label}"+={v}')
+                            else:
+                                print(f'profileset."{label}"+={opt_val_key}')
                 else:
                     for il in item_levels:
                         label = f"{tr_name}_{il}"
