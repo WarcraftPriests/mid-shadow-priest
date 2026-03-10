@@ -29,7 +29,39 @@ Item-level resolution priority:
 
 - **`id`**: (required) numeric item id for the trinket.
 - **`name`**: (required) display name used in the `profileset` label. Use the same human-readable casing you want to see in labels.
+- **`bonus_ids`**: (optional) list of bonus ID objects to generate alternate profiles with bonus IDs appended directly to the trinket line.
 - **`option`** or **`options`**: (optional) list of option objects to generate alternate profiles for trinkets that have variants.
+
+Bonus ID object keys:
+
+- **`name`**: (required) short name for the bonus variant (e.g. Crit, Haste, Mastery). This is used in the generated profile label.
+- **`value`**: (required) numeric bonus ID to append to the trinket line.
+
+Example — bonus_ids (from `trinkets.yml`):
+
+YAML:
+```yaml
+- id: 248583
+  name: "Drum_of_Renewed_Bonds"
+  bonus_ids:
+    - name: "Crit"
+      value: 13183
+    - name: "Haste"
+      value: 13184
+    - name: "Mastery"
+      value: 13185
+    - name: "Versatility"
+      value: 13186
+```
+
+Generates (for ilevels `263, 276`):
+```
+profileset."Drum_of_Renewed_Bonds_Crit_263"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=263,bonus_id=13183
+profileset."Drum_of_Renewed_Bonds_Crit_276"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276,bonus_id=13183
+profileset."Drum_of_Renewed_Bonds_Haste_263"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=263,bonus_id=13184
+profileset."Drum_of_Renewed_Bonds_Haste_276"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276,bonus_id=13184
+...
+```
 
 Option object keys:
 
@@ -62,6 +94,7 @@ Notes about normalization
 
 - The script derives the `trinket1=` identifier by lowercasing the `name` and replacing non-alphanumeric characters with underscores (e.g. `Soleahs_Secret_Technique` -> `soleahs_secret_technique`).
 - For option-specific trinket ids the script appends the normalized option name (also lowercased and cleaned) separated by an underscore: e.g. `soleahs_secret_technique_haste`.
+- **Bonus IDs and Options are mutually exclusive**: if a trinket has `bonus_ids`, they take priority and `options` are ignored. Use whichever is appropriate for your trinket variant type.
 
 Script usage
 

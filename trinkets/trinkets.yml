@@ -52,6 +52,15 @@ other:
     - id: 248583
       name: "Drum_of_Renewed_Bonds"
       item_levels: delves
+      bonus_ids:
+        - name: "Crit"
+          value: 13183
+        - name: "Haste"
+          value: 13184
+        - name: "Mastery"
+          value: 13185
+        - name: "Versatility"
+          value: 13186
     - id: 251786
       name: "Ever-Collapsing_Void_Fissure"
       item_levels: delves

@@ -30,8 +30,14 @@ profileset."Glorious_Crusaders_Keepsake_263"+=trinket1=glorious_crusaders_keepsa
 profileset."Glorious_Crusaders_Keepsake_276"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=276
 profileset."Astalors_Anguish_Agitator_263"+=trinket1=astalors_anguish_agitator,id=264878,ilevel=263
 profileset."Astalors_Anguish_Agitator_276"+=trinket1=astalors_anguish_agitator,id=264878,ilevel=276
-profileset."Drum_of_Renewed_Bonds_263"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=263
-profileset."Drum_of_Renewed_Bonds_276"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276
+profileset."Drum_of_Renewed_Bonds_Crit_263"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=263,bonus_id=13183
+profileset."Drum_of_Renewed_Bonds_Crit_276"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276,bonus_id=13183
+profileset."Drum_of_Renewed_Bonds_Haste_263"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=263,bonus_id=13184
+profileset."Drum_of_Renewed_Bonds_Haste_276"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276,bonus_id=13184
+profileset."Drum_of_Renewed_Bonds_Mastery_263"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=263,bonus_id=13185
+profileset."Drum_of_Renewed_Bonds_Mastery_276"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276,bonus_id=13185
+profileset."Drum_of_Renewed_Bonds_Versatility_263"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=263,bonus_id=13186
+profileset."Drum_of_Renewed_Bonds_Versatility_276"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=276,bonus_id=13186
 profileset."Ever-Collapsing_Void_Fissure_263"+=trinket1=evercollapsing_void_fissure,id=251786,ilevel=263
 profileset."Ever-Collapsing_Void_Fissure_276"+=trinket1=evercollapsing_void_fissure,id=251786,ilevel=276
 profileset."Sealed_Chaos_Urn_263"+=trinket1=sealed_chaos_urn,id=251787,ilevel=263

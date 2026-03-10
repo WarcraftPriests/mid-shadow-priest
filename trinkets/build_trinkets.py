@@ -85,10 +85,23 @@ def write_simc_for_section(section_name: str, section: Dict[str, Any], out_path:
             normalized = normalize_trinket_name(tr_name)
             # support either 'option' (singular) or 'options' (plural)
             opts = tr.get("option") or tr.get("options") or []
+            # support 'bonus_ids' for appending bonus_id directly to trinket line
+            bonus_ids = tr.get("bonus_ids") or []
             # per-trinket item_levels can override the section setting; accept list or string key
             tr_item_levels = resolve_item_levels(tr.get("item_levels", None), item_levels_map) or section_item_levels
 
-            if opts:
+            if bonus_ids:
+                for bonus in bonus_ids:
+                    bonus_name = bonus.get("name")
+                    bonus_val = bonus.get("value")
+                    if not bonus_name or bonus_val is None:
+                        continue
+
+                    for il in tr_item_levels:
+                        label = f"{tr_name}_{bonus_name}_{il}"
+                        line = f'profileset."{label}"+=trinket1={normalized},id={tr_id},ilevel={il},bonus_id={bonus_val}\n'
+                        f.write(line)
+            elif opts:
                 for opt in opts:
                     opt_name = opt.get("name")
                     opt_val_key = opt.get("value")
@@ -175,7 +188,7 @@ def main(argv: list[str] | None = None) -> int:
 
             # generate same content as write_simc_for_section but to stdout
             trinkets = section.get("trinkets", [])
-            item_levels = section.get("item_levels", [])
+            section_item_levels = resolve_item_levels(section.get("item_levels", None), item_levels_map)
             for tr in trinkets:
                 tr_id = tr.get("id")
                 tr_name = tr.get("name")
@@ -183,15 +196,27 @@ def main(argv: list[str] | None = None) -> int:
                     continue
                 normalized = normalize_trinket_name(tr_name)
                 opts = tr.get("option") or tr.get("options") or []
+                bonus_ids = tr.get("bonus_ids") or []
+                tr_item_levels = resolve_item_levels(tr.get("item_levels", None), item_levels_map) or section_item_levels
 
-                if opts:
+                if bonus_ids:
+                    for bonus in bonus_ids:
+                        bonus_name = bonus.get("name")
+                        bonus_val = bonus.get("value")
+                        if not bonus_name or bonus_val is None:
+                            continue
+                        for il in tr_item_levels:
+                            label = f"{tr_name}_{bonus_name}_{il}"
+                            line = f'profileset."{label}"+=trinket1={normalized},id={tr_id},ilevel={il},bonus_id={bonus_val}'
+                            print(line)
+                elif opts:
                     for opt in opts:
                         opt_name = opt.get("name")
                         opt_val_key = opt.get("value")
                         if not opt_name or opt_val_key is None:
                             continue
                         opt_norm = normalize_trinket_name(opt_name)
-                        for il in item_levels:
+                        for il in tr_item_levels:
                             label = f"{tr_name}_{opt_name}_{il}"
                             trinket_id = f'{normalized}_{opt_norm}'
                             line = f'profileset."{label}"+=trinket1={trinket_id},id={tr_id},ilevel={il}'
@@ -203,7 +228,7 @@ def main(argv: list[str] | None = None) -> int:
                             else:
                                 print(f'profileset."{label}"+={opt_val_key}')
                 else:
-                    for il in item_levels:
+                    for il in tr_item_levels:
                         label = f"{tr_name}_{il}"
                         line = f'profileset."{label}"+=trinket1={normalized},id={tr_id},ilevel={il}'
                         print(line)
