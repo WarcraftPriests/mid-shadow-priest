@@ -1,4 +1,27 @@
 
 # Overrides are added below here
-override.spell_data=effect.285130.base_value=20
-override.spell_data=effect.285131.base_value=20
+
+## All damage increased by 10%.
+override.spell_data=effect.179717.base_value=-19
+override.spell_data=effect.191068.base_value=-19
+
+## Shadow Word: Death damage increased by 40%.
+override.spell_data=effect.22171.sp_coefficient=3.57
+override.spell_data=effect.165318.sp_coefficient=1.19
+
+## Mind Blast damage increased by 20%.
+override.spell_data=effect.3283.sp_coefficient=0.94
+
+## Mind Flay damage increased by 20%.
+override.spell_data=effect.7301.sp_coefficient=1.11
+
+## Idol of N'Zoth damage increased by 20%.
+override.spell_data=effect.1243031.sp_coefficient=1.68
+override.spell_data=effect.1243033.sp_coefficient=6.36
+
+## Shadow Word: Madness damage increased by 20%
+override.spell_data=effect.832086.sp_coefficient=2.1
+override.spell_data=effect.832088.sp_coefficient=2.1
+
+## Psychic Link now causes direct damage spells to inflict 20% of their damage to all other targets afflicted by Vampiric Touch (was 60%).
+override.spell_data=effect.293563.base_value=20
