@@ -4,7 +4,6 @@ role=spell
 position=back
 spec=shadow
 talents=${talents}
-spec_talents+=/s1264096:1/s1264104:2/s1264107:1
 
 ${apl}
 
