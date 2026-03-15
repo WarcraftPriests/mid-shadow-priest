@@ -1,1 +1,1 @@
-{"name": "8T - archon", "data": {"MID1-2_4-set": {"DPS": 454142}, "MID1-2-set": {"DPS": 435550}, "Base": {"DPS": 425217}}, "ids": {"MID1-2_4-set": 1264855, "MID1-2-set": 1264854}, "simulated_steps": ["DPS"], "sorted_data_keys": ["MID1-2_4-set", "MID1-2-set"], "last_updated": "2026-03-07"}
+{"name": "8T - archon", "data": {"MID1-2_4-set": {"DPS": 535234}, "MID1-2-set": {"DPS": 475724}, "Base": {"DPS": 456131}}, "ids": {"MID1-2_4-set": 1264855, "MID1-2-set": 1264854}, "simulated_steps": ["DPS"], "sorted_data_keys": ["MID1-2_4-set", "MID1-2-set"], "last_updated": "2026-03-14"}

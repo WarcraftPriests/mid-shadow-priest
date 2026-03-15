@@ -1,4 +1,4 @@
 # Single - voidweaver
 | Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Base|68224|1.00|0.47|0.54|0.56|0.47|0.04|
+|Base|97661|1.00|0.46|0.56|0.58|0.47|0.03|

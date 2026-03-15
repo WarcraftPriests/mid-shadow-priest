@@ -1,20 +1,20 @@
 # 3T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Draught_of_Rampant_Abandon_2|145044|5.95%|
-|Lights_Potential_2|144244|5.36%|
-|Draught_of_Rampant_Abandon_1|143917|5.13%|
-|Lights_Potential_1|143117|4.54%|
-|Flask_of_the_Magisters_2|141708|3.51%|
-|Flask_of_the_Shattered_Sun_2|141703|3.51%|
-|Flask_of_the_Shattered_Sun_1|141357|3.26%|
-|Flask_of_the_Magisters_1|141333|3.24%|
-|Flask_of_Thalassian_Resistance_2|140999|2.99%|
-|Flask_of_Thalassian_Resistance_1|140617|2.71%|
-|Flask_of_the_Blood_Knights_2|140156|2.38%|
-|Potion_of_Recklessness_2|140079|2.32%|
-|Potion_of_Recklessness_1|139902|2.19%|
-|Flask_of_the_Blood_Knights_1|139826|2.14%|
-|Potion_of_Zealotry_2|137468|0.41%|
-|Potion_of_Zealotry_1|137407|0.37%|
-|Base|136901|0.00%|
+|Draught_of_Rampant_Abandon_2|177268|5.99%|
+|Lights_Potential_2|176183|5.34%|
+|Draught_of_Rampant_Abandon_1|175633|5.01%|
+|Lights_Potential_1|174884|4.57%|
+|Flask_of_the_Shattered_Sun_2|173331|3.64%|
+|Flask_of_the_Magisters_2|173177|3.55%|
+|Flask_of_the_Shattered_Sun_1|172918|3.39%|
+|Flask_of_the_Magisters_1|172687|3.25%|
+|Flask_of_Thalassian_Resistance_2|172156|2.93%|
+|Flask_of_Thalassian_Resistance_1|171660|2.64%|
+|Flask_of_the_Blood_Knights_2|171172|2.35%|
+|Flask_of_the_Blood_Knights_1|170832|2.14%|
+|Potion_of_Recklessness_2|170728|2.08%|
+|Potion_of_Recklessness_1|170479|1.93%|
+|Potion_of_Zealotry_2|167876|0.38%|
+|Potion_of_Zealotry_1|167771|0.31%|
+|Base|167248|0.00%|
