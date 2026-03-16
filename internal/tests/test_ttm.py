@@ -224,7 +224,7 @@ def test_single_and_no_idol_behavior(tmp_path, monkeypatch):
         f.write(line1)
     ttm.convert_builds(str(profile1))
     with open(profile1, "r", encoding="utf8") as f:
-        out1 = f.read()
+        _ = f.read()
     # single idol -> should now be included (idols suffix appended)
     # assert 'profileset."VF_yogg' in out1
 
