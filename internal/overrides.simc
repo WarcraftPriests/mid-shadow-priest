@@ -6,11 +6,11 @@ override.spell_data=effect.179717.base_value=-14
 override.spell_data=effect.191068.base_value=-14
 
 ## Shadow Word: Death damage increased by 55%.
-override.spell_data=effect.22171.sp_coefficient=3.9525
-override.spell_data=effect.165318.sp_coefficient=1.3175
+override.spell_data=effect.22171.sp_coefficient=3.95
+override.spell_data=effect.165318.sp_coefficient=1.32
 
 ## Mind Blast damage increased by 30%.
-override.spell_data=effect.3283.sp_coefficient=1.018368
+override.spell_data=effect.3283.sp_coefficient=1.02
 
 ## Mind Flay damage increased by 30%.
 override.spell_data=effect.7301.sp_coefficient=1.2012
@@ -20,8 +20,11 @@ override.spell_data=effect.1243031.sp_coefficient=1.82
 override.spell_data=effect.1243033.sp_coefficient=6.89
 
 ## Shadow Word: Madness damage increased by 30%
-override.spell_data=effect.832086.sp_coefficient=2.275
-override.spell_data=effect.832088.sp_coefficient=2.275
+override.spell_data=effect.832086.sp_coefficient=2.28
+override.spell_data=effect.832088.sp_coefficient=2.28
 
 ## Psychic Link now causes direct damage spells to inflict 20% of their damage to all other targets afflicted by Vampiric Touch (was 60%).
 override.spell_data=effect.293563.base_value=20
+
+## Void Torrent damage increased by 30%
+override.spell_data=effect.651860.sp_coefficient=2.38
