@@ -13,7 +13,7 @@ override.spell_data=effect.165318.sp_coefficient=1.32
 override.spell_data=effect.3283.sp_coefficient=1.02
 
 ## Mind Flay damage increased by 30%.
-override.spell_data=effect.7301.sp_coefficient=1.2012
+override.spell_data=effect.7301.sp_coefficient=1.20
 
 ## Idol of N'Zoth damage increased by 30%.
 override.spell_data=effect.1243031.sp_coefficient=1.82
