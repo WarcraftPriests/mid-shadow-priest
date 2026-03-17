@@ -1,6 +1,6 @@
 # Dungeons-Slice - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|MID1-2_4-set|98104|12.45%|
-|MID1-2-set|90035|3.20%|
-|Base|87245|0.00%|
+|MID1-2_4-set|89982|8.08%|
+|MID1-2-set|85498|2.70%|
+|Base|83252|0.00%|

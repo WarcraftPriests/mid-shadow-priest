@@ -5,8 +5,7 @@ position=back
 spec=shadow
 talents=${talents}
 
-set_bonus=mid1_2pc=0
-set_bonus=mid1_4pc=0
+set_bonus=midnight_season_1_2pc=0/midnight_season_1_4pc=0
 
 ${apl}
 
@@ -27,6 +26,5 @@ trinket2=${gear.trinket2}
 main_hand=${gear.main_hand},enchant=${enchants.main_hand}
 ${gear.off_hand}
 
-profileset."MID1-2-set"+=set_bonus=mid1_2pc=1
-profileset."MID1-2_4-set"+=set_bonus=mid1_2pc=1
-profileset."MID1-2_4-set"+=set_bonus=mid1_4pc=1
+profileset."MID1-2-set"+=set_bonus=midnight_season_1_2pc=1
+profileset."MID1-2_4-set"+=set_bonus=midnight_season_1_2pc=1/midnight_season_1_4pc=1

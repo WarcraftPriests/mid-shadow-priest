@@ -25,3 +25,6 @@ override.spell_data=effect.832088.sp_coefficient=2.1
 
 ## Psychic Link now causes direct damage spells to inflict 20% of their damage to all other targets afflicted by Vampiric Touch (was 60%).
 override.spell_data=effect.293563.base_value=20
+
+## Gaze of the Alnseer primary stat gain reduced by 20%.
+override.spell_data=effect.1264645.coefficient=0.144396
