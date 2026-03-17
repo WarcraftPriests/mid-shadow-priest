@@ -1,7 +1,7 @@
 
 # Overrides are added below here
 
-## All damage increased by 10%.
+## All damage increased by 16%.
 override.spell_data=effect.179717.base_value=-14
 override.spell_data=effect.191068.base_value=-14
 
