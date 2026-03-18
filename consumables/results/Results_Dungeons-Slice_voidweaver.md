@@ -1,14 +1,14 @@
 # Dungeons-Slice - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|85378|1.89%|
-|Royal_Roast|85360|1.87%|
-|Warped_Wise_Wings|84929|1.36%|
-|Arcano_Cutlets|84890|1.31%|
-|Void_Kissed_Fish_Rolls|84791|1.19%|
-|Fel_Kissed_Filet|84769|1.17%|
-|Blooming_Feast|84719|1.11%|
-|Void_Touched_Augment_Rune|84657|1.03%|
-|Champions_Bento|84641|1.01%|
-|Flora_Frenzy|84622|0.99%|
-|Base|83792|0.00%|
+|Royal_Roast|98790|2.08%|
+|Silvermoon_Parade|98740|2.03%|
+|Warped_Wise_Wings|98218|1.49%|
+|Blooming_Feast|98082|1.35%|
+|Champions_Bento|98069|1.34%|
+|Arcano_Cutlets|98017|1.28%|
+|Flora_Frenzy|98006|1.27%|
+|Fel_Kissed_Filet|98000|1.26%|
+|Void_Kissed_Fish_Rolls|97933|1.19%|
+|Void_Touched_Augment_Rune|97793|1.05%|
+|Base|96777|0.00%|
