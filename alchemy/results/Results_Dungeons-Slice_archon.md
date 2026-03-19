@@ -1,20 +1,20 @@
 # Dungeons-Slice - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Draught_of_Rampant_Abandon_2|96663|6.02%|
-|Lights_Potential_2|96235|5.55%|
-|Draught_of_Rampant_Abandon_1|95850|5.13%|
-|Lights_Potential_1|95538|4.79%|
-|Flask_of_the_Magisters_2|94520|3.67%|
-|Flask_of_the_Magisters_1|94327|3.46%|
-|Flask_of_the_Shattered_Sun_2|94175|3.29%|
-|Potion_of_Recklessness_2|94036|3.14%|
-|Flask_of_the_Blood_Knights_2|93955|3.05%|
-|Flask_of_Thalassian_Resistance_2|93894|2.98%|
-|Flask_of_the_Shattered_Sun_1|93861|2.95%|
-|Potion_of_Recklessness_1|93699|2.77%|
-|Flask_of_Thalassian_Resistance_1|93653|2.72%|
-|Flask_of_the_Blood_Knights_1|93614|2.68%|
-|Potion_of_Zealotry_2|91809|0.70%|
-|Potion_of_Zealotry_1|91646|0.52%|
-|Base|91175|0.00%|
+|Draught_of_Rampant_Abandon_2|96938|5.97%|
+|Lights_Potential_2|96405|5.38%|
+|Draught_of_Rampant_Abandon_1|96302|5.27%|
+|Lights_Potential_1|95690|4.60%|
+|Flask_of_the_Magisters_2|94890|3.73%|
+|Flask_of_the_Magisters_1|94709|3.53%|
+|Flask_of_the_Shattered_Sun_2|94505|3.31%|
+|Potion_of_Recklessness_2|94390|3.18%|
+|Flask_of_Thalassian_Resistance_2|94295|3.08%|
+|Potion_of_Recklessness_1|94119|2.88%|
+|Flask_of_the_Shattered_Sun_1|94110|2.87%|
+|Flask_of_Thalassian_Resistance_1|94100|2.86%|
+|Flask_of_the_Blood_Knights_2|94082|2.84%|
+|Flask_of_the_Blood_Knights_1|93907|2.65%|
+|Potion_of_Zealotry_2|92157|0.74%|
+|Potion_of_Zealotry_1|91943|0.51%|
+|Base|91480|0.00%|

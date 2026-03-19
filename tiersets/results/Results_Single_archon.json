@@ -1,1 +1,1 @@
-{"name": "Single - archon", "data": {"MID1-2_4-set": {"DPS": 98759}, "MID1-2-set": {"DPS": 95038}, "Base": {"DPS": 92897}}, "ids": {"MID1-2_4-set": 1264855, "MID1-2-set": 1264854}, "simulated_steps": ["DPS"], "sorted_data_keys": ["MID1-2_4-set", "MID1-2-set"], "last_updated": "2026-03-18"}
+{"name": "Single - archon", "data": {"MID1-2_4-set": {"DPS": 98759}, "MID1-2-set": {"DPS": 95036}, "Base": {"DPS": 92925}}, "ids": {"MID1-2_4-set": 1264855, "MID1-2-set": 1264854}, "simulated_steps": ["DPS"], "sorted_data_keys": ["MID1-2_4-set", "MID1-2-set"], "last_updated": "2026-03-19"}
