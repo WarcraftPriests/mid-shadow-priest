@@ -1,14 +1,14 @@
 # 8T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|473684|1.80%|
-|Royal_Roast|473467|1.75%|
-|Arcano_Cutlets|472236|1.48%|
-|Warped_Wise_Wings|471810|1.39%|
-|Void_Kissed_Fish_Rolls|471125|1.25%|
-|Champions_Bento|470193|1.04%|
-|Flora_Frenzy|469861|0.97%|
-|Fel_Kissed_Filet|469843|0.97%|
-|Blooming_Feast|469817|0.96%|
-|Void_Touched_Augment_Rune|469550|0.91%|
-|Base|465331|0.00%|
+|Royal_Roast|460485|1.95%|
+|Silvermoon_Parade|460250|1.90%|
+|Arcano_Cutlets|459059|1.63%|
+|Warped_Wise_Wings|458222|1.45%|
+|Void_Kissed_Fish_Rolls|457037|1.19%|
+|Blooming_Feast|456540|1.08%|
+|Fel_Kissed_Filet|456496|1.07%|
+|Flora_Frenzy|456477|1.06%|
+|Champions_Bento|456466|1.06%|
+|Void_Touched_Augment_Rune|456137|0.99%|
+|Base|451678|0.00%|
