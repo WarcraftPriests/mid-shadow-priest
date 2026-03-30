@@ -1,6 +1,6 @@
 # Composite - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|MID1-2_4-set|97250|6.26%|
-|MID1-2-set|93712|2.39%|
-|Base|91521|0.00%|
+|MID1-2_4-set|98676|6.30%|
+|MID1-2-set|95033|2.38%|
+|Base|92824|0.00%|

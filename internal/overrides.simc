@@ -1,2 +1,16 @@
 
 # Overrides are added below here
+# pl 25%
+override.spell_data=effect.293563.base_value=25
+# mind blast and void blast reduced by 10%
+override.spell_data=effect.260937.base_value=530
+# spectral horrors is now 30%
+override.spell_data=effect.1070949.base_value=30
+# shadowy and void apparitions increased by 35%
+override.spell_data=effect.1081317.sp_coefficient=0.8505
+# yogg 25%
+override.spell_data=effect.1078854.base_value=26.25
+# mind sear 25%
+override.spell_data=effect.1035091.sp_coefficient=0.42925
+# swd increased by 80%
+override.spell_data=effect.165318.sp_coefficient=1.53
