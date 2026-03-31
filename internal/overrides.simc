@@ -14,3 +14,5 @@ override.spell_data=effect.1078854.base_value=26.25
 override.spell_data=effect.1035091.sp_coefficient=0.42925
 # swd increased by 80%
 override.spell_data=effect.165318.sp_coefficient=1.53
+# shadow of empyrean requiem damage increased by 20%
+override.spell_data=effect.1268661.sp_coefficient=65.255568
