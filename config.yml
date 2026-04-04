@@ -290,7 +290,7 @@ sims:
       - DPS
     files:
       - weights.simc
-compositeWeights: weightsLiberationofUndermine
+compositeWeights: weightsRaoidSeasonOne
 singleTargetWeights: weightsSingle
 twoTargetWeights: weightsTwoTargets
 threeTargetWeights: weightsThreeTargets
@@ -301,7 +301,7 @@ singleTargetProfiles:
   - lm_na_1
   - hm_na_1
 councilTargets: 3
-dungeonSeason: 2
+dungeonSeason: 1
 dungeonStandardWeights: weightsSeasonTwo
 dungeonPushWeights: weightsSeasonTwo
 dungeonType: slice

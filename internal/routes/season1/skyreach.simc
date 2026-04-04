@@ -1,0 +1,32 @@
+# https://keystone.guru/kqeL79Y
+fight_style=DungeonRoute
+override.bloodlust=0
+override.arcane_intellect=0
+override.power_word_fortitude=1
+override.mark_of_the_wild=0
+override.battle_shout=0
+override.mystic_touch=0
+override.chaos_brand=0
+override.skyfury=0
+override.hunters_mark=0
+override.power_infusion=0
+override.bleeding=0
+single_actor_batch=1
+max_time=1680
+enemy="PUG-Friendly: Raider.IO's Weekly Route"
+enemy_health=999999
+keystone_level=20
+raid_events=/invulnerable,cooldown=5160,duration=5160,retarget=1
+raid_events+=/pull,pull=01,bloodlust=1,delay=006,enemies="soaring-chakram-master_1":2509739|"driving-gale-caller_1":2258766|"raging-squall_1":1505843|"raging-squall_2":1505843|"raging-squall_3":1505843|"dread-raven_1":4517531|"outcast-warrior_1":2760714|"outcast-warrior_2":2760714|"outcast-warrior_3":2760714|"adorned-bladetalon_1":4266557
+raid_events+=/pull,pull=02,bloodlust=0,delay=009,enemies="lowborn-servant_1":1505843|"lowborn-servant_2":1505843|"dread-raven_1":4517531|"raging-squall_1":1505843|"raging-squall_2":1505843
+raid_events+=/pull,pull=03,bloodlust=0,delay=010,enemies="soaring-chakram-master_1":2509739|"soaring-chakram-master_2":2509739|"driving-gale-caller_1":2258766|"driving-gale-caller_2":2258766|"driving-gale-caller_3":2258766|"raging-squall_1":1505843|"raging-squall_2":1505843|"adorned-bladetalon_1":4266557
+raid_events+=/pull,pull=04,bloodlust=0,delay=005,enemies="BOSS_ranjit_1":18300182
+raid_events+=/pull,pull=05,bloodlust=0,delay=010,enemies="blinding-sun-priestess_1":2258766|"initiate-of-the-rising-sun_1":2007791|"initiate-of-the-rising-sun_2":2007791|"adept-of-the-dawn_1":2509739|"adept-of-the-dawn_2":2509739|"solar-elemental_1":3890096
+raid_events+=/pull,pull=06,bloodlust=0,delay=011,enemies="lowborn-servant_1":1505843|"lowborn-servant_2":1505843|"lowborn-servant_3":1505843|"lowborn-servant_4":1505843|"lowborn-servant_5":1505843|"lowborn-servant_6":1505843|"lowborn-servant_7":1505843|"lowborn-servant_8":1505843|"blinding-sun-priestess_1":2258766|"adept-of-the-dawn_1":2509739|"solar-construct_1":3764610|"solar-construct_2":3764610|"solar-construct_3":3764610
+raid_events+=/pull,pull=07,bloodlust=1,delay=001,enemies="BOSS_araknath_1":18300182
+raid_events+=/pull,pull=08,bloodlust=0,delay=018,enemies="suntalon_1":1003895|"suntalon_2":1003895|"suntalon_3":1003895|"suntalon_4":1003895|"suntalon_5":1003895|"suntalon_6":1003895|"suntalon_7":1003895|"suntalon_8":1003895|"suntalon_9":1003895|"suntalon_10":1003895|"suntalon_11":1003895|"suntalon_12":1003895|"suntalon-tamer_1":2585031|"suntalon-tamer_2":2585031
+raid_events+=/pull,pull=09,bloodlust=0,delay=006,enemies="sunwing_1":1673159|"BOSS_rukhran_1":14117284
+raid_events+=/pull,pull=10,bloodlust=0,delay=019,enemies="blinding-sun-priestess_1":2258766|"adept-of-the-dawn_1":2509739|"adept-of-the-dawn_2":2509739|"solar-elemental_1":3890096|"solar-elemental_2":3890096|"adorned-bladetalon_1":4266557
+raid_events+=/pull,pull=11,bloodlust=0,delay=011,enemies="blinding-sun-priestess_1":2258766|"adept-of-the-dawn_1":2509739|"adept-of-the-dawn_2":2509739|"soaring-chakram-master_1":2509739|"initiate-of-the-rising-sun_1":2007791|"outcast-warrior_1":2760714|"solar-elemental_1":3890096
+raid_events+=/pull,pull=12,bloodlust=0,delay=006,enemies="driving-gale-caller_1":2258766|"driving-gale-caller_2":2258766|"soaring-chakram-master_1":2509739|"solar-construct_1":3764610|"outcast-warrior_1":2760714|"adorned-bladetalon_1":4266557|"dread-raven_1":4517531
+raid_events+=/pull,pull=13,bloodlust=1,delay=006,enemies="BOSS_high-sage-viryx_1":16993027

@@ -1,14 +1,14 @@
 # slice - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|102368|2.04%|
-|Silvermoon_Parade|102301|1.97%|
-|Warped_Wise_Wings|101815|1.48%|
-|Void_Kissed_Fish_Rolls|101613|1.28%|
-|Arcano_Cutlets|101546|1.22%|
-|Flora_Frenzy|101417|1.09%|
-|Blooming_Feast|101392|1.06%|
-|Fel_Kissed_Filet|101378|1.05%|
-|Champions_Bento|101336|1.01%|
-|Void_Touched_Augment_Rune|101264|0.93%|
-|Base|100326|0.00%|
+|Silvermoon_Parade|96981|1.88%|
+|Royal_Roast|96862|1.76%|
+|Flora_Frenzy|96480|1.36%|
+|Blooming_Feast|96441|1.32%|
+|Fel_Kissed_Filet|96413|1.29%|
+|Champions_Bento|96372|1.24%|
+|Arcano_Cutlets|96350|1.22%|
+|Void_Kissed_Fish_Rolls|96234|1.10%|
+|Warped_Wise_Wings|96204|1.07%|
+|Void_Touched_Augment_Rune|95977|0.83%|
+|Base|95187|0.00%|

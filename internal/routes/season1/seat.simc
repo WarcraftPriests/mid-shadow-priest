@@ -1,0 +1,35 @@
+# https://keystone.guru/Tf03QDk
+fight_style=DungeonRoute
+override.bloodlust=0
+override.arcane_intellect=0
+override.power_word_fortitude=1
+override.mark_of_the_wild=0
+override.battle_shout=0
+override.mystic_touch=0
+override.chaos_brand=0
+override.skyfury=0
+override.hunters_mark=0
+override.power_infusion=0
+override.bleeding=0
+single_actor_batch=1
+max_time=2040
+enemy="PUG-Friendly: Raider.IO's Weekly Route"
+enemy_health=999999
+keystone_level=20
+raid_events=/invulnerable,cooldown=5160,duration=5160,retarget=1
+raid_events+=/pull,pull=01,bloodlust=1,delay=013,enemies="merciless-subjugator_1":3262662|"merciless-subjugator_2":3262662|"famished-broken_1":1003895|"famished-broken_2":1003895|"famished-broken_3":1003895|"famished-broken_4":1003895|"famished-broken_5":1003895|"shadowguard-champion_1":2760714|"shadowguard-champion_2":2760714|"shadowguard-champion_3":2760714|"shadowguard-champion_4":2760714|"shadowguard-champion_5":2760714|"shadowguard-champion_6":2760714
+raid_events+=/pull,pull=02,bloodlust=0,delay=012,enemies="merciless-subjugator_1":3262662|"shadowguard-champion_1":2760714|"dark-conjurer_1":2133278|"bound-voidcaller_1":1254870
+raid_events+=/pull,pull=03,bloodlust=0,delay=009,enemies="merciless-subjugator_1":3262662|"shadowguard-champion_1":2760714|"dark-conjurer_1":2133278|"bound-voidcaller_1":1254870
+raid_events+=/pull,pull=04,bloodlust=0,delay=005,enemies="coalesced-void_1":577239|"coalesced-void_2":577239|"coalesced-void_3":577239|"BOSS_zuraal-the-ascended_1":14640146
+raid_events+=/pull,pull=05,bloodlust=0,delay=034,enemies="rift-warden_1":4768505|"ruthless-riftstalker_1":2635225|"ruthless-riftstalker_2":2635225|"shadowguard-champion_1":2760714|"shadowguard-champion_2":2760714|"ravenous-umbralfin_1":2384252|"ravenous-umbralfin_2":2384252
+raid_events+=/pull,pull=06,bloodlust=0,delay=016,enemies="rift-warden_1":4768505|"dark-conjurer_1":2133278|"shadowguard-champion_1":2760714|"shadowguard-champion_2":2760714|"bound-voidcaller_1":1254870
+raid_events+=/pull,pull=07,bloodlust=0,delay=012,enemies="rift-warden_1":4768505|"dark-conjurer_1":2133278|"bound-voidcaller_1":1254870|"shadowguard-champion_1":2760714|"shadowguard-champion_2":2760714|"ravenous-umbralfin_1":2384252|"ravenous-umbralfin_2":2384252
+raid_events+=/pull,pull=08,bloodlust=0,delay=028,enemies="merciless-subjugator_1":3262662|"ravenous-umbralfin_1":2384252|"ravenous-umbralfin_2":2384252|"umbral-war-adept_1":4517531|"shadowguard-champion_1":2760714|"shadowguard-champion_2":2760714
+raid_events+=/pull,pull=09,bloodlust=0,delay=019,enemies="rift-warden_1":4768505|"dark-conjurer_1":2133278|"ruthless-riftstalker_1":2635225|"umbral-war-adept_1":4517531|"bound-voidcaller_1":1254870
+raid_events+=/pull,pull=10,bloodlust=1,delay=011,enemies="BOSS_saprish_1":39214677|"BOSS_darkfang_1":39214677|"BOSS_shadewing_1":39214677
+raid_events+=/pull,pull=11,bloodlust=0,delay=016,enemies="dire-voidbender_1":2384252|"dire-voidbender_2":2384252|"void-infused-destroyer_1":4517531|"void-infused-destroyer_2":4517531
+raid_events+=/pull,pull=12,bloodlust=0,delay=019,enemies="dire-voidbender_1":2384252|"dire-voidbender_2":2384252|"void-infused-destroyer_1":4517531|"ruthless-riftstalker_1":2635225|"shadowguard-champion_1":2760714|"shadowguard-champion_2":2760714
+raid_events+=/pull,pull=13,bloodlust=0,delay=009,enemies="dire-voidbender_1":2384252|"dire-voidbender_2":2384252|"void-infused-destroyer_1":4517531|"void-infused-destroyer_2":4517531|"ruthless-riftstalker_1":2635225
+raid_events+=/pull,pull=14,bloodlust=0,delay=020,enemies="dire-voidbender_1":2384252|"dire-voidbender_2":2384252|"dire-voidbender_3":2384252|"dire-voidbender_4":2384252|"grand-shadow-weaver_1":3639121|"grand-shadow-weaver_2":3639121|"grand-shadow-weaver_3":3639121
+raid_events+=/pull,pull=15,bloodlust=0,delay=013,enemies="dark-conjurer_1":2133278|"dark-conjurer_2":2133278|"grand-shadow-weaver_1":3639121|"bound-voidcaller_1":1254870|"bound-voidcaller_2":1254870
+raid_events+=/pull,pull=16,bloodlust=1,delay=011,enemies="BOSS_viceroy-nezhar_1":18300182|"umbral-tentacle_1":345680|"umbral-tentacle_2":345680

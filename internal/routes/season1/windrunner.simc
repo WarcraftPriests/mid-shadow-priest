@@ -1,0 +1,34 @@
+# https://keystone.guru/ZY9EiSx
+fight_style=DungeonRoute
+override.bloodlust=0
+override.arcane_intellect=0
+override.power_word_fortitude=1
+override.mark_of_the_wild=0
+override.battle_shout=0
+override.mystic_touch=0
+override.chaos_brand=0
+override.skyfury=0
+override.hunters_mark=0
+override.power_infusion=0
+override.bleeding=0
+single_actor_batch=1
+max_time=2010
+enemy="PUG-Friendly: Raider.IO's Weekly Route"
+enemy_health=999999
+keystone_level=20
+raid_events=/invulnerable,cooldown=5160,duration=5160,retarget=1
+raid_events+=/pull,pull=01,bloodlust=1,delay=026,enemies="restless-steward_1":2258766|"restless-steward_2":2258766|"dutiful-groundskeeper_1":2760714|"dutiful-groundskeeper_2":2760714|"dutiful-groundskeeper_3":2760714|"dutiful-groundskeeper_4":2760714|"dutiful-groundskeeper_5":2760714|"dutiful-groundskeeper_6":2760714|"spellguard-magus_1":3513635|"spellguard-magus_2":3513635
+raid_events+=/pull,pull=02,bloodlust=0,delay=044,enemies="restless-steward_1":2258766|"restless-steward_2":2258766|"spindleweb-hatchling_1":501947|"spindleweb-hatchling_2":501947|"spindleweb-hatchling_3":501947|"spindleweb-hatchling_4":501947|"spindleweb-hatchling_5":501947|"spindleweb-hatchling_6":501947|"spindleweb-hatchling_7":501947|"spindleweb-hatchling_8":501947|"spindleweb-hatchling_9":501947|"spindleweb-hatchling_10":501947|"spindleweb-hatchling_11":501947|"spindleweb-hatchling_12":501947|"dutiful-groundskeeper_1":2760714|"dutiful-groundskeeper_2":2760714|"dutiful-groundskeeper_3":2760714|"dutiful-groundskeeper_4":2760714|"dutiful-groundskeeper_5":2760714|"territorial-dragonhawk_1":2258766|"creeping-spindleweb_1":2509739
+raid_events+=/pull,pull=03,bloodlust=0,delay=019,enemies="restless-steward_1":2258766|"dutiful-groundskeeper_1":2760714|"spindleweb-hatchling_1":501947|"spindleweb-hatchling_2":501947|"spindleweb-hatchling_3":501947|"spindleweb-hatchling_4":501947|"spindleweb-hatchling_5":501947|"spindleweb-hatchling_6":501947|"spindleweb-hatchling_7":501947|"spindleweb-hatchling_8":501947|"spindleweb-hatchling_9":501947|"spindleweb-hatchling_10":501947|"spindleweb-hatchling_11":501947|"spindleweb-hatchling_12":501947|"spindleweb-hatchling_13":501947|"spindleweb-hatchling_14":501947|"creeping-spindleweb_1":2509739|"creeping-spindleweb_2":2509739|"apex-lynx_1":4266557|"scouting-trapper_1":2281584|"scouting-trapper_2":2281584
+raid_events+=/pull,pull=04,bloodlust=0,delay=012,enemies="dutiful-groundskeeper_1":2760714|"dutiful-groundskeeper_2":2760714|"pesty-lashling_1":501947|"pesty-lashling_2":501947|"pesty-lashling_3":501947|"pesty-lashling_4":501947|"pesty-lashling_5":501947|"pesty-lashling_6":501947|"pesty-lashling_7":501947|"pesty-lashling_8":501947|"pesty-lashling_9":501947|"pesty-lashling_10":501947|"pesty-lashling_11":501947|"pesty-lashling_12":501947|"pesty-lashling_13":501947|"pesty-lashling_14":501947|"pesty-lashling_15":501947|"pesty-lashling_16":501947|"pesty-lashling_17":501947|"bloated-lasher_1":5521426
+raid_events+=/pull,pull=05,bloodlust=0,delay=002,enemies="dutiful-groundskeeper_1":2760714|"dutiful-groundskeeper_2":2760714|"pesty-lashling_1":501947|"pesty-lashling_2":501947|"pesty-lashling_3":501947|"pesty-lashling_4":501947|"pesty-lashling_5":501947|"pesty-lashling_6":501947|"pesty-lashling_7":501947|"pesty-lashling_8":501947|"pesty-lashling_9":501947|"pesty-lashling_10":501947|"pesty-lashling_11":501947|"pesty-lashling_12":501947|"territorial-dragonhawk_1":2258766|"territorial-dragonhawk_2":2258766
+raid_events+=/pull,pull=06,bloodlust=1,delay=019,enemies="flaming-updraft_1":418290|"flaming-updraft_2":418290|"flaming-updraft_3":418290|"BOSS_emberdawn_1":19251791
+raid_events+=/pull,pull=07,bloodlust=0,delay=040,enemies="fervent-apothecary_1":2258766|"fervent-apothecary_2":2258766|"ardent-cutthroat_1":2509739|"ardent-cutthroat_2":2509739|"ardent-cutthroat_3":2509739|"devoted-woebringer_1":3513635|"flesh-behemoth_1":6525322
+raid_events+=/pull,pull=08,bloodlust=0,delay=010,enemies="zealous-reaver_1":2760714|"zealous-reaver_2":2760714|"BOSS_latch_1":15163009|"BOSS_kalis_1":13071559
+raid_events+=/pull,pull=09,bloodlust=0,delay=037,enemies="restless-steward_1":2258766|"dutiful-groundskeeper_1":2760714|"dutiful-groundskeeper_2":2760714|"dutiful-groundskeeper_3":2760714|"dutiful-groundskeeper_4":2760714|"fervent-apothecary_1":2258766|"fervent-apothecary_2":2258766|"zealous-reaver_1":2760714|"zealous-reaver_2":2760714|"ardent-cutthroat_1":2509739|"ardent-cutthroat_2":2509739|"ardent-cutthroat_3":2509739|"devoted-woebringer_1":3513635|"windrunner-soldier_1":2760714
+raid_events+=/pull,pull=10,bloodlust=0,delay=008,enemies="windrunner-soldier_1":2760714|"windrunner-soldier_2":2760714|"windrunner-soldier_3":2760714|"windrunner-soldier_4":2760714|"windrunner-soldier_5":2760714|"swiftshot-archer_1":2258766|"swiftshot-archer_2":2258766|"swiftshot-archer_3":2258766|"phalanx-breaker_1":4015583|"phalanx-breaker_2":4015583|"phalanx-breaker_1":260257|"phalanx-breaker_2":260257
+raid_events+=/pull,pull=11,bloodlust=0,delay=016,enemies="loyal-worg_1":2509739|"spectral-axethrower_1":2258766|"haunting-grunt_1":216879|"lingering-marauder_1":2760714
+raid_events+=/pull,pull=12,bloodlust=0,delay=010,enemies="loyal-worg_1":2509739|"loyal-worg_2":2509739|"loyal-worg_3":2509739|"lingering-marauder_1":2760714|"spectral-axethrower_1":2258766|"spectral-axethrower_2":2258766|"phantasmal-mystic_1":4015583|"haunting-grunt_1":216879|"haunting-grunt_2":216879
+raid_events+=/pull,pull=13,bloodlust=0,delay=008,enemies="phantasmal-mystic_1":4015583|"spectral-axethrower_1":2258766|"loyal-worg_1":2509739|"lingering-marauder_1":2760714
+raid_events+=/pull,pull=14,bloodlust=0,delay=004,enemies="BOSS_commander-kroluk_1":15685871
+raid_events+=/pull,pull=15,bloodlust=1,delay=004,enemies="BOSS_restless-heart_1":20914494

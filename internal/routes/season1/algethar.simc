@@ -1,0 +1,33 @@
+# https://keystone.guru/C3rgknk
+fight_style=DungeonRoute
+override.bloodlust=0
+override.arcane_intellect=0
+override.power_word_fortitude=1
+override.mark_of_the_wild=0
+override.battle_shout=0
+override.mystic_touch=0
+override.chaos_brand=0
+override.skyfury=0
+override.hunters_mark=0
+override.power_infusion=0
+override.bleeding=0
+single_actor_batch=1
+max_time=1740
+enemy="Expert: Raider.IO's Weekly Route"
+enemy_health=999999
+keystone_level=20
+raid_events=/invulnerable,cooldown=5160,duration=5160,retarget=1
+raid_events+=/pull,pull=01,bloodlust=1,delay=046,enemies="aggravated-skitterfly_1":2007791|"aggravated-skitterfly_2":2007791|"aggravated-skitterfly_3":2007791|"aggravated-skitterfly_4":2007791|"aggravated-skitterfly_5":2007791|"aggravated-skitterfly_6":2007791|"vile-lasher_1":4517531|"vile-lasher_2":4517531|"vile-lasher_3":4517531|"hungry-lasher_1":1254870|"hungry-lasher_2":1254870|"hungry-lasher_3":1254870|"hungry-lasher_4":1254870|"hungry-lasher_5":1254870|"hungry-lasher_6":1254870|"hungry-lasher_7":1254870|"hungry-lasher_8":1254870|"hungry-lasher_9":1254870|"hungry-lasher_10":1254870|"hungry-lasher_11":1254870|"hungry-lasher_12":1254870|"hungry-lasher_13":1254870|"hungry-lasher_14":1254870|"hungry-lasher_15":1254870|"hungry-lasher_16":1254870|"hungry-lasher_17":1254870|"hungry-lasher_18":1254870|"hungry-lasher_19":1254870|"hungry-lasher_20":1254870|"hungry-lasher_21":1254870|"hungry-lasher_22":1254870|"hungry-lasher_23":1254870|"hungry-lasher_24":1254870
+raid_events+=/pull,pull=02,bloodlust=0,delay=024,enemies="BOSS_overgrown-ancient_1":15685871
+raid_events+=/pull,pull=03,bloodlust=0,delay=057,enemies="BOSS_guardian-sentry_1":7529218
+raid_events+=/pull,pull=04,bloodlust=0,delay=012,enemies="corrupted-manafiend_1":2509739|"corrupted-manafiend_2":2509739|"spellbound-battleaxe_1":2760714|"spellbound-battleaxe_2":2760714|"vicious-ravager_1":6023374|"vicious-ravager_2":6023374|"arcane-forager_1":2007791|"arcane-forager_2":2007791|"arcane-forager_3":2007791|"arcane-forager_4":2007791|"arcane-forager_5":2007791|"arcane-forager_6":2007791|"arcane-forager_7":2007791|"arcane-forager_8":2007791
+raid_events+=/pull,pull=05,bloodlust=0,delay=023,enemies="territorial-eagle_1":1254870|"territorial-eagle_2":1254870|"territorial-eagle_3":1254870|"territorial-eagle_4":1254870|"territorial-eagle_5":1254870|"territorial-eagle_6":1254870|"territorial-eagle_7":1254870
+raid_events+=/pull,pull=06,bloodlust=0,delay=007,enemies="territorial-eagle_1":1254870|"territorial-eagle_2":1254870|"territorial-eagle_3":1254870|"territorial-eagle_4":1254870|"territorial-eagle_5":1254870|"alpha-eagle_1":3764610
+raid_events+=/pull,pull=07,bloodlust=0,delay=009,enemies="territorial-eagle_1":1254870|"territorial-eagle_2":1254870|"territorial-eagle_3":1254870|"territorial-eagle_4":1254870|"alpha-eagle_1":3764610|"alpha-eagle_2":3764610
+raid_events+=/pull,pull=08,bloodlust=1,delay=005,enemies="BOSS_crawth_1":26143117
+raid_events+=/pull,pull=09,bloodlust=0,delay=092,enemies="corrupted-manafiend_1":2509739|"corrupted-manafiend_2":2509739|"spellbound-battleaxe_1":2760714|"spellbound-battleaxe_2":2760714|"spellbound-battleaxe_3":2760714|"spellbound-battleaxe_4":2760714|"unruly-textbook_1":2007791|"unruly-textbook_2":2007791|"unruly-textbook_3":2007791|"arcane-forager_1":2007791|"arcane-forager_2":2007791
+raid_events+=/pull,pull=10,bloodlust=0,delay=009,enemies="corrupted-manafiend_1":2509739|"corrupted-manafiend_2":2509739|"spellbound-battleaxe_1":2760714|"unruly-textbook_1":2007791|"arcane-forager_1":2007791|"arcane-forager_2":2007791
+raid_events+=/pull,pull=11,bloodlust=0,delay=012,enemies="arcane-forager_1":2007791|"arcane-forager_2":2007791|"arcane-forager_3":2007791|"arcane-forager_4":2007791|"vicious-ravager_1":6023374
+raid_events+=/pull,pull=12,bloodlust=0,delay=020,enemies="BOSS_vexamus_1":18300182
+raid_events+=/pull,pull=13,bloodlust=0,delay=034,enemies="corrupted-manafiend_1":2509739|"corrupted-manafiend_2":2509739|"corrupted-manafiend_3":2509739|"spellbound-battleaxe_1":2760714|"spellbound-battleaxe_2":2760714|"spellbound-battleaxe_3":2760714
+raid_events+=/pull,pull=14,bloodlust=1,delay=036,enemies="algethar-echoknight_1":4517531|"algethar-echoknight_2":4517531|"algethar-echoknight_3":4517531|"spectral-invoker_1":2760714|"BOSS_echo-of-doragosa_1":23528806
