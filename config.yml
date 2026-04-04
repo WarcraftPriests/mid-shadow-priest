@@ -58,16 +58,16 @@ gear:
     head: "blind_oaths_winged_crest,id=250051,ilevel=289" # haste/crit
     neck: "eternal_voidsong_chain,id=249368,ilevel=289" # haste/mastery
     shoulders: "blind_oaths_seraphguards,id=250049,ilevel=289" # crit/mastery
-    back: "arcanoweave_cloak,id=239661,ilevel=285" # haste/mastery
+    back: "draconic_nullcape,id=249370,ilevel=289" # haste/mastery
     chest: "blind_oaths_raiment,id=250054,ilevel=289" # mastery/haste
-    wrists: "arcanoweave_bracers,id=239660,ilevel=285" # haste/mastery 
+    wrists: "martyrs_bindings,id=239648,ilevel=285,bonus_id=8793/12384" # haste/mastery 
     hands: "vilehex_bonds,id=251172,ilevel=289" # crit/haste
-    waist: "endless_march_waistwrap,id=249319,ilevel=289" # haste/crit
+    waist: "arcanoweave_cord,id=239664,ilevel=285" # haste/crit
     legs: "blind_oaths_leggings,id=250050,ilevel=289" # haste/mastery
     feet: "lightbinder_treads,id=109796,ilevel=289" # haste/mastery
     finger1: "omission_of_light,id=251093,ilevel=289" # haste/mastery
-    finger2: "eye_of_midnight,id=249920,ilevel=289" # haste
-    trinket1: "soulcatchers_charm,id=250223,ilevel=289"
+    finger2: "occlusion_of_void,id=251217,ilevel=289" # haste
+    trinket1: "vaelgors_final_stare,id=249346,ilevel=289"
     trinket2: "gaze_of_the_alnseer,id=249343,ilevel=289"
     main_hand: "belomelorn_the_shattered_talon,id=249283,ilevel=289" # haste/mastery
     off_hand: "tome_of_alnscorned_regret,id=249922,ilevel=289" # haste/mastery
