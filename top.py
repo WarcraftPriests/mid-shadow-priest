@@ -31,7 +31,7 @@ def get_top_talents(results, combos, directory, matches, jitter):
             count = 0
             for build in builds:
                 filler = ""
-                fillers = ["_ME", "_DR", "_ME_VT", "_DR_VT"]
+                fillers = ["_ME", "_DR", "_ME_VT", "_DR_VT", "Mis", "IN"]
                 for name in fillers:
                     if name in build:
                         filler = name
