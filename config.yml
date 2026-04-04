@@ -151,18 +151,6 @@ sims:
       - 2
     files:
       - enchants.simc
-  gem-combos:
-    description: "Sims combinations of gems to optimize the meta gems using 1 of each color. Only uses max rank of gems"
-    gearOverride: none
-    iterations: 20000
-    builds: true
-    weights: false
-    chart: false
-    lookupType: none
-    steps:
-      - DPS
-    files:
-      - generated.simc
   gems:
     description: "Sims all available gems against each other. Lists each gem at ranks 1, 2, and 3."
     gearOverride: none
@@ -290,7 +278,7 @@ sims:
       - DPS
     files:
       - weights.simc
-compositeWeights: weightsRaoidSeasonOne
+compositeWeights: weightsRaidSeasonOne
 singleTargetWeights: weightsSingle
 twoTargetWeights: weightsTwoTargets
 threeTargetWeights: weightsThreeTargets
@@ -302,9 +290,9 @@ singleTargetProfiles:
   - hm_na_1
 councilTargets: 3
 dungeonSeason: 1
-dungeonStandardWeights: weightsSeasonTwo
-dungeonPushWeights: weightsSeasonTwo
-dungeonType: slice
+dungeonStandardWeights: weightsSeasonOne
+dungeonPushWeights: weightsSeasonOne
+dungeonType: route
 simcBuild: latest
 forceHeroTalents: false
 defaultIterations: 10000

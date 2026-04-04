@@ -77,25 +77,14 @@ def get_dungeon_combos():
     elif type == "route":
         if season == 1:
             keys = [
-                "arakara",
-                "cityofthreads",
-                "dawnbreaker",
-                "grimbatol",
-                "mists",
-                "necrotic",
-                "siege",
-                "stonevault",
-            ]
-        elif season == 2:
-            keys = [
-                "cinderbrew",
-                "darkflame",
-                "floodgate",
-                "motherlode",
-                "priory",
-                "rookery",
-                "theater",
-                "workshop",
+                "algethar",
+                "magisters",
+                "maisara",
+                "nexus",
+                "pitofsaron",
+                "seat",
+                "skyreach",
+                "windrunner",
             ]
         else:
             print(f"No season data defined in for season {season} in utils:get_dungeon_combos")

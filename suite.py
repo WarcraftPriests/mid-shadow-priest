@@ -85,7 +85,7 @@ def main():
         "--exclude",
         help="Exclude certain sim folders from the suite run",
         choices=config["sims"].keys(),
-        default=["apl", "talents", "talents-top", "gem-combos"],
+        default=["apl", "talents", "talents-top"],
         nargs="+",
         required=False,
     )
