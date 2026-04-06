@@ -24,11 +24,12 @@ def get_talents(args):
     return talents
 
 
-def get_simc_dir(talent, folder_name):
-    """get proper directory based on talent options"""
+def get_simc_dir(talent, folder_name, dungeons=False):
+    """get proper directory based on talent and run mode options"""
+    mode = "dungeons" if dungeons else "composite"
     if talent:
-        return f"{folder_name}/{talent}/"
-    return f"{folder_name}/"
+        return f"{folder_name}/{mode}/{talent}/"
+    return f"{folder_name}/{mode}/"
 
 
 def generate_parser(description):

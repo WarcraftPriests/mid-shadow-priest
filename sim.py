@@ -82,9 +82,9 @@ def run_sims(args, iterations, talent):
     simc_build = config["simcBuild"]
     print(f"Running sims on {simc_build} in {args.dir}")
     existing = listdir(
-        args.dir + utils.get_simc_dir(talent, 'output'))
+        args.dir + utils.get_simc_dir(talent, 'output', args.dungeons))
     profiles = listdir(
-        args.dir + utils.get_simc_dir(talent, 'profiles'))
+        args.dir + utils.get_simc_dir(talent, 'profiles', args.dungeons))
     count = 0
 
     for profile in profiles:
@@ -116,9 +116,9 @@ def run_sims(args, iterations, talent):
         output_name = profile.replace('simc', 'json')
         if output_name not in existing and weight > 0:
             output_location = args.dir + \
-                utils.get_simc_dir(talent, 'output') + output_name
+                utils.get_simc_dir(talent, 'output', args.dungeons) + output_name
             profile_location = args.dir + \
-                utils.get_simc_dir(talent, 'profiles') + profile
+                utils.get_simc_dir(talent, 'profiles', args.dungeons) + profile
             # prefix the profile name with the base file name
             profile_name_with_dir = f"{args.dir}{profile_name}"
             raidbots(get_api_key(args, config["simcBuild"]), profile_location,
@@ -131,7 +131,7 @@ def run_sims(args, iterations, talent):
 
 def convert_to_csv(args, weights, talent):
     """creates results/statweights.txt"""
-    results_dir = args.dir + utils.get_simc_dir(talent, 'output')
+    results_dir = args.dir + utils.get_simc_dir(talent, 'output', args.dungeons)
     parse_json(results_dir, weights)
 
 

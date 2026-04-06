@@ -32,8 +32,10 @@ def test_build_settings_includes_expressions():
 
 
 def test_build_simc_file():
-    assert profiles.build_simc_file("tal", "pname") == "profiles/tal/pname.simc"
-    assert profiles.build_simc_file(None, "pname") == "profiles/pname.simc"
+    assert profiles.build_simc_file("tal", "pname") == "profiles/composite/tal/pname.simc"
+    assert profiles.build_simc_file(None, "pname") == "profiles/composite/pname.simc"
+    assert profiles.build_simc_file("tal", "pname", dungeons=True) == "profiles/dungeons/tal/pname.simc"
+    assert profiles.build_simc_file(None, "pname", dungeons=True) == "profiles/dungeons/pname.simc"
 
 
 def test_replace_talents_with_hero(monkeypatch):
@@ -210,11 +212,8 @@ def test_build_profiles_basic(tmp_path, monkeypatch):
     d = tmp_path
     monkeypatch.chdir(d)
     profiles.args = types.SimpleNamespace(dir=str(d) + "/", dungeons=False, ptr=False)
-    (d / "profiles").mkdir()
-    (d / "profiles" / "t1").mkdir(parents=True)
-    # ensure nested talent folder exists for talent-specific output
-    (d / "profiles" / "t1").mkdir(parents=True, exist_ok=True)
-    (d / "output").mkdir()
+    (d / "profiles" / "composite").mkdir(parents=True)
+    (d / "output" / "composite").mkdir(parents=True)
     # create sim file
     sim_file = d / "base.simc"
     sim_file.write_text("LINE1\n${apl}\n${builds}\n")
@@ -269,7 +268,7 @@ def test_build_profiles_basic(tmp_path, monkeypatch):
 
     profiles.build_profiles(None, "APLVAL")
 
-    out_file = d / "profiles" / "base_pw_sa_1.simc"
+    out_file = d / "profiles" / "composite" / "base_pw_sa_1.simc"
     assert out_file.exists()
     txt = out_file.read_text()
     assert "APLVAL" in txt
@@ -359,8 +358,8 @@ def test_build_profiles_skips_when_all_weights_zero(tmp_path, monkeypatch):
     d = tmp_path
     monkeypatch.chdir(d)
     profiles.args = types.SimpleNamespace(dir=str(d) + "/", dungeons=False, ptr=False)
-    (d / "profiles").mkdir()
-    (d / "output").mkdir()
+    (d / "profiles" / "composite").mkdir(parents=True)
+    (d / "output" / "composite").mkdir(parents=True)
     (d / "base.simc").write_text("L1\n${apl}\n${builds}\n")
     # protect repo-level overrides.simc while creating test file
     repo_root = Path(__file__).resolve().parents[2]
@@ -404,8 +403,8 @@ def test_build_profiles_skips_when_all_weights_zero(tmp_path, monkeypatch):
     # avoid create_talent_builds reading files
     monkeypatch.setattr(profiles, "create_talent_builds", lambda: "")
     profiles.build_profiles(None, "APL")
-    # profiles dir should be empty
-    assert not any((d / "profiles").iterdir())
+    # profiles/composite dir should be empty (no files written due to zero weights)
+    assert not any((d / "profiles" / "composite").iterdir())
 
 
 def test_replace_talents_no_talents_keyword():
@@ -431,9 +430,8 @@ def test_build_profiles_with_talents(tmp_path, monkeypatch):
     d = tmp_path
     monkeypatch.chdir(d)
     profiles.args = types.SimpleNamespace(dir=str(d) + "/", dungeons=False, ptr=True)
-    (d / "profiles").mkdir()
-    (d / "profiles" / "t1").mkdir(parents=True, exist_ok=True)
-    (d / "output").mkdir()
+    (d / "profiles" / "composite" / "t1").mkdir(parents=True)
+    (d / "output" / "composite" / "t1").mkdir(parents=True)
     (d / "base.simc").write_text("HEADER\n${apl}\n${builds}\n${talents}\n")
     # protect repo-level overrides.simc while creating test file
     repo_root = Path(__file__).resolve().parents[2]
@@ -499,20 +497,20 @@ def test_build_profiles_with_talents(tmp_path, monkeypatch):
     profiles.build_profiles("t1", "APLVAL")
 
     # check for files and expected inserted talent strings
-    f1 = d / "profiles" / "t1" / "base_pw_sa_1.simc"
+    f1 = d / "profiles" / "composite" / "t1" / "base_pw_sa_1.simc"
     assert f1.exists()
     txt1 = f1.read_text()
     assert "SINGLE_STR" in txt1
     # 2-target
-    f2 = d / "profiles" / "t1" / "base_pw_ba_2.simc"
+    f2 = d / "profiles" / "composite" / "t1" / "base_pw_ba_2.simc"
     assert f2.exists()
     assert "TWO_STR" in f2.read_text()
     # 3-target
-    f3 = d / "profiles" / "t1" / "base_pw_na_3.simc"
+    f3 = d / "profiles" / "composite" / "t1" / "base_pw_na_3.simc"
     assert f3.exists()
     assert "THREE_STR" in f3.read_text()
     # 8-target
-    f8 = d / "profiles" / "t1" / "base_pw_sa_8.simc"
+    f8 = d / "profiles" / "composite" / "t1" / "base_pw_sa_8.simc"
     assert f8.exists()
     assert "EIGHT_STR" in f8.read_text()
     # ptr should have been added at file start

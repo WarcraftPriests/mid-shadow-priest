@@ -157,11 +157,12 @@ gear_versatility_rating={int(stats_base)}\n\n"""
                 o_file.write(f'profileset."{combo.get("name")}"+={combo.get(stat)}\n')
 
 
-def build_simc_file(talent_string, profile_name):
-    """Returns output file name based on talent strings"""
+def build_simc_file(talent_string, profile_name, dungeons=False):
+    """Returns output file name based on talent strings and run mode"""
+    mode = "dungeons" if dungeons else "composite"
     if talent_string:
-        return f"profiles/{talent_string}/{profile_name}.simc"
-    return f"profiles/{profile_name}.simc"
+        return f"profiles/{mode}/{talent_string}/{profile_name}.simc"
+    return f"profiles/{mode}/{profile_name}.simc"
 
 
 def replace_talents(talent_string, data, talent_name):
@@ -360,7 +361,7 @@ def build_profiles(talent_string, apl_string):
                 else:
                     sim_data = replace_talents(talents_expr, sim_data, talents_name)
 
-            simc_file = build_simc_file(talent_string, profile_name)
+            simc_file = build_simc_file(talent_string, profile_name, args.dungeons)
             with open(args.dir + simc_file, "w+", encoding="utf8") as o_file:
                 if args.ptr:
                     o_file.writelines(fightExpressions["ptr"])
@@ -384,16 +385,17 @@ if __name__ == "__main__":
             APL = file.read()
             file.close()
 
-    clear_out_folders(f"{args.dir}output/")
-    clear_out_folders(f"{args.dir}profiles/")
+    mode = "dungeons" if args.dungeons else "composite"
+    clear_out_folders(f"{args.dir}output/{mode}/")
+    clear_out_folders(f"{args.dir}profiles/{mode}/")
 
     if args.dir[:-1] == "stats":
         build_stats_files()
 
     if talents:
         for talent in talents:
-            clear_out_folders(f"{args.dir}output/{talent}/")
-            clear_out_folders(f"{args.dir}profiles/{talent}/")
+            clear_out_folders(f"{args.dir}output/{mode}/{talent}/")
+            clear_out_folders(f"{args.dir}profiles/{mode}/{talent}/")
             print(f"Building {talent} profiles...")
             build_profiles(talent, APL)
     else:
