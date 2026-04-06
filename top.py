@@ -17,10 +17,23 @@ with open("config.yml", "r", encoding="utf8") as ymlfile:
 
 
 def get_top_talents(results, combos, directory, matches, jitter):
+    def get_combo_suffix(build):
+        # Build names can include tags like Mis/IN in addition to role suffixes.
+        # Match the role suffix only so combo filtering is stable.
+        for suffix in ["_ME", "_DR"]:
+            if suffix in build:
+                return suffix
+        return ""
+
     talent_names = []
     for result in results:
         builds = []
-        with open(f"{directory}/Results_{result}.csv", "r", encoding="utf8") as file:
+        result_file = f"{directory}/Results_{result}.csv"
+        if not os.path.exists(result_file):
+            print(f"Skipping missing results file: {result_file}")
+            continue
+
+        with open(result_file, "r", encoding="utf8") as file:
             reader = csv.reader(file, delimiter=",")
             for row in reader:
                 builds.append(row[1])
@@ -30,11 +43,7 @@ def get_top_talents(results, combos, directory, matches, jitter):
         for combo in combos:
             count = 0
             for build in builds:
-                filler = ""
-                fillers = ["_ME", "_DR", "_ME_VT", "_DR_VT", "Mis", "IN"]
-                for name in fillers:
-                    if name in build:
-                        filler = name
+                filler = get_combo_suffix(build)
                 if combo[0] in build and filler == combo[1]:
                     talent_names.append(build)
                     count = count + 1
