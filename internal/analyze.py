@@ -483,7 +483,7 @@ def analyze(talents, directory, dungeons, weights, timestamp):
     while foldername != directory[:-1]:
         os.chdir("..")
         foldername = os.path.basename(os.getcwd())
-    csv = f"{utils.get_simc_dir(talents, 'output')}statweights.csv"
+    csv = f"{utils.get_simc_dir(talents, 'output', dungeons)}statweights.csv"
 
     if weights:
         data = pandas.read_csv(

@@ -54,3 +54,22 @@ def test_get_top_talents_matches_role_suffix_when_name_contains_mis_tag(
     )
 
     assert "AR_EC_SW_VF_nzoth_yogg_cthun_1_Mis_IV_ME" in output
+
+
+def test_get_base_actor_uses_mode_scoped_profiles(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+
+    profile_dir = Path("talents") / "profiles" / "composite" / "t1"
+    profile_dir.mkdir(parents=True, exist_ok=True)
+    profile_file = profile_dir / "base_pw_sa_1.simc"
+    profile_file.write_text(
+        "line1\n"
+        "line2\n"
+        "main_hand=foo\n"
+        "line4\n",
+        encoding="utf8",
+    )
+
+    head = top.get_base_actor(ptr=False)
+
+    assert "main_hand=foo\n" in head

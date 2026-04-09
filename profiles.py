@@ -386,8 +386,12 @@ if __name__ == "__main__":
             file.close()
 
     mode = "dungeons" if args.dungeons else "composite"
+    # Clear mode-scoped directories for this run
     clear_out_folders(f"{args.dir}output/{mode}/")
     clear_out_folders(f"{args.dir}profiles/{mode}/")
+    # Clear legacy flat-root files (files only; subdirs are preserved)
+    clear_out_folders(f"{args.dir}output/")
+    clear_out_folders(f"{args.dir}profiles/")
 
     if args.dir[:-1] == "stats":
         build_stats_files()
@@ -396,6 +400,9 @@ if __name__ == "__main__":
         for talent in talents:
             clear_out_folders(f"{args.dir}output/{mode}/{talent}/")
             clear_out_folders(f"{args.dir}profiles/{mode}/{talent}/")
+            # Clear legacy flat per-talent directories
+            clear_out_folders(f"{args.dir}output/{talent}/")
+            clear_out_folders(f"{args.dir}profiles/{talent}/")
             print(f"Building {talent} profiles...")
             build_profiles(talent, APL)
     else:

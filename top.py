@@ -125,14 +125,36 @@ def find_talents(talent):
 
 
 def get_base_actor(ptr=False):
-    file_name = os.listdir("talents/profiles/")[0]
-    with open(f"talents/profiles/{file_name}", "r", encoding="utf8") as file:
+    profile_file = None
+    candidate_dirs = [
+        "talents/profiles/composite",
+        "talents/profiles/dungeons",
+        "talents/profiles",
+    ]
+
+    for base_dir in candidate_dirs:
+        if not os.path.isdir(base_dir):
+            continue
+        for root, _, files in os.walk(base_dir):
+            for name in sorted(files):
+                if name.endswith(".simc"):
+                    profile_file = os.path.join(root, name)
+                    break
+            if profile_file:
+                break
+        if profile_file:
+            break
+
+    if not profile_file:
+        raise FileNotFoundError("No .simc profile file found under talents/profiles")
+
+    with open(profile_file, "r", encoding="utf8") as file:
         ending_line = 27
         for num, line in enumerate(file, 1):
             if "main_hand" in line:
                 ending_line = num
     file.close()
-    with open(f"talents/profiles/{file_name}", "r", encoding="utf8") as file:
+    with open(profile_file, "r", encoding="utf8") as file:
         head = [next(file) for _ in range(ending_line)]
     file.close()
     head.extend("\n")
