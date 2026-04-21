@@ -1,0 +1,36 @@
+# seat - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|147756|1.96%|
+|Panda_Feast|147538|1.81%|
+|Void_Elf|146805|1.30%|
+|Orc|146687|1.22%|
+|Draenei|146661|1.20%|
+|Gnome|146633|1.18%|
+|Goblin|146626|1.18%|
+|Night_Elf_Haste|146474|1.07%|
+|Human|146436|1.05%|
+|Blood_Elf|146327|0.97%|
+|Dark_Iron_Dwarf|146323|0.97%|
+|Highmountain_Tauren|146313|0.96%|
+|Nightborne|146280|0.94%|
+|Dracthyr|146237|0.91%|
+|Kul_Tiran|146203|0.88%|
+|Zandalari_Troll_Paku|146180|0.87%|
+|Night_Elf_Crit|146138|0.84%|
+|Troll|145993|0.74%|
+|Worgen|145991|0.74%|
+|Maghar_Orc|145989|0.74%|
+|Dwarf|145986|0.73%|
+|Tauren|145859|0.65%|
+|Haranir|145408|0.34%|
+|Zandalari_Troll_Kimbul|145112|0.13%|
+|Vulpera|145019|0.07%|
+|Lightforged_Draenei|144937|0.01%|
+|Base|144921|0.00%|
+|Undead|144889|-0.02%|
+|Zandalari_Troll_Bwonsamdi|144825|-0.07%|
+|Earthen_Onyx|144730|-0.13%|
+|Earthen_Ruby|144568|-0.24%|
+|Earthen_Emerald|144493|-0.30%|
+|Earthen_Sapphire|144443|-0.33%|

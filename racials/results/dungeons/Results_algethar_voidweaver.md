@@ -1,0 +1,36 @@
+# algethar - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|125331|1.70%|
+|Panda_Feast|125183|1.58%|
+|Orc|124682|1.17%|
+|Goblin|124675|1.16%|
+|Gnome|124652|1.15%|
+|Void_Elf|124603|1.11%|
+|Night_Elf_Haste|124560|1.07%|
+|Draenei|124542|1.06%|
+|Human|124322|0.88%|
+|Dark_Iron_Dwarf|124273|0.84%|
+|Highmountain_Tauren|124223|0.80%|
+|Dracthyr|124220|0.80%|
+|Zandalari_Troll_Paku|124213|0.79%|
+|Blood_Elf|124194|0.77%|
+|Nightborne|124191|0.77%|
+|Night_Elf_Crit|124169|0.75%|
+|Kul_Tiran|124161|0.75%|
+|Worgen|124065|0.67%|
+|Troll|124062|0.67%|
+|Maghar_Orc|124021|0.63%|
+|Dwarf|123954|0.58%|
+|Tauren|123932|0.56%|
+|Haranir|123565|0.26%|
+|Zandalari_Troll_Kimbul|123482|0.20%|
+|Vulpera|123274|0.03%|
+|Base|123240|0.00%|
+|Zandalari_Troll_Bwonsamdi|123240|0.00%|
+|Lightforged_Draenei|123205|-0.03%|
+|Undead|123164|-0.06%|
+|Earthen_Emerald|123057|-0.15%|
+|Earthen_Ruby|123040|-0.16%|
+|Earthen_Onyx|122941|-0.24%|
+|Earthen_Sapphire|122768|-0.38%|

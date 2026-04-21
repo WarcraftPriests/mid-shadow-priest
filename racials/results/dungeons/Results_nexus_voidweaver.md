@@ -1,0 +1,36 @@
+# nexus - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|125273|1.95%|
+|Panda_Feast|125062|1.78%|
+|Goblin|124586|1.39%|
+|Gnome|124516|1.33%|
+|Void_Elf|124431|1.26%|
+|Night_Elf_Haste|124397|1.24%|
+|Orc|124347|1.20%|
+|Draenei|124345|1.19%|
+|Human|124115|1.01%|
+|Blood_Elf|124067|0.97%|
+|Dracthyr|124030|0.94%|
+|Kul_Tiran|124023|0.93%|
+|Dark_Iron_Dwarf|124001|0.91%|
+|Night_Elf_Crit|123984|0.90%|
+|Nightborne|123981|0.90%|
+|Highmountain_Tauren|123939|0.86%|
+|Zandalari_Troll_Paku|123937|0.86%|
+|Troll|123870|0.81%|
+|Worgen|123824|0.77%|
+|Maghar_Orc|123740|0.70%|
+|Dwarf|123715|0.68%|
+|Tauren|123602|0.59%|
+|Haranir|123296|0.34%|
+|Zandalari_Troll_Kimbul|123108|0.19%|
+|Vulpera|122987|0.09%|
+|Undead|122909|0.03%|
+|Lightforged_Draenei|122894|0.01%|
+|Base|122877|0.00%|
+|Zandalari_Troll_Bwonsamdi|122832|-0.04%|
+|Earthen_Emerald|122723|-0.13%|
+|Earthen_Ruby|122695|-0.15%|
+|Earthen_Onyx|122688|-0.15%|
+|Earthen_Sapphire|122498|-0.31%|

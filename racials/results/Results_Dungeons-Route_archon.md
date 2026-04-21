@@ -1,0 +1,36 @@
+# Dungeons-Route - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|144628|1.81%|
+|Panda_Feast|144429|1.67%|
+|Void_Elf|143756|1.19%|
+|Orc|143724|1.17%|
+|Gnome|143668|1.13%|
+|Goblin|143648|1.12%|
+|Draenei|143626|1.10%|
+|Night_Elf_Haste|143525|1.03%|
+|Human|143418|0.96%|
+|Dark_Iron_Dwarf|143356|0.91%|
+|Blood_Elf|143330|0.89%|
+|Nightborne|143301|0.87%|
+|Dracthyr|143280|0.86%|
+|Highmountain_Tauren|143272|0.85%|
+|Kul_Tiran|143256|0.84%|
+|Night_Elf_Crit|143178|0.79%|
+|Zandalari_Troll_Paku|143152|0.77%|
+|Troll|143035|0.69%|
+|Worgen|143019|0.68%|
+|Dwarf|143009|0.67%|
+|Maghar_Orc|142973|0.64%|
+|Tauren|142944|0.62%|
+|Haranir|142505|0.31%|
+|Zandalari_Troll_Kimbul|142266|0.15%|
+|Vulpera|142110|0.04%|
+|Lightforged_Draenei|142077|0.01%|
+|Base|142059|0.00%|
+|Undead|142026|-0.02%|
+|Zandalari_Troll_Bwonsamdi|142005|-0.04%|
+|Earthen_Onyx|141804|-0.18%|
+|Earthen_Emerald|141696|-0.26%|
+|Earthen_Ruby|141676|-0.27%|
+|Earthen_Sapphire|141573|-0.34%|

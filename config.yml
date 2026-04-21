@@ -27,13 +27,13 @@ builds:
     talents:
       composite:
         name: VW_DH_VF_nzoth_yogg_cthun_3299882057915887_IN_IV
-        string: x
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghhZMWmZYmtZGmhtZmxMzM2QmxiZaAmZmBACwsNbLBzGDwYMYMzMjZbMDmZwMYA
       dungeons:
         name: VW_DH_VF_nzoth_yogg_cthun_1_Mis_IV_ME
         string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMmZWmZYG2mZGzMzYDZGLmpBYmZGAIAz2stAmNGAYkxMzMmtxMYmBzED
       single:
         name: VW_DH_VF_nzoth_yogg_cthun_3299882250395119_IN_IV
-        string: x
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAgxgZMWmZYmtZGmhtZmxMzM2QmxiZaAmZmBACwsNbLBzGDwMDYMzMjZbMDmZwMYA
       2t:
         name: VW_DH_VF_nzoth_yogg_cthun_3299882093533679_IN_IV_ME
         string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMmZ2mZYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB

@@ -1,0 +1,36 @@
+# windrunner - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|146769|1.64%|
+|Panda_Feast|146633|1.54%|
+|Draenei|146010|1.11%|
+|Orc|146007|1.11%|
+|Void_Elf|146006|1.11%|
+|Gnome|145993|1.10%|
+|Goblin|145924|1.05%|
+|Dark_Iron_Dwarf|145792|0.96%|
+|Night_Elf_Haste|145746|0.93%|
+|Human|145646|0.86%|
+|Blood_Elf|145614|0.84%|
+|Dracthyr|145565|0.80%|
+|Nightborne|145554|0.80%|
+|Zandalari_Troll_Paku|145530|0.78%|
+|Kul_Tiran|145520|0.77%|
+|Highmountain_Tauren|145482|0.75%|
+|Night_Elf_Crit|145460|0.73%|
+|Troll|145396|0.69%|
+|Maghar_Orc|145370|0.67%|
+|Worgen|145339|0.65%|
+|Dwarf|145300|0.62%|
+|Tauren|145198|0.55%|
+|Haranir|144858|0.31%|
+|Zandalari_Troll_Kimbul|144696|0.20%|
+|Vulpera|144518|0.08%|
+|Undead|144418|0.01%|
+|Base|144404|0.00%|
+|Zandalari_Troll_Bwonsamdi|144397|0.00%|
+|Lightforged_Draenei|144374|-0.02%|
+|Earthen_Onyx|144176|-0.16%|
+|Earthen_Emerald|144125|-0.19%|
+|Earthen_Ruby|144120|-0.20%|
+|Earthen_Sapphire|143831|-0.40%|

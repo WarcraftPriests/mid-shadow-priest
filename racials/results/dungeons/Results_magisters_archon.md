@@ -1,0 +1,36 @@
+# magisters - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|152539|2.08%|
+|Panda_Feast|152328|1.94%|
+|Void_Elf|151486|1.38%|
+|Orc|151431|1.34%|
+|Draenei|151308|1.26%|
+|Goblin|151294|1.25%|
+|Gnome|151292|1.25%|
+|Night_Elf_Haste|151159|1.16%|
+|Human|151059|1.09%|
+|Nightborne|150964|1.03%|
+|Dark_Iron_Dwarf|150898|0.99%|
+|Blood_Elf|150896|0.99%|
+|Highmountain_Tauren|150895|0.98%|
+|Kul_Tiran|150893|0.98%|
+|Dracthyr|150887|0.98%|
+|Night_Elf_Crit|150827|0.94%|
+|Zandalari_Troll_Paku|150697|0.85%|
+|Worgen|150682|0.84%|
+|Dwarf|150575|0.77%|
+|Tauren|150570|0.77%|
+|Troll|150509|0.73%|
+|Maghar_Orc|150495|0.72%|
+|Haranir|150019|0.40%|
+|Zandalari_Troll_Kimbul|149768|0.23%|
+|Vulpera|149574|0.10%|
+|Lightforged_Draenei|149531|0.07%|
+|Zandalari_Troll_Bwonsamdi|149487|0.04%|
+|Undead|149454|0.02%|
+|Base|149424|0.00%|
+|Earthen_Onyx|149208|-0.14%|
+|Earthen_Emerald|149057|-0.25%|
+|Earthen_Ruby|149005|-0.28%|
+|Earthen_Sapphire|148960|-0.31%|

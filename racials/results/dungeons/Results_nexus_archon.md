@@ -1,0 +1,36 @@
+# nexus - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|126552|1.95%|
+|Panda_Feast|126259|1.71%|
+|Goblin|125662|1.23%|
+|Gnome|125652|1.22%|
+|Void_Elf|125650|1.22%|
+|Orc|125598|1.18%|
+|Draenei|125571|1.16%|
+|Night_Elf_Haste|125529|1.12%|
+|Human|125349|0.98%|
+|Dark_Iron_Dwarf|125315|0.95%|
+|Highmountain_Tauren|125261|0.91%|
+|Dracthyr|125248|0.90%|
+|Nightborne|125242|0.89%|
+|Blood_Elf|125199|0.86%|
+|Kul_Tiran|125195|0.85%|
+|Zandalari_Troll_Paku|125122|0.79%|
+|Night_Elf_Crit|125112|0.79%|
+|Dwarf|125011|0.70%|
+|Tauren|125001|0.70%|
+|Worgen|124983|0.68%|
+|Troll|124956|0.66%|
+|Maghar_Orc|124949|0.65%|
+|Haranir|124556|0.34%|
+|Zandalari_Troll_Kimbul|124387|0.20%|
+|Vulpera|124144|0.01%|
+|Base|124136|0.00%|
+|Undead|124108|-0.02%|
+|Lightforged_Draenei|124097|-0.03%|
+|Zandalari_Troll_Bwonsamdi|124088|-0.04%|
+|Earthen_Onyx|123840|-0.24%|
+|Earthen_Emerald|123815|-0.26%|
+|Earthen_Ruby|123750|-0.31%|
+|Earthen_Sapphire|123727|-0.33%|

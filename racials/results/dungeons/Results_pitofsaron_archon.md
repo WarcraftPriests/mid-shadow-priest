@@ -1,0 +1,36 @@
+# pitofsaron - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|154502|1.67%|
+|Panda_Feast|154320|1.55%|
+|Void_Elf|153673|1.13%|
+|Gnome|153637|1.10%|
+|Goblin|153603|1.08%|
+|Draenei|153526|1.03%|
+|Orc|153520|1.03%|
+|Night_Elf_Haste|153437|0.97%|
+|Blood_Elf|153290|0.88%|
+|Human|153271|0.86%|
+|Dracthyr|153227|0.84%|
+|Nightborne|153222|0.83%|
+|Dark_Iron_Dwarf|153171|0.80%|
+|Kul_Tiran|153165|0.79%|
+|Highmountain_Tauren|153093|0.75%|
+|Night_Elf_Crit|153018|0.70%|
+|Zandalari_Troll_Paku|153006|0.69%|
+|Dwarf|152952|0.65%|
+|Troll|152940|0.65%|
+|Worgen|152894|0.62%|
+|Tauren|152795|0.55%|
+|Maghar_Orc|152792|0.55%|
+|Haranir|152390|0.28%|
+|Zandalari_Troll_Kimbul|152155|0.13%|
+|Lightforged_Draenei|152006|0.03%|
+|Base|151958|0.00%|
+|Vulpera|151943|-0.01%|
+|Undead|151939|-0.01%|
+|Zandalari_Troll_Bwonsamdi|151729|-0.15%|
+|Earthen_Onyx|151630|-0.22%|
+|Earthen_Emerald|151621|-0.22%|
+|Earthen_Ruby|151525|-0.28%|
+|Earthen_Sapphire|151378|-0.38%|

@@ -1,0 +1,36 @@
+# pitofsaron - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|153192|1.76%|
+|Panda_Feast|153045|1.66%|
+|Goblin|152449|1.26%|
+|Gnome|152419|1.24%|
+|Void_Elf|152357|1.20%|
+|Night_Elf_Haste|152262|1.14%|
+|Draenei|152258|1.14%|
+|Orc|152206|1.10%|
+|Human|152038|0.99%|
+|Kul_Tiran|151892|0.89%|
+|Dark_Iron_Dwarf|151845|0.86%|
+|Nightborne|151831|0.85%|
+|Dracthyr|151826|0.85%|
+|Blood_Elf|151816|0.84%|
+|Highmountain_Tauren|151816|0.84%|
+|Night_Elf_Crit|151806|0.83%|
+|Zandalari_Troll_Paku|151803|0.83%|
+|Worgen|151669|0.74%|
+|Troll|151582|0.69%|
+|Dwarf|151488|0.62%|
+|Maghar_Orc|151477|0.62%|
+|Tauren|151437|0.59%|
+|Haranir|151062|0.34%|
+|Zandalari_Troll_Kimbul|150801|0.17%|
+|Vulpera|150705|0.10%|
+|Lightforged_Draenei|150663|0.08%|
+|Undead|150597|0.03%|
+|Zandalari_Troll_Bwonsamdi|150587|0.03%|
+|Base|150549|0.00%|
+|Earthen_Emerald|150479|-0.05%|
+|Earthen_Ruby|150357|-0.13%|
+|Earthen_Onyx|150327|-0.15%|
+|Earthen_Sapphire|150089|-0.31%|

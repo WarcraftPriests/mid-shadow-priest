@@ -1,0 +1,36 @@
+# windrunner - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|148279|1.66%|
+|Panda_Feast|148057|1.50%|
+|Void_Elf|147534|1.15%|
+|Orc|147487|1.11%|
+|Gnome|147472|1.10%|
+|Draenei|147320|1.00%|
+|Goblin|147318|1.00%|
+|Night_Elf_Haste|147251|0.95%|
+|Dark_Iron_Dwarf|147188|0.91%|
+|Human|147109|0.85%|
+|Blood_Elf|147101|0.85%|
+|Highmountain_Tauren|147027|0.80%|
+|Kul_Tiran|147018|0.79%|
+|Dracthyr|146976|0.76%|
+|Nightborne|146969|0.76%|
+|Zandalari_Troll_Paku|146866|0.69%|
+|Night_Elf_Crit|146849|0.68%|
+|Troll|146774|0.63%|
+|Dwarf|146733|0.60%|
+|Worgen|146725|0.59%|
+|Maghar_Orc|146709|0.58%|
+|Tauren|146618|0.52%|
+|Haranir|146234|0.26%|
+|Zandalari_Troll_Kimbul|145995|0.09%|
+|Vulpera|145917|0.04%|
+|Base|145862|0.00%|
+|Lightforged_Draenei|145854|-0.01%|
+|Undead|145825|-0.03%|
+|Zandalari_Troll_Bwonsamdi|145811|-0.03%|
+|Earthen_Onyx|145615|-0.17%|
+|Earthen_Ruby|145468|-0.27%|
+|Earthen_Emerald|145432|-0.29%|
+|Earthen_Sapphire|145386|-0.33%|

@@ -1,0 +1,36 @@
+# magisters - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|150146|1.98%|
+|Panda_Feast|150016|1.89%|
+|Orc|149098|1.26%|
+|Void_Elf|149074|1.25%|
+|Goblin|149044|1.23%|
+|Gnome|149040|1.22%|
+|Draenei|149022|1.21%|
+|Night_Elf_Haste|148870|1.11%|
+|Human|148836|1.09%|
+|Nightborne|148670|0.97%|
+|Blood_Elf|148666|0.97%|
+|Dark_Iron_Dwarf|148609|0.93%|
+|Highmountain_Tauren|148566|0.90%|
+|Night_Elf_Crit|148566|0.90%|
+|Dracthyr|148549|0.89%|
+|Kul_Tiran|148523|0.87%|
+|Zandalari_Troll_Paku|148520|0.87%|
+|Troll|148433|0.81%|
+|Worgen|148407|0.79%|
+|Maghar_Orc|148270|0.70%|
+|Dwarf|148212|0.66%|
+|Tauren|148169|0.63%|
+|Haranir|147728|0.33%|
+|Zandalari_Troll_Kimbul|147541|0.21%|
+|Undead|147264|0.02%|
+|Lightforged_Draenei|147247|0.01%|
+|Base|147237|0.00%|
+|Vulpera|147223|-0.01%|
+|Zandalari_Troll_Bwonsamdi|147132|-0.07%|
+|Earthen_Onyx|146938|-0.20%|
+|Earthen_Ruby|146918|-0.22%|
+|Earthen_Emerald|146878|-0.24%|
+|Earthen_Sapphire|146680|-0.38%|

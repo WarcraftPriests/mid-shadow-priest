@@ -1,0 +1,36 @@
+# skyreach - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|141111|1.54%|
+|Panda_Feast|141030|1.48%|
+|Void_Elf|140386|1.02%|
+|Goblin|140361|1.00%|
+|Orc|140341|0.98%|
+|Draenei|140319|0.97%|
+|Gnome|140307|0.96%|
+|Night_Elf_Haste|140248|0.92%|
+|Human|140115|0.82%|
+|Blood_Elf|140063|0.78%|
+|Nightborne|140050|0.77%|
+|Kul_Tiran|140023|0.76%|
+|Dracthyr|140009|0.75%|
+|Dark_Iron_Dwarf|139986|0.73%|
+|Night_Elf_Crit|139959|0.71%|
+|Highmountain_Tauren|139932|0.69%|
+|Zandalari_Troll_Paku|139885|0.66%|
+|Troll|139869|0.64%|
+|Worgen|139792|0.59%|
+|Dwarf|139763|0.57%|
+|Maghar_Orc|139752|0.56%|
+|Tauren|139738|0.55%|
+|Haranir|139321|0.25%|
+|Zandalari_Troll_Kimbul|139205|0.17%|
+|Vulpera|139061|0.06%|
+|Lightforged_Draenei|139019|0.03%|
+|Zandalari_Troll_Bwonsamdi|138995|0.02%|
+|Base|138973|0.00%|
+|Undead|138944|-0.02%|
+|Earthen_Onyx|138790|-0.13%|
+|Earthen_Emerald|138703|-0.19%|
+|Earthen_Ruby|138677|-0.21%|
+|Earthen_Sapphire|138557|-0.30%|

@@ -1,0 +1,36 @@
+# maisara - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|158960|1.84%|
+|Panda_Feast|158754|1.71%|
+|Orc|158140|1.31%|
+|Void_Elf|157978|1.21%|
+|Gnome|157867|1.14%|
+|Draenei|157866|1.14%|
+|Goblin|157852|1.13%|
+|Night_Elf_Haste|157726|1.05%|
+|Dark_Iron_Dwarf|157725|1.05%|
+|Human|157657|1.00%|
+|Blood_Elf|157583|0.96%|
+|Nightborne|157535|0.93%|
+|Highmountain_Tauren|157517|0.91%|
+|Night_Elf_Crit|157487|0.90%|
+|Dracthyr|157479|0.89%|
+|Kul_Tiran|157474|0.89%|
+|Zandalari_Troll_Paku|157434|0.86%|
+|Troll|157406|0.84%|
+|Worgen|157215|0.72%|
+|Maghar_Orc|157176|0.70%|
+|Dwarf|157157|0.68%|
+|Tauren|157142|0.67%|
+|Haranir|156625|0.34%|
+|Zandalari_Troll_Kimbul|156224|0.09%|
+|Vulpera|156128|0.02%|
+|Base|156089|0.00%|
+|Lightforged_Draenei|156078|-0.01%|
+|Undead|156038|-0.03%|
+|Zandalari_Troll_Bwonsamdi|156001|-0.06%|
+|Earthen_Onyx|155840|-0.16%|
+|Earthen_Emerald|155690|-0.26%|
+|Earthen_Ruby|155662|-0.27%|
+|Earthen_Sapphire|155474|-0.39%|

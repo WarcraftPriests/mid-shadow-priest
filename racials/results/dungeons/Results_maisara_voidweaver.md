@@ -1,0 +1,36 @@
+# maisara - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|156644|1.54%|
+|Panda_Feast|156439|1.41%|
+|Orc|155898|1.06%|
+|Goblin|155829|1.01%|
+|Void_Elf|155803|1.00%|
+|Gnome|155775|0.98%|
+|Draenei|155756|0.97%|
+|Night_Elf_Haste|155705|0.93%|
+|Dark_Iron_Dwarf|155614|0.87%|
+|Human|155529|0.82%|
+|Nightborne|155450|0.77%|
+|Blood_Elf|155420|0.75%|
+|Highmountain_Tauren|155405|0.74%|
+|Zandalari_Troll_Paku|155360|0.71%|
+|Night_Elf_Crit|155349|0.70%|
+|Dracthyr|155344|0.70%|
+|Kul_Tiran|155309|0.68%|
+|Troll|155308|0.68%|
+|Worgen|155196|0.60%|
+|Tauren|155138|0.57%|
+|Maghar_Orc|155112|0.55%|
+|Dwarf|155101|0.54%|
+|Haranir|154603|0.22%|
+|Zandalari_Troll_Kimbul|154437|0.11%|
+|Base|154265|0.00%|
+|Vulpera|154210|-0.04%|
+|Zandalari_Troll_Bwonsamdi|154166|-0.06%|
+|Undead|154158|-0.07%|
+|Lightforged_Draenei|154142|-0.08%|
+|Earthen_Ruby|154013|-0.16%|
+|Earthen_Onyx|153974|-0.19%|
+|Earthen_Emerald|153962|-0.20%|
+|Earthen_Sapphire|153688|-0.37%|

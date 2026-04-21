@@ -1,0 +1,36 @@
+# skyreach - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|139832|1.74%|
+|Panda_Feast|139618|1.59%|
+|Goblin|139013|1.15%|
+|Gnome|138938|1.09%|
+|Void_Elf|138922|1.08%|
+|Orc|138898|1.06%|
+|Draenei|138872|1.04%|
+|Night_Elf_Haste|138862|1.04%|
+|Human|138659|0.89%|
+|Blood_Elf|138620|0.86%|
+|Nightborne|138591|0.84%|
+|Kul_Tiran|138578|0.83%|
+|Dark_Iron_Dwarf|138567|0.82%|
+|Night_Elf_Crit|138567|0.82%|
+|Dracthyr|138554|0.81%|
+|Highmountain_Tauren|138549|0.81%|
+|Zandalari_Troll_Paku|138530|0.79%|
+|Troll|138463|0.75%|
+|Worgen|138359|0.67%|
+|Dwarf|138251|0.59%|
+|Maghar_Orc|138237|0.58%|
+|Tauren|138226|0.57%|
+|Haranir|137758|0.23%|
+|Zandalari_Troll_Kimbul|137657|0.16%|
+|Vulpera|137565|0.09%|
+|Lightforged_Draenei|137473|0.02%|
+|Zandalari_Troll_Bwonsamdi|137448|0.01%|
+|Undead|137440|0.00%|
+|Base|137439|0.00%|
+|Earthen_Ruby|137303|-0.10%|
+|Earthen_Emerald|137292|-0.11%|
+|Earthen_Onyx|137248|-0.14%|
+|Earthen_Sapphire|137083|-0.26%|

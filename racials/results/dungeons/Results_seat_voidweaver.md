@@ -1,0 +1,36 @@
+# seat - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|146401|1.81%|
+|Panda_Feast|146253|1.70%|
+|Gnome|145661|1.29%|
+|Goblin|145596|1.25%|
+|Void_Elf|145538|1.21%|
+|Draenei|145483|1.17%|
+|Orc|145439|1.14%|
+|Night_Elf_Haste|145434|1.13%|
+|Human|145304|1.04%|
+|Blood_Elf|145218|0.98%|
+|Nightborne|145172|0.95%|
+|Night_Elf_Crit|145129|0.92%|
+|Dark_Iron_Dwarf|145123|0.92%|
+|Zandalari_Troll_Paku|145038|0.86%|
+|Dracthyr|145037|0.86%|
+|Highmountain_Tauren|145036|0.86%|
+|Kul_Tiran|145002|0.83%|
+|Troll|144973|0.81%|
+|Worgen|144929|0.78%|
+|Maghar_Orc|144815|0.70%|
+|Dwarf|144738|0.65%|
+|Tauren|144678|0.61%|
+|Haranir|144227|0.29%|
+|Zandalari_Troll_Kimbul|143984|0.13%|
+|Vulpera|143805|0.00%|
+|Base|143803|0.00%|
+|Lightforged_Draenei|143794|-0.01%|
+|Undead|143762|-0.03%|
+|Zandalari_Troll_Bwonsamdi|143683|-0.08%|
+|Earthen_Emerald|143586|-0.15%|
+|Earthen_Ruby|143555|-0.17%|
+|Earthen_Onyx|143435|-0.26%|
+|Earthen_Sapphire|143196|-0.42%|

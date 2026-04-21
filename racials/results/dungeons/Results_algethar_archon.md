@@ -1,0 +1,36 @@
+# algethar - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|127322|1.77%|
+|Panda_Feast|127149|1.63%|
+|Orc|126589|1.18%|
+|Void_Elf|126534|1.14%|
+|Gnome|126481|1.10%|
+|Goblin|126469|1.09%|
+|Draenei|126440|1.06%|
+|Night_Elf_Haste|126375|1.01%|
+|Human|126348|0.99%|
+|Dark_Iron_Dwarf|126240|0.90%|
+|Dracthyr|126178|0.85%|
+|Blood_Elf|126177|0.85%|
+|Nightborne|126149|0.83%|
+|Highmountain_Tauren|126141|0.82%|
+|Kul_Tiran|126076|0.77%|
+|Night_Elf_Crit|126030|0.73%|
+|Zandalari_Troll_Paku|126029|0.73%|
+|Maghar_Orc|125919|0.65%|
+|Dwarf|125893|0.63%|
+|Worgen|125867|0.60%|
+|Troll|125834|0.58%|
+|Tauren|125829|0.57%|
+|Haranir|125490|0.30%|
+|Zandalari_Troll_Kimbul|125283|0.14%|
+|Base|125111|0.00%|
+|Zandalari_Troll_Bwonsamdi|125106|0.00%|
+|Vulpera|125098|-0.01%|
+|Lightforged_Draenei|125091|-0.02%|
+|Undead|125008|-0.08%|
+|Earthen_Onyx|124779|-0.27%|
+|Earthen_Emerald|124755|-0.28%|
+|Earthen_Ruby|124754|-0.29%|
+|Earthen_Sapphire|124659|-0.36%|

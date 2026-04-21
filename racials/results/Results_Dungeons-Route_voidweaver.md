@@ -1,0 +1,36 @@
+# Dungeons-Route - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|142948|1.76%|
+|Panda_Feast|142781|1.64%|
+|Goblin|142140|1.18%|
+|Gnome|142124|1.17%|
+|Void_Elf|142092|1.15%|
+|Orc|142072|1.14%|
+|Draenei|142036|1.11%|
+|Night_Elf_Haste|141980|1.07%|
+|Human|141806|0.95%|
+|Dark_Iron_Dwarf|141728|0.89%|
+|Blood_Elf|141702|0.87%|
+|Nightborne|141680|0.86%|
+|Dracthyr|141641|0.83%|
+|Night_Elf_Crit|141629|0.82%|
+|Highmountain_Tauren|141627|0.82%|
+|Kul_Tiran|141626|0.82%|
+|Zandalari_Troll_Paku|141616|0.81%|
+|Troll|141511|0.74%|
+|Worgen|141474|0.71%|
+|Maghar_Orc|141380|0.64%|
+|Dwarf|141345|0.62%|
+|Tauren|141298|0.58%|
+|Haranir|140887|0.29%|
+|Zandalari_Troll_Kimbul|140713|0.17%|
+|Vulpera|140536|0.04%|
+|Base|140477|0.00%|
+|Lightforged_Draenei|140474|0.00%|
+|Undead|140464|-0.01%|
+|Zandalari_Troll_Bwonsamdi|140436|-0.03%|
+|Earthen_Emerald|140263|-0.15%|
+|Earthen_Ruby|140250|-0.16%|
+|Earthen_Onyx|140216|-0.19%|
+|Earthen_Sapphire|139979|-0.35%|
