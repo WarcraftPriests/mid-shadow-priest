@@ -1,6 +1,6 @@
 # Dungeons-Route - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|MID1-2_4-set|142086|7.08%|
-|MID1-2-set|136599|2.94%|
-|Base|132694|0.00%|
+|MID1-2_4-set|155783|9.35%|
+|MID1-2-set|146736|3.00%|
+|Base|142468|0.00%|

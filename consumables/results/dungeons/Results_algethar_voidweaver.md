@@ -1,14 +1,14 @@
 # algethar - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|122264|1.80%|
-|Royal_Roast|122199|1.75%|
-|Fel_Kissed_Filet|121610|1.26%|
-|Champions_Bento|121605|1.25%|
-|Flora_Frenzy|121600|1.25%|
-|Blooming_Feast|121580|1.23%|
-|Arcano_Cutlets|121549|1.21%|
-|Warped_Wise_Wings|121519|1.18%|
-|Void_Kissed_Fish_Rolls|121393|1.08%|
-|Void_Touched_Augment_Rune|121144|0.87%|
-|Base|120101|0.00%|
+|Silvermoon_Parade|123126|1.72%|
+|Royal_Roast|123101|1.70%|
+|Flora_Frenzy|122528|1.22%|
+|Fel_Kissed_Filet|122520|1.22%|
+|Champions_Bento|122517|1.21%|
+|Blooming_Feast|122507|1.21%|
+|Arcano_Cutlets|122433|1.14%|
+|Warped_Wise_Wings|122421|1.13%|
+|Void_Kissed_Fish_Rolls|122286|1.02%|
+|Void_Touched_Augment_Rune|122120|0.89%|
+|Base|121048|0.00%|

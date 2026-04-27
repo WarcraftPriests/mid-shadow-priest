@@ -1,14 +1,14 @@
 # seat - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|142354|2.14%|
-|Royal_Roast|142344|2.13%|
-|Blooming_Feast|141627|1.62%|
-|Champions_Bento|141607|1.60%|
-|Flora_Frenzy|141576|1.58%|
-|Fel_Kissed_Filet|141530|1.55%|
-|Arcano_Cutlets|141468|1.50%|
-|Warped_Wise_Wings|141339|1.41%|
-|Void_Kissed_Fish_Rolls|141108|1.24%|
-|Void_Touched_Augment_Rune|140913|1.10%|
-|Base|139376|0.00%|
+|Silvermoon_Parade|144142|2.00%|
+|Royal_Roast|144099|1.97%|
+|Flora_Frenzy|143370|1.45%|
+|Fel_Kissed_Filet|143353|1.44%|
+|Champions_Bento|143351|1.44%|
+|Blooming_Feast|143339|1.43%|
+|Arcano_Cutlets|143263|1.38%|
+|Warped_Wise_Wings|143158|1.30%|
+|Void_Kissed_Fish_Rolls|143033|1.22%|
+|Void_Touched_Augment_Rune|142782|1.04%|
+|Base|141316|0.00%|

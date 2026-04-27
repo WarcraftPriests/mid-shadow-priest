@@ -1,6 +1,6 @@
 # windrunner - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|MID1-2_4-set|144334|5.43%|
-|MID1-2-set|141083|3.05%|
-|Base|136902|0.00%|
+|MID1-2_4-set|162510|8.24%|
+|MID1-2-set|155099|3.31%|
+|Base|150136|0.00%|

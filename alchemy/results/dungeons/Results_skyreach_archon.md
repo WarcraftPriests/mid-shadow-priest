@@ -1,20 +1,20 @@
 # skyreach - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Draught_of_Rampant_Abandon_2|135834|3.44%|
-|Lights_Potential_2|135413|3.12%|
-|Draught_of_Rampant_Abandon_1|135202|2.96%|
-|Flask_of_the_Magisters_2|135138|2.91%|
-|Flask_of_the_Shattered_Sun_2|134827|2.67%|
-|Flask_of_the_Magisters_1|134786|2.64%|
-|Lights_Potential_1|134777|2.63%|
-|Flask_of_Thalassian_Resistance_2|134628|2.52%|
-|Potion_of_Recklessness_2|134532|2.45%|
-|Flask_of_the_Shattered_Sun_1|134472|2.40%|
-|Flask_of_the_Blood_Knights_2|134426|2.37%|
-|Flask_of_Thalassian_Resistance_1|134301|2.27%|
-|Potion_of_Recklessness_1|134283|2.26%|
-|Flask_of_the_Blood_Knights_1|134169|2.17%|
-|Potion_of_Zealotry_2|131861|0.41%|
-|Potion_of_Zealotry_1|131709|0.30%|
-|Base|131318|0.00%|
+|Draught_of_Rampant_Abandon_2|135843|3.45%|
+|Lights_Potential_2|135392|3.11%|
+|Draught_of_Rampant_Abandon_1|135215|2.98%|
+|Flask_of_the_Magisters_2|135105|2.89%|
+|Lights_Potential_1|134856|2.70%|
+|Flask_of_the_Magisters_1|134832|2.68%|
+|Flask_of_the_Shattered_Sun_2|134793|2.65%|
+|Flask_of_Thalassian_Resistance_2|134582|2.49%|
+|Flask_of_the_Shattered_Sun_1|134572|2.49%|
+|Potion_of_Recklessness_2|134549|2.47%|
+|Flask_of_the_Blood_Knights_2|134502|2.43%|
+|Flask_of_Thalassian_Resistance_1|134346|2.31%|
+|Potion_of_Recklessness_1|134289|2.27%|
+|Flask_of_the_Blood_Knights_1|134243|2.24%|
+|Potion_of_Zealotry_2|131873|0.43%|
+|Potion_of_Zealotry_1|131770|0.35%|
+|Base|131308|0.00%|

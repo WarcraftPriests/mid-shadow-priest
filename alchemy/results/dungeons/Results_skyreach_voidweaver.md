@@ -1,20 +1,20 @@
 # skyreach - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Draught_of_Rampant_Abandon_2|134080|3.45%|
-|Lights_Potential_2|133715|3.17%|
-|Flask_of_the_Magisters_2|133661|3.13%|
-|Flask_of_the_Shattered_Sun_2|133490|3.00%|
-|Draught_of_Rampant_Abandon_1|133470|2.98%|
-|Flask_of_the_Magisters_1|133319|2.86%|
-|Potion_of_Recklessness_2|133246|2.81%|
-|Flask_of_the_Shattered_Sun_1|133225|2.79%|
-|Flask_of_the_Blood_Knights_2|133213|2.78%|
-|Flask_of_Thalassian_Resistance_2|133135|2.72%|
-|Lights_Potential_1|133119|2.71%|
-|Potion_of_Recklessness_1|133001|2.62%|
-|Flask_of_the_Blood_Knights_1|132998|2.62%|
-|Flask_of_Thalassian_Resistance_1|132793|2.46%|
-|Potion_of_Zealotry_2|130313|0.55%|
-|Potion_of_Zealotry_1|130150|0.42%|
-|Base|129606|0.00%|
+|Draught_of_Rampant_Abandon_2|135016|3.41%|
+|Flask_of_the_Magisters_2|134633|3.12%|
+|Lights_Potential_2|134531|3.04%|
+|Flask_of_the_Shattered_Sun_2|134521|3.03%|
+|Draught_of_Rampant_Abandon_1|134393|2.94%|
+|Flask_of_the_Magisters_1|134256|2.83%|
+|Potion_of_Recklessness_2|134210|2.80%|
+|Flask_of_the_Blood_Knights_2|134151|2.75%|
+|Flask_of_the_Shattered_Sun_1|134131|2.74%|
+|Flask_of_Thalassian_Resistance_2|134092|2.71%|
+|Flask_of_the_Blood_Knights_1|134017|2.65%|
+|Potion_of_Recklessness_1|134001|2.64%|
+|Lights_Potential_1|133998|2.63%|
+|Flask_of_Thalassian_Resistance_1|133778|2.46%|
+|Potion_of_Zealotry_2|131294|0.56%|
+|Potion_of_Zealotry_1|131167|0.46%|
+|Base|130560|0.00%|

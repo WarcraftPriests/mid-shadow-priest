@@ -1,20 +1,20 @@
 # 8T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Draught_of_Rampant_Abandon_2|562736|22.20%|
-|Lights_Potential_2|552197|19.91%|
-|Draught_of_Rampant_Abandon_1|547943|18.99%|
-|Lights_Potential_1|539343|17.12%|
-|Potion_of_Recklessness_2|514859|11.80%|
-|Potion_of_Recklessness_1|512304|11.25%|
-|Flask_of_the_Shattered_Sun_2|477637|3.72%|
-|Flask_of_the_Shattered_Sun_1|476344|3.44%|
-|Flask_of_the_Magisters_2|475777|3.32%|
-|Flask_of_the_Magisters_1|474705|3.08%|
-|Flask_of_Thalassian_Resistance_2|474393|3.02%|
-|Flask_of_Thalassian_Resistance_1|473754|2.88%|
-|Flask_of_the_Blood_Knights_2|473172|2.75%|
-|Flask_of_the_Blood_Knights_1|471327|2.35%|
-|Potion_of_Zealotry_2|463524|0.66%|
-|Potion_of_Zealotry_1|463150|0.58%|
-|Base|460500|0.00%|
+|Draught_of_Rampant_Abandon_2|562646|22.16%|
+|Lights_Potential_2|552590|19.97%|
+|Draught_of_Rampant_Abandon_1|548227|19.03%|
+|Lights_Potential_1|539127|17.05%|
+|Potion_of_Recklessness_2|515458|11.91%|
+|Potion_of_Recklessness_1|512429|11.26%|
+|Flask_of_the_Shattered_Sun_2|477546|3.68%|
+|Flask_of_the_Shattered_Sun_1|476303|3.41%|
+|Flask_of_the_Magisters_2|475562|3.25%|
+|Flask_of_the_Magisters_1|475062|3.14%|
+|Flask_of_Thalassian_Resistance_2|474404|3.00%|
+|Flask_of_Thalassian_Resistance_1|473231|2.75%|
+|Flask_of_the_Blood_Knights_2|472789|2.65%|
+|Flask_of_the_Blood_Knights_1|472177|2.52%|
+|Potion_of_Zealotry_2|462880|0.50%|
+|Potion_of_Zealotry_1|462728|0.46%|
+|Base|460587|0.00%|
