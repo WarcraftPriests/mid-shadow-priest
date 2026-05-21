@@ -1,20 +1,20 @@
 # magisters - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Flask_of_the_Magisters_2|145386|3.13%|
-|Flask_of_the_Magisters_1|145026|2.88%|
-|Draught_of_Rampant_Abandon_2|144996|2.85%|
-|Flask_of_the_Shattered_Sun_2|144911|2.79%|
-|Flask_of_Thalassian_Resistance_2|144788|2.71%|
-|Flask_of_the_Shattered_Sun_1|144660|2.62%|
-|Lights_Potential_2|144600|2.57%|
-|Flask_of_the_Blood_Knights_2|144467|2.48%|
-|Flask_of_Thalassian_Resistance_1|144459|2.47%|
-|Draught_of_Rampant_Abandon_1|144410|2.44%|
-|Flask_of_the_Blood_Knights_1|144248|2.32%|
-|Lights_Potential_1|144077|2.20%|
-|Potion_of_Recklessness_2|143829|2.03%|
-|Potion_of_Recklessness_1|143748|1.97%|
-|Potion_of_Zealotry_2|141499|0.37%|
-|Potion_of_Zealotry_1|141379|0.29%|
-|Base|140972|0.00%|
+|Flask_of_the_Shattered_Sun_2|172284|3.15%|
+|Flask_of_the_Magisters_2|172188|3.09%|
+|Draught_of_Rampant_Abandon_2|171977|2.97%|
+|Flask_of_the_Shattered_Sun_1|171837|2.88%|
+|Flask_of_the_Magisters_1|171802|2.86%|
+|Lights_Potential_2|171574|2.73%|
+|Flask_of_Thalassian_Resistance_2|171548|2.71%|
+|Flask_of_the_Blood_Knights_2|171422|2.63%|
+|Draught_of_Rampant_Abandon_1|171326|2.58%|
+|Flask_of_Thalassian_Resistance_1|171085|2.43%|
+|Flask_of_the_Blood_Knights_1|171026|2.40%|
+|Potion_of_Recklessness_2|170929|2.34%|
+|Lights_Potential_1|170925|2.34%|
+|Potion_of_Recklessness_1|170739|2.23%|
+|Potion_of_Zealotry_2|167418|0.24%|
+|Potion_of_Zealotry_1|167390|0.22%|
+|Base|167022|0.00%|

@@ -1,20 +1,20 @@
 # algethar - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Flask_of_the_Magisters_2|121790|3.23%|
-|Draught_of_Rampant_Abandon_2|121540|3.02%|
-|Flask_of_the_Magisters_1|121504|2.99%|
-|Flask_of_the_Shattered_Sun_2|121391|2.89%|
-|Flask_of_Thalassian_Resistance_2|121212|2.74%|
-|Lights_Potential_2|121189|2.72%|
-|Flask_of_the_Shattered_Sun_1|121152|2.69%|
-|Flask_of_the_Blood_Knights_2|121145|2.69%|
-|Draught_of_Rampant_Abandon_1|120972|2.54%|
-|Flask_of_Thalassian_Resistance_1|120943|2.51%|
-|Flask_of_the_Blood_Knights_1|120889|2.47%|
-|Lights_Potential_1|120712|2.32%|
-|Potion_of_Recklessness_2|120308|1.98%|
-|Potion_of_Recklessness_1|120141|1.83%|
-|Potion_of_Zealotry_2|118449|0.40%|
-|Potion_of_Zealotry_1|118397|0.36%|
-|Base|117977|0.00%|
+|Draught_of_Rampant_Abandon_2|140773|2.76%|
+|Flask_of_the_Shattered_Sun_2|140440|2.52%|
+|Flask_of_the_Magisters_2|140421|2.50%|
+|Lights_Potential_2|140382|2.47%|
+|Draught_of_Rampant_Abandon_1|140264|2.39%|
+|Flask_of_the_Magisters_1|140160|2.31%|
+|Flask_of_the_Shattered_Sun_1|140154|2.31%|
+|Flask_of_Thalassian_Resistance_2|139938|2.15%|
+|Lights_Potential_1|139786|2.04%|
+|Flask_of_the_Blood_Knights_2|139708|1.98%|
+|Flask_of_Thalassian_Resistance_1|139700|1.98%|
+|Flask_of_the_Blood_Knights_1|139520|1.84%|
+|Potion_of_Recklessness_2|139400|1.76%|
+|Potion_of_Recklessness_1|139263|1.66%|
+|Potion_of_Zealotry_2|137475|0.35%|
+|Potion_of_Zealotry_1|137396|0.29%|
+|Base|136993|0.00%|

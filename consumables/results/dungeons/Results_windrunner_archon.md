@@ -1,14 +1,14 @@
 # windrunner - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|144649|1.69%|
-|Royal_Roast|144646|1.69%|
-|Flora_Frenzy|143863|1.14%|
-|Fel_Kissed_Filet|143806|1.10%|
-|Warped_Wise_Wings|143802|1.10%|
-|Arcano_Cutlets|143798|1.10%|
-|Blooming_Feast|143777|1.08%|
-|Champions_Bento|143768|1.07%|
-|Void_Kissed_Fish_Rolls|143704|1.03%|
-|Void_Touched_Augment_Rune|143431|0.84%|
-|Base|142239|0.00%|
+|Silvermoon_Parade|169119|1.08%|
+|Royal_Roast|169076|1.05%|
+|Warped_Wise_Wings|168771|0.87%|
+|Arcano_Cutlets|168718|0.84%|
+|Fel_Kissed_Filet|168718|0.84%|
+|Flora_Frenzy|168696|0.82%|
+|Champions_Bento|168662|0.80%|
+|Blooming_Feast|168645|0.79%|
+|Void_Kissed_Fish_Rolls|168564|0.75%|
+|Void_Touched_Augment_Rune|168399|0.65%|
+|Base|167316|0.00%|

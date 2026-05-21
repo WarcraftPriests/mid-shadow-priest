@@ -1,14 +1,14 @@
 # maisara - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|154197|1.75%|
-|Silvermoon_Parade|154137|1.71%|
-|Blooming_Feast|153486|1.28%|
-|Champions_Bento|153455|1.26%|
-|Fel_Kissed_Filet|153454|1.26%|
-|Flora_Frenzy|153418|1.24%|
-|Arcano_Cutlets|153302|1.16%|
-|Warped_Wise_Wings|153253|1.13%|
-|Void_Kissed_Fish_Rolls|153097|1.02%|
-|Void_Touched_Augment_Rune|152920|0.91%|
-|Base|151544|0.00%|
+|Silvermoon_Parade|175504|1.38%|
+|Royal_Roast|175384|1.31%|
+|Arcano_Cutlets|174918|1.04%|
+|Flora_Frenzy|174871|1.01%|
+|Champions_Bento|174806|0.98%|
+|Fel_Kissed_Filet|174773|0.96%|
+|Blooming_Feast|174766|0.95%|
+|Warped_Wise_Wings|174593|0.85%|
+|Void_Kissed_Fish_Rolls|174476|0.79%|
+|Void_Touched_Augment_Rune|174204|0.63%|
+|Base|173114|0.00%|

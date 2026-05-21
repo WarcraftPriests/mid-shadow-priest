@@ -1,20 +1,20 @@
 # seat - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Draught_of_Rampant_Abandon_2|140646|3.36%|
-|Lights_Potential_2|140115|2.97%|
-|Flask_of_the_Magisters_2|140079|2.95%|
-|Draught_of_Rampant_Abandon_1|139869|2.79%|
-|Flask_of_the_Shattered_Sun_2|139812|2.75%|
-|Flask_of_the_Magisters_1|139675|2.65%|
-|Flask_of_the_Blood_Knights_2|139556|2.56%|
-|Flask_of_Thalassian_Resistance_2|139514|2.53%|
-|Lights_Potential_1|139465|2.50%|
-|Flask_of_the_Shattered_Sun_1|139435|2.47%|
-|Flask_of_the_Blood_Knights_1|139260|2.35%|
-|Flask_of_Thalassian_Resistance_1|139155|2.27%|
-|Potion_of_Recklessness_2|139078|2.21%|
-|Potion_of_Recklessness_1|138934|2.11%|
-|Potion_of_Zealotry_2|136393|0.24%|
-|Potion_of_Zealotry_1|136293|0.17%|
-|Base|136068|0.00%|
+|Flask_of_the_Shattered_Sun_2|158252|3.35%|
+|Flask_of_the_Magisters_2|158053|3.22%|
+|Draught_of_Rampant_Abandon_2|157842|3.08%|
+|Flask_of_the_Shattered_Sun_1|157750|3.02%|
+|Flask_of_the_Magisters_1|157623|2.94%|
+|Flask_of_Thalassian_Resistance_2|157386|2.78%|
+|Lights_Potential_2|157316|2.73%|
+|Flask_of_the_Blood_Knights_2|157254|2.69%|
+|Draught_of_Rampant_Abandon_1|157092|2.59%|
+|Flask_of_Thalassian_Resistance_1|157017|2.54%|
+|Flask_of_the_Blood_Knights_1|156976|2.51%|
+|Lights_Potential_1|156774|2.38%|
+|Potion_of_Recklessness_2|156703|2.33%|
+|Potion_of_Recklessness_1|156413|2.15%|
+|Potion_of_Zealotry_2|153442|0.21%|
+|Potion_of_Zealotry_1|153313|0.12%|
+|Base|153128|0.00%|

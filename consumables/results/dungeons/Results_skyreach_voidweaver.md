@@ -1,14 +1,14 @@
 # skyreach - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|137323|1.59%|
-|Royal_Roast|137274|1.55%|
-|Champions_Bento|136719|1.14%|
-|Blooming_Feast|136715|1.14%|
-|Fel_Kissed_Filet|136702|1.13%|
-|Flora_Frenzy|136690|1.12%|
-|Arcano_Cutlets|136663|1.10%|
-|Warped_Wise_Wings|136627|1.07%|
-|Void_Kissed_Fish_Rolls|136480|0.97%|
-|Void_Touched_Augment_Rune|136270|0.81%|
-|Base|135174|0.00%|
+|Silvermoon_Parade|152116|1.66%|
+|Royal_Roast|152043|1.61%|
+|Arcano_Cutlets|151391|1.17%|
+|Fel_Kissed_Filet|151368|1.16%|
+|Flora_Frenzy|151368|1.16%|
+|Blooming_Feast|151354|1.15%|
+|Champions_Bento|151339|1.14%|
+|Warped_Wise_Wings|151247|1.08%|
+|Void_Kissed_Fish_Rolls|151091|0.97%|
+|Void_Touched_Augment_Rune|150718|0.72%|
+|Base|149636|0.00%|

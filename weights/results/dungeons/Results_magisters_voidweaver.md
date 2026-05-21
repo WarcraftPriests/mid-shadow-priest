@@ -1,4 +1,4 @@
 # magisters - voidweaver
 | Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Base|166167|1.00|0.50|0.53|0.50|0.46|0.02|
+|Base|175774|1.00|0.61|0.67|0.61|0.56|0.02|
