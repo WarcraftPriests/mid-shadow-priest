@@ -87,8 +87,12 @@ def write_simc_for_section(section_name: str, section: Dict[str, Any], out_path:
             opts = tr.get("option") or tr.get("options") or []
             # support 'bonus_ids' for appending bonus_id directly to trinket line
             bonus_ids = tr.get("bonus_ids") or []
-            # per-trinket item_levels can override the section setting; accept list or string key
-            tr_item_levels = resolve_item_levels(tr.get("item_levels", None), item_levels_map) or section_item_levels
+            # Only fall back to section item levels when per-trinket item_levels is not provided.
+            # This preserves explicit empty arrays (e.g. item_levels: []) as "skip this trinket".
+            if "item_levels" in tr:
+                tr_item_levels = resolve_item_levels(tr.get("item_levels", None), item_levels_map)
+            else:
+                tr_item_levels = section_item_levels
 
             if bonus_ids:
                 for bonus in bonus_ids:
@@ -197,7 +201,10 @@ def main(argv: list[str] | None = None) -> int:
                 normalized = normalize_trinket_name(tr_name)
                 opts = tr.get("option") or tr.get("options") or []
                 bonus_ids = tr.get("bonus_ids") or []
-                tr_item_levels = resolve_item_levels(tr.get("item_levels", None), item_levels_map) or section_item_levels
+                if "item_levels" in tr:
+                    tr_item_levels = resolve_item_levels(tr.get("item_levels", None), item_levels_map)
+                else:
+                    tr_item_levels = section_item_levels
 
                 if bonus_ids:
                     for bonus in bonus_ids:

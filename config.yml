@@ -67,10 +67,10 @@ gear:
     feet: "lightbinder_treads,id=109796,ilevel=289" # haste/mastery
     finger1: "omission_of_light,id=251093,ilevel=289" # haste/mastery
     finger2: "occlusion_of_void,id=251217,ilevel=289" # haste
-    trinket1: "vaelgors_final_stare,id=249346,ilevel=289"
-    trinket2: "gaze_of_the_alnseer,id=249343,ilevel=289"
-    main_hand: "belomelorn_the_shattered_talon,id=249283,ilevel=289" # haste/mastery
-    off_hand: "tome_of_alnscorned_regret,id=249922,ilevel=289" # haste/mastery
+    trinket1: "vaelgors_final_stare,id=249346,ilevel=298"
+    trinket2: "gaze_of_the_alnseer,id=249343,ilevel=298"
+    main_hand: "belomelorn_the_shattered_talon,id=249283,ilevel=298" # haste/mastery
+    off_hand: "tome_of_alnscorned_regret,id=249922,ilevel=298" # haste/mastery
   # x Mastery | x Haste | x Crit | x Vers
   noCantrip:
     head: "blind_oaths_winged_crest,id=250051,ilevel=289" # haste/crit
@@ -85,10 +85,10 @@ gear:
     feet: "lightbinder_treads,id=109796,ilevel=289" # haste/mastery
     finger1: "omission_of_light,id=251093,ilevel=289" # haste/mastery
     finger2: "eye_of_midnight,id=249920,ilevel=289" # haste
-    trinket1: "shadow_of_the_empyrean_requiem,id=249810,ilevel=289"
-    trinket2: "vaelgors_final_stare,id=249346,ilevel=289"
-    main_hand: "belomelorn_the_shattered_talon,id=249283,ilevel=289" # haste/mastery
-    off_hand: "tome_of_alnscorned_regret,id=249922,ilevel=289" # haste/mastery
+    trinket1: "shadow_of_the_empyrean_requiem,id=249810,ilevel=298"
+    trinket2: "vaelgors_final_stare,id=249346,ilevel=298"
+    main_hand: "belomelorn_the_shattered_talon,id=249283,ilevel=298" # haste/mastery
+    off_hand: "tome_of_alnscorned_regret,id=249922,ilevel=298" # haste/mastery
 gems:
   meta: "240983" # Indecipherable_Eversong_Diamond_2
   main: "240900" # Flawless Quick Amethyst
@@ -164,6 +164,17 @@ sims:
       - 2
     files:
       - gems.simc
+  omnium-folio:
+    description: "Sims the Omnium Folio against each other. Lists each rank of the Folio."
+    gearOverride: none
+    builds: true
+    weights: false
+    chart: true
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - folio.simc
   racials:
     description: "Swaps out the racial that includes all stat effects or special abilities where they prove to be a DPS increase."
     gearOverride: none
@@ -258,11 +269,8 @@ sims:
     chart: true
     lookupType: item
     steps:
-      - 250
-      - 263
-      - 276
       - 285
-      - 289
+      - 298
     files:
       - raid.simc
       - dungeons.simc
@@ -297,7 +305,7 @@ simcBuild: latest
 forceHeroTalents: false
 defaultIterations: 10000
 raidbots:
-  apiUrlBase: https://www.raidbots.com
+  apiUrlBase: https://mimiron.raidbots.com
   numOfRetries: 100
   retryInterval: 10
 charts:

@@ -395,6 +395,8 @@ def not_dungeon_fight(fight_type):
 
 def clear_dir(path, talent_string, fight_types):
     """clear out unused files that are not in the current run"""
+    if not os.path.isdir(path):
+        return
     for file in os.listdir(path):
         # ignore the sub-folders
         if file == "dungeons" or file == "push" or file == "standard":

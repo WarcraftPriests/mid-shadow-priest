@@ -1,11 +1,11 @@
 item_levels:
-  champion: [263]
-  hero: [276]
-  raid: [250, 263, 276, 289]
-  delves: [263, 276]
-  dungeons_both: [263, 276, 289]
-  dungeons: [276, 289]
-  crafted: [285]
+  champion: []
+  hero: [285]
+  raid: [285, 298]
+  delves: [285]
+  dungeons_both: [285, 298]
+  dungeons: [285, 298]
+  crafted: [295]
 dungeons:
   item_levels: "dungeons"
   trinkets:

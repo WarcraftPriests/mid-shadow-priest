@@ -170,10 +170,20 @@ def replace_talents(talent_string, data, talent_name):
     hero_string = ""
     if config["forceHeroTalents"] is True:
         hero_string = f"\nhero_talents={lookup_hero_talents(talent_name)}"
-    if "talents=" in data:
-        data = re.sub(r"talents=.*", f"talents={talent_string}{hero_string}", data)
+    if re.search(r"^talents=", data, flags=re.MULTILINE):
+        data = re.sub(
+            r"^talents=.*$",
+            f"talents={talent_string}{hero_string}",
+            data,
+            count=1,
+            flags=re.MULTILINE,
+        )
     else:
-        data.replace("spec=shadow", f"spec=shadow\ntalents={talent_string}{hero_string}")
+        data = data.replace(
+            "spec=shadow",
+            f"spec=shadow\ntalents={talent_string}{hero_string}",
+            1,
+        )
     return data
 
 
