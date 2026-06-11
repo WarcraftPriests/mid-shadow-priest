@@ -26,6 +26,8 @@ ${gear.off_hand}
 
 
 # Season 1 Cantrip Items
+## Sporefall
+
 ## The Voidspire
 profileset."Neck_Eternal_Voidsong_Chain_289"+=neck=eternal_voidsong_chain,id=249368,ilevel=289,gem_id=${gems.peridot}
 
