@@ -10,7 +10,15 @@ import yaml
 
 from internal import utils
 from internal.api import raidbots
-from api_secrets import api_key
+
+try:
+    from api_secrets import api_key as _api_key
+except ImportError:
+    # CI and contributors may not have a local api_secrets.py.
+    # Allow importing this module by falling back to an env var.
+    _api_key = os.environ.get("RAIDBOTS_API_KEY", "")
+
+api_key = _api_key
 
 with open("config.yml", "r", encoding="utf8") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
@@ -223,7 +231,11 @@ if __name__ == "__main__":
 
     # Setup Vars
     build_configs = get_builds()
-    combos = [(cd, filler) for cd in build_configs for filler in ["_ME", "_DR", "_ME_VT", "_DR_VT"]]  # noqa: E501
+    combos = [
+        (cd, filler)
+        for cd in build_configs
+        for filler in ["_ME", "_DR", "_ME_VT", "_DR_VT"]
+    ]  # noqa: E501
     results = utils.get_sim_types()
     push_results = list(utils.get_dungeon_combos())
 
@@ -267,6 +279,10 @@ if __name__ == "__main__":
     for batch in range(batches):
         name = f"talents/top/top_talents_{batch}"
         if not args.analyze_only:
+            if not api_key:
+                raise RuntimeError(
+                    "Missing Raidbots API key. Set RAIDBOTS_API_KEY or create api_secrets.py"
+                )
             raidbots(
                 api_key,
                 f"{name}.simc",

@@ -1,4 +1,5 @@
 """run full suite of sims"""
+
 import argparse
 import csv
 import os

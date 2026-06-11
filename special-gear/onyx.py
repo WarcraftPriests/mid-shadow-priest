@@ -1,18 +1,20 @@
 """creates combinations of stones"""
+
 from itertools import combinations
 
 stones = {
-    'DBS': 204027,  # Desirous Blood Stone
-    'FLS': 204002,  # Flame Licked Stone
-    'SIS': 204000,  # Storm Infused Stone
-    'ETS': 204001,  # Echoing Thunder Stone
-    'EFS': 204005,  # Entropic Fel Stone
-    'FIS': 204011,  # Freezing Ice Stone
-    'HAS': 204018,  # Humming Arcane Stone
-    'PPS': 204022,  # Pestilent Plague Stone
-    'OPS': 204007,  # Obscure Pastel Stone
-    'PTS': 204029  # Prophetic Twilight Stone
+    "DBS": 204027,  # Desirous Blood Stone
+    "FLS": 204002,  # Flame Licked Stone
+    "SIS": 204000,  # Storm Infused Stone
+    "ETS": 204001,  # Echoing Thunder Stone
+    "EFS": 204005,  # Entropic Fel Stone
+    "FIS": 204011,  # Freezing Ice Stone
+    "HAS": 204018,  # Humming Arcane Stone
+    "PPS": 204022,  # Pestilent Plague Stone
+    "OPS": 204007,  # Obscure Pastel Stone
+    "PTS": 204029,  # Prophetic Twilight Stone
 }
+
 
 def combine_name(combo_string):
     """transforms FIS-FIS-HAS to FIS2-HAS1"""
@@ -50,8 +52,7 @@ for combo in combos:
     RING_COMBO = combine_name(RING_COMBO[:-1])
     SIMC_STRING = SIMC_STRING[:-1]
 
-    profilesets.append(
-        f"profileset.\"Onyx_Annulet_2_{RING_COMBO}_424\"+={SIMC_STRING}")
+    profilesets.append(f'profileset."Onyx_Annulet_2_{RING_COMBO}_424"+={SIMC_STRING}')
 
 for profileset in profilesets:
     print(profileset)

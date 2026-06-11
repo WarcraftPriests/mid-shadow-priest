@@ -1,4 +1,5 @@
 """spell ids to be used in json result files"""
+
 alchemy = {
     "Flask_of_the_Shattered_Sun": 241326,
     "Flask_of_the_Magisters": 241322,
@@ -163,18 +164,18 @@ tiersets = {
 
 def find_ids(key):
     """return the matching dict"""
-    if key == 'racials':
+    if key == "racials":
         return racials
-    if key == 'enchants':
+    if key == "enchants":
         return enchants
-    if key == 'consumables':
+    if key == "consumables":
         return consumables
-    if key == 'tiersets':
+    if key == "tiersets":
         return tiersets
-    if key == 'gems':
+    if key == "gems":
         return gems
-    if key == 'alchemy':
+    if key == "alchemy":
         return alchemy
-    if key == 'special-gear':
+    if key == "special-gear":
         return special
     return None

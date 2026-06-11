@@ -7,7 +7,9 @@ import profiles
 
 
 def test_generate_combination_name():
-    name = profiles.generate_combination_name(["mastery", "versatility", "mastery", "crit"])
+    name = profiles.generate_combination_name(
+        ["mastery", "versatility", "mastery", "crit"]
+    )
     assert name == "M2_V1_H0_C1"
 
 
@@ -32,10 +34,18 @@ def test_build_settings_includes_expressions():
 
 
 def test_build_simc_file():
-    assert profiles.build_simc_file("tal", "pname") == "profiles/composite/tal/pname.simc"
+    assert (
+        profiles.build_simc_file("tal", "pname") == "profiles/composite/tal/pname.simc"
+    )
     assert profiles.build_simc_file(None, "pname") == "profiles/composite/pname.simc"
-    assert profiles.build_simc_file("tal", "pname", dungeons=True) == "profiles/dungeons/tal/pname.simc"
-    assert profiles.build_simc_file(None, "pname", dungeons=True) == "profiles/dungeons/pname.simc"
+    assert (
+        profiles.build_simc_file("tal", "pname", dungeons=True)
+        == "profiles/dungeons/tal/pname.simc"
+    )
+    assert (
+        profiles.build_simc_file(None, "pname", dungeons=True)
+        == "profiles/dungeons/pname.simc"
+    )
 
 
 def test_replace_talents_with_hero(monkeypatch):
@@ -145,7 +155,7 @@ def test_build_stats_files(tmp_path, monkeypatch):
     text = out.read_text()
     assert "BASE_STATS" in text
     # should contain at least one profileset line
-    assert 'profileset.' in text
+    assert "profileset." in text
 
 
 def test_create_talent_builds_and_replace_talents(tmp_path, monkeypatch):
@@ -161,10 +171,11 @@ def test_create_talent_builds_and_replace_talents(tmp_path, monkeypatch):
         monkeypatch.chdir(tmp_path)
         ty = Path("internal") / "talents.yml"
         ty.parent.mkdir(parents=True, exist_ok=True)
-        ty.write_text(
-            "builds:\n  mybuild: '1/2/3'\ngenerated:\n  g1: '4/5/6'\n"
-        )
-        profiles.config = {"forceHeroTalents": True, "hero": {"mybuild": {"mybuild": "HT"}}}
+        ty.write_text("builds:\n  mybuild: '1/2/3'\ngenerated:\n  g1: '4/5/6'\n")
+        profiles.config = {
+            "forceHeroTalents": True,
+            "hero": {"mybuild": {"mybuild": "HT"}},
+        }
         out = profiles.create_talent_builds()
         assert 'profileset."mybuild"' in out
     finally:
@@ -248,7 +259,13 @@ def test_build_profiles_basic(tmp_path, monkeypatch):
 
     # minimal config
     profiles.config = {
-        "sims": {profiles.args.dir[:-1]: {"files": ["base.simc"], "weights": True, "gearOverride": "none"}},
+        "sims": {
+            profiles.args.dir[:-1]: {
+                "files": ["base.simc"],
+                "weights": True,
+                "gearOverride": "none",
+            }
+        },
         "builds": {},
         "gear": {"default": {}},
         "gems": {},
@@ -284,7 +301,7 @@ def test_build_settings_multiple_and_route_variants(tmp_path, monkeypatch):
     s = profiles.build_settings("pwlm2", weights=False, dungeons=False)
     assert 'fight_style="Patchwerk"' in s
     assert 'fight_style="LightMovement"' in s
-    assert 'desired_targets=2' in s
+    assert "desired_targets=2" in s
 
     # route push and generic route file
     season = 7
@@ -383,7 +400,13 @@ def test_build_profiles_skips_when_all_weights_zero(tmp_path, monkeypatch):
                     pass
 
     profiles.config = {
-        "sims": {profiles.args.dir[:-1]: {"files": ["base.simc"], "weights": True, "gearOverride": "none"}},
+        "sims": {
+            profiles.args.dir[:-1]: {
+                "files": ["base.simc"],
+                "weights": True,
+                "gearOverride": "none",
+            }
+        },
         "builds": {},
         "gear": {"default": {}},
         "gems": {},
@@ -460,7 +483,13 @@ def test_build_profiles_with_talents(tmp_path, monkeypatch):
 
     # setup builds with various talent variants
     profiles.config = {
-        "sims": {profiles.args.dir[:-1]: {"files": ["base.simc"], "weights": True, "gearOverride": "none"}},
+        "sims": {
+            profiles.args.dir[:-1]: {
+                "files": ["base.simc"],
+                "weights": True,
+                "gearOverride": "none",
+            }
+        },
         "builds": {
             "t1": {
                 "gearSetup": "default",
@@ -470,7 +499,7 @@ def test_build_profiles_with_talents(tmp_path, monkeypatch):
                     "2t": {"string": "TWO_STR", "name": "TWO_NAME"},
                     "3t": {"string": "THREE_STR", "name": "THREE_NAME"},
                     "8t": {"string": "EIGHT_STR", "name": "EIGHT_NAME"},
-                }
+                },
             }
         },
         "forceHeroTalents": False,

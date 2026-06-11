@@ -25,5 +25,5 @@ for combo in combos:
     name = combo[0] + "-" + combo[1]
     f = food[combo[0]]
     r = runes[combo[1]]
-    profileset = f"profileset.\"{name}\"+={f}\nprofileset.\"{name}\"+={r}\n"
+    profileset = f'profileset."{name}"+={f}\nprofileset."{name}"+={r}\n'
     print(profileset)

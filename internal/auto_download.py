@@ -1,4 +1,5 @@
 """downloads the nightly simc"""
+
 #!/usr/bin/env python
 import glob
 import os
@@ -50,7 +51,7 @@ def download_latest():
 
     else:
         print(f"Simc already exists at '{repr(simc_path)}'.")
-    return simc_path.rstrip('simc.exe')
+    return simc_path.rstrip("simc.exe")
 
 
 def _find_7zip(search_paths):
@@ -59,7 +60,8 @@ def _find_7zip(search_paths):
         try:
             if not os.path.exists(exe):
                 print(
-                    f"7Zip executable at '{exe}' does not exist, or is not executable.")
+                    f"7Zip executable at '{exe}' does not exist, or is not executable."
+                )
                 continue
             return exe
         except OSError:
@@ -81,7 +83,9 @@ def _cleanup_older_files(download_dir, current_dir):
                 print(f"Removing old simc from '{os.path.basename(file)}'.")
                 os.remove(file)
     except:  # noqa: E722
-        print("Unable to automatically remove files, cleanup old files in auto_download/")  # noqa: E501
+        print(
+            "Unable to automatically remove files, cleanup old files in auto_download/"
+        )  # noqa: E501
 
 
 def _rename_directory(glob_path, commit):
@@ -91,7 +95,7 @@ def _rename_directory(glob_path, commit):
 
 
 def _ensure_download_path():
-    'Create and return the auto_download path'
+    "Create and return the auto_download path"
     rootpath = os.path.dirname(os.path.realpath(__file__))
     download_dir = os.path.join(rootpath, "auto_download")
     if not os.path.exists(download_dir):
@@ -100,7 +104,7 @@ def _ensure_download_path():
 
 
 def _get_latest_filename():
-    'Attempts to find the name of the latest file from simulationcraft'
+    "Attempts to find the name of the latest file from simulationcraft"
     try:
         html = requests.get(f"{BASE_URL}/?C=M;O=D", timeout=10).text
     except RequestException:
@@ -113,15 +117,15 @@ def _get_latest_filename():
 
 
 def _download_simc_version(url, filepath):
-    'Download the specific file'
+    "Download the specific file"
     print(f"Retrieving simc from url '{url}' to '{filepath}'.")
     with requests.get(url, timeout=10, stream=True) as req:
-        with open(filepath, 'wb') as handler:
+        with open(filepath, "wb") as handler:
             shutil.copyfileobj(req.raw, handler)
 
 
 def _unpack_file(seven_zip_executable, filepath, download_dir):
-    'Unpacks a 7z archive into the provided directory'
+    "Unpacks a 7z archive into the provided directory"
     try:
         cmd = f'{seven_zip_executable} x "{filepath}" -aoa -o"{download_dir}"'
         print(f"Running unpack command '{cmd}'")

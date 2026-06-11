@@ -15,28 +15,30 @@ if os.path.exists(cfg_path):
     try:
         import yaml
 
-        with open(cfg_path, 'r', encoding='utf8') as fh:
+        with open(cfg_path, "r", encoding="utf8") as fh:
             data = yaml.safe_load(fh)
-            if isinstance(data, dict) and 'combos' in data:
-                raw_combos = data['combos'] or {}
+            if isinstance(data, dict) and "combos" in data:
+                raw_combos = data["combos"] or {}
     except Exception:
         # Minimal fallback parser: lines with `key: "value"` under `combos:` -> raw mapping
-        with open(cfg_path, 'r', encoding='utf8') as fh:
+        with open(cfg_path, "r", encoding="utf8") as fh:
             in_combos = False
             for line in fh:
                 s = line.strip()
-                if not s or s.startswith('#'):
+                if not s or s.startswith("#"):
                     continue
-                if s.startswith('combos:'):
+                if s.startswith("combos:"):
                     in_combos = True
                     continue
                 if in_combos:
-                    if ':' in s:
-                        key, val = s.split(':', 1)
+                    if ":" in s:
+                        key, val = s.split(":", 1)
                         key = key.strip()
                         val = val.strip()
                         # remove surrounding quotes if present
-                        if (val.startswith('"') and val.endswith('"')) or (val.startswith("'") and val.endswith("'")):
+                        if (val.startswith('"') and val.endswith('"')) or (
+                            val.startswith("'") and val.endswith("'")
+                        ):
                             val = val[1:-1]
                         raw_combos[key] = val
 
@@ -44,15 +46,17 @@ if os.path.exists(cfg_path):
 for name, spec in raw_combos.items():
     # If the value is a mapping with id + ilevels, expand into per-ilevel entries
     if isinstance(spec, dict):
-        item_id_val = spec.get('id')
-        ilevels = spec.get('ilevels', []) or []
+        item_id_val = spec.get("id")
+        ilevels = spec.get("ilevels", []) or []
         for ilevel in ilevels:
             key = f"{name}_{ilevel}"
             # trinket names must not contain hyphens; fail early so charts stay valid
-            if '-' in name:
-                raise ValueError(f"Invalid trinket name '{name}': hyphens are not allowed in trinket keys")
+            if "-" in name:
+                raise ValueError(
+                    f"Invalid trinket name '{name}': hyphens are not allowed in trinket keys"
+                )
             # build the simc base name: spaces -> underscore (do not alter hyphens here)
-            simc_name = name.lower().replace(' ', '_')
+            simc_name = name.lower().replace(" ", "_")
             combos[key] = f"{simc_name},id={item_id_val},ilevel={ilevel}"
     else:
         # legacy/raw string; keep as-is
@@ -90,33 +94,33 @@ def build_simc_string(trinkets):
             # TWW S3 Options
             if "Soleahs_Secret_Technique" in trinket:
                 stat_type = trinket.split("_")[3].lower()
-                result += f"profileset.\"{profileset_name}\"+=shadowlands.soleahs_secret_technique_type={stat_type}\n"
+                result += f'profileset."{profileset_name}"+=shadowlands.soleahs_secret_technique_type={stat_type}\n'
             if "Astral_Antenna" in trinket:
-                result += f"profileset.\"{profileset_name}\"+=thewarwithin.astral_antenna_miss_chance=0.10\n"
+                result += f'profileset."{profileset_name}"+=thewarwithin.astral_antenna_miss_chance=0.10\n'
             # TWW S2 Options
             if "Synergistic_Brewterializer" in trinket:
-                result += f"profileset.\"{profileset_name}\"+=priest.synergistic_brewterializer_tof_chance=0.90\n"
-                result += f"profileset.\"{profileset_name}\"+=priest.synergistic_brewterializer_barrel_hit_chance=0.75\n"
+                result += f'profileset."{profileset_name}"+=priest.synergistic_brewterializer_tof_chance=0.90\n'
+                result += f'profileset."{profileset_name}"+=priest.synergistic_brewterializer_barrel_hit_chance=0.75\n'
             # TWW S1 Options
             if "Unbound_Changeling" in trinket:
                 stat_type = trinket.split("_")[2].lower()
-                result += f"profileset.\"{profileset_name}\"+=shadowlands.unbound_changeling_stat_type={stat_type}\n"
-        result += f"profileset.\"{profileset_name}\"+=trinket1={trinket_one_value}\n"
-        result += f"profileset.\"{profileset_name}\"+=trinket2={trinket_two_value}\n\n"
+                result += f'profileset."{profileset_name}"+=shadowlands.unbound_changeling_stat_type={stat_type}\n'
+        result += f'profileset."{profileset_name}"+=trinket1={trinket_one_value}\n'
+        result += f'profileset."{profileset_name}"+=trinket2={trinket_two_value}\n\n'
     return result
 
 
 def generate_sim_file(input_string):
     """reads in the base simc file and creates the generated.simc file"""
-    with open("base.simc", 'r', encoding="utf8") as file:
+    with open("base.simc", "r", encoding="utf8") as file:
         data = file.read()
         file.close()
-    with open("generated.simc", 'w+', encoding="utf8") as file:
+    with open("generated.simc", "w+", encoding="utf8") as file:
         file.writelines(data)
         file.writelines(input_string)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     trinket_combos = build_combos()
     SIMC_STRING = build_simc_string(trinket_combos)
     generate_sim_file(SIMC_STRING)

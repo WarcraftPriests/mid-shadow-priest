@@ -31,11 +31,11 @@ def get_path(simc_build_version):
     """get path depending on local OS"""
     path_dict = local_secrets.simc_path
     if not path_dict:
-        if platform.system() == 'Darwin' or platform.system() == 'Linux':
+        if platform.system() == "Darwin" or platform.system() == "Linux":
             return "simc"
         return "simc.exe"
 
-    if platform.system() == 'Darwin' or platform.system() == 'Linux':
+    if platform.system() == "Darwin" or platform.system() == "Linux":
         return handle_path_darwin(path_dict[simc_build_version])
     return handle_path_win(path_dict[simc_build_version])
 
@@ -62,7 +62,8 @@ def get_api_key(args, simc_build_version):
         if is_executable(executable):
             return executable
         print(
-            f"{executable} not a valid executable please check your local_secrets.py and PATH")  # noqa: E501
+            f"{executable} not a valid executable please check your local_secrets.py and PATH"
+        )  # noqa: E501
         sys.exit()
     else:
         return api_secrets.api_key
@@ -81,10 +82,8 @@ def run_sims(args, iterations, talent):
         from internal.api import raidbots
     simc_build = config["simcBuild"]
     print(f"Running sims on {simc_build} in {args.dir}")
-    existing = listdir(
-        args.dir + utils.get_simc_dir(talent, 'output', args.dungeons))
-    profiles = listdir(
-        args.dir + utils.get_simc_dir(talent, 'profiles', args.dungeons))
+    existing = listdir(args.dir + utils.get_simc_dir(talent, "output", args.dungeons))
+    profiles = listdir(args.dir + utils.get_simc_dir(talent, "profiles", args.dungeons))
     count = 0
 
     for profile in profiles:
@@ -92,37 +91,44 @@ def run_sims(args, iterations, talent):
             profile_name = profile
         else:
             profile_name = re.search(
-                '((hm|lm|pw).+?(?=.simc)|dungeons.simc)', profile).group()
+                "((hm|lm|pw).+?(?=.simc)|dungeons.simc)", profile
+            ).group()
         count = count + 1
         if not args.dungeons:
-            weight = find_weights(
-                config["compositeWeights"]).get(profile_name) or 0
-            weight += find_weights(config["singleTargetWeights"]
-                                   ).get(profile_name) or 0
-            weight += find_weights(config["twoTargetWeights"]
-                                   ).get(profile_name) or 0
-            weight += find_weights(config["threeTargetWeights"]
-                                   ).get(profile_name) or 0
-            weight += find_weights(config["fourTargetWeights"]
-                                   ).get(profile_name) or 0
-            weight += find_weights(config["eightTargetWeights"]
-                                   ).get(profile_name) or 0
+            weight = find_weights(config["compositeWeights"]).get(profile_name) or 0
+            weight += find_weights(config["singleTargetWeights"]).get(profile_name) or 0
+            weight += find_weights(config["twoTargetWeights"]).get(profile_name) or 0
+            weight += find_weights(config["threeTargetWeights"]).get(profile_name) or 0
+            weight += find_weights(config["fourTargetWeights"]).get(profile_name) or 0
+            weight += find_weights(config["eightTargetWeights"]).get(profile_name) or 0
         elif args.dungeons:
             # could look this up in the future, need to fix profile_name
             weight = 1
         else:
             weight = 1
         print(f"Simming {count} out of {len(profiles)}.")
-        output_name = profile.replace('simc', 'json')
+        output_name = profile.replace("simc", "json")
         if output_name not in existing and weight > 0:
-            output_location = args.dir + \
-                utils.get_simc_dir(talent, 'output', args.dungeons) + output_name
-            profile_location = args.dir + \
-                utils.get_simc_dir(talent, 'profiles', args.dungeons) + profile
+            output_location = (
+                args.dir
+                + utils.get_simc_dir(talent, "output", args.dungeons)
+                + output_name
+            )
+            profile_location = (
+                args.dir
+                + utils.get_simc_dir(talent, "profiles", args.dungeons)
+                + profile
+            )
             # prefix the profile name with the base file name
             profile_name_with_dir = f"{args.dir}{profile_name}"
-            raidbots(get_api_key(args, config["simcBuild"]), profile_location,
-                     config["simcBuild"], output_location, profile_name_with_dir, iterations)  # noqa: E501
+            raidbots(
+                get_api_key(args, config["simcBuild"]),
+                profile_location,
+                config["simcBuild"],
+                output_location,
+                profile_name_with_dir,
+                iterations,
+            )  # noqa: E501
         elif weight == 0:
             print(f"-- {output_name} has a weight of 0. Skipping file.")
         else:
@@ -131,7 +137,7 @@ def run_sims(args, iterations, talent):
 
 def convert_to_csv(args, weights, talent):
     """creates results/statweights.txt"""
-    results_dir = args.dir + utils.get_simc_dir(talent, 'output', args.dungeons)
+    results_dir = args.dir + utils.get_simc_dir(talent, "output", args.dungeons)
     parse_json(results_dir, weights)
 
 
@@ -150,9 +156,10 @@ def main():
     # Download simc if needed
     if local_secrets and args.local and args.auto_download:
         from internal.auto_download import download_latest
-        local_secrets.simc_path['latest'] = download_latest()
+
+        local_secrets.simc_path["latest"] = download_latest()
         # Additional temp swap to using the latest build
-        config['simcBuild'] = 'latest'
+        config["simcBuild"] = "latest"
 
     weights = config["sims"][args.dir[:-1]]["weights"]
 

@@ -1,4 +1,5 @@
 """stores utils that are shared between scripts"""
+
 import argparse
 import sys
 import yaml
@@ -88,7 +89,9 @@ def get_dungeon_combos():
                 "windrunner",
             ]
         else:
-            print(f"No season data defined in for season {season} in utils:get_dungeon_combos")
+            print(
+                f"No season data defined in for season {season} in utils:get_dungeon_combos"
+            )
             exit(1)
         # currently unused, just doing push
         # levels = ["standard", "push"]
@@ -102,6 +105,7 @@ def get_dungeon_combos():
     else:
         print(f"Invalid type given: {type}")
         exit(1)
+
 
 def get_sim_types():
     type_list = ["Composite", "Single", "2T", "8T"]

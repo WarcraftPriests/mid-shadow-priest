@@ -40,10 +40,7 @@ def check_build_in_talent(build, talent_string):
             else:
                 return False
         case "ar-cthun":
-            if (
-                talent_string.startswith("AR_")
-                and "cthun" in talent_string
-            ):
+            if talent_string.startswith("AR_") and "cthun" in talent_string:
                 return True
             else:
                 return False
@@ -161,6 +158,8 @@ if __name__ == "__main__":
                         continue
                     min_change = get_change(min(info_talents[t]), min(not_talents[t]))
                     max_change = get_change(max(info_talents[t]), max(not_talents[t]))
-                    mean_change = get_change(mean(info_talents[t]), mean(not_talents[t]))
+                    mean_change = get_change(
+                        mean(info_talents[t]), mean(not_talents[t])
+                    )
                     file.write(f"|{t}|{min_change}%|{max_change}%|{mean_change}%\n")
             file.close()

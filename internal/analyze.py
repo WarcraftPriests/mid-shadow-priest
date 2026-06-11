@@ -504,7 +504,7 @@ def analyze(talents, directory, dungeons, weights, timestamp):
         )
     else:
         data = pandas.read_csv(csv, usecols=["profile", "actor", "DD", "DPS"])
-    
+
     fights = ["Composite", "Single", "2T", "8T"]
     fights.append(str(config["councilTargets"]) + "T")
 
@@ -513,11 +513,7 @@ def analyze(talents, directory, dungeons, weights, timestamp):
         dungeon_list = ["Dungeons-Route"]
     elif config["dungeonType"] == "slice":
         dungeon_list = ["Dungeons-Slice"]
-    sim_types = (
-        dungeon_list
-        if dungeons
-        else fights
-    )
+    sim_types = dungeon_list if dungeons else fights
 
     # Main Composites
     for sim_type in sim_types:

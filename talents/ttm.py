@@ -1,4 +1,5 @@
 """Updates profile names from TTM to be more readable"""
+
 import logging
 import math
 import os
@@ -118,11 +119,17 @@ def apply_rules(line):
         return True
 
     # Make sure you are efficiently spending points
-    half_selected_mid = sum(1 for t in ("instilled_doubt", "mastermind") if f"{t}:1" in line)
+    half_selected_mid = sum(
+        1 for t in ("instilled_doubt", "mastermind") if f"{t}:1" in line
+    )
     if half_selected_mid >= 2:
         return True
 
-    half_selected_bot = sum(1 for t in ("madness_weaving", "screams_of_the_void", "insidious_ire") if f"{t}:1" in line)
+    half_selected_bot = sum(
+        1
+        for t in ("madness_weaving", "screams_of_the_void", "insidious_ire")
+        if f"{t}:1" in line
+    )
     if half_selected_bot >= 2:
         return True
 
@@ -200,7 +207,16 @@ def convert_builds(profile):
                 choice_nodes.append(suf)
         suffix = generate_suffix(choice_nodes)
         # replace numeric clusters with the generated suffix
-        for pattern in (" 22111", " 22211", " 21211", " 21111", " 22112", " 22212", " 21212", " 21112"):
+        for pattern in (
+            " 22111",
+            " 22211",
+            " 21211",
+            " 21111",
+            " 22112",
+            " 22212",
+            " 21212",
+            " 21112",
+        ):
             line = line.replace(pattern, "_" + suffix)
 
         if apply_rules(line):
@@ -215,7 +231,9 @@ def convert_builds(profile):
         # prefix with underscore and join any used idols with underscores;
         # for a single idol this yields e.g. "_nzoth", for multiple "_yshaarj_nzoth"
         idols_suffix = ("_" + "_".join(idols_used)) if idols_used else ""
-        line = line.replace(f'profileset."{TALENT}', f'profileset."{TALENT}{idols_suffix}')
+        line = line.replace(
+            f'profileset."{TALENT}', f'profileset."{TALENT}{idols_suffix}'
+        )
 
         # ONLY ALLOW 2+ IDOL BUILDS
         if idols_count > 1 and line not in lines_seen:

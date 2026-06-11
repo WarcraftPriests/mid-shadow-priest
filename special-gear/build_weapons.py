@@ -25,5 +25,5 @@ for combo in combos:
     name = combo[0] + "-" + combo[1]
     mh = one_hands[combo[0]] + f",{enchant}"
     oh = off_hands[combo[1]]
-    profileset = f"profileset.\"{name}\"+={mh}\nprofileset.\"{name}\"+={oh}\n"
+    profileset = f'profileset."{name}"+={mh}\nprofileset."{name}"+={oh}\n'
     print(profileset)

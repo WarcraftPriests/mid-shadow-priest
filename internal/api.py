@@ -1,4 +1,5 @@
 """submits sims to raidbots and waits for the result"""
+
 import json
 import time
 import requests
@@ -16,37 +17,43 @@ retry_interval = int(config["raidbots"]["retryInterval"])
 
 session = requests.Session()
 session.headers = {
-    'Content-Type': 'application/json',
-    'User-Agent': 'Publik\'s Raidbots API Script'
+    "Content-Type": "application/json",
+    "User-Agent": "Publik's Raidbots API Script",
 }
+
 
 def safe_request(method, url, **kwargs):
     for attempt in range(num_of_retries):
         try:
             return session.request(method, url, timeout=30, **kwargs)
-        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout, ProtocolError) as e:
-            print(f"[!] Attempt {attempt+1}/{num_of_retries}: {e}")
+        except (
+            requests.exceptions.ConnectionError,
+            requests.exceptions.Timeout,
+            ProtocolError,
+        ) as e:
+            print(f"[!] Attempt {attempt + 1}/{num_of_retries}: {e}")
             time.sleep(retry_interval * (attempt + 1))
     print("Exceeded retries - exiting")
     return None
 
 
-
-def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name, iterations):  # noqa: E501
+def submit_sim(
+    api_url_base, api_key, profile_location, simc_build, report_name, iterations
+):  # noqa: E501
     """submits a sim to the raidbots api"""
 
     iterations = int(iterations) if iterations != "smart" else iterations
-    with open(profile_location, 'r', encoding="utf8") as file:
+    with open(profile_location, "r", encoding="utf8") as file:
         simc_input = file.read()
         file.close()
-    api_url = f'{api_url_base}/sim'
+    api_url = f"{api_url_base}/sim"
     data = {
-        'apiKey': api_key,
-        'type': 'advanced',
-        'advancedInput': simc_input,
-        'simcVersion': simc_build,
-        'reportName': report_name,
-        'iterations': iterations,
+        "apiKey": api_key,
+        "type": "advanced",
+        "advancedInput": simc_input,
+        "simcVersion": simc_build,
+        "reportName": report_name,
+        "iterations": iterations,
     }
 
     current_try = 0
@@ -55,7 +62,7 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
         status = response.status_code
         if status >= 500:
             current_try += 1
-            print(f'[!] [{status}] Server Error')
+            print(f"[!] [{status}] Server Error")
             time.sleep(retry_interval * current_try)
 
         elif status == 429:
@@ -64,15 +71,15 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
             time.sleep(retry_interval * current_try)
 
         elif status == 404:
-            print(f'[!] [{status}] URL not found: [{api_url}]')
+            print(f"[!] [{status}] URL not found: [{api_url}]")
             return None
 
         elif status == 401:
-            print(f'[!] [{status}] Authentication Failed')
+            print(f"[!] [{status}] Authentication Failed")
             return None
 
         elif status >= 400:
-            print(f'[!] [{status}] Bad Request')
+            print(f"[!] [{status}] Bad Request")
             print("=== Bad request data ===")
             print(data)
             print(response.content)
@@ -84,8 +91,7 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
             return sim
 
         else:
-            print(
-                f'[?] Unexpected Error: [HTTP {status}]: Content: {response.content}')
+            print(f"[?] Unexpected Error: [HTTP {status}]: Content: {response.content}")
             return None
 
     # we've exceeded the maximum tries
@@ -96,7 +102,7 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
 def poll_status(api_url_base, sim_id):
     """polls the raidbots api to get status of a sim"""
 
-    api_url = f'{api_url_base}/api/job/{sim_id}'
+    api_url = f"{api_url_base}/api/job/{sim_id}"
 
     # Disables TQDM monitoring thread
     tqdm.tqdm.monitor_interval = 0
@@ -105,7 +111,7 @@ def poll_status(api_url_base, sim_id):
     started = False
     current_try = 0
 
-    with tqdm.tqdm(total=100, unit='%', ncols=100) as pbar:
+    with tqdm.tqdm(total=100, unit="%", ncols=100) as pbar:
         while current_try < num_of_retries:
             try:
                 response = session.get(api_url)
@@ -126,26 +132,26 @@ def poll_status(api_url_base, sim_id):
 
             if status >= 500:
                 current_try += 1
-                pbar.write(f'[!] [{status}] Server Error')
+                pbar.write(f"[!] [{status}] Server Error")
                 time.sleep(retry_interval * current_try)
 
             elif status == 404:
                 pbar.close()
-                print(
-                    f'[!] [{status}] URL not found: [{api_url}]')
+                print(f"[!] [{status}] URL not found: [{api_url}]")
                 return None
 
             elif status == 200:
                 sim_status = response.json()
 
                 # Check if we have a progress in the job data
-                if 'progress' not in sim_status['job']:
+                if "progress" not in sim_status["job"]:
                     pbar.close()
                     print(
-                        f"Error getting progress from 200 response json: {sim_status}")
+                        f"Error getting progress from 200 response json: {sim_status}"
+                    )
                     return None
 
-                progress = sim_status['job']['progress']
+                progress = sim_status["job"]["progress"]
 
                 # Check if there has been any progress
                 # if so update our progress bar and save that progress.
@@ -154,7 +160,7 @@ def poll_status(api_url_base, sim_id):
                     last_update = progress
                     pbar.update(diff)
 
-                state = sim_status['job']['state']
+                state = sim_status["job"]["state"]
                 if state == "complete":
                     pbar.close()
                     pbar.write(f"Sim {sim_id} finished.")
@@ -178,7 +184,8 @@ def poll_status(api_url_base, sim_id):
                     )
             else:
                 print(
-                    f'[?] Unexpected Error: [HTTP {status}]: Content: {response.content}')  # noqa: E501
+                    f"[?] Unexpected Error: [HTTP {status}]: Content: {response.content}"
+                )  # noqa: E501
                 return None
 
         # we've exceeded the maximum tries
@@ -189,7 +196,7 @@ def poll_status(api_url_base, sim_id):
 def retrieve_data(api_url_base, sim_id, data_file):
     """get final sim data from raidbots"""
 
-    api_url = f'{api_url_base}/reports/{sim_id}/{data_file}'
+    api_url = f"{api_url_base}/reports/{sim_id}/{data_file}"
     current_try = 0
 
     while current_try < num_of_retries:
@@ -197,11 +204,11 @@ def retrieve_data(api_url_base, sim_id, data_file):
         status = response.status_code
         if status >= 500:
             current_try += 1
-            print(f'[!] [{status}] Server Error')
+            print(f"[!] [{status}] Server Error")
             time.sleep(retry_interval * current_try)
 
         elif status == 404:
-            print(f'[!] [{status}] URL not found: [{api_url}]')
+            print(f"[!] [{status}] URL not found: [{api_url}]")
             return None
 
         elif status == 200:
@@ -209,34 +216,36 @@ def retrieve_data(api_url_base, sim_id, data_file):
             return sim_data
 
         else:
-            print(
-                f'[?] Unexpected Error: [HTTP {status}]: Content: {response.content}')
+            print(f"[?] Unexpected Error: [HTTP {status}]: Content: {response.content}")
             return None
 
     print("Exceeded retries - exiting")
     return None
 
 
-def raidbots(api_key, profile_location, simc_build, output_location, report_name, iterations):  # noqa: E501
+def raidbots(
+    api_key, profile_location, simc_build, output_location, report_name, iterations
+):  # noqa: E501
     """calls the appropriate functions to run a sim to raidbots"""
     api_url_base = config["raidbots"]["apiUrlBase"]
 
     # submit initial sim -> get back sim_id
-    sim = submit_sim(api_url_base, api_key, profile_location,
-                     simc_build, report_name, iterations)
+    sim = submit_sim(
+        api_url_base, api_key, profile_location, simc_build, report_name, iterations
+    )
     if sim is not None:
-        sim_id = sim['simId']
+        sim_id = sim["simId"]
         # wait for the sim to finish
         poll_status(api_url_base, sim_id)
     else:
         print("Could not find simId in successful response from Raidbots")
     # pull back results from the sim
-    sim_data = retrieve_data(api_url_base, sim_id, 'data.json')
+    sim_data = retrieve_data(api_url_base, sim_id, "data.json")
     if sim_data is not None:
         # raidbots uses hasFullJson to indicate that there is another file with more info  # noqa: E501
-        if 'hasFullJson' in sim_data['simbot']:
-            sim_data = retrieve_data(api_url_base, sim_id, 'data.full.json')
-        with open(output_location, 'w', encoding="utf8") as file:
+        if "hasFullJson" in sim_data["simbot"]:
+            sim_data = retrieve_data(api_url_base, sim_id, "data.full.json")
+        with open(output_location, "w", encoding="utf8") as file:
             file.write(json.dumps(sim_data))
             print(f"Saved results to {output_location}")
             file.close()

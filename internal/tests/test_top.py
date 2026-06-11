@@ -63,10 +63,7 @@ def test_get_base_actor_uses_mode_scoped_profiles(tmp_path, monkeypatch):
     profile_dir.mkdir(parents=True, exist_ok=True)
     profile_file = profile_dir / "base_pw_sa_1.simc"
     profile_file.write_text(
-        "line1\n"
-        "line2\n"
-        "main_hand=foo\n"
-        "line4\n",
+        "line1\nline2\nmain_hand=foo\nline4\n",
         encoding="utf8",
     )
 

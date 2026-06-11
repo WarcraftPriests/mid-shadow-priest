@@ -10,6 +10,7 @@ The script produces simple `profileset` lines like:
 
 This intentionally keeps output minimal and similar to the examples in the repo.
 """
+
 from __future__ import annotations
 
 import argparse
@@ -21,7 +22,9 @@ from typing import Dict, Any
 try:
     import yaml
 except Exception:  # pragma: no cover - helpful error message
-    print('Missing dependency: pyyaml. Install with: pip install pyyaml', file=sys.stderr)
+    print(
+        "Missing dependency: pyyaml. Install with: pip install pyyaml", file=sys.stderr
+    )
     raise
 
 
@@ -55,10 +58,18 @@ def resolve_item_levels(raw, item_levels_map: Dict[str, Any]) -> list:
     return []
 
 
-def write_simc_for_section(section_name: str, section: Dict[str, Any], out_path: str, item_levels_map: Dict[str, Any], base_content: str | None = None) -> None:
+def write_simc_for_section(
+    section_name: str,
+    section: Dict[str, Any],
+    out_path: str,
+    item_levels_map: Dict[str, Any],
+    base_content: str | None = None,
+) -> None:
     trinkets = section.get("trinkets", [])
     # section.item_levels can be a list or a string key referencing the top-level map
-    section_item_levels = resolve_item_levels(section.get("item_levels", None), item_levels_map)
+    section_item_levels = resolve_item_levels(
+        section.get("item_levels", None), item_levels_map
+    )
 
     if not trinkets:
         print(f'No trinkets for section "{section_name}", skipping.')
@@ -90,7 +101,9 @@ def write_simc_for_section(section_name: str, section: Dict[str, Any], out_path:
             # Only fall back to section item levels when per-trinket item_levels is not provided.
             # This preserves explicit empty arrays (e.g. item_levels: []) as "skip this trinket".
             if "item_levels" in tr:
-                tr_item_levels = resolve_item_levels(tr.get("item_levels", None), item_levels_map)
+                tr_item_levels = resolve_item_levels(
+                    tr.get("item_levels", None), item_levels_map
+                )
             else:
                 tr_item_levels = section_item_levels
 
@@ -115,7 +128,7 @@ def write_simc_for_section(section_name: str, section: Dict[str, Any], out_path:
 
                     for il in tr_item_levels:
                         label = f"{tr_name}_{opt_name}_{il}"
-                        trinket_id = f'{normalized}_{opt_norm}'
+                        trinket_id = f"{normalized}_{opt_norm}"
                         line = f'profileset."{label}"+=trinket1={trinket_id},id={tr_id},ilevel={il}\n'
                         f.write(line)
                         # write one or more option assignment lines depending on the type of `value`
@@ -132,26 +145,48 @@ def write_simc_for_section(section_name: str, section: Dict[str, Any], out_path:
 
 
 def main(argv: list[str] | None = None) -> int:
-    p = argparse.ArgumentParser(description="Generate .simc trinket profile files from a YAML config.")
-    p.add_argument("--in-file", default="trinkets.yml", help="YAML input file (default: trinkets.yml)")
-    p.add_argument("--out-dir", default=".", help="Directory to write the .simc files to (default: current dir)")
-    p.add_argument("--base-file", default="base.simc", help="Path to base.simc to append (default: base.simc next to the YAML file)")
-    p.add_argument("--dry-run", action="store_true", help="Print generated output to stdout instead of writing files")
+    p = argparse.ArgumentParser(
+        description="Generate .simc trinket profile files from a YAML config."
+    )
+    p.add_argument(
+        "--in-file",
+        default="trinkets.yml",
+        help="YAML input file (default: trinkets.yml)",
+    )
+    p.add_argument(
+        "--out-dir",
+        default=".",
+        help="Directory to write the .simc files to (default: current dir)",
+    )
+    p.add_argument(
+        "--base-file",
+        default="base.simc",
+        help="Path to base.simc to append (default: base.simc next to the YAML file)",
+    )
+    p.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Print generated output to stdout instead of writing files",
+    )
 
     args = p.parse_args(argv)
 
     if not os.path.isfile(args.in_file):
-        print(f'Input file not found: {args.in_file}', file=sys.stderr)
+        print(f"Input file not found: {args.in_file}", file=sys.stderr)
         return 2
 
     with open(args.in_file, "r", encoding="utf-8") as fh:
         cfg = yaml.safe_load(fh)
 
     # top-level item_levels map (optional). Keys are names, values are lists of ilevels
-    item_levels_map: Dict[str, Any] = cfg.get("item_levels", {}) if isinstance(cfg, dict) else {}
+    item_levels_map: Dict[str, Any] = (
+        cfg.get("item_levels", {}) if isinstance(cfg, dict) else {}
+    )
 
     # sections are top-level dict entries except the `item_levels` map
-    sections = [(k, v) for k, v in cfg.items() if isinstance(v, dict) and k != "item_levels"]
+    sections = [
+        (k, v) for k, v in cfg.items() if isinstance(v, dict) and k != "item_levels"
+    ]
 
     outputs: Dict[str, str] = {
         "dungeons": "dungeons.simc",
@@ -192,7 +227,9 @@ def main(argv: list[str] | None = None) -> int:
 
             # generate same content as write_simc_for_section but to stdout
             trinkets = section.get("trinkets", [])
-            section_item_levels = resolve_item_levels(section.get("item_levels", None), item_levels_map)
+            section_item_levels = resolve_item_levels(
+                section.get("item_levels", None), item_levels_map
+            )
             for tr in trinkets:
                 tr_id = tr.get("id")
                 tr_name = tr.get("name")
@@ -202,7 +239,9 @@ def main(argv: list[str] | None = None) -> int:
                 opts = tr.get("option") or tr.get("options") or []
                 bonus_ids = tr.get("bonus_ids") or []
                 if "item_levels" in tr:
-                    tr_item_levels = resolve_item_levels(tr.get("item_levels", None), item_levels_map)
+                    tr_item_levels = resolve_item_levels(
+                        tr.get("item_levels", None), item_levels_map
+                    )
                 else:
                     tr_item_levels = section_item_levels
 
@@ -225,7 +264,7 @@ def main(argv: list[str] | None = None) -> int:
                         opt_norm = normalize_trinket_name(opt_name)
                         for il in tr_item_levels:
                             label = f"{tr_name}_{opt_name}_{il}"
-                            trinket_id = f'{normalized}_{opt_norm}'
+                            trinket_id = f"{normalized}_{opt_norm}"
                             line = f'profileset."{label}"+=trinket1={trinket_id},id={tr_id},ilevel={il}'
                             print(line)
                             # print one or more option assignment lines depending on the type of `value`
@@ -243,8 +282,10 @@ def main(argv: list[str] | None = None) -> int:
             print()
         else:
             # write profiles, with base content written before profiles if available
-            write_simc_for_section(name, section, out_path, item_levels_map, base_content)
-            print(f'Wrote {out_path}')
+            write_simc_for_section(
+                name, section, out_path, item_levels_map, base_content
+            )
+            print(f"Wrote {out_path}")
 
     return 0
 

@@ -1,4 +1,5 @@
 """Generates profiles used to sim based on the base profiles"""
+
 import os
 from itertools import combinations_with_replacement
 import re
@@ -62,9 +63,7 @@ def build_settings(profile_name_string, weights, dungeons):
         elif type == "route":
             season = config["dungeonSeason"]
             if "standard" in profile_name_string:
-                r_file_location = (
-                    f"internal/routes/season{season}/standard/{profile_name_string}.simc"  # noqa: E501
-                )
+                r_file_location = f"internal/routes/season{season}/standard/{profile_name_string}.simc"  # noqa: E501
             elif "push" in profile_name_string:
                 r_file_location = (
                     f"internal/routes/season{season}/push/{profile_name_string}.simc"  # noqa: E501
@@ -236,14 +235,18 @@ def create_talent_builds():
         talent_string = talent_builds["builds"][build]
         if config["forceHeroTalents"] is True:
             hero_string = lookup_hero_talents(build)
-            profiles = profiles + f'profileset."{talent_name}"+=hero_talents={hero_string}\n'
+            profiles = (
+                profiles + f'profileset."{talent_name}"+=hero_talents={hero_string}\n'
+            )
         profiles = profiles + f'profileset."{talent_name}"+=talents={talent_string}\n'
     for build in talent_builds["generated"]:
         talent_name = build
         talent_string = talent_builds["generated"][build]
         if config["forceHeroTalents"] is True:
             hero_string = lookup_hero_talents(build)
-            profiles = profiles + f'profileset."{talent_name}"+=hero_talents={hero_string}\n'
+            profiles = (
+                profiles + f'profileset."{talent_name}"+=hero_talents={hero_string}\n'
+            )
         profiles = profiles + f'profileset."{talent_name}"+=talents={talent_string}\n'
     return profiles
 
@@ -286,11 +289,19 @@ def build_profiles(talent_string, apl_string):
             combinations = utils.get_dungeon_combos()
         if talent_string:
             if args.dungeons:
-                talents_expr = config["builds"][talent_string]["talents"]["dungeons"]["string"]
-                talents_name = config["builds"][talent_string]["talents"]["dungeons"]["name"]
+                talents_expr = config["builds"][talent_string]["talents"]["dungeons"][
+                    "string"
+                ]
+                talents_name = config["builds"][talent_string]["talents"]["dungeons"][
+                    "name"
+                ]
             else:
-                talents_expr = config["builds"][talent_string]["talents"]["composite"]["string"]
-                talents_name = config["builds"][talent_string]["talents"]["composite"]["name"]
+                talents_expr = config["builds"][talent_string]["talents"]["composite"][
+                    "string"
+                ]
+                talents_name = config["builds"][talent_string]["talents"]["composite"][
+                    "name"
+                ]
         else:
             talents_expr = ""
         data = replace_gear(data, talent_string)
@@ -349,24 +360,44 @@ def build_profiles(talent_string, apl_string):
                 else:
                     target_count = int(profile[-1])
                 if profile in config["singleTargetProfiles"]:
-                    new_talents = config["builds"][talent_string]["talents"]["single"]["string"]
-                    new_talents_name = config["builds"][talent_string]["talents"]["single"]["name"]
+                    new_talents = config["builds"][talent_string]["talents"]["single"][
+                        "string"
+                    ]
+                    new_talents_name = config["builds"][talent_string]["talents"][
+                        "single"
+                    ]["name"]
                     sim_data = replace_talents(new_talents, sim_data, new_talents_name)
                 elif target_count == 2:
-                    new_talents = config["builds"][talent_string]["talents"]["2t"]["string"]
-                    new_talents_name = config["builds"][talent_string]["talents"]["2t"]["name"]
+                    new_talents = config["builds"][talent_string]["talents"]["2t"][
+                        "string"
+                    ]
+                    new_talents_name = config["builds"][talent_string]["talents"]["2t"][
+                        "name"
+                    ]
                     sim_data = replace_talents(new_talents, sim_data, new_talents_name)
                 elif target_count == 3:
-                    new_talents = config["builds"][talent_string]["talents"]["3t"]["string"]
-                    new_talents_name = config["builds"][talent_string]["talents"]["3t"]["name"]
+                    new_talents = config["builds"][talent_string]["talents"]["3t"][
+                        "string"
+                    ]
+                    new_talents_name = config["builds"][talent_string]["talents"]["3t"][
+                        "name"
+                    ]
                     sim_data = replace_talents(new_talents, sim_data, new_talents_name)
                 elif target_count == 4:
-                    new_talents = config["builds"][talent_string]["talents"]["4t"]["string"]
-                    new_talents_name = config["builds"][talent_string]["talents"]["4t"]["name"]
+                    new_talents = config["builds"][talent_string]["talents"]["4t"][
+                        "string"
+                    ]
+                    new_talents_name = config["builds"][talent_string]["talents"]["4t"][
+                        "name"
+                    ]
                     sim_data = replace_talents(new_talents, sim_data, new_talents_name)
                 elif target_count == 8:
-                    new_talents = config["builds"][talent_string]["talents"]["8t"]["string"]
-                    new_talents_name = config["builds"][talent_string]["talents"]["8t"]["name"]
+                    new_talents = config["builds"][talent_string]["talents"]["8t"][
+                        "string"
+                    ]
+                    new_talents_name = config["builds"][talent_string]["talents"]["8t"][
+                        "name"
+                    ]
                     sim_data = replace_talents(new_talents, sim_data, new_talents_name)
                 else:
                     sim_data = replace_talents(talents_expr, sim_data, talents_name)
