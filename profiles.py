@@ -177,12 +177,8 @@ def replace_talents(talent_string, data, talent_name):
             count=1,
             flags=re.MULTILINE,
         )
-    else:
-        data = data.replace(
-            "spec=shadow",
-            f"spec=shadow\ntalents={talent_string}{hero_string}",
-            1,
-        )
+    elif "${talents}" in data:
+        data = data.replace("${talents}", f"{talent_string}{hero_string}", 1)
     return data
 
 
@@ -309,14 +305,6 @@ def build_profiles(talent_string, apl_string):
         data = data.replace("${apl}", apl_string)
         # builds override
         data = data.replace("${builds}", create_talent_builds())
-        # insert talents in here so copy= works correctly
-        if talents_expr:
-            replacement = str(talents_expr)
-            # probably dont need this?
-            # if config["forceHeroTalents"] is True:
-            #     hero_string = lookup_hero_talents(talents_name)
-            #     replacement = replacement + f"\nhero_talents={hero_string}"
-            data = data.replace("${talents}", replacement)
 
         for profile in combinations:
             # Don't build the profile if it has no weight
