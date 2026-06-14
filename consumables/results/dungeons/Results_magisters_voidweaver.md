@@ -1,14 +1,14 @@
 # magisters - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|174112|1.70%|
-|Royal_Roast|174064|1.67%|
-|Arcano_Cutlets|173382|1.27%|
-|Flora_Frenzy|173312|1.23%|
-|Fel_Kissed_Filet|173279|1.21%|
-|Blooming_Feast|173263|1.20%|
-|Champions_Bento|173257|1.20%|
-|Warped_Wise_Wings|173144|1.13%|
-|Void_Kissed_Fish_Rolls|172921|1.00%|
-|Void_Touched_Augment_Rune|172548|0.79%|
-|Base|171203|0.00%|
+|Silvermoon_Parade|179472|1.77%|
+|Royal_Roast|179425|1.74%|
+|Arcano_Cutlets|178878|1.43%|
+|Flora_Frenzy|178752|1.36%|
+|Champions_Bento|178736|1.35%|
+|Fel_Kissed_Filet|178730|1.35%|
+|Blooming_Feast|178723|1.34%|
+|Warped_Wise_Wings|178606|1.28%|
+|Void_Kissed_Fish_Rolls|178413|1.17%|
+|Void_Touched_Augment_Rune|177949|0.90%|
+|Base|176357|0.00%|

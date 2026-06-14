@@ -1,4 +1,4 @@
 # Dungeons-Route - archon
 | Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Base|164148|1.00|0.50|0.61|0.57|0.51|0.02|
+|Base|168486|1.00|0.52|0.62|0.59|0.54|0.02|

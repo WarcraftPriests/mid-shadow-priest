@@ -1,6 +1,6 @@
 # skyreach - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|MID1-2_4-set|153438|8.35%|
-|MID1-2-set|146463|3.42%|
-|Base|141618|0.00%|
+|MID1-2_4-set|157989|8.61%|
+|MID1-2-set|149495|2.77%|
+|Base|145468|0.00%|

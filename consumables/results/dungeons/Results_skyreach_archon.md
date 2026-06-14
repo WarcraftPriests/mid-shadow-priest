@@ -1,14 +1,14 @@
 # skyreach - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|151347|1.41%|
-|Royal_Roast|151284|1.37%|
-|Arcano_Cutlets|150675|0.96%|
-|Warped_Wise_Wings|150563|0.88%|
-|Flora_Frenzy|150545|0.87%|
-|Fel_Kissed_Filet|150522|0.86%|
-|Blooming_Feast|150501|0.84%|
-|Champions_Bento|150427|0.79%|
-|Void_Kissed_Fish_Rolls|150404|0.78%|
-|Void_Touched_Augment_Rune|150202|0.64%|
-|Base|149243|0.00%|
+|Royal_Roast|155926|1.88%|
+|Silvermoon_Parade|155797|1.80%|
+|Arcano_Cutlets|155138|1.36%|
+|Warped_Wise_Wings|155078|1.33%|
+|Blooming_Feast|155032|1.30%|
+|Fel_Kissed_Filet|154988|1.27%|
+|Flora_Frenzy|154979|1.26%|
+|Champions_Bento|154963|1.25%|
+|Void_Kissed_Fish_Rolls|154871|1.19%|
+|Void_Touched_Augment_Rune|154517|0.96%|
+|Base|153049|0.00%|

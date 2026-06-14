@@ -16,6 +16,36 @@ with open("config.yml", "r", encoding="utf8") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 
+def discover_step_suffixes(results):
+    """Discover numeric step suffixes from actor names like Name_285."""
+    discovered = set()
+    for actor_name in results:
+        match = re.search(r"_(\d+)$", str(actor_name))
+        if match:
+            discovered.add(int(match.group(1)))
+    return sorted(discovered)
+
+
+def resolve_sim_steps(directory, results):
+    """Resolve configured steps, with auto-discovery support for trinkets."""
+    sim_name = directory[:-1]
+    configured_steps = config["sims"][sim_name].get("steps", [])
+
+    # Trinkets can mix multiple item level pools (raid/dungeons/other).
+    # Discovering from actual result actor names removes the need to hardcode steps.
+    if sim_name == "trinkets":
+        discovered_steps = discover_step_suffixes(results)
+        if discovered_steps:
+            return discovered_steps
+
+        # No numeric suffixes means single-step labels (e.g. plain actor names).
+        # Keep this path working even when trinket steps are removed from config.
+        if not configured_steps:
+            return ["DPS"]
+
+    return configured_steps
+
+
 def assure_path_exists(path):
     """Make sure the path exists and contains a folder"""
     dir_name = os.path.dirname(path)
@@ -287,7 +317,7 @@ def build_json(sim_type, talent_string, results, directory, timestamp, dungeons)
     # check steps in config
     # for each profile, try to find every step
     # if found put in unique dict
-    steps = config["sims"][directory[:-1]]["steps"]
+    steps = resolve_sim_steps(directory, results)
     number_of_steps = len(steps)
 
     # If we're analyzing the trinket-combos directory, populate ids

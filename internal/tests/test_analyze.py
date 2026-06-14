@@ -51,3 +51,70 @@ def test_analyze_reads_dungeons_statweights(tmp_path, monkeypatch):
     analyze_module.analyze(None, "talents/", True, False, 0)
 
     assert captured["path"] == "output/dungeons/statweights.csv"
+
+
+def test_resolve_sim_steps_autodiscovers_trinket_item_levels(monkeypatch):
+    monkeypatch.setattr(
+        analyze_module,
+        "config",
+        {
+            "sims": {
+                "trinkets": {"steps": [285, 298]},
+            }
+        },
+    )
+
+    results = {
+        "Base": 100,
+        "Eye_of_the_Drowning_Void_285": 101,
+        "Darkmoon_Dominion_Void_295": 102,
+        "Locus_Walkers_Ribbon_298": 103,
+    }
+
+    steps = analyze_module.resolve_sim_steps("trinkets/", results)
+
+    assert steps == [285, 295, 298]
+
+
+def test_resolve_sim_steps_uses_config_for_non_trinkets(monkeypatch):
+    monkeypatch.setattr(
+        analyze_module,
+        "config",
+        {
+            "sims": {
+                "enchants": {"steps": [1, 2]},
+            }
+        },
+    )
+
+    results = {
+        "Base": 100,
+        "Mark_of_the_Worldsoul_2": 101,
+    }
+
+    steps = analyze_module.resolve_sim_steps("enchants/", results)
+
+    assert steps == [1, 2]
+
+
+def test_resolve_sim_steps_trinkets_defaults_to_dps_when_no_config_or_suffixes(
+    monkeypatch,
+):
+    monkeypatch.setattr(
+        analyze_module,
+        "config",
+        {
+            "sims": {
+                "trinkets": {},
+            }
+        },
+    )
+
+    results = {
+        "Base": 100,
+        "Some_Profile_With_No_Item_Level": 101,
+    }
+
+    steps = analyze_module.resolve_sim_steps("trinkets/", results)
+
+    assert steps == ["DPS"]

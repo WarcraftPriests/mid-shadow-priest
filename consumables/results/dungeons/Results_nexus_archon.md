@@ -1,14 +1,14 @@
 # nexus - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|146838|1.73%|
-|Royal_Roast|146834|1.72%|
-|Arcano_Cutlets|146213|1.29%|
-|Warped_Wise_Wings|146088|1.21%|
-|Champions_Bento|146061|1.19%|
-|Blooming_Feast|146009|1.15%|
-|Fel_Kissed_Filet|145993|1.14%|
-|Void_Kissed_Fish_Rolls|145905|1.08%|
-|Flora_Frenzy|145895|1.07%|
-|Void_Touched_Augment_Rune|145612|0.88%|
-|Base|144345|0.00%|
+|Silvermoon_Parade|150494|1.52%|
+|Royal_Roast|150410|1.46%|
+|Arcano_Cutlets|149949|1.15%|
+|Warped_Wise_Wings|149822|1.07%|
+|Champions_Bento|149776|1.04%|
+|Flora_Frenzy|149747|1.02%|
+|Blooming_Feast|149726|1.00%|
+|Void_Kissed_Fish_Rolls|149694|0.98%|
+|Fel_Kissed_Filet|149666|0.96%|
+|Void_Touched_Augment_Rune|149386|0.77%|
+|Base|148239|0.00%|

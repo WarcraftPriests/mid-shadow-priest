@@ -1,14 +1,14 @@
 # nexus - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|144704|1.98%|
-|Silvermoon_Parade|144604|1.91%|
-|Arcano_Cutlets|144040|1.52%|
-|Fel_Kissed_Filet|144033|1.51%|
-|Blooming_Feast|143999|1.49%|
-|Flora_Frenzy|143996|1.48%|
-|Champions_Bento|143990|1.48%|
-|Warped_Wise_Wings|143890|1.41%|
-|Void_Kissed_Fish_Rolls|143665|1.25%|
-|Void_Touched_Augment_Rune|143299|0.99%|
-|Base|141890|0.00%|
+|Royal_Roast|148266|1.45%|
+|Silvermoon_Parade|148240|1.43%|
+|Arcano_Cutlets|147764|1.11%|
+|Fel_Kissed_Filet|147759|1.10%|
+|Champions_Bento|147717|1.07%|
+|Flora_Frenzy|147710|1.07%|
+|Blooming_Feast|147674|1.04%|
+|Warped_Wise_Wings|147570|0.97%|
+|Void_Kissed_Fish_Rolls|147470|0.90%|
+|Void_Touched_Augment_Rune|147155|0.69%|
+|Base|146149|0.00%|

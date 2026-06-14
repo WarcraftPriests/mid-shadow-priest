@@ -1,20 +1,20 @@
 # windrunner - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Draught_of_Rampant_Abandon_2|166955|3.02%|
-|Flask_of_the_Shattered_Sun_2|166411|2.68%|
-|Lights_Potential_2|166391|2.67%|
-|Flask_of_the_Magisters_2|166319|2.62%|
-|Draught_of_Rampant_Abandon_1|166120|2.50%|
-|Flask_of_the_Shattered_Sun_1|165972|2.41%|
-|Flask_of_the_Magisters_1|165968|2.41%|
-|Flask_of_Thalassian_Resistance_2|165741|2.27%|
-|Potion_of_Recklessness_2|165724|2.26%|
-|Lights_Potential_1|165619|2.19%|
-|Flask_of_the_Blood_Knights_2|165610|2.19%|
-|Potion_of_Recklessness_1|165356|2.03%|
-|Flask_of_Thalassian_Resistance_1|165332|2.01%|
-|Flask_of_the_Blood_Knights_1|165307|2.00%|
-|Potion_of_Zealotry_2|162360|0.18%|
-|Potion_of_Zealotry_1|162211|0.09%|
-|Base|162068|0.00%|
+|Draught_of_Rampant_Abandon_2|169763|2.35%|
+|Flask_of_the_Shattered_Sun_2|169722|2.32%|
+|Flask_of_the_Magisters_2|169675|2.30%|
+|Flask_of_the_Magisters_1|169531|2.21%|
+|Lights_Potential_2|169456|2.16%|
+|Flask_of_the_Shattered_Sun_1|169421|2.14%|
+|Draught_of_Rampant_Abandon_1|169356|2.10%|
+|Flask_of_the_Blood_Knights_2|169303|2.07%|
+|Flask_of_Thalassian_Resistance_2|169243|2.04%|
+|Lights_Potential_1|169129|1.97%|
+|Potion_of_Recklessness_2|169076|1.94%|
+|Flask_of_the_Blood_Knights_1|169068|1.93%|
+|Flask_of_Thalassian_Resistance_1|169053|1.92%|
+|Potion_of_Recklessness_1|169016|1.90%|
+|Potion_of_Zealotry_2|166222|0.21%|
+|Potion_of_Zealotry_1|166158|0.18%|
+|Base|165866|0.00%|

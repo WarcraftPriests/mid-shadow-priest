@@ -1,4 +1,4 @@
 # pitofsaron - voidweaver
 | Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Base|181963|1.00|0.63|0.69|0.62|0.57|0.02|
+|Base|187382|1.00|0.54|0.61|0.53|0.49|0.02|

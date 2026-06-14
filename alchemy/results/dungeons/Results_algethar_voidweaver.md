@@ -1,20 +1,20 @@
 # algethar - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Flask_of_the_Shattered_Sun_2|139351|2.93%|
-|Flask_of_the_Magisters_2|139089|2.74%|
-|Flask_of_the_Shattered_Sun_1|138944|2.63%|
-|Draught_of_Rampant_Abandon_2|138909|2.61%|
-|Flask_of_the_Magisters_1|138770|2.50%|
-|Flask_of_the_Blood_Knights_2|138691|2.45%|
-|Flask_of_Thalassian_Resistance_2|138580|2.36%|
-|Lights_Potential_2|138504|2.31%|
-|Flask_of_the_Blood_Knights_1|138388|2.22%|
-|Potion_of_Recklessness_2|138309|2.16%|
-|Draught_of_Rampant_Abandon_1|138290|2.15%|
-|Flask_of_Thalassian_Resistance_1|138254|2.12%|
-|Potion_of_Recklessness_1|138034|1.96%|
-|Lights_Potential_1|137955|1.90%|
-|Potion_of_Zealotry_2|135859|0.35%|
-|Potion_of_Zealotry_1|135737|0.26%|
-|Base|135380|0.00%|
+|Flask_of_the_Shattered_Sun_2|143541|3.52%|
+|Draught_of_Rampant_Abandon_2|143364|3.39%|
+|Flask_of_the_Magisters_2|143230|3.29%|
+|Flask_of_the_Shattered_Sun_1|143088|3.19%|
+|Lights_Potential_2|142929|3.08%|
+|Flask_of_the_Magisters_1|142731|2.93%|
+|Flask_of_the_Blood_Knights_2|142720|2.93%|
+|Draught_of_Rampant_Abandon_1|142655|2.88%|
+|Potion_of_Recklessness_2|142640|2.87%|
+|Flask_of_Thalassian_Resistance_2|142544|2.80%|
+|Flask_of_the_Blood_Knights_1|142331|2.65%|
+|Potion_of_Recklessness_1|142299|2.62%|
+|Lights_Potential_1|142210|2.56%|
+|Flask_of_Thalassian_Resistance_1|142200|2.55%|
+|Potion_of_Zealotry_2|139142|0.35%|
+|Potion_of_Zealotry_1|139026|0.26%|
+|Base|138663|0.00%|

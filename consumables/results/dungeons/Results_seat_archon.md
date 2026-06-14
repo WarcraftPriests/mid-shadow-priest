@@ -1,14 +1,14 @@
 # seat - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|161348|1.84%|
-|Silvermoon_Parade|161315|1.82%|
-|Arcano_Cutlets|160686|1.43%|
-|Warped_Wise_Wings|160532|1.33%|
-|Flora_Frenzy|160434|1.27%|
-|Champions_Bento|160408|1.25%|
-|Blooming_Feast|160401|1.25%|
-|Fel_Kissed_Filet|160383|1.23%|
-|Void_Kissed_Fish_Rolls|160319|1.19%|
-|Void_Touched_Augment_Rune|160022|1.01%|
-|Base|158427|0.00%|
+|Royal_Roast|165465|1.50%|
+|Silvermoon_Parade|165465|1.50%|
+|Arcano_Cutlets|164902|1.16%|
+|Warped_Wise_Wings|164728|1.05%|
+|Fel_Kissed_Filet|164720|1.04%|
+|Blooming_Feast|164713|1.04%|
+|Flora_Frenzy|164662|1.01%|
+|Champions_Bento|164642|1.00%|
+|Void_Kissed_Fish_Rolls|164608|0.98%|
+|Void_Touched_Augment_Rune|164215|0.73%|
+|Base|163018|0.00%|

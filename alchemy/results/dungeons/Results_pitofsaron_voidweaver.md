@@ -1,20 +1,20 @@
 # pitofsaron - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Flask_of_the_Shattered_Sun_2|178082|3.03%|
-|Flask_of_the_Magisters_2|177741|2.84%|
-|Flask_of_the_Shattered_Sun_1|177697|2.81%|
-|Flask_of_the_Blood_Knights_2|177610|2.76%|
-|Draught_of_Rampant_Abandon_2|177472|2.68%|
-|Flask_of_the_Blood_Knights_1|177371|2.62%|
-|Flask_of_the_Magisters_1|177313|2.59%|
-|Flask_of_Thalassian_Resistance_2|177206|2.53%|
-|Potion_of_Recklessness_2|177121|2.48%|
-|Lights_Potential_2|177120|2.48%|
-|Draught_of_Rampant_Abandon_1|176925|2.37%|
-|Potion_of_Recklessness_1|176858|2.33%|
-|Flask_of_Thalassian_Resistance_1|176837|2.31%|
-|Lights_Potential_1|176682|2.22%|
-|Potion_of_Zealotry_2|173182|0.20%|
-|Potion_of_Zealotry_1|173096|0.15%|
-|Base|172837|0.00%|
+|Flask_of_the_Shattered_Sun_2|182803|3.04%|
+|Flask_of_the_Magisters_2|182390|2.81%|
+|Flask_of_the_Shattered_Sun_1|182301|2.76%|
+|Flask_of_the_Blood_Knights_2|182006|2.60%|
+|Flask_of_the_Magisters_1|181824|2.49%|
+|Draught_of_Rampant_Abandon_2|181799|2.48%|
+|Flask_of_the_Blood_Knights_1|181629|2.38%|
+|Flask_of_Thalassian_Resistance_2|181581|2.36%|
+|Potion_of_Recklessness_2|181472|2.29%|
+|Lights_Potential_2|181393|2.25%|
+|Potion_of_Recklessness_1|181185|2.13%|
+|Flask_of_Thalassian_Resistance_1|181099|2.08%|
+|Draught_of_Rampant_Abandon_1|181086|2.08%|
+|Lights_Potential_1|180708|1.86%|
+|Potion_of_Zealotry_1|177667|0.15%|
+|Potion_of_Zealotry_2|177646|0.14%|
+|Base|177402|0.00%|
