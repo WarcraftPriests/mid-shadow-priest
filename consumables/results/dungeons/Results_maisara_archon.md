@@ -1,14 +1,14 @@
 # maisara - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|178944|1.39%|
-|Silvermoon_Parade|178867|1.34%|
-|Arcano_Cutlets|178265|1.00%|
-|Warped_Wise_Wings|178161|0.94%|
-|Champions_Bento|178080|0.90%|
-|Fel_Kissed_Filet|178055|0.88%|
-|Flora_Frenzy|178055|0.88%|
-|Blooming_Feast|178043|0.88%|
-|Void_Kissed_Fish_Rolls|178031|0.87%|
-|Void_Touched_Augment_Rune|177619|0.64%|
-|Base|176497|0.00%|
+|Silvermoon_Parade|181540|1.30%|
+|Royal_Roast|181521|1.29%|
+|Arcano_Cutlets|181015|1.01%|
+|Blooming_Feast|180883|0.94%|
+|Warped_Wise_Wings|180882|0.94%|
+|Champions_Bento|180867|0.93%|
+|Fel_Kissed_Filet|180830|0.91%|
+|Flora_Frenzy|180802|0.89%|
+|Void_Kissed_Fish_Rolls|180706|0.84%|
+|Void_Touched_Augment_Rune|180364|0.65%|
+|Base|179203|0.00%|

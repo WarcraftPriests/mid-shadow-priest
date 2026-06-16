@@ -1,14 +1,14 @@
 # algethar - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|147475|1.66%|
-|Silvermoon_Parade|147418|1.62%|
-|Warped_Wise_Wings|146852|1.23%|
-|Arcano_Cutlets|146847|1.23%|
-|Flora_Frenzy|146653|1.10%|
-|Void_Kissed_Fish_Rolls|146620|1.07%|
-|Blooming_Feast|146585|1.05%|
-|Fel_Kissed_Filet|146584|1.05%|
-|Champions_Bento|146560|1.03%|
-|Void_Touched_Augment_Rune|146241|0.81%|
-|Base|145061|0.00%|
+|Silvermoon_Parade|153260|1.50%|
+|Royal_Roast|153251|1.49%|
+|Arcano_Cutlets|152680|1.11%|
+|Warped_Wise_Wings|152619|1.07%|
+|Champions_Bento|152574|1.04%|
+|Fel_Kissed_Filet|152533|1.02%|
+|Blooming_Feast|152519|1.01%|
+|Void_Kissed_Fish_Rolls|152497|0.99%|
+|Flora_Frenzy|152488|0.99%|
+|Void_Touched_Augment_Rune|152183|0.78%|
+|Base|150998|0.00%|

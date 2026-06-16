@@ -1,14 +1,14 @@
 # magisters - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|180837|1.81%|
-|Silvermoon_Parade|180784|1.78%|
-|Arcano_Cutlets|180009|1.34%|
-|Warped_Wise_Wings|179857|1.26%|
-|Champions_Bento|179754|1.20%|
-|Blooming_Feast|179742|1.19%|
-|Fel_Kissed_Filet|179709|1.18%|
-|Void_Kissed_Fish_Rolls|179703|1.17%|
-|Flora_Frenzy|179660|1.15%|
-|Void_Touched_Augment_Rune|179187|0.88%|
-|Base|177621|0.00%|
+|Royal_Roast|184616|1.42%|
+|Silvermoon_Parade|184595|1.41%|
+|Arcano_Cutlets|183987|1.08%|
+|Warped_Wise_Wings|183945|1.05%|
+|Flora_Frenzy|183864|1.01%|
+|Fel_Kissed_Filet|183823|0.99%|
+|Champions_Bento|183795|0.97%|
+|Blooming_Feast|183769|0.96%|
+|Void_Kissed_Fish_Rolls|183743|0.94%|
+|Void_Touched_Augment_Rune|183429|0.77%|
+|Base|182025|0.00%|

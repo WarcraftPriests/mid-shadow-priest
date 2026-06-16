@@ -1,14 +1,14 @@
 # pitofsaron - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|186450|1.90%|
-|Silvermoon_Parade|186403|1.87%|
-|Arcano_Cutlets|185531|1.39%|
-|Warped_Wise_Wings|185385|1.31%|
-|Fel_Kissed_Filet|185370|1.31%|
-|Flora_Frenzy|185334|1.29%|
-|Blooming_Feast|185272|1.25%|
-|Champions_Bento|185216|1.22%|
-|Void_Kissed_Fish_Rolls|185197|1.21%|
-|Void_Touched_Augment_Rune|184784|0.98%|
-|Base|182982|0.00%|
+|Silvermoon_Parade|189293|1.59%|
+|Royal_Roast|189200|1.54%|
+|Arcano_Cutlets|188643|1.24%|
+|Warped_Wise_Wings|188505|1.16%|
+|Champions_Bento|188385|1.10%|
+|Fel_Kissed_Filet|188364|1.09%|
+|Flora_Frenzy|188327|1.07%|
+|Void_Kissed_Fish_Rolls|188273|1.04%|
+|Blooming_Feast|188268|1.04%|
+|Void_Touched_Augment_Rune|187832|0.80%|
+|Base|186335|0.00%|

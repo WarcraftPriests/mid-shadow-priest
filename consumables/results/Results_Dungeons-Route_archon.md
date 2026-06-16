@@ -1,14 +1,14 @@
 # Dungeons-Route - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|167151|1.57%|
-|Silvermoon_Parade|167117|1.55%|
-|Arcano_Cutlets|166478|1.16%|
-|Warped_Wise_Wings|166369|1.10%|
-|Blooming_Feast|166274|1.04%|
-|Fel_Kissed_Filet|166272|1.04%|
-|Flora_Frenzy|166270|1.04%|
-|Champions_Bento|166260|1.03%|
-|Void_Kissed_Fish_Rolls|166212|1.00%|
-|Void_Touched_Augment_Rune|165831|0.77%|
-|Base|164563|0.00%|
+|Royal_Roast|170979|1.46%|
+|Silvermoon_Parade|170978|1.46%|
+|Arcano_Cutlets|170405|1.12%|
+|Warped_Wise_Wings|170287|1.05%|
+|Champions_Bento|170211|1.00%|
+|Flora_Frenzy|170204|1.00%|
+|Fel_Kissed_Filet|170195|0.99%|
+|Blooming_Feast|170189|0.99%|
+|Void_Kissed_Fish_Rolls|170125|0.95%|
+|Void_Touched_Augment_Rune|169785|0.75%|
+|Base|168524|0.00%|

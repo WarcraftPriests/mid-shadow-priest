@@ -1,6 +1,6 @@
 # Composite - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|MID1-2_4-set|133693|8.87%|
-|MID1-2-set|127342|3.70%|
-|Base|122804|0.00%|
+|MID1-2_4-set|138585|9.66%|
+|MID1-2-set|132263|4.66%|
+|Base|126377|0.00%|

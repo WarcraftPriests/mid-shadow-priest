@@ -1,20 +1,20 @@
 # windrunner - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Flask_of_the_Shattered_Sun_2|171032|2.62%|
-|Flask_of_the_Magisters_2|170702|2.42%|
-|Flask_of_the_Shattered_Sun_1|170609|2.36%|
-|Flask_of_the_Magisters_1|170428|2.25%|
-|Flask_of_the_Blood_Knights_2|170420|2.25%|
-|Flask_of_Thalassian_Resistance_2|170249|2.15%|
-|Flask_of_the_Blood_Knights_1|170215|2.13%|
-|Draught_of_Rampant_Abandon_2|170112|2.07%|
-|Flask_of_Thalassian_Resistance_1|169967|1.98%|
-|Lights_Potential_2|169879|1.93%|
-|Draught_of_Rampant_Abandon_1|169761|1.85%|
-|Potion_of_Recklessness_2|169744|1.84%|
-|Lights_Potential_1|169565|1.74%|
-|Potion_of_Recklessness_1|169531|1.72%|
-|Potion_of_Zealotry_2|167107|0.26%|
-|Potion_of_Zealotry_1|167022|0.21%|
-|Base|166670|0.00%|
+|Flask_of_the_Shattered_Sun_2|175408|2.87%|
+|Flask_of_the_Magisters_2|175029|2.65%|
+|Flask_of_the_Blood_Knights_2|174956|2.61%|
+|Flask_of_the_Shattered_Sun_1|174917|2.59%|
+|Flask_of_the_Magisters_1|174643|2.42%|
+|Flask_of_the_Blood_Knights_1|174614|2.41%|
+|Flask_of_Thalassian_Resistance_2|174349|2.25%|
+|Draught_of_Rampant_Abandon_2|174112|2.11%|
+|Flask_of_Thalassian_Resistance_1|174007|2.05%|
+|Lights_Potential_2|173773|1.91%|
+|Draught_of_Rampant_Abandon_1|173560|1.79%|
+|Potion_of_Recklessness_2|173523|1.77%|
+|Potion_of_Recklessness_1|173399|1.69%|
+|Lights_Potential_1|173299|1.64%|
+|Potion_of_Zealotry_2|170677|0.10%|
+|Potion_of_Zealotry_1|170578|0.04%|
+|Base|170509|0.00%|

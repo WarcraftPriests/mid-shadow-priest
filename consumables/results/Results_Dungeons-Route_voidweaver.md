@@ -1,14 +1,14 @@
 # Dungeons-Route - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|167022|1.65%|
-|Silvermoon_Parade|167022|1.65%|
-|Arcano_Cutlets|166428|1.29%|
-|Flora_Frenzy|166343|1.23%|
-|Champions_Bento|166343|1.23%|
-|Fel_Kissed_Filet|166321|1.22%|
-|Blooming_Feast|166310|1.21%|
-|Warped_Wise_Wings|166229|1.16%|
-|Void_Kissed_Fish_Rolls|166051|1.06%|
-|Void_Touched_Augment_Rune|165665|0.82%|
-|Base|164315|0.00%|
+|Silvermoon_Parade|171207|1.40%|
+|Royal_Roast|171170|1.38%|
+|Arcano_Cutlets|170733|1.12%|
+|Flora_Frenzy|170635|1.06%|
+|Champions_Bento|170615|1.05%|
+|Fel_Kissed_Filet|170607|1.04%|
+|Blooming_Feast|170603|1.04%|
+|Warped_Wise_Wings|170552|1.01%|
+|Void_Kissed_Fish_Rolls|170378|0.91%|
+|Void_Touched_Augment_Rune|170070|0.72%|
+|Base|168848|0.00%|
