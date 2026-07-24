@@ -1,1 +1,1 @@
-{"name": "Composite - archon", "data": {"Base": {"DPS": 72854}, "chatgpt_writes_an_apl": {"DPS": 71375}}, "ids": {"chatgpt_writes_an_apl": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["chatgpt_writes_an_apl"], "last_updated": "2026-02-04"}
+{"name": "Composite - archon", "data": {"new": {"DPS": 226218}, "Base": {"DPS": 225574}}, "ids": {"new": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new"], "last_updated": "2026-07-23"}

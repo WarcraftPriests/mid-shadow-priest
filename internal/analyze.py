@@ -133,6 +133,9 @@ def build_results(data, weights, sim_type, directory, dungeons):
     results = {}
     for value in data.iterrows():
         actor = value[1].actor
+        # APL sims can emit a lowercase baseline actor name.
+        if str(actor).lower() == "base":
+            actor = "Base"
         if "Dungeons" in sim_type or dungeons:
             fight_style = value[1].profile.split("_")[-1]
         else:
@@ -163,6 +166,19 @@ def build_results(data, weights, sim_type, directory, dungeons):
     # Each profile sims "Base" again so we need to divide that to get the real average
     number_of_profiles = get_number_of_profiles(directory[:-1])
     base_actor = results.get("Base")
+    if base_actor is None:
+        if weights:
+            base_actor = {
+                "dps": 0,
+                "intellect": 0,
+                "haste": 0,
+                "crit": 0,
+                "mastery": 0,
+                "vers": 0,
+                "wdps": 0,
+            }
+        else:
+            base_actor = 0
     if weights:
         base_dps = {}
         for key, value in base_actor.items():

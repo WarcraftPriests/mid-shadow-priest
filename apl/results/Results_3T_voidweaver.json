@@ -1,1 +1,1 @@
-{"name": "3T - voidweaver", "data": {"Base": {"DPS": 155104}, "fuck_you_swd": {"DPS": 154755}}, "ids": {"fuck_you_swd": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["fuck_you_swd"], "last_updated": "2026-02-04"}
+{"name": "3T - voidweaver", "data": {"new": {"DPS": 358655}, "Base": {"DPS": 357540}}, "ids": {"new": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new"], "last_updated": "2026-07-23"}

@@ -438,6 +438,23 @@ def test_replace_talents_no_talents_keyword():
     assert out == data
 
 
+def test_replace_talents_replaces_all_talent_lines():
+    profiles.config = {"forceHeroTalents": False}
+    data = 'priest="base"\ntalents=old1\npriest="new"\ntalents=old2\n'
+    out = profiles.replace_talents("newtal", data, "name_DA")
+    assert out.count("talents=newtal") == 2
+    assert "talents=old1" not in out
+    assert "talents=old2" not in out
+
+
+def test_replace_talents_replaces_all_placeholders():
+    profiles.config = {"forceHeroTalents": False}
+    data = 'priest="base"\ntalents=${talents}\npriest="new"\ntalents=${talents}\n'
+    out = profiles.replace_talents("newtal", data, "name_DA")
+    assert out.count("talents=newtal") == 2
+    assert "${talents}" not in out
+
+
 def test_get_sim_files_talents(tmp_path, monkeypatch):
     # create talents/builds dir and files inside tmp cwd
     monkeypatch.chdir(tmp_path)

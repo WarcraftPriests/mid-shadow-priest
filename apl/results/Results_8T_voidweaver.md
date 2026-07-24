@@ -1,5 +1,5 @@
 # 8T - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|546353|0.00%|
-|fuck_you_swd|543251|-0.57%|
+|new|1052070|0.06%|
+|Base|1051459|0.00%|

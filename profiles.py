@@ -174,11 +174,10 @@ def replace_talents(talent_string, data, talent_name):
             r"^talents=.*$",
             f"talents={talent_string}{hero_string}",
             data,
-            count=1,
             flags=re.MULTILINE,
         )
     elif "${talents}" in data:
-        data = data.replace("${talents}", f"{talent_string}{hero_string}", 1)
+        data = data.replace("${talents}", f"{talent_string}{hero_string}")
     return data
 
 

@@ -1,5 +1,5 @@
 # Single - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|71444|0.00%|
-|chatgpt_writes_an_apl|70877|-0.79%|
+|new|189723|0.47%|
+|Base|188839|0.00%|

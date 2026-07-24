@@ -1,1 +1,1 @@
-{"name": "Composite - voidweaver", "data": {"Base": {"DPS": 70686}, "fuck_you_swd": {"DPS": 70658}}, "ids": {"fuck_you_swd": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["fuck_you_swd"], "last_updated": "2026-02-04"}
+{"name": "Composite - voidweaver", "data": {"new": {"DPS": 217185}, "Base": {"DPS": 217153}}, "ids": {"new": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new"], "last_updated": "2026-07-23"}

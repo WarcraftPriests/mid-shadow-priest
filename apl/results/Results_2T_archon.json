@@ -1,1 +1,1 @@
-{"name": "2T - archon", "data": {"Base": {"DPS": 113338}, "chatgpt_writes_an_apl": {"DPS": 111207}}, "ids": {"chatgpt_writes_an_apl": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["chatgpt_writes_an_apl"], "last_updated": "2026-02-04"}
+{"name": "2T - archon", "data": {"new": {"DPS": 333718}, "Base": {"DPS": 333422}}, "ids": {"new": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new"], "last_updated": "2026-07-23"}
