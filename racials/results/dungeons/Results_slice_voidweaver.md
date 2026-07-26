@@ -1,0 +1,36 @@
+# slice - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Human|254676|1.48%|
+|Mechagnome|254529|1.42%|
+|Troll|254522|1.42%|
+|Blood_Elf|254217|1.30%|
+|Dwarf|254214|1.30%|
+|Panda_Feast|254164|1.28%|
+|Goblin|254149|1.27%|
+|Gnome|254063|1.24%|
+|Tauren|253939|1.19%|
+|Void_Elf|253938|1.19%|
+|Night_Elf_Haste|253835|1.14%|
+|Highmountain_Tauren|253334|0.94%|
+|Nightborne|253297|0.93%|
+|Kul_Tiran|253206|0.89%|
+|Night_Elf_Crit|253181|0.88%|
+|Zandalari_Troll_Paku|253176|0.88%|
+|Earthen_Emerald|253161|0.88%|
+|Orc|253145|0.87%|
+|Draenei|253107|0.85%|
+|Dark_Iron_Dwarf|252915|0.78%|
+|Worgen|252857|0.75%|
+|Dracthyr|252847|0.75%|
+|Earthen_Ruby|252763|0.72%|
+|Maghar_Orc|252753|0.71%|
+|Earthen_Onyx|252607|0.66%|
+|Haranir|252275|0.52%|
+|Earthen_Sapphire|251837|0.35%|
+|Lightforged_Draenei|251066|0.04%|
+|Base|250963|0.00%|
+|Undead|250843|-0.05%|
+|Vulpera|250765|-0.08%|
+|Zandalari_Troll_Kimbul|250656|-0.12%|
+|Zandalari_Troll_Bwonsamdi|250568|-0.16%|

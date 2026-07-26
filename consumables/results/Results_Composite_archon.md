@@ -1,14 +1,14 @@
 # Composite - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|135691|1.81%|
-|Royal_Roast|135690|1.80%|
-|Arcano_Cutlets|135135|1.39%|
-|Warped_Wise_Wings|134976|1.27%|
-|Fel_Kissed_Filet|134970|1.26%|
-|Flora_Frenzy|134959|1.26%|
-|Blooming_Feast|134946|1.25%|
-|Champions_Bento|134945|1.25%|
-|Void_Kissed_Fish_Rolls|134798|1.14%|
-|Void_Touched_Augment_Rune|134488|0.90%|
-|Base|133285|0.00%|
+|Silvermoon_Parade|271642|1.42%|
+|Royal_Roast|271554|1.38%|
+|Flora_Frenzy|270986|1.17%|
+|Blooming_Feast|270973|1.17%|
+|Champions_Bento|270943|1.15%|
+|Warped_Wise_Wings|270937|1.15%|
+|Fel_Kissed_Filet|270616|1.03%|
+|Arcano_Cutlets|270549|1.01%|
+|Void_Kissed_Fish_Rolls|270319|0.92%|
+|Void_Touched_Augment_Rune|269738|0.70%|
+|Base|267850|0.00%|

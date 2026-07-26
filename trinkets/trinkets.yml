@@ -1,53 +1,53 @@
 item_levels:
   champion: []
-  hero: [285]
-  raid: [285, 298]
-  delves: [285]
-  dungeons_both: [285, 298]
-  dungeons: [285, 298]
-  crafted: [295]
+  hero: [322]
+  raid: [344]
+  delves: [322]
+  dungeons_both: [322, 344]
+  dungeons: [322, 344]
+  crafted: [311]
+  s1_cap: [298]
 dungeons:
   item_levels: "dungeons"
   trinkets:
-    - id: 250257
-      name: "Eye_of_the_Drowning_Void"
-      item_levels: dungeons_both
-    - id: 250223
-      name: "Soulcatchers_Charm"
-      item_levels: dungeons_both
-    - id: 250258
-      name: "Vessel_of_Tortured_Souls"
-      item_levels: dungeons_both
     - id: 250144
       name: "Emberwing_Feather"
-      item_levels: dungeons_both
+      item_levels: s1_cap
     - id: 250256
       name: "Heart_of_Wind"
-      item_levels: dungeons_both
-    - id: 50259
-      name: "Nevermelting_Ice_Crystal"
-    - id: 151310
-      name: "Reality_Breacher"
+      item_levels: s1_cap
     - id: 250215
       name: "Freightrunners_Flask"
-      item_levels: champion
+      item_levels: dungeons_both
     - id: 250214
       name: "Lightspire_Core"
-      item_levels: champion
+      item_levels: dungeons_both
     - id: 250259
       name: "Sapling_of_the_Dawnroot"
-      item_levels: champion
+      item_levels: dungeons_both
     - id: 250224
       name: "Mindpiercers_Sigil"
-      item_levels: champion
+      item_levels: dungeons_both
+    - id: 273794
+      name: "Knot_of_Writhing_Serpents"
+      item_levels: dungeons_both
+    - id: 273796
+      name: "Vile_Vial_of_Volatile_Venom"
+      item_levels: dungeons_both
+    - id: 193757
+      name: "Ruby_Whelp_Shell"
+      item_levels: dungeons_both
+    - id: 158368
+      name: "Sethraliss_Defiled_Relic"
+      item_levels: dungeons_both
+    - id: 273649
+      name: "Stormbound_Emblem_of_Dazar"
+      item_levels: dungeons_both
 other:
   item_levels: "champion"
   trinkets:
     - id: 251792
       name: "Glorious_Crusaders_Keepsake"
-      item_levels: delves
-    - id: 264878
-      name: "Astalors_Anguish_Agitator"
       item_levels: delves
     - id: 248583
       name: "Drum_of_Renewed_Bonds"
@@ -64,11 +64,8 @@ other:
     - id: 251786
       name: "Ever-Collapsing_Void_Fissure"
       item_levels: delves
-    - id: 251787
-      name: "Sealed_Chaos_Urn"
-      item_levels: delves
-    - id: 252957
-      name: "Tangle_of_Vibrant_Vines"
+    - id: 251783
+      name: "Lost_Idol_of_the_Hashey"
       item_levels: delves
     - id: 251785
       name: "Void-Reapers_Libram"
@@ -132,17 +129,24 @@ other:
 raid:
   item_levels: "raid"
   trinkets:
-    - id: 249810
-      name: "Shadow_of_the_Empyrean_Requiem"
+    - id: 270164
+      name: "Gebbos_Bottomless_Bag"
+    - id: 270161
+      name: "Fang_of_Umbral_Malignance"
+    - id: 270170
+      name: "Vexhuls_Everflowing_Gland"
+    - id: 270169
+      name: "Hex_Lords_Dooming_Idol"
+    - id: 270168
+      name: "Font_of_Venomous_Rage"
+    - id: 270167
+      name: "Wavecallers_Seastone"
     - id: 249343
       name: "Gaze_of_the_Alnseer"
-    - id: 249808
-      name: "Litany_of_Lightblind_Wrath"
+      item_levels: s1_cap
     - id: 249809
       name: "Locus-Walkers_Ribbon"
+      item_levels: s1_cap
     - id: 249346
       name: "Vaelgors_Final_Stare"
-    - id: 249340
-      name: "Wraps_of_Cosmic_Madness"
-    - id: 268292
-      name: "Sporelords_Mycelial_Insignia"
+      item_levels: s1_cap
