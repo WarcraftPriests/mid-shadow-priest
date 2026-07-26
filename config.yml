@@ -306,7 +306,7 @@ raidbots:
   numOfRetries: 100
   retryInterval: 10
 charts:
-  wowheadUrl: https://www.wowhead.com/ptr-2/
+  wowheadUrl: https://www.wowhead.com/ptr/
 analyze:
   dungeonCharts: false
   markdown: true
