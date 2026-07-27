@@ -1,15 +1,13 @@
 """downloads the nightly simc"""
-
-#!/usr/bin/env python
 import glob
 import os
 import re
+import shutil
 import subprocess
 import time
-import shutil
+
 import requests
 from requests.exceptions import RequestException
-
 
 BASE_URL = "http://downloads.simulationcraft.org/nightly"
 
@@ -35,7 +33,7 @@ def download_latest():
     filepath = os.path.join(download_dir, latest_file)
     if os.path.exists(filepath):
         print(f"Latest simc version already downloaded at {latest_file}.")
-        return filepath.strip(".7z")
+        return os.path.splitext(filepath)[0]
 
     _download_simc_version(f"{BASE_URL}/{latest_file}", filepath)
 
@@ -50,8 +48,8 @@ def download_latest():
         _cleanup_older_files(download_dir, dir_name)
 
     else:
-        print(f"Simc already exists at '{repr(simc_path)}'.")
-    return simc_path.rstrip("simc.exe")
+        print(f"Simc already exists at '{simc_path!r}'.")
+    return f"{os.path.dirname(simc_path)}{os.sep}"
 
 
 def _find_7zip(search_paths):
@@ -85,7 +83,7 @@ def _cleanup_older_files(download_dir, current_dir):
     except:  # noqa: E722
         print(
             "Unable to automatically remove files, cleanup old files in auto_download/"
-        )  # noqa: E501
+        )
 
 
 def _rename_directory(glob_path, commit):
@@ -109,19 +107,21 @@ def _get_latest_filename():
         html = requests.get(f"{BASE_URL}/?C=M;O=D", timeout=10).text
     except RequestException:
         print("Could not access download directory on simulationcraft.org")
+        raise
     # filename = re.search(r'<a href="(simc.+win64.+7z)">', html).group(1)
-    filename = list(
+    filename = next(
         filter(None, re.findall(r'.+nonetwork.+|<a href="(simc.+win64.+7z)">', html))
-    )[0]
+    )
     return filename
 
 
 def _download_simc_version(url, filepath):
     "Download the specific file"
     print(f"Retrieving simc from url '{url}' to '{filepath}'.")
-    with requests.get(url, timeout=10, stream=True) as req:
-        with open(filepath, "wb") as handler:
-            shutil.copyfileobj(req.raw, handler)
+    with requests.get(url, timeout=10, stream=True) as req, open(
+        filepath, "wb"
+    ) as handler:
+        shutil.copyfileobj(req.raw, handler)
 
 
 def _unpack_file(seven_zip_executable, filepath, download_dir):

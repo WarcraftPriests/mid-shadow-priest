@@ -2,11 +2,11 @@
 
 import json
 import time
-import requests
-import yaml
-import tqdm
 
-from requests.exceptions import ConnectionError, Timeout, RequestException
+import requests
+import tqdm
+import yaml
+from requests.exceptions import ConnectionError, RequestException, Timeout
 from urllib3.exceptions import ProtocolError
 
 with open("config.yml", "r", encoding="utf8") as ymlfile:
@@ -39,7 +39,7 @@ def safe_request(method, url, **kwargs):
 
 def submit_sim(
     api_url_base, api_key, profile_location, simc_build, report_name, iterations
-):  # noqa: E501
+):
     """submits a sim to the raidbots api"""
 
     iterations = int(iterations) if iterations != "smart" else iterations
@@ -138,7 +138,7 @@ def poll_status(api_url_base, sim_id):
             elif status == 404:
                 pbar.close()
                 print(f"[!] [{status}] URL not found: [{api_url}]")
-                return None
+                return
 
             elif status == 200:
                 sim_status = response.json()
@@ -149,7 +149,7 @@ def poll_status(api_url_base, sim_id):
                     print(
                         f"Error getting progress from 200 response json: {sim_status}"
                     )
-                    return None
+                    return
 
                 progress = sim_status["job"]["progress"]
 
@@ -164,7 +164,7 @@ def poll_status(api_url_base, sim_id):
                 if state == "complete":
                     pbar.close()
                     pbar.write(f"Sim {sim_id} finished.")
-                    return None
+                    return
 
                 if state == "inactive":
                     pbar.write(f"Sim {sim_id} in queue.")
@@ -180,17 +180,17 @@ def poll_status(api_url_base, sim_id):
                 else:
                     current_try += 1
                     print(
-                        f"Unknown state: {state} when getting {sim_id}. - Retry {current_try}"  # noqa: E501
+                        f"Unknown state: {state} when getting {sim_id}. - Retry {current_try}"
                     )
             else:
                 print(
                     f"[?] Unexpected Error: [HTTP {status}]: Content: {response.content}"
-                )  # noqa: E501
-                return None
+                )
+                return
 
         # we've exceeded the maximum tries
         pbar.write("Exceeded retries - exiting")
-        return None
+        return
 
 
 def retrieve_data(api_url_base, sim_id, data_file):
@@ -225,7 +225,7 @@ def retrieve_data(api_url_base, sim_id, data_file):
 
 def raidbots(
     api_key, profile_location, simc_build, output_location, report_name, iterations
-):  # noqa: E501
+):
     """calls the appropriate functions to run a sim to raidbots"""
     api_url_base = config["raidbots"]["apiUrlBase"]
 
@@ -242,7 +242,7 @@ def raidbots(
     # pull back results from the sim
     sim_data = retrieve_data(api_url_base, sim_id, "data.json")
     if sim_data is not None:
-        # raidbots uses hasFullJson to indicate that there is another file with more info  # noqa: E501
+        # raidbots uses hasFullJson to indicate that there is another file with more info
         if "hasFullJson" in sim_data["simbot"]:
             sim_data = retrieve_data(api_url_base, sim_id, "data.full.json")
         with open(output_location, "w", encoding="utf8") as file:

@@ -22,7 +22,7 @@ wind = {
 }
 
 combinations = [
-    f"{t}_{s}_{w}" for t in thunder.keys() for s in sea.keys() for w in wind.keys()
+    f"{t}_{s}_{w}" for t in thunder for s in sea for w in wind
 ]
 
 

@@ -17,7 +17,7 @@ if __name__ == "__main__":
             "Dungeons-Push",
             "Dungeons-Standard",
         ],
-    )  # noqa: E501
+    )
     parser.add_argument("match", help="string to match for")
     parser.add_argument("matchtwo", help="string to match for")
     parser.add_argument("matchthree", help="string to match for")
@@ -38,7 +38,7 @@ if __name__ == "__main__":
                         and args.match in line
                         and args.matchtwo in line
                         and args.matchthree in line
-                    ):  # noqa: E501
+                    ):
                         print(profile_name)
                         MATCH = True
                         break

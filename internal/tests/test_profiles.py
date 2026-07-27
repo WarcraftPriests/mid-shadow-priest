@@ -1,7 +1,6 @@
+import shutil
 import types
 from pathlib import Path
-import shutil
-
 
 import profiles
 
@@ -188,7 +187,7 @@ def test_create_talent_builds_and_replace_talents(tmp_path, monkeypatch):
             if repo_talents.exists():
                 try:
                     repo_talents.unlink()
-                except Exception:
+                except OSError:
                     pass
 
 
@@ -248,7 +247,7 @@ def test_build_profiles_basic(tmp_path, monkeypatch):
             if repo_over.exists():
                 try:
                     repo_over.unlink()
-                except Exception:
+                except OSError:
                     pass
 
     # monkeypatch find_weights to only enable one profile
@@ -396,7 +395,7 @@ def test_build_profiles_skips_when_all_weights_zero(tmp_path, monkeypatch):
             if repo_over.exists():
                 try:
                     repo_over.unlink()
-                except Exception:
+                except OSError:
                     pass
 
     profiles.config = {
@@ -491,7 +490,7 @@ def test_build_profiles_with_talents(tmp_path, monkeypatch):
             if repo_over.exists():
                 try:
                     repo_over.unlink()
-                except Exception:
+                except OSError:
                     pass
     # provide a minimal talents.yml so create_talent_builds can run
     ty = Path("internal") / "talents.yml"

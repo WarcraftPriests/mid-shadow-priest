@@ -1,9 +1,11 @@
 """Generates profiles used to sim based on the base profiles"""
 
 import os
-from itertools import combinations_with_replacement
 import re
+from itertools import combinations_with_replacement
+
 import yaml
+
 from internal import utils
 from internal.weights import find_weights
 
@@ -19,12 +21,12 @@ fightExpressions = {
     "sa": "raid_events+=/adds,count=3,first=45,cooldown=45,duration=10,distance=5",
     "1": "desired_targets=1",
     "2": "desired_targets=2",
-    "3": "desired_targets=3",  # noqa: E501
+    "3": "desired_targets=3",
     "4": "desired_targets=4",
     "8": "desired_targets=8\nmax_time=60",
     "dungeons": 'fight_style="DungeonSlice"',
     "ptr": "ptr=1\n",
-    "weights": 'calculate_scale_factors="1"\nscale_only="intellect,crit,mastery,vers,haste"',  # noqa: E501
+    "weights": 'calculate_scale_factors="1"\nscale_only="intellect,crit,mastery,vers,haste"',
 }
 
 
@@ -63,14 +65,14 @@ def build_settings(profile_name_string, weights, dungeons):
         elif type == "route":
             season = config["dungeonSeason"]
             if "standard" in profile_name_string:
-                r_file_location = f"internal/routes/season{season}/standard/{profile_name_string}.simc"  # noqa: E501
+                r_file_location = f"internal/routes/season{season}/standard/{profile_name_string}.simc"
             elif "push" in profile_name_string:
                 r_file_location = (
-                    f"internal/routes/season{season}/push/{profile_name_string}.simc"  # noqa: E501
+                    f"internal/routes/season{season}/push/{profile_name_string}.simc"
                 )
             else:
                 r_file_location = (
-                    f"internal/routes/season{season}/{profile_name_string}.simc"  # noqa: E501
+                    f"internal/routes/season{season}/{profile_name_string}.simc"
                 )
             with open(r_file_location, "r", encoding="utf8") as r_file:
                 data = r_file.read()
@@ -152,8 +154,7 @@ gear_versatility_rating={int(stats_base)}\n\n"""
         o_file.writelines(data)
         o_file.writelines(base_stats)
         for combo in rating_combinations:
-            for stat in stats:
-                o_file.write(f'profileset."{combo.get("name")}"+={combo.get(stat)}\n')
+            o_file.writelines(f'profileset."{combo.get("name")}"+={combo.get(stat)}\n' for stat in stats)
 
 
 def build_simc_file(talent_string, profile_name, dungeons=False):
@@ -268,7 +269,7 @@ def build_profiles(talent_string, apl_string):
         f"{fight}_{add}_{tar}"
         for fight in fight_styles
         for add in add_types
-        for tar in targets  # noqa: E501
+        for tar in targets
     ]
     sim_files = get_sim_files(args.dir[:-1])
 
@@ -329,7 +330,7 @@ def build_profiles(talent_string, apl_string):
                 and four_target_weight == 0
                 and eight_target_weight == 0
                 and not args.dungeons
-            ):  # noqa: E501
+            ):
                 # print(f"Skipping profile {profile} weights are all 0.")
                 continue
 

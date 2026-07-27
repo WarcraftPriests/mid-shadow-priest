@@ -1,7 +1,7 @@
 """parses a simc output file into a single csv file"""
 
-import os
 import json
+import os
 from os import path
 
 
@@ -16,7 +16,7 @@ def parse(filename, weights):
         if "error" in sim:
             print(
                 f"ERROR: {filename} contains a sim error - cannot parse.\n{sim['error']}"
-            )  # noqa: E501
+            )
             raise RuntimeError from OSError
         results = sim["sim"]["players"]
         for player in sorted(results, key=lambda k: k["name"]):

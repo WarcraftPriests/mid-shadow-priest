@@ -17,7 +17,7 @@ import argparse
 import os
 import re
 import sys
-from typing import Dict, Any
+from typing import Any
 
 try:
     import yaml
@@ -43,7 +43,7 @@ def normalize_trinket_name(name: str) -> str:
     return s
 
 
-def resolve_item_levels(raw, item_levels_map: Dict[str, Any]) -> list:
+def resolve_item_levels(raw, item_levels_map: dict[str, Any]) -> list:
     """Resolve an item_levels field which may be a list or a string key into a list.
 
     If `raw` is a string, look it up in `item_levels_map`. If it's a list, return it.
@@ -60,9 +60,9 @@ def resolve_item_levels(raw, item_levels_map: Dict[str, Any]) -> list:
 
 def write_simc_for_section(
     section_name: str,
-    section: Dict[str, Any],
+    section: dict[str, Any],
     out_path: str,
-    item_levels_map: Dict[str, Any],
+    item_levels_map: dict[str, Any],
     base_content: str | None = None,
 ) -> None:
     trinkets = section.get("trinkets", [])
@@ -133,8 +133,7 @@ def write_simc_for_section(
                         f.write(line)
                         # write one or more option assignment lines depending on the type of `value`
                         if isinstance(opt_val_key, list):
-                            for v in opt_val_key:
-                                f.write(f'profileset."{label}"+={v}\n')
+                            f.writelines(f'profileset."{label}"+={v}\n' for v in opt_val_key)
                         else:
                             f.write(f'profileset."{label}"+={opt_val_key}\n')
             else:
@@ -179,7 +178,7 @@ def main(argv: list[str] | None = None) -> int:
         cfg = yaml.safe_load(fh)
 
     # top-level item_levels map (optional). Keys are names, values are lists of ilevels
-    item_levels_map: Dict[str, Any] = (
+    item_levels_map: dict[str, Any] = (
         cfg.get("item_levels", {}) if isinstance(cfg, dict) else {}
     )
 
@@ -188,7 +187,7 @@ def main(argv: list[str] | None = None) -> int:
         (k, v) for k, v in cfg.items() if isinstance(v, dict) and k != "item_levels"
     ]
 
-    outputs: Dict[str, str] = {
+    outputs: dict[str, str] = {
         "dungeons": "dungeons.simc",
         "other": "other.simc",
         "raid": "raid.simc",

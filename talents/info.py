@@ -1,7 +1,7 @@
 import csv
-import yaml
 from statistics import mean
 
+import yaml
 
 with open("../config.yml", "r", encoding="utf8") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
@@ -30,39 +30,27 @@ class Talents:
 def check_build_in_talent(build, talent_string):
     match build:
         case "vw-da-cthun-dr":
-            if (
+            return (
                 talent_string.startswith("VW_")
                 and "_DA_" in talent_string
                 and "cthun" in talent_string
                 and talent_string.endswith("_DR")
-            ):
-                return True
-            else:
-                return False
+            )
         case "ar-cthun":
-            if talent_string.startswith("AR_") and "cthun" in talent_string:
-                return True
-            else:
-                return False
+            return talent_string.startswith("AR_") and "cthun" in talent_string
         case "vw-da-cthun-me":
-            if (
+            return (
                 talent_string.startswith("VW_")
                 and "_DA_" in talent_string
                 and "cthun" in talent_string
                 and talent_string.endswith("_ME")
-            ):
-                return True
-            else:
-                return False
+            )
         case "vw-vf-cthun":
-            if (
+            return (
                 talent_string.startswith("VW_")
                 and "_VF_" in talent_string
                 and "cthun" in talent_string
-            ):
-                return True
-            else:
-                return False
+            )
 
 
 if __name__ == "__main__":
@@ -143,23 +131,21 @@ if __name__ == "__main__":
                     talents = talent_spec_strings.get(talent)
                     spec_talents = talents.st
                     dps = talents.dps
-                    for t in info_talents:
+                    for t, values in info_talents.items():
                         if t in spec_talents:
-                            info_talents[t].append(int(dps))
+                            values.append(int(dps))
                         else:
                             not_talents[t].append(int(dps))
                 # print stats
-                for t in info_talents:
-                    if len(info_talents[t]) == 0:
+                for t, values in info_talents.items():
+                    if len(values) == 0:
                         print(f"Build {build} never takes {t}, skipping")
                         continue
                     if len(not_talents[t]) == 0:
                         print(f"Build {build} always takes {t}, skipping")
                         continue
-                    min_change = get_change(min(info_talents[t]), min(not_talents[t]))
-                    max_change = get_change(max(info_talents[t]), max(not_talents[t]))
-                    mean_change = get_change(
-                        mean(info_talents[t]), mean(not_talents[t])
-                    )
+                    min_change = get_change(min(values), min(not_talents[t]))
+                    max_change = get_change(max(values), max(not_talents[t]))
+                    mean_change = get_change(mean(values), mean(not_talents[t]))
                     file.write(f"|{t}|{min_change}%|{max_change}%|{mean_change}%\n")
             file.close()

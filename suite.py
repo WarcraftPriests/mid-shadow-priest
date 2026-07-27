@@ -5,8 +5,8 @@ import csv
 import os
 import subprocess
 import sys
-import yaml
 
+import yaml
 
 with open("config.yml", "r", encoding="utf8") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
@@ -107,7 +107,7 @@ def main():
         "--apl",
         help="indicate if the sim should use the custom apl.",
         action="store_true",
-    )  # noqa: E501
+    )
     parser.add_argument(
         "--local",
         help="indicate if the sim should run locally (not recommended)",
@@ -128,7 +128,7 @@ def main():
             file.write("dir,type,sim,\n")
             file.close()
 
-    for sim in config["sims"].keys():
+    for sim in config["sims"]:
         if args.talents:
             if sim not in ["talents", "talents-top"]:
                 continue
