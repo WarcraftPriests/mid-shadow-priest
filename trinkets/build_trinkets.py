@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Generate simc trinket profile files from `trinkets.yml`.
 
 Usage:
