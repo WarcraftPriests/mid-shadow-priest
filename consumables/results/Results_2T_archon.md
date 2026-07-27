@@ -1,14 +1,14 @@
 # 2T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|397506|1.42%|
-|Royal_Roast|397222|1.35%|
-|Flora_Frenzy|396475|1.16%|
-|Champions_Bento|396435|1.15%|
-|Warped_Wise_Wings|396379|1.14%|
-|Blooming_Feast|396369|1.13%|
-|Arcano_Cutlets|396049|1.05%|
-|Fel_Kissed_Filet|396041|1.05%|
-|Void_Kissed_Fish_Rolls|395594|0.94%|
-|Void_Touched_Augment_Rune|394684|0.70%|
-|Base|391922|0.00%|
+|Royal_Roast|397422|1.37%|
+|Silvermoon_Parade|397345|1.35%|
+|Warped_Wise_Wings|396445|1.12%|
+|Blooming_Feast|396398|1.11%|
+|Flora_Frenzy|396377|1.10%|
+|Champions_Bento|396358|1.10%|
+|Fel_Kissed_Filet|396047|1.02%|
+|Arcano_Cutlets|396040|1.01%|
+|Void_Kissed_Fish_Rolls|395559|0.89%|
+|Void_Touched_Augment_Rune|394659|0.66%|
+|Base|392062|0.00%|

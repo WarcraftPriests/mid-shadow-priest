@@ -24,22 +24,23 @@ trinket2=${gear.trinket2}
 main_hand=${gear.main_hand},enchant=${enchants.main_hand}
 ${gear.off_hand}
 
-
 # Season 2 Cantrip Items
+profileset."1H_Polished_Lightwood_Channeler_322"+=main_hand=polished_lightwood_channeler,id=273778,ilevel=322,enchant=${enchants.main_hand}
+profileset."1H_Polished_Lightwood_Channeler_322"+=off_hand=spine_of_the_hissing_abyss,id=268197,ilevel=334
 
-# Season 1 Cantrip Items
-## Sporefall
+profileset."1H_Polished_Lightwood_Channeler_334"+=main_hand=polished_lightwood_channeler,id=273778,ilevel=334,enchant=${enchants.main_hand}
+profileset."1H_Polished_Lightwood_Channeler_334"+=off_hand=spine_of_the_hissing_abyss,id=268197,ilevel=334
 
-## The Voidspire
-profileset."Neck_Eternal_Voidsong_Chain_289"+=neck=eternal_voidsong_chain,id=249368,ilevel=289,gem_id=${gems.peridot}
+profileset."Head_Venomkeepers_Horrific_Cowl_322"+=head=venomkeepers_horrific_cowl,id=271874,ilevel=322,gem_id=${gems.meta},enchant=${enchants.head}
+profileset."Head_Venomkeepers_Horrific_Cowl_344"+=head=venomkeepers_horrific_cowl,id=271874,ilevel=344,gem_id=${gems.meta},enchant=${enchants.head}
 
-## March on Isle of Quel'Danas
-profileset."Finger1_Eye_of_Midnight_289"+=finger1=eye_of_midnight,id=249920,ilevel=289,enchant=${enchants.ring},gem_id=${gems.garnet}/${gems.main}
-profileset."Finger2_Eye_of_Midnight_289"+=finger2=eye_of_midnight,id=249920,ilevel=289,enchant=${enchants.ring},gem_id=${gems.main}/${gems.main}
+profileset."Neck_Aqirbane_Reliquary_322"+=neck=aqirbane_reliquary,id=268265,ilevel=322,gem_id=${gems.peridot}/${gems.main}
+profileset."Neck_Aqirbane_Reliquary_344"+=neck=aqirbane_reliquary,id=268265,ilevel=344,gem_id=${gems.peridot}/${gems.main}
 
-## Nexus-Point Xenas
-profileset."Fingers_Omission_Occlusion_Set_289"+=finger1=occlusion_of_void,id=251217,ilevel=289,enchant=${enchants.ring},gem_id=${gems.garnet}
-profileset."Fingers_Omission_Occlusion_Set_289"+=finger2=omission_of_light,id=251093,ilevel=289,enchant=${enchants.ring},gem_id=${gems.main}
+profileset."1H_Janthrazet_the_Soul_Fang_322"+=main_hand=janthrazet_the_soul_fang,id=271092,ilevel=322,enchant=${enchants.main_hand}
+profileset."1H_Janthrazet_the_Soul_Fang_322"+=off_hand=spine_of_the_hissing_abyss,id=268197,ilevel=334
+profileset."1H_Janthrazet_the_Soul_Fang_344"+=main_hand=janthrazet_the_soul_fang,id=271092,ilevel=344,enchant=${enchants.main_hand}
+profileset."1H_Janthrazet_the_Soul_Fang_344"+=off_hand=spine_of_the_hissing_abyss,id=268197,ilevel=334
 
 # Season 1 Crafted - 331 Item Level
 ## Embellishments
@@ -49,7 +50,6 @@ profileset."Embellishment_Hunters_Ritual_Stone_1"+=feet=${gear.feet},ilevel=331,
 profileset."Embellishment_Snakeskin_Lining_1"+=feet=${gear.feet},ilevel=331,bonus_id=13764
 ### Adorned Fang - 13767
 profileset."Embellishment_Adorned_Fang_1"+=feet=${gear.feet},ilevel=331,bonus_id=13767
-
 ### Polished Ammolite - 13768
 profileset."Embellishment_Polished_Ammolite_1"+=feet=${gear.feet},ilevel=331,bonus_id=13768
 
@@ -117,20 +117,20 @@ profileset."Neck_Voidstone_Shielding_Array_331"+=neck=voidstone_shielding_array,
 profileset."2H_Alnhara_Cane_331"+=main_hand=alnhara_cane,id=245770,ilevel=331,bonus_id=8793,enchant=${enchants.main_hand}
 profileset."2H_Alnhara_Cane_331"+=off_hand=disabled
 
-profileset."OH_Alnhara_Lantern_331"+=main_hand=belomelorn_the_shattered_talon,id=249283,ilevel=289,enchant=${enchants.main_hand}
+profileset."OH_Alnhara_Lantern_331"+=main_hand=hexing_spiritrender,id=268203,ilevel=334,enchant=${enchants.main_hand}
 profileset."OH_Alnhara_Lantern_331"+=off_hand=alnhara_lantern,id=245769,ilevel=331,bonus_id=8793
 
 ### Blood: 12705 | Hunt: 12693 | Rot: 12692 | Void: 13640
-profileset."Embellishment_Darkmoon_Sigil_Blood"+=main_hand=belomelorn_the_shattered_talon,id=249283,ilevel=289,enchant=${enchants.main_hand}
+profileset."Embellishment_Darkmoon_Sigil_Blood"+=main_hand=hexing_spiritrender,id=268203,ilevel=334,enchant=${enchants.main_hand}
 profileset."Embellishment_Darkmoon_Sigil_Blood"+=off_hand=alnhara_lantern,id=245769,ilevel=331,bonus_id=8793/12705
 
-profileset."Embellishment_Darkmoon_Sigil_Hunt"+=main_hand=belomelorn_the_shattered_talon,id=249283,ilevel=289,enchant=${enchants.main_hand}
+profileset."Embellishment_Darkmoon_Sigil_Hunt"+=main_hand=hexing_spiritrender,id=268203,ilevel=334,enchant=${enchants.main_hand}
 profileset."Embellishment_Darkmoon_Sigil_Hunt"+=off_hand=alnhara_lantern,id=245769,ilevel=331,bonus_id=8793/12693
 
-profileset."Embellishment_Darkmoon_Sigil_Rot"+=main_hand=belomelorn_the_shattered_talon,id=249283,ilevel=289,enchant=${enchants.main_hand}
+profileset."Embellishment_Darkmoon_Sigil_Rot"+=main_hand=hexing_spiritrender,id=268203,ilevel=334,enchant=${enchants.main_hand}
 profileset."Embellishment_Darkmoon_Sigil_Rot"+=off_hand=alnhara_lantern,id=245769,ilevel=331,bonus_id=8793/12692
 
-profileset."Embellishment_Darkmoon_Sigil_Void"+=main_hand=belomelorn_the_shattered_talon,id=249283,ilevel=289,enchant=${enchants.main_hand}
+profileset."Embellishment_Darkmoon_Sigil_Void"+=main_hand=hexing_spiritrender,id=268203,ilevel=334,enchant=${enchants.main_hand}
 profileset."Embellishment_Darkmoon_Sigil_Void"+=off_hand=alnhara_lantern,id=245769,ilevel=331,bonus_id=8793/13640
 
 ## Engineering
@@ -138,7 +138,7 @@ profileset."Embellishment_Darkmoon_Sigil_Void"+=off_hand=alnhara_lantern,id=2457
 
 ## Enchanting
 profileset."1H_Magisters_Grand_Focus_331"+=main_hand=magisters_grand_focus,id=244179,ilevel=331,bonus_id=8793,enchant=${enchants.main_hand}
-profileset."1H_Magisters_Grand_Focus_331"+=off_hand=off_hand=tome_of_alnscorned_regret,id=249922,ilevel=289
+profileset."1H_Magisters_Grand_Focus_331"+=off_hand=spine_of_the_hissing_abyss,id=268197,ilevel=334
 
 ## Base Items
 ### 8793 - mastery + haste
