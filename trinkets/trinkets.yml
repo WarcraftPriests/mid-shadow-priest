@@ -1,11 +1,11 @@
 item_levels:
   champion: []
-  hero: [322]
-  raid: [344]
-  delves: [322]
-  dungeons_both: [322, 344]
-  dungeons: [322, 344]
-  crafted: [311]
+  hero: [321]
+  raid: [321, 334]
+  raid_boosted: [321, 344]
+  delves: [321]
+  dungeons: [321, 334]
+  crafted: [331]
   s1_cap: [298]
 dungeons:
   item_levels: "dungeons"
@@ -18,31 +18,22 @@ dungeons:
       item_levels: s1_cap
     - id: 250215
       name: "Freightrunners_Flask"
-      item_levels: dungeons_both
     - id: 250214
       name: "Lightspire_Core"
-      item_levels: dungeons_both
     - id: 250259
       name: "Sapling_of_the_Dawnroot"
-      item_levels: dungeons_both
     - id: 250224
       name: "Mindpiercers_Sigil"
-      item_levels: dungeons_both
     - id: 273794
       name: "Knot_of_Writhing_Serpents"
-      item_levels: dungeons_both
     - id: 273796
       name: "Vile_Vial_of_Volatile_Venom"
-      item_levels: dungeons_both
     - id: 193757
       name: "Ruby_Whelp_Shell"
-      item_levels: dungeons_both
     - id: 158368
       name: "Sethraliss_Defiled_Relic"
-      item_levels: dungeons_both
     - id: 273649
       name: "Stormbound_Emblem_of_Dazar"
-      item_levels: dungeons_both
 other:
   item_levels: "champion"
   trinkets:
@@ -137,8 +128,10 @@ raid:
       name: "Vexhuls_Everflowing_Gland"
     - id: 270169
       name: "Hex_Lords_Dooming_Idol"
+      item_levels: raid_boosted
     - id: 270168
       name: "Font_of_Venomous_Rage"
+      item_levels: raid_boosted
     - id: 270167
       name: "Wavecallers_Seastone"
     - id: 249343

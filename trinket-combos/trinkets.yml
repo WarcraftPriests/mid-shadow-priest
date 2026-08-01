@@ -3,55 +3,55 @@
 combos:
   Freightrunners_Flask:
     id: 250215
-    ilevels: [344]
+    ilevels: [334]
   Lightspire_Core:
     id: 250214
-    ilevels: [344]
+    ilevels: [334]
   Sapling_of_the_Dawnroot:
     id: 250259
-    ilevels: [344]
+    ilevels: [334]
   Mindpiercers_Sigil:
     id: 250224
-    ilevels: [344]
+    ilevels: [334]
   Knot_of_Writhing_Serpents:
     id: 273794
-    ilevels: [344]
+    ilevels: [334]
   Vile_Vial_of_Volatile_Venom:
     id: 273796
-    ilevels: [344]
+    ilevels: [334]
   Ruby_Whelp_Shell:
     id: 193757
-    ilevels: [344]
+    ilevels: [334]
   Sethraliss_Defiled_Relic:
     id: 158368
-    ilevels: [344]
+    ilevels: [334]
   Stormbound_Emblem_of_Dazar:
     id: 273649
-    ilevels: [344]
+    ilevels: [334]
   Glorious_Crusaders_Keepsake:
     id: 251792
-    ilevels: [322]
+    ilevels: [321]
   Drum_of_Renewed_Bonds:
     id: 248583
-    ilevels: [322]
+    ilevels: [321]
   Ever_Collapsing_Void_Fissure:
     id: 251786
-    ilevels: [322]
+    ilevels: [321]
   Lost_Idol_of_the_Hashey:
     id: 251783
-    ilevels: [322]
+    ilevels: [321]
   Void_Reapers_Libram:
     id: 251785
-    ilevels: [322]
+    ilevels: [321]
   Gebbos_Bottomless_Bag:
     id: 270164
-    ilevels: [344]
+    ilevels: [334]
   Fang_of_Umbral_Malignance:
     id: 270161
-    ilevels: [344]
+    ilevels: [334]
   Vexhuls_Everflowing_Gland:
     id: 270170
-    ilevels: [344]
+    ilevels: [334]
   Hex_Lords_Dooming_Idol:
     id: 270169
     ilevels: [344]
@@ -60,4 +60,4 @@ combos:
     ilevels: [344]
   Wavecallers_Seastone:
     id: 270167
-    ilevels: [344]
+    ilevels: [334]
