@@ -57,8 +57,8 @@ profileset."Potion_of_Recklessness_2"+=potion=potion_of_recklessness_2
 profileset."Potion_of_Zealotry_1"+=potion=potion_of_zealotry_1
 profileset."Potion_of_Zealotry_2"+=potion=potion_of_zealotry_2
 
-# profileset."Liquid_Luster_1"+=potion=liquid_luster_1
-# profileset."Liquid_Luster_2"+=potion=liquid_luster_2
+profileset."Liquid_Luster_1"+=potion=liquid_luster_1
+profileset."Liquid_Luster_2"+=potion=liquid_luster_2
 
 profileset."Alluring_Nostrum_1"+=potion=alluring_nostrum_1
 profileset."Alluring_Nostrum_2"+=potion=alluring_nostrum_2

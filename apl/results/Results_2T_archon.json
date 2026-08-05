@@ -1,1 +1,1 @@
-{"name": "2T - archon", "data": {"new": {"DPS": 333718}, "Base": {"DPS": 333422}}, "ids": {"new": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new"], "last_updated": "2026-07-23"}
+{"name": "2T - archon", "data": {"Base": {"DPS": 378898}, "mind_blast": {"DPS": 378650}}, "ids": {"mind_blast": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["mind_blast"], "last_updated": "2026-08-02"}

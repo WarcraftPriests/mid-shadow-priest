@@ -1,1 +1,1 @@
-{"name": "2T - voidweaver", "data": {"Base": {"DPS": 327407}, "new": {"DPS": 326738}}, "ids": {"new": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new"], "last_updated": "2026-07-23"}
+{"name": "2T - voidweaver", "data": {"Base": {"DPS": 380941}, "mind_blast": {"DPS": 380704}}, "ids": {"mind_blast": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["mind_blast"], "last_updated": "2026-08-02"}

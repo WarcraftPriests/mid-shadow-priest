@@ -1,1 +1,1 @@
-{"name": "Composite - archon", "data": {"new": {"DPS": 226218}, "Base": {"DPS": 225574}}, "ids": {"new": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new"], "last_updated": "2026-07-23"}
+{"name": "Composite - archon", "data": {"Base": {"DPS": 258143}, "mind_blast": {"DPS": 257886}}, "ids": {"mind_blast": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["mind_blast"], "last_updated": "2026-08-02"}

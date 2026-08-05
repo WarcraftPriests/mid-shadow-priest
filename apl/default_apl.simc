@@ -7,6 +7,7 @@ actions.precombat+=/variable,name=me_force_prio,default=0,op=reset
 actions.precombat+=/variable,name=max_vts,default=12,op=reset
 actions.precombat+=/variable,name=is_vt_possible,default=0,op=reset
 actions.precombat+=/arcane_torrent
+actions.precombat+=/mind_blast,if=set_bonus.mid2_4pc
 actions.precombat+=/tentacle_slam
 
 # Executed every time the actor is available.

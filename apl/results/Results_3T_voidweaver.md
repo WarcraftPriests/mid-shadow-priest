@@ -1,5 +1,5 @@
 # 3T - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new|358655|0.31%|
-|Base|357540|0.00%|
+|Base|415723|0.00%|
+|mind_blast|415139|-0.14%|

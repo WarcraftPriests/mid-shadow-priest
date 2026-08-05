@@ -1,5 +1,5 @@
 # Composite - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new|226218|0.29%|
-|Base|225574|0.00%|
+|Base|258143|0.00%|
+|mind_blast|257886|-0.10%|
