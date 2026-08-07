@@ -37,8 +37,13 @@ profileset."Freightrunners_Flask_334-Knot_of_Writhing_Serpents_334"+=trinket2=kn
 profileset."Freightrunners_Flask_334-Vile_Vial_of_Volatile_Venom_334"+=trinket1=freightrunners_flask,id=250215,ilevel=334
 profileset."Freightrunners_Flask_334-Vile_Vial_of_Volatile_Venom_334"+=trinket2=vile_vial_of_volatile_venom,id=273796,ilevel=334
 
-profileset."Freightrunners_Flask_334-Ruby_Whelp_Shell_334"+=trinket1=freightrunners_flask,id=250215,ilevel=334
-profileset."Freightrunners_Flask_334-Ruby_Whelp_Shell_334"+=trinket2=ruby_whelp_shell,id=193757,ilevel=334
+profileset."Freightrunners_Flask_334-Ruby_Whelp_Shell_SRW6_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Freightrunners_Flask_334-Ruby_Whelp_Shell_SRW6_334"+=trinket1=freightrunners_flask,id=250215,ilevel=334
+profileset."Freightrunners_Flask_334-Ruby_Whelp_Shell_SRW6_334"+=trinket2=ruby_whelp_shell_srw6,id=193757,ilevel=334
+
+profileset."Freightrunners_Flask_334-Ruby_Whelp_Shell_URW6_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Freightrunners_Flask_334-Ruby_Whelp_Shell_URW6_334"+=trinket1=freightrunners_flask,id=250215,ilevel=334
+profileset."Freightrunners_Flask_334-Ruby_Whelp_Shell_URW6_334"+=trinket2=ruby_whelp_shell_urw6,id=193757,ilevel=334
 
 profileset."Freightrunners_Flask_334-Sethraliss_Defiled_Relic_334"+=trinket1=freightrunners_flask,id=250215,ilevel=334
 profileset."Freightrunners_Flask_334-Sethraliss_Defiled_Relic_334"+=trinket2=sethraliss_defiled_relic,id=158368,ilevel=334
@@ -91,8 +96,13 @@ profileset."Lightspire_Core_334-Knot_of_Writhing_Serpents_334"+=trinket2=knot_of
 profileset."Lightspire_Core_334-Vile_Vial_of_Volatile_Venom_334"+=trinket1=lightspire_core,id=250214,ilevel=334
 profileset."Lightspire_Core_334-Vile_Vial_of_Volatile_Venom_334"+=trinket2=vile_vial_of_volatile_venom,id=273796,ilevel=334
 
-profileset."Lightspire_Core_334-Ruby_Whelp_Shell_334"+=trinket1=lightspire_core,id=250214,ilevel=334
-profileset."Lightspire_Core_334-Ruby_Whelp_Shell_334"+=trinket2=ruby_whelp_shell,id=193757,ilevel=334
+profileset."Lightspire_Core_334-Ruby_Whelp_Shell_SRW6_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Lightspire_Core_334-Ruby_Whelp_Shell_SRW6_334"+=trinket1=lightspire_core,id=250214,ilevel=334
+profileset."Lightspire_Core_334-Ruby_Whelp_Shell_SRW6_334"+=trinket2=ruby_whelp_shell_srw6,id=193757,ilevel=334
+
+profileset."Lightspire_Core_334-Ruby_Whelp_Shell_URW6_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Lightspire_Core_334-Ruby_Whelp_Shell_URW6_334"+=trinket1=lightspire_core,id=250214,ilevel=334
+profileset."Lightspire_Core_334-Ruby_Whelp_Shell_URW6_334"+=trinket2=ruby_whelp_shell_urw6,id=193757,ilevel=334
 
 profileset."Lightspire_Core_334-Sethraliss_Defiled_Relic_334"+=trinket1=lightspire_core,id=250214,ilevel=334
 profileset."Lightspire_Core_334-Sethraliss_Defiled_Relic_334"+=trinket2=sethraliss_defiled_relic,id=158368,ilevel=334
@@ -142,8 +152,13 @@ profileset."Sapling_of_the_Dawnroot_334-Knot_of_Writhing_Serpents_334"+=trinket2
 profileset."Sapling_of_the_Dawnroot_334-Vile_Vial_of_Volatile_Venom_334"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
 profileset."Sapling_of_the_Dawnroot_334-Vile_Vial_of_Volatile_Venom_334"+=trinket2=vile_vial_of_volatile_venom,id=273796,ilevel=334
 
-profileset."Sapling_of_the_Dawnroot_334-Ruby_Whelp_Shell_334"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
-profileset."Sapling_of_the_Dawnroot_334-Ruby_Whelp_Shell_334"+=trinket2=ruby_whelp_shell,id=193757,ilevel=334
+profileset."Sapling_of_the_Dawnroot_334-Ruby_Whelp_Shell_SRW6_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Sapling_of_the_Dawnroot_334-Ruby_Whelp_Shell_SRW6_334"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
+profileset."Sapling_of_the_Dawnroot_334-Ruby_Whelp_Shell_SRW6_334"+=trinket2=ruby_whelp_shell_srw6,id=193757,ilevel=334
+
+profileset."Sapling_of_the_Dawnroot_334-Ruby_Whelp_Shell_URW6_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Sapling_of_the_Dawnroot_334-Ruby_Whelp_Shell_URW6_334"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
+profileset."Sapling_of_the_Dawnroot_334-Ruby_Whelp_Shell_URW6_334"+=trinket2=ruby_whelp_shell_urw6,id=193757,ilevel=334
 
 profileset."Sapling_of_the_Dawnroot_334-Sethraliss_Defiled_Relic_334"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
 profileset."Sapling_of_the_Dawnroot_334-Sethraliss_Defiled_Relic_334"+=trinket2=sethraliss_defiled_relic,id=158368,ilevel=334
@@ -190,8 +205,13 @@ profileset."Mindpiercers_Sigil_334-Knot_of_Writhing_Serpents_334"+=trinket2=knot
 profileset."Mindpiercers_Sigil_334-Vile_Vial_of_Volatile_Venom_334"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
 profileset."Mindpiercers_Sigil_334-Vile_Vial_of_Volatile_Venom_334"+=trinket2=vile_vial_of_volatile_venom,id=273796,ilevel=334
 
-profileset."Mindpiercers_Sigil_334-Ruby_Whelp_Shell_334"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
-profileset."Mindpiercers_Sigil_334-Ruby_Whelp_Shell_334"+=trinket2=ruby_whelp_shell,id=193757,ilevel=334
+profileset."Mindpiercers_Sigil_334-Ruby_Whelp_Shell_SRW6_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Mindpiercers_Sigil_334-Ruby_Whelp_Shell_SRW6_334"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
+profileset."Mindpiercers_Sigil_334-Ruby_Whelp_Shell_SRW6_334"+=trinket2=ruby_whelp_shell_srw6,id=193757,ilevel=334
+
+profileset."Mindpiercers_Sigil_334-Ruby_Whelp_Shell_URW6_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Mindpiercers_Sigil_334-Ruby_Whelp_Shell_URW6_334"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
+profileset."Mindpiercers_Sigil_334-Ruby_Whelp_Shell_URW6_334"+=trinket2=ruby_whelp_shell_urw6,id=193757,ilevel=334
 
 profileset."Mindpiercers_Sigil_334-Sethraliss_Defiled_Relic_334"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
 profileset."Mindpiercers_Sigil_334-Sethraliss_Defiled_Relic_334"+=trinket2=sethraliss_defiled_relic,id=158368,ilevel=334
@@ -235,8 +255,13 @@ profileset."Mindpiercers_Sigil_334-Wavecallers_Seastone_334"+=trinket2=wavecalle
 profileset."Knot_of_Writhing_Serpents_334-Vile_Vial_of_Volatile_Venom_334"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
 profileset."Knot_of_Writhing_Serpents_334-Vile_Vial_of_Volatile_Venom_334"+=trinket2=vile_vial_of_volatile_venom,id=273796,ilevel=334
 
-profileset."Knot_of_Writhing_Serpents_334-Ruby_Whelp_Shell_334"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
-profileset."Knot_of_Writhing_Serpents_334-Ruby_Whelp_Shell_334"+=trinket2=ruby_whelp_shell,id=193757,ilevel=334
+profileset."Knot_of_Writhing_Serpents_334-Ruby_Whelp_Shell_SRW6_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Knot_of_Writhing_Serpents_334-Ruby_Whelp_Shell_SRW6_334"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
+profileset."Knot_of_Writhing_Serpents_334-Ruby_Whelp_Shell_SRW6_334"+=trinket2=ruby_whelp_shell_srw6,id=193757,ilevel=334
+
+profileset."Knot_of_Writhing_Serpents_334-Ruby_Whelp_Shell_URW6_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Knot_of_Writhing_Serpents_334-Ruby_Whelp_Shell_URW6_334"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
+profileset."Knot_of_Writhing_Serpents_334-Ruby_Whelp_Shell_URW6_334"+=trinket2=ruby_whelp_shell_urw6,id=193757,ilevel=334
 
 profileset."Knot_of_Writhing_Serpents_334-Sethraliss_Defiled_Relic_334"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
 profileset."Knot_of_Writhing_Serpents_334-Sethraliss_Defiled_Relic_334"+=trinket2=sethraliss_defiled_relic,id=158368,ilevel=334
@@ -277,8 +302,13 @@ profileset."Knot_of_Writhing_Serpents_334-Font_of_Venomous_Rage_344"+=trinket2=f
 profileset."Knot_of_Writhing_Serpents_334-Wavecallers_Seastone_334"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
 profileset."Knot_of_Writhing_Serpents_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
-profileset."Vile_Vial_of_Volatile_Venom_334-Ruby_Whelp_Shell_334"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
-profileset."Vile_Vial_of_Volatile_Venom_334-Ruby_Whelp_Shell_334"+=trinket2=ruby_whelp_shell,id=193757,ilevel=334
+profileset."Vile_Vial_of_Volatile_Venom_334-Ruby_Whelp_Shell_SRW6_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Vile_Vial_of_Volatile_Venom_334-Ruby_Whelp_Shell_SRW6_334"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
+profileset."Vile_Vial_of_Volatile_Venom_334-Ruby_Whelp_Shell_SRW6_334"+=trinket2=ruby_whelp_shell_srw6,id=193757,ilevel=334
+
+profileset."Vile_Vial_of_Volatile_Venom_334-Ruby_Whelp_Shell_URW6_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Vile_Vial_of_Volatile_Venom_334-Ruby_Whelp_Shell_URW6_334"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
+profileset."Vile_Vial_of_Volatile_Venom_334-Ruby_Whelp_Shell_URW6_334"+=trinket2=ruby_whelp_shell_urw6,id=193757,ilevel=334
 
 profileset."Vile_Vial_of_Volatile_Venom_334-Sethraliss_Defiled_Relic_334"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
 profileset."Vile_Vial_of_Volatile_Venom_334-Sethraliss_Defiled_Relic_334"+=trinket2=sethraliss_defiled_relic,id=158368,ilevel=334
@@ -319,44 +349,109 @@ profileset."Vile_Vial_of_Volatile_Venom_334-Font_of_Venomous_Rage_344"+=trinket2
 profileset."Vile_Vial_of_Volatile_Venom_334-Wavecallers_Seastone_334"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
 profileset."Vile_Vial_of_Volatile_Venom_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
-profileset."Ruby_Whelp_Shell_334-Sethraliss_Defiled_Relic_334"+=trinket1=ruby_whelp_shell,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_334-Sethraliss_Defiled_Relic_334"+=trinket2=sethraliss_defiled_relic,id=158368,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Sethraliss_Defiled_Relic_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Sethraliss_Defiled_Relic_334"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Sethraliss_Defiled_Relic_334"+=trinket2=sethraliss_defiled_relic,id=158368,ilevel=334
 
-profileset."Ruby_Whelp_Shell_334-Stormbound_Emblem_of_Dazar_334"+=trinket1=ruby_whelp_shell,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_334-Stormbound_Emblem_of_Dazar_334"+=trinket2=stormbound_emblem_of_dazar,id=273649,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Stormbound_Emblem_of_Dazar_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Stormbound_Emblem_of_Dazar_334"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Stormbound_Emblem_of_Dazar_334"+=trinket2=stormbound_emblem_of_dazar,id=273649,ilevel=334
 
-profileset."Ruby_Whelp_Shell_334-Glorious_Crusaders_Keepsake_321"+=trinket1=ruby_whelp_shell,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_334-Glorious_Crusaders_Keepsake_321"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=321
+profileset."Ruby_Whelp_Shell_SRW6_334-Glorious_Crusaders_Keepsake_321"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Glorious_Crusaders_Keepsake_321"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Glorious_Crusaders_Keepsake_321"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=321
 
-profileset."Ruby_Whelp_Shell_334-Drum_of_Renewed_Bonds_321"+=trinket1=ruby_whelp_shell,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_334-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
+profileset."Ruby_Whelp_Shell_SRW6_334-Drum_of_Renewed_Bonds_321"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Drum_of_Renewed_Bonds_321"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
 
-profileset."Ruby_Whelp_Shell_334-Ever_Collapsing_Void_Fissure_321"+=trinket1=ruby_whelp_shell,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_334-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
+profileset."Ruby_Whelp_Shell_SRW6_334-Ever_Collapsing_Void_Fissure_321"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Ever_Collapsing_Void_Fissure_321"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
 
-profileset."Ruby_Whelp_Shell_334-Lost_Idol_of_the_Hashey_321"+=trinket1=ruby_whelp_shell,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_334-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
+profileset."Ruby_Whelp_Shell_SRW6_334-Lost_Idol_of_the_Hashey_321"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Lost_Idol_of_the_Hashey_321"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
 
-profileset."Ruby_Whelp_Shell_334-Void_Reapers_Libram_321"+=trinket1=ruby_whelp_shell,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_334-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
+profileset."Ruby_Whelp_Shell_SRW6_334-Void_Reapers_Libram_321"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Void_Reapers_Libram_321"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
 
-profileset."Ruby_Whelp_Shell_334-Gebbos_Bottomless_Bag_334"+=trinket1=ruby_whelp_shell,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_334-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Gebbos_Bottomless_Bag_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Gebbos_Bottomless_Bag_334"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
 
-profileset."Ruby_Whelp_Shell_334-Fang_of_Umbral_Malignance_334"+=trinket1=ruby_whelp_shell,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_334-Fang_of_Umbral_Malignance_334"+=trinket2=fang_of_umbral_malignance,id=270161,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Fang_of_Umbral_Malignance_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Fang_of_Umbral_Malignance_334"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Fang_of_Umbral_Malignance_334"+=trinket2=fang_of_umbral_malignance,id=270161,ilevel=334
 
-profileset."Ruby_Whelp_Shell_334-Vexhuls_Everflowing_Gland_334"+=trinket1=ruby_whelp_shell,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_334-Vexhuls_Everflowing_Gland_334"+=trinket2=vexhuls_everflowing_gland,id=270170,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Vexhuls_Everflowing_Gland_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Vexhuls_Everflowing_Gland_334"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Vexhuls_Everflowing_Gland_334"+=trinket2=vexhuls_everflowing_gland,id=270170,ilevel=334
 
-profileset."Ruby_Whelp_Shell_334-Hex_Lords_Dooming_Idol_344"+=trinket1=ruby_whelp_shell,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_334-Hex_Lords_Dooming_Idol_344"+=trinket2=hex_lords_dooming_idol,id=270169,ilevel=344
+profileset."Ruby_Whelp_Shell_SRW6_334-Hex_Lords_Dooming_Idol_344"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Hex_Lords_Dooming_Idol_344"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Hex_Lords_Dooming_Idol_344"+=trinket2=hex_lords_dooming_idol,id=270169,ilevel=344
 
-profileset."Ruby_Whelp_Shell_334-Font_of_Venomous_Rage_344"+=trinket1=ruby_whelp_shell,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_334-Font_of_Venomous_Rage_344"+=trinket2=font_of_venomous_rage,id=270168,ilevel=344
+profileset."Ruby_Whelp_Shell_SRW6_334-Font_of_Venomous_Rage_344"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Font_of_Venomous_Rage_344"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Font_of_Venomous_Rage_344"+=trinket2=font_of_venomous_rage,id=270168,ilevel=344
 
-profileset."Ruby_Whelp_Shell_334-Wavecallers_Seastone_334"+=trinket1=ruby_whelp_shell,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Wavecallers_Seastone_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Wavecallers_Seastone_334"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
+
+profileset."Ruby_Whelp_Shell_URW6_334-Sethraliss_Defiled_Relic_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Sethraliss_Defiled_Relic_334"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Sethraliss_Defiled_Relic_334"+=trinket2=sethraliss_defiled_relic,id=158368,ilevel=334
+
+profileset."Ruby_Whelp_Shell_URW6_334-Stormbound_Emblem_of_Dazar_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Stormbound_Emblem_of_Dazar_334"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Stormbound_Emblem_of_Dazar_334"+=trinket2=stormbound_emblem_of_dazar,id=273649,ilevel=334
+
+profileset."Ruby_Whelp_Shell_URW6_334-Glorious_Crusaders_Keepsake_321"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Glorious_Crusaders_Keepsake_321"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Glorious_Crusaders_Keepsake_321"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=321
+
+profileset."Ruby_Whelp_Shell_URW6_334-Drum_of_Renewed_Bonds_321"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Drum_of_Renewed_Bonds_321"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
+
+profileset."Ruby_Whelp_Shell_URW6_334-Ever_Collapsing_Void_Fissure_321"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Ever_Collapsing_Void_Fissure_321"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
+
+profileset."Ruby_Whelp_Shell_URW6_334-Lost_Idol_of_the_Hashey_321"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Lost_Idol_of_the_Hashey_321"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
+
+profileset."Ruby_Whelp_Shell_URW6_334-Void_Reapers_Libram_321"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Void_Reapers_Libram_321"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
+
+profileset."Ruby_Whelp_Shell_URW6_334-Gebbos_Bottomless_Bag_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Gebbos_Bottomless_Bag_334"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
+
+profileset."Ruby_Whelp_Shell_URW6_334-Fang_of_Umbral_Malignance_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Fang_of_Umbral_Malignance_334"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Fang_of_Umbral_Malignance_334"+=trinket2=fang_of_umbral_malignance,id=270161,ilevel=334
+
+profileset."Ruby_Whelp_Shell_URW6_334-Vexhuls_Everflowing_Gland_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Vexhuls_Everflowing_Gland_334"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Vexhuls_Everflowing_Gland_334"+=trinket2=vexhuls_everflowing_gland,id=270170,ilevel=334
+
+profileset."Ruby_Whelp_Shell_URW6_334-Hex_Lords_Dooming_Idol_344"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Hex_Lords_Dooming_Idol_344"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Hex_Lords_Dooming_Idol_344"+=trinket2=hex_lords_dooming_idol,id=270169,ilevel=344
+
+profileset."Ruby_Whelp_Shell_URW6_334-Font_of_Venomous_Rage_344"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Font_of_Venomous_Rage_344"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Font_of_Venomous_Rage_344"+=trinket2=font_of_venomous_rage,id=270168,ilevel=344
+
+profileset."Ruby_Whelp_Shell_URW6_334-Wavecallers_Seastone_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Wavecallers_Seastone_334"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
 profileset."Sethraliss_Defiled_Relic_334-Stormbound_Emblem_of_Dazar_334"+=trinket1=sethraliss_defiled_relic,id=158368,ilevel=334
 profileset."Sethraliss_Defiled_Relic_334-Stormbound_Emblem_of_Dazar_334"+=trinket2=stormbound_emblem_of_dazar,id=273649,ilevel=334

@@ -30,6 +30,15 @@ dungeons:
       name: "Vile_Vial_of_Volatile_Venom"
     - id: 193757
       name: "Ruby_Whelp_Shell"
+      option:
+        - name: "FS6"
+          value: "dragonflight.ruby_whelp_shell_training=fire_shot:6"
+        - name: "LFN6"
+          value: "dragonflight.ruby_whelp_shell_training=lobbing_fire_nova:6"
+        - name: "SRW6"
+          value: "dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6"
+        - name: "URW6"
+          value: "dragonflight.ruby_whelp_shell_training=under_red_wings:6"
     - id: 158368
       name: "Sethraliss_Defiled_Relic"
     - id: 273649

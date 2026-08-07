@@ -112,6 +112,12 @@ def build_simc_string(trinkets):
             if "Unbound_Changeling" in trinket:
                 stat_type = trinket.split("_")[2].lower()
                 result += f'profileset."{profileset_name}"+=shadowlands.unbound_changeling_stat_type={stat_type}\n'
+            # Dragonflight options
+            if "Ruby_Whelp_Shell" in trinket:
+                if trinket.endswith("_SRW6_334"):
+                    result += f'profileset."{profileset_name}"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6\n'
+                elif trinket.endswith("_URW6_334"):
+                    result += f'profileset."{profileset_name}"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6\n'
         result += f'profileset."{profileset_name}"+=trinket1={trinket_one_value}\n'
         result += f'profileset."{profileset_name}"+=trinket2={trinket_two_value}\n\n'
     return result

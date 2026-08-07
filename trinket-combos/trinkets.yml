@@ -19,7 +19,10 @@ combos:
   Vile_Vial_of_Volatile_Venom:
     id: 273796
     ilevels: [334]
-  Ruby_Whelp_Shell:
+  Ruby_Whelp_Shell_SRW6:
+    id: 193757
+    ilevels: [334]
+  Ruby_Whelp_Shell_URW6:
     id: 193757
     ilevels: [334]
   Sethraliss_Defiled_Relic:
