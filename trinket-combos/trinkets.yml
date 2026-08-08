@@ -31,21 +31,6 @@ combos:
   Stormbound_Emblem_of_Dazar:
     id: 273649
     ilevels: [334]
-  Glorious_Crusaders_Keepsake:
-    id: 251792
-    ilevels: [321]
-  Drum_of_Renewed_Bonds:
-    id: 248583
-    ilevels: [321]
-  Ever_Collapsing_Void_Fissure:
-    id: 251786
-    ilevels: [321]
-  Lost_Idol_of_the_Hashey:
-    id: 251783
-    ilevels: [321]
-  Void_Reapers_Libram:
-    id: 251785
-    ilevels: [321]
   Gebbos_Bottomless_Bag:
     id: 270164
     ilevels: [334]
@@ -64,3 +49,9 @@ combos:
   Wavecallers_Seastone:
     id: 270167
     ilevels: [334]
+  Vaelgors_Final_Stare:
+    id: 249346
+    ilevels: [298]
+  Gaze_of_the_Alnseer:
+    id: 249343
+    ilevels: [298]

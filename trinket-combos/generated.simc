@@ -51,21 +51,6 @@ profileset."Freightrunners_Flask_334-Sethraliss_Defiled_Relic_334"+=trinket2=set
 profileset."Freightrunners_Flask_334-Stormbound_Emblem_of_Dazar_334"+=trinket1=freightrunners_flask,id=250215,ilevel=334
 profileset."Freightrunners_Flask_334-Stormbound_Emblem_of_Dazar_334"+=trinket2=stormbound_emblem_of_dazar,id=273649,ilevel=334
 
-profileset."Freightrunners_Flask_334-Glorious_Crusaders_Keepsake_321"+=trinket1=freightrunners_flask,id=250215,ilevel=334
-profileset."Freightrunners_Flask_334-Glorious_Crusaders_Keepsake_321"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=321
-
-profileset."Freightrunners_Flask_334-Drum_of_Renewed_Bonds_321"+=trinket1=freightrunners_flask,id=250215,ilevel=334
-profileset."Freightrunners_Flask_334-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
-
-profileset."Freightrunners_Flask_334-Ever_Collapsing_Void_Fissure_321"+=trinket1=freightrunners_flask,id=250215,ilevel=334
-profileset."Freightrunners_Flask_334-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
-
-profileset."Freightrunners_Flask_334-Lost_Idol_of_the_Hashey_321"+=trinket1=freightrunners_flask,id=250215,ilevel=334
-profileset."Freightrunners_Flask_334-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
-
-profileset."Freightrunners_Flask_334-Void_Reapers_Libram_321"+=trinket1=freightrunners_flask,id=250215,ilevel=334
-profileset."Freightrunners_Flask_334-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
-
 profileset."Freightrunners_Flask_334-Gebbos_Bottomless_Bag_334"+=trinket1=freightrunners_flask,id=250215,ilevel=334
 profileset."Freightrunners_Flask_334-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
 
@@ -83,6 +68,12 @@ profileset."Freightrunners_Flask_334-Font_of_Venomous_Rage_344"+=trinket2=font_o
 
 profileset."Freightrunners_Flask_334-Wavecallers_Seastone_334"+=trinket1=freightrunners_flask,id=250215,ilevel=334
 profileset."Freightrunners_Flask_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
+
+profileset."Freightrunners_Flask_334-Vaelgors_Final_Stare_298"+=trinket1=freightrunners_flask,id=250215,ilevel=334
+profileset."Freightrunners_Flask_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Freightrunners_Flask_334-Gaze_of_the_Alnseer_298"+=trinket1=freightrunners_flask,id=250215,ilevel=334
+profileset."Freightrunners_Flask_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
 
 profileset."Lightspire_Core_334-Sapling_of_the_Dawnroot_334"+=trinket1=lightspire_core,id=250214,ilevel=334
 profileset."Lightspire_Core_334-Sapling_of_the_Dawnroot_334"+=trinket2=sapling_of_the_dawnroot,id=250259,ilevel=334
@@ -110,21 +101,6 @@ profileset."Lightspire_Core_334-Sethraliss_Defiled_Relic_334"+=trinket2=sethrali
 profileset."Lightspire_Core_334-Stormbound_Emblem_of_Dazar_334"+=trinket1=lightspire_core,id=250214,ilevel=334
 profileset."Lightspire_Core_334-Stormbound_Emblem_of_Dazar_334"+=trinket2=stormbound_emblem_of_dazar,id=273649,ilevel=334
 
-profileset."Lightspire_Core_334-Glorious_Crusaders_Keepsake_321"+=trinket1=lightspire_core,id=250214,ilevel=334
-profileset."Lightspire_Core_334-Glorious_Crusaders_Keepsake_321"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=321
-
-profileset."Lightspire_Core_334-Drum_of_Renewed_Bonds_321"+=trinket1=lightspire_core,id=250214,ilevel=334
-profileset."Lightspire_Core_334-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
-
-profileset."Lightspire_Core_334-Ever_Collapsing_Void_Fissure_321"+=trinket1=lightspire_core,id=250214,ilevel=334
-profileset."Lightspire_Core_334-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
-
-profileset."Lightspire_Core_334-Lost_Idol_of_the_Hashey_321"+=trinket1=lightspire_core,id=250214,ilevel=334
-profileset."Lightspire_Core_334-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
-
-profileset."Lightspire_Core_334-Void_Reapers_Libram_321"+=trinket1=lightspire_core,id=250214,ilevel=334
-profileset."Lightspire_Core_334-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
-
 profileset."Lightspire_Core_334-Gebbos_Bottomless_Bag_334"+=trinket1=lightspire_core,id=250214,ilevel=334
 profileset."Lightspire_Core_334-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
 
@@ -142,6 +118,12 @@ profileset."Lightspire_Core_334-Font_of_Venomous_Rage_344"+=trinket2=font_of_ven
 
 profileset."Lightspire_Core_334-Wavecallers_Seastone_334"+=trinket1=lightspire_core,id=250214,ilevel=334
 profileset."Lightspire_Core_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
+
+profileset."Lightspire_Core_334-Vaelgors_Final_Stare_298"+=trinket1=lightspire_core,id=250214,ilevel=334
+profileset."Lightspire_Core_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Lightspire_Core_334-Gaze_of_the_Alnseer_298"+=trinket1=lightspire_core,id=250214,ilevel=334
+profileset."Lightspire_Core_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
 
 profileset."Sapling_of_the_Dawnroot_334-Mindpiercers_Sigil_334"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
 profileset."Sapling_of_the_Dawnroot_334-Mindpiercers_Sigil_334"+=trinket2=mindpiercers_sigil,id=250224,ilevel=334
@@ -166,21 +148,6 @@ profileset."Sapling_of_the_Dawnroot_334-Sethraliss_Defiled_Relic_334"+=trinket2=
 profileset."Sapling_of_the_Dawnroot_334-Stormbound_Emblem_of_Dazar_334"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
 profileset."Sapling_of_the_Dawnroot_334-Stormbound_Emblem_of_Dazar_334"+=trinket2=stormbound_emblem_of_dazar,id=273649,ilevel=334
 
-profileset."Sapling_of_the_Dawnroot_334-Glorious_Crusaders_Keepsake_321"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
-profileset."Sapling_of_the_Dawnroot_334-Glorious_Crusaders_Keepsake_321"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=321
-
-profileset."Sapling_of_the_Dawnroot_334-Drum_of_Renewed_Bonds_321"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
-profileset."Sapling_of_the_Dawnroot_334-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
-
-profileset."Sapling_of_the_Dawnroot_334-Ever_Collapsing_Void_Fissure_321"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
-profileset."Sapling_of_the_Dawnroot_334-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
-
-profileset."Sapling_of_the_Dawnroot_334-Lost_Idol_of_the_Hashey_321"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
-profileset."Sapling_of_the_Dawnroot_334-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
-
-profileset."Sapling_of_the_Dawnroot_334-Void_Reapers_Libram_321"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
-profileset."Sapling_of_the_Dawnroot_334-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
-
 profileset."Sapling_of_the_Dawnroot_334-Gebbos_Bottomless_Bag_334"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
 profileset."Sapling_of_the_Dawnroot_334-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
 
@@ -198,6 +165,12 @@ profileset."Sapling_of_the_Dawnroot_334-Font_of_Venomous_Rage_344"+=trinket2=fon
 
 profileset."Sapling_of_the_Dawnroot_334-Wavecallers_Seastone_334"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
 profileset."Sapling_of_the_Dawnroot_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
+
+profileset."Sapling_of_the_Dawnroot_334-Vaelgors_Final_Stare_298"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
+profileset."Sapling_of_the_Dawnroot_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Sapling_of_the_Dawnroot_334-Gaze_of_the_Alnseer_298"+=trinket1=sapling_of_the_dawnroot,id=250259,ilevel=334
+profileset."Sapling_of_the_Dawnroot_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
 
 profileset."Mindpiercers_Sigil_334-Knot_of_Writhing_Serpents_334"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
 profileset."Mindpiercers_Sigil_334-Knot_of_Writhing_Serpents_334"+=trinket2=knot_of_writhing_serpents,id=273794,ilevel=334
@@ -219,21 +192,6 @@ profileset."Mindpiercers_Sigil_334-Sethraliss_Defiled_Relic_334"+=trinket2=sethr
 profileset."Mindpiercers_Sigil_334-Stormbound_Emblem_of_Dazar_334"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
 profileset."Mindpiercers_Sigil_334-Stormbound_Emblem_of_Dazar_334"+=trinket2=stormbound_emblem_of_dazar,id=273649,ilevel=334
 
-profileset."Mindpiercers_Sigil_334-Glorious_Crusaders_Keepsake_321"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
-profileset."Mindpiercers_Sigil_334-Glorious_Crusaders_Keepsake_321"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=321
-
-profileset."Mindpiercers_Sigil_334-Drum_of_Renewed_Bonds_321"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
-profileset."Mindpiercers_Sigil_334-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
-
-profileset."Mindpiercers_Sigil_334-Ever_Collapsing_Void_Fissure_321"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
-profileset."Mindpiercers_Sigil_334-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
-
-profileset."Mindpiercers_Sigil_334-Lost_Idol_of_the_Hashey_321"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
-profileset."Mindpiercers_Sigil_334-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
-
-profileset."Mindpiercers_Sigil_334-Void_Reapers_Libram_321"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
-profileset."Mindpiercers_Sigil_334-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
-
 profileset."Mindpiercers_Sigil_334-Gebbos_Bottomless_Bag_334"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
 profileset."Mindpiercers_Sigil_334-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
 
@@ -252,6 +210,12 @@ profileset."Mindpiercers_Sigil_334-Font_of_Venomous_Rage_344"+=trinket2=font_of_
 profileset."Mindpiercers_Sigil_334-Wavecallers_Seastone_334"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
 profileset."Mindpiercers_Sigil_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
+profileset."Mindpiercers_Sigil_334-Vaelgors_Final_Stare_298"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
+profileset."Mindpiercers_Sigil_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Mindpiercers_Sigil_334-Gaze_of_the_Alnseer_298"+=trinket1=mindpiercers_sigil,id=250224,ilevel=334
+profileset."Mindpiercers_Sigil_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
+
 profileset."Knot_of_Writhing_Serpents_334-Vile_Vial_of_Volatile_Venom_334"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
 profileset."Knot_of_Writhing_Serpents_334-Vile_Vial_of_Volatile_Venom_334"+=trinket2=vile_vial_of_volatile_venom,id=273796,ilevel=334
 
@@ -268,21 +232,6 @@ profileset."Knot_of_Writhing_Serpents_334-Sethraliss_Defiled_Relic_334"+=trinket
 
 profileset."Knot_of_Writhing_Serpents_334-Stormbound_Emblem_of_Dazar_334"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
 profileset."Knot_of_Writhing_Serpents_334-Stormbound_Emblem_of_Dazar_334"+=trinket2=stormbound_emblem_of_dazar,id=273649,ilevel=334
-
-profileset."Knot_of_Writhing_Serpents_334-Glorious_Crusaders_Keepsake_321"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
-profileset."Knot_of_Writhing_Serpents_334-Glorious_Crusaders_Keepsake_321"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=321
-
-profileset."Knot_of_Writhing_Serpents_334-Drum_of_Renewed_Bonds_321"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
-profileset."Knot_of_Writhing_Serpents_334-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
-
-profileset."Knot_of_Writhing_Serpents_334-Ever_Collapsing_Void_Fissure_321"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
-profileset."Knot_of_Writhing_Serpents_334-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
-
-profileset."Knot_of_Writhing_Serpents_334-Lost_Idol_of_the_Hashey_321"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
-profileset."Knot_of_Writhing_Serpents_334-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
-
-profileset."Knot_of_Writhing_Serpents_334-Void_Reapers_Libram_321"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
-profileset."Knot_of_Writhing_Serpents_334-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
 
 profileset."Knot_of_Writhing_Serpents_334-Gebbos_Bottomless_Bag_334"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
 profileset."Knot_of_Writhing_Serpents_334-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
@@ -302,6 +251,12 @@ profileset."Knot_of_Writhing_Serpents_334-Font_of_Venomous_Rage_344"+=trinket2=f
 profileset."Knot_of_Writhing_Serpents_334-Wavecallers_Seastone_334"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
 profileset."Knot_of_Writhing_Serpents_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
+profileset."Knot_of_Writhing_Serpents_334-Vaelgors_Final_Stare_298"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
+profileset."Knot_of_Writhing_Serpents_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Knot_of_Writhing_Serpents_334-Gaze_of_the_Alnseer_298"+=trinket1=knot_of_writhing_serpents,id=273794,ilevel=334
+profileset."Knot_of_Writhing_Serpents_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
+
 profileset."Vile_Vial_of_Volatile_Venom_334-Ruby_Whelp_Shell_SRW6_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
 profileset."Vile_Vial_of_Volatile_Venom_334-Ruby_Whelp_Shell_SRW6_334"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
 profileset."Vile_Vial_of_Volatile_Venom_334-Ruby_Whelp_Shell_SRW6_334"+=trinket2=ruby_whelp_shell_srw6,id=193757,ilevel=334
@@ -315,21 +270,6 @@ profileset."Vile_Vial_of_Volatile_Venom_334-Sethraliss_Defiled_Relic_334"+=trink
 
 profileset."Vile_Vial_of_Volatile_Venom_334-Stormbound_Emblem_of_Dazar_334"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
 profileset."Vile_Vial_of_Volatile_Venom_334-Stormbound_Emblem_of_Dazar_334"+=trinket2=stormbound_emblem_of_dazar,id=273649,ilevel=334
-
-profileset."Vile_Vial_of_Volatile_Venom_334-Glorious_Crusaders_Keepsake_321"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
-profileset."Vile_Vial_of_Volatile_Venom_334-Glorious_Crusaders_Keepsake_321"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=321
-
-profileset."Vile_Vial_of_Volatile_Venom_334-Drum_of_Renewed_Bonds_321"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
-profileset."Vile_Vial_of_Volatile_Venom_334-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
-
-profileset."Vile_Vial_of_Volatile_Venom_334-Ever_Collapsing_Void_Fissure_321"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
-profileset."Vile_Vial_of_Volatile_Venom_334-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
-
-profileset."Vile_Vial_of_Volatile_Venom_334-Lost_Idol_of_the_Hashey_321"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
-profileset."Vile_Vial_of_Volatile_Venom_334-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
-
-profileset."Vile_Vial_of_Volatile_Venom_334-Void_Reapers_Libram_321"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
-profileset."Vile_Vial_of_Volatile_Venom_334-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
 
 profileset."Vile_Vial_of_Volatile_Venom_334-Gebbos_Bottomless_Bag_334"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
 profileset."Vile_Vial_of_Volatile_Venom_334-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
@@ -349,6 +289,12 @@ profileset."Vile_Vial_of_Volatile_Venom_334-Font_of_Venomous_Rage_344"+=trinket2
 profileset."Vile_Vial_of_Volatile_Venom_334-Wavecallers_Seastone_334"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
 profileset."Vile_Vial_of_Volatile_Venom_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
+profileset."Vile_Vial_of_Volatile_Venom_334-Vaelgors_Final_Stare_298"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
+profileset."Vile_Vial_of_Volatile_Venom_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Vile_Vial_of_Volatile_Venom_334-Gaze_of_the_Alnseer_298"+=trinket1=vile_vial_of_volatile_venom,id=273796,ilevel=334
+profileset."Vile_Vial_of_Volatile_Venom_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
+
 profileset."Ruby_Whelp_Shell_SRW6_334-Sethraliss_Defiled_Relic_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
 profileset."Ruby_Whelp_Shell_SRW6_334-Sethraliss_Defiled_Relic_334"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
 profileset."Ruby_Whelp_Shell_SRW6_334-Sethraliss_Defiled_Relic_334"+=trinket2=sethraliss_defiled_relic,id=158368,ilevel=334
@@ -356,26 +302,6 @@ profileset."Ruby_Whelp_Shell_SRW6_334-Sethraliss_Defiled_Relic_334"+=trinket2=se
 profileset."Ruby_Whelp_Shell_SRW6_334-Stormbound_Emblem_of_Dazar_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
 profileset."Ruby_Whelp_Shell_SRW6_334-Stormbound_Emblem_of_Dazar_334"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
 profileset."Ruby_Whelp_Shell_SRW6_334-Stormbound_Emblem_of_Dazar_334"+=trinket2=stormbound_emblem_of_dazar,id=273649,ilevel=334
-
-profileset."Ruby_Whelp_Shell_SRW6_334-Glorious_Crusaders_Keepsake_321"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
-profileset."Ruby_Whelp_Shell_SRW6_334-Glorious_Crusaders_Keepsake_321"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_SRW6_334-Glorious_Crusaders_Keepsake_321"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=321
-
-profileset."Ruby_Whelp_Shell_SRW6_334-Drum_of_Renewed_Bonds_321"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
-profileset."Ruby_Whelp_Shell_SRW6_334-Drum_of_Renewed_Bonds_321"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_SRW6_334-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
-
-profileset."Ruby_Whelp_Shell_SRW6_334-Ever_Collapsing_Void_Fissure_321"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
-profileset."Ruby_Whelp_Shell_SRW6_334-Ever_Collapsing_Void_Fissure_321"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_SRW6_334-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
-
-profileset."Ruby_Whelp_Shell_SRW6_334-Lost_Idol_of_the_Hashey_321"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
-profileset."Ruby_Whelp_Shell_SRW6_334-Lost_Idol_of_the_Hashey_321"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_SRW6_334-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
-
-profileset."Ruby_Whelp_Shell_SRW6_334-Void_Reapers_Libram_321"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
-profileset."Ruby_Whelp_Shell_SRW6_334-Void_Reapers_Libram_321"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_SRW6_334-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
 
 profileset."Ruby_Whelp_Shell_SRW6_334-Gebbos_Bottomless_Bag_334"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
 profileset."Ruby_Whelp_Shell_SRW6_334-Gebbos_Bottomless_Bag_334"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
@@ -401,6 +327,14 @@ profileset."Ruby_Whelp_Shell_SRW6_334-Wavecallers_Seastone_334"+=dragonflight.ru
 profileset."Ruby_Whelp_Shell_SRW6_334-Wavecallers_Seastone_334"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
 profileset."Ruby_Whelp_Shell_SRW6_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
+profileset."Ruby_Whelp_Shell_SRW6_334-Vaelgors_Final_Stare_298"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Vaelgors_Final_Stare_298"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Ruby_Whelp_Shell_SRW6_334-Gaze_of_the_Alnseer_298"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6
+profileset."Ruby_Whelp_Shell_SRW6_334-Gaze_of_the_Alnseer_298"+=trinket1=ruby_whelp_shell_srw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_SRW6_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
+
 profileset."Ruby_Whelp_Shell_URW6_334-Sethraliss_Defiled_Relic_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
 profileset."Ruby_Whelp_Shell_URW6_334-Sethraliss_Defiled_Relic_334"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
 profileset."Ruby_Whelp_Shell_URW6_334-Sethraliss_Defiled_Relic_334"+=trinket2=sethraliss_defiled_relic,id=158368,ilevel=334
@@ -408,26 +342,6 @@ profileset."Ruby_Whelp_Shell_URW6_334-Sethraliss_Defiled_Relic_334"+=trinket2=se
 profileset."Ruby_Whelp_Shell_URW6_334-Stormbound_Emblem_of_Dazar_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
 profileset."Ruby_Whelp_Shell_URW6_334-Stormbound_Emblem_of_Dazar_334"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
 profileset."Ruby_Whelp_Shell_URW6_334-Stormbound_Emblem_of_Dazar_334"+=trinket2=stormbound_emblem_of_dazar,id=273649,ilevel=334
-
-profileset."Ruby_Whelp_Shell_URW6_334-Glorious_Crusaders_Keepsake_321"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
-profileset."Ruby_Whelp_Shell_URW6_334-Glorious_Crusaders_Keepsake_321"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_URW6_334-Glorious_Crusaders_Keepsake_321"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=321
-
-profileset."Ruby_Whelp_Shell_URW6_334-Drum_of_Renewed_Bonds_321"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
-profileset."Ruby_Whelp_Shell_URW6_334-Drum_of_Renewed_Bonds_321"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_URW6_334-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
-
-profileset."Ruby_Whelp_Shell_URW6_334-Ever_Collapsing_Void_Fissure_321"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
-profileset."Ruby_Whelp_Shell_URW6_334-Ever_Collapsing_Void_Fissure_321"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_URW6_334-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
-
-profileset."Ruby_Whelp_Shell_URW6_334-Lost_Idol_of_the_Hashey_321"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
-profileset."Ruby_Whelp_Shell_URW6_334-Lost_Idol_of_the_Hashey_321"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_URW6_334-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
-
-profileset."Ruby_Whelp_Shell_URW6_334-Void_Reapers_Libram_321"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
-profileset."Ruby_Whelp_Shell_URW6_334-Void_Reapers_Libram_321"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
-profileset."Ruby_Whelp_Shell_URW6_334-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
 
 profileset."Ruby_Whelp_Shell_URW6_334-Gebbos_Bottomless_Bag_334"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
 profileset."Ruby_Whelp_Shell_URW6_334-Gebbos_Bottomless_Bag_334"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
@@ -453,23 +367,16 @@ profileset."Ruby_Whelp_Shell_URW6_334-Wavecallers_Seastone_334"+=dragonflight.ru
 profileset."Ruby_Whelp_Shell_URW6_334-Wavecallers_Seastone_334"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
 profileset."Ruby_Whelp_Shell_URW6_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
+profileset."Ruby_Whelp_Shell_URW6_334-Vaelgors_Final_Stare_298"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Vaelgors_Final_Stare_298"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Ruby_Whelp_Shell_URW6_334-Gaze_of_the_Alnseer_298"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6
+profileset."Ruby_Whelp_Shell_URW6_334-Gaze_of_the_Alnseer_298"+=trinket1=ruby_whelp_shell_urw6,id=193757,ilevel=334
+profileset."Ruby_Whelp_Shell_URW6_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
+
 profileset."Sethraliss_Defiled_Relic_334-Stormbound_Emblem_of_Dazar_334"+=trinket1=sethraliss_defiled_relic,id=158368,ilevel=334
 profileset."Sethraliss_Defiled_Relic_334-Stormbound_Emblem_of_Dazar_334"+=trinket2=stormbound_emblem_of_dazar,id=273649,ilevel=334
-
-profileset."Sethraliss_Defiled_Relic_334-Glorious_Crusaders_Keepsake_321"+=trinket1=sethraliss_defiled_relic,id=158368,ilevel=334
-profileset."Sethraliss_Defiled_Relic_334-Glorious_Crusaders_Keepsake_321"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=321
-
-profileset."Sethraliss_Defiled_Relic_334-Drum_of_Renewed_Bonds_321"+=trinket1=sethraliss_defiled_relic,id=158368,ilevel=334
-profileset."Sethraliss_Defiled_Relic_334-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
-
-profileset."Sethraliss_Defiled_Relic_334-Ever_Collapsing_Void_Fissure_321"+=trinket1=sethraliss_defiled_relic,id=158368,ilevel=334
-profileset."Sethraliss_Defiled_Relic_334-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
-
-profileset."Sethraliss_Defiled_Relic_334-Lost_Idol_of_the_Hashey_321"+=trinket1=sethraliss_defiled_relic,id=158368,ilevel=334
-profileset."Sethraliss_Defiled_Relic_334-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
-
-profileset."Sethraliss_Defiled_Relic_334-Void_Reapers_Libram_321"+=trinket1=sethraliss_defiled_relic,id=158368,ilevel=334
-profileset."Sethraliss_Defiled_Relic_334-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
 
 profileset."Sethraliss_Defiled_Relic_334-Gebbos_Bottomless_Bag_334"+=trinket1=sethraliss_defiled_relic,id=158368,ilevel=334
 profileset."Sethraliss_Defiled_Relic_334-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
@@ -489,20 +396,11 @@ profileset."Sethraliss_Defiled_Relic_334-Font_of_Venomous_Rage_344"+=trinket2=fo
 profileset."Sethraliss_Defiled_Relic_334-Wavecallers_Seastone_334"+=trinket1=sethraliss_defiled_relic,id=158368,ilevel=334
 profileset."Sethraliss_Defiled_Relic_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
-profileset."Stormbound_Emblem_of_Dazar_334-Glorious_Crusaders_Keepsake_321"+=trinket1=stormbound_emblem_of_dazar,id=273649,ilevel=334
-profileset."Stormbound_Emblem_of_Dazar_334-Glorious_Crusaders_Keepsake_321"+=trinket2=glorious_crusaders_keepsake,id=251792,ilevel=321
+profileset."Sethraliss_Defiled_Relic_334-Vaelgors_Final_Stare_298"+=trinket1=sethraliss_defiled_relic,id=158368,ilevel=334
+profileset."Sethraliss_Defiled_Relic_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
 
-profileset."Stormbound_Emblem_of_Dazar_334-Drum_of_Renewed_Bonds_321"+=trinket1=stormbound_emblem_of_dazar,id=273649,ilevel=334
-profileset."Stormbound_Emblem_of_Dazar_334-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
-
-profileset."Stormbound_Emblem_of_Dazar_334-Ever_Collapsing_Void_Fissure_321"+=trinket1=stormbound_emblem_of_dazar,id=273649,ilevel=334
-profileset."Stormbound_Emblem_of_Dazar_334-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
-
-profileset."Stormbound_Emblem_of_Dazar_334-Lost_Idol_of_the_Hashey_321"+=trinket1=stormbound_emblem_of_dazar,id=273649,ilevel=334
-profileset."Stormbound_Emblem_of_Dazar_334-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
-
-profileset."Stormbound_Emblem_of_Dazar_334-Void_Reapers_Libram_321"+=trinket1=stormbound_emblem_of_dazar,id=273649,ilevel=334
-profileset."Stormbound_Emblem_of_Dazar_334-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
+profileset."Sethraliss_Defiled_Relic_334-Gaze_of_the_Alnseer_298"+=trinket1=sethraliss_defiled_relic,id=158368,ilevel=334
+profileset."Sethraliss_Defiled_Relic_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
 
 profileset."Stormbound_Emblem_of_Dazar_334-Gebbos_Bottomless_Bag_334"+=trinket1=stormbound_emblem_of_dazar,id=273649,ilevel=334
 profileset."Stormbound_Emblem_of_Dazar_334-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
@@ -522,125 +420,11 @@ profileset."Stormbound_Emblem_of_Dazar_334-Font_of_Venomous_Rage_344"+=trinket2=
 profileset."Stormbound_Emblem_of_Dazar_334-Wavecallers_Seastone_334"+=trinket1=stormbound_emblem_of_dazar,id=273649,ilevel=334
 profileset."Stormbound_Emblem_of_Dazar_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
-profileset."Glorious_Crusaders_Keepsake_321-Drum_of_Renewed_Bonds_321"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=321
-profileset."Glorious_Crusaders_Keepsake_321-Drum_of_Renewed_Bonds_321"+=trinket2=drum_of_renewed_bonds,id=248583,ilevel=321
+profileset."Stormbound_Emblem_of_Dazar_334-Vaelgors_Final_Stare_298"+=trinket1=stormbound_emblem_of_dazar,id=273649,ilevel=334
+profileset."Stormbound_Emblem_of_Dazar_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
 
-profileset."Glorious_Crusaders_Keepsake_321-Ever_Collapsing_Void_Fissure_321"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=321
-profileset."Glorious_Crusaders_Keepsake_321-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
-
-profileset."Glorious_Crusaders_Keepsake_321-Lost_Idol_of_the_Hashey_321"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=321
-profileset."Glorious_Crusaders_Keepsake_321-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
-
-profileset."Glorious_Crusaders_Keepsake_321-Void_Reapers_Libram_321"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=321
-profileset."Glorious_Crusaders_Keepsake_321-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
-
-profileset."Glorious_Crusaders_Keepsake_321-Gebbos_Bottomless_Bag_334"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=321
-profileset."Glorious_Crusaders_Keepsake_321-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
-
-profileset."Glorious_Crusaders_Keepsake_321-Fang_of_Umbral_Malignance_334"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=321
-profileset."Glorious_Crusaders_Keepsake_321-Fang_of_Umbral_Malignance_334"+=trinket2=fang_of_umbral_malignance,id=270161,ilevel=334
-
-profileset."Glorious_Crusaders_Keepsake_321-Vexhuls_Everflowing_Gland_334"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=321
-profileset."Glorious_Crusaders_Keepsake_321-Vexhuls_Everflowing_Gland_334"+=trinket2=vexhuls_everflowing_gland,id=270170,ilevel=334
-
-profileset."Glorious_Crusaders_Keepsake_321-Hex_Lords_Dooming_Idol_344"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=321
-profileset."Glorious_Crusaders_Keepsake_321-Hex_Lords_Dooming_Idol_344"+=trinket2=hex_lords_dooming_idol,id=270169,ilevel=344
-
-profileset."Glorious_Crusaders_Keepsake_321-Font_of_Venomous_Rage_344"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=321
-profileset."Glorious_Crusaders_Keepsake_321-Font_of_Venomous_Rage_344"+=trinket2=font_of_venomous_rage,id=270168,ilevel=344
-
-profileset."Glorious_Crusaders_Keepsake_321-Wavecallers_Seastone_334"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=321
-profileset."Glorious_Crusaders_Keepsake_321-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
-
-profileset."Drum_of_Renewed_Bonds_321-Ever_Collapsing_Void_Fissure_321"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=321
-profileset."Drum_of_Renewed_Bonds_321-Ever_Collapsing_Void_Fissure_321"+=trinket2=ever_collapsing_void_fissure,id=251786,ilevel=321
-
-profileset."Drum_of_Renewed_Bonds_321-Lost_Idol_of_the_Hashey_321"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=321
-profileset."Drum_of_Renewed_Bonds_321-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
-
-profileset."Drum_of_Renewed_Bonds_321-Void_Reapers_Libram_321"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=321
-profileset."Drum_of_Renewed_Bonds_321-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
-
-profileset."Drum_of_Renewed_Bonds_321-Gebbos_Bottomless_Bag_334"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=321
-profileset."Drum_of_Renewed_Bonds_321-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
-
-profileset."Drum_of_Renewed_Bonds_321-Fang_of_Umbral_Malignance_334"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=321
-profileset."Drum_of_Renewed_Bonds_321-Fang_of_Umbral_Malignance_334"+=trinket2=fang_of_umbral_malignance,id=270161,ilevel=334
-
-profileset."Drum_of_Renewed_Bonds_321-Vexhuls_Everflowing_Gland_334"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=321
-profileset."Drum_of_Renewed_Bonds_321-Vexhuls_Everflowing_Gland_334"+=trinket2=vexhuls_everflowing_gland,id=270170,ilevel=334
-
-profileset."Drum_of_Renewed_Bonds_321-Hex_Lords_Dooming_Idol_344"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=321
-profileset."Drum_of_Renewed_Bonds_321-Hex_Lords_Dooming_Idol_344"+=trinket2=hex_lords_dooming_idol,id=270169,ilevel=344
-
-profileset."Drum_of_Renewed_Bonds_321-Font_of_Venomous_Rage_344"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=321
-profileset."Drum_of_Renewed_Bonds_321-Font_of_Venomous_Rage_344"+=trinket2=font_of_venomous_rage,id=270168,ilevel=344
-
-profileset."Drum_of_Renewed_Bonds_321-Wavecallers_Seastone_334"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=321
-profileset."Drum_of_Renewed_Bonds_321-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
-
-profileset."Ever_Collapsing_Void_Fissure_321-Lost_Idol_of_the_Hashey_321"+=trinket1=ever_collapsing_void_fissure,id=251786,ilevel=321
-profileset."Ever_Collapsing_Void_Fissure_321-Lost_Idol_of_the_Hashey_321"+=trinket2=lost_idol_of_the_hashey,id=251783,ilevel=321
-
-profileset."Ever_Collapsing_Void_Fissure_321-Void_Reapers_Libram_321"+=trinket1=ever_collapsing_void_fissure,id=251786,ilevel=321
-profileset."Ever_Collapsing_Void_Fissure_321-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
-
-profileset."Ever_Collapsing_Void_Fissure_321-Gebbos_Bottomless_Bag_334"+=trinket1=ever_collapsing_void_fissure,id=251786,ilevel=321
-profileset."Ever_Collapsing_Void_Fissure_321-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
-
-profileset."Ever_Collapsing_Void_Fissure_321-Fang_of_Umbral_Malignance_334"+=trinket1=ever_collapsing_void_fissure,id=251786,ilevel=321
-profileset."Ever_Collapsing_Void_Fissure_321-Fang_of_Umbral_Malignance_334"+=trinket2=fang_of_umbral_malignance,id=270161,ilevel=334
-
-profileset."Ever_Collapsing_Void_Fissure_321-Vexhuls_Everflowing_Gland_334"+=trinket1=ever_collapsing_void_fissure,id=251786,ilevel=321
-profileset."Ever_Collapsing_Void_Fissure_321-Vexhuls_Everflowing_Gland_334"+=trinket2=vexhuls_everflowing_gland,id=270170,ilevel=334
-
-profileset."Ever_Collapsing_Void_Fissure_321-Hex_Lords_Dooming_Idol_344"+=trinket1=ever_collapsing_void_fissure,id=251786,ilevel=321
-profileset."Ever_Collapsing_Void_Fissure_321-Hex_Lords_Dooming_Idol_344"+=trinket2=hex_lords_dooming_idol,id=270169,ilevel=344
-
-profileset."Ever_Collapsing_Void_Fissure_321-Font_of_Venomous_Rage_344"+=trinket1=ever_collapsing_void_fissure,id=251786,ilevel=321
-profileset."Ever_Collapsing_Void_Fissure_321-Font_of_Venomous_Rage_344"+=trinket2=font_of_venomous_rage,id=270168,ilevel=344
-
-profileset."Ever_Collapsing_Void_Fissure_321-Wavecallers_Seastone_334"+=trinket1=ever_collapsing_void_fissure,id=251786,ilevel=321
-profileset."Ever_Collapsing_Void_Fissure_321-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
-
-profileset."Lost_Idol_of_the_Hashey_321-Void_Reapers_Libram_321"+=trinket1=lost_idol_of_the_hashey,id=251783,ilevel=321
-profileset."Lost_Idol_of_the_Hashey_321-Void_Reapers_Libram_321"+=trinket2=void_reapers_libram,id=251785,ilevel=321
-
-profileset."Lost_Idol_of_the_Hashey_321-Gebbos_Bottomless_Bag_334"+=trinket1=lost_idol_of_the_hashey,id=251783,ilevel=321
-profileset."Lost_Idol_of_the_Hashey_321-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
-
-profileset."Lost_Idol_of_the_Hashey_321-Fang_of_Umbral_Malignance_334"+=trinket1=lost_idol_of_the_hashey,id=251783,ilevel=321
-profileset."Lost_Idol_of_the_Hashey_321-Fang_of_Umbral_Malignance_334"+=trinket2=fang_of_umbral_malignance,id=270161,ilevel=334
-
-profileset."Lost_Idol_of_the_Hashey_321-Vexhuls_Everflowing_Gland_334"+=trinket1=lost_idol_of_the_hashey,id=251783,ilevel=321
-profileset."Lost_Idol_of_the_Hashey_321-Vexhuls_Everflowing_Gland_334"+=trinket2=vexhuls_everflowing_gland,id=270170,ilevel=334
-
-profileset."Lost_Idol_of_the_Hashey_321-Hex_Lords_Dooming_Idol_344"+=trinket1=lost_idol_of_the_hashey,id=251783,ilevel=321
-profileset."Lost_Idol_of_the_Hashey_321-Hex_Lords_Dooming_Idol_344"+=trinket2=hex_lords_dooming_idol,id=270169,ilevel=344
-
-profileset."Lost_Idol_of_the_Hashey_321-Font_of_Venomous_Rage_344"+=trinket1=lost_idol_of_the_hashey,id=251783,ilevel=321
-profileset."Lost_Idol_of_the_Hashey_321-Font_of_Venomous_Rage_344"+=trinket2=font_of_venomous_rage,id=270168,ilevel=344
-
-profileset."Lost_Idol_of_the_Hashey_321-Wavecallers_Seastone_334"+=trinket1=lost_idol_of_the_hashey,id=251783,ilevel=321
-profileset."Lost_Idol_of_the_Hashey_321-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
-
-profileset."Void_Reapers_Libram_321-Gebbos_Bottomless_Bag_334"+=trinket1=void_reapers_libram,id=251785,ilevel=321
-profileset."Void_Reapers_Libram_321-Gebbos_Bottomless_Bag_334"+=trinket2=gebbos_bottomless_bag,id=270164,ilevel=334
-
-profileset."Void_Reapers_Libram_321-Fang_of_Umbral_Malignance_334"+=trinket1=void_reapers_libram,id=251785,ilevel=321
-profileset."Void_Reapers_Libram_321-Fang_of_Umbral_Malignance_334"+=trinket2=fang_of_umbral_malignance,id=270161,ilevel=334
-
-profileset."Void_Reapers_Libram_321-Vexhuls_Everflowing_Gland_334"+=trinket1=void_reapers_libram,id=251785,ilevel=321
-profileset."Void_Reapers_Libram_321-Vexhuls_Everflowing_Gland_334"+=trinket2=vexhuls_everflowing_gland,id=270170,ilevel=334
-
-profileset."Void_Reapers_Libram_321-Hex_Lords_Dooming_Idol_344"+=trinket1=void_reapers_libram,id=251785,ilevel=321
-profileset."Void_Reapers_Libram_321-Hex_Lords_Dooming_Idol_344"+=trinket2=hex_lords_dooming_idol,id=270169,ilevel=344
-
-profileset."Void_Reapers_Libram_321-Font_of_Venomous_Rage_344"+=trinket1=void_reapers_libram,id=251785,ilevel=321
-profileset."Void_Reapers_Libram_321-Font_of_Venomous_Rage_344"+=trinket2=font_of_venomous_rage,id=270168,ilevel=344
-
-profileset."Void_Reapers_Libram_321-Wavecallers_Seastone_334"+=trinket1=void_reapers_libram,id=251785,ilevel=321
-profileset."Void_Reapers_Libram_321-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
+profileset."Stormbound_Emblem_of_Dazar_334-Gaze_of_the_Alnseer_298"+=trinket1=stormbound_emblem_of_dazar,id=273649,ilevel=334
+profileset."Stormbound_Emblem_of_Dazar_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
 
 profileset."Gebbos_Bottomless_Bag_334-Fang_of_Umbral_Malignance_334"+=trinket1=gebbos_bottomless_bag,id=270164,ilevel=334
 profileset."Gebbos_Bottomless_Bag_334-Fang_of_Umbral_Malignance_334"+=trinket2=fang_of_umbral_malignance,id=270161,ilevel=334
@@ -657,6 +441,12 @@ profileset."Gebbos_Bottomless_Bag_334-Font_of_Venomous_Rage_344"+=trinket2=font_
 profileset."Gebbos_Bottomless_Bag_334-Wavecallers_Seastone_334"+=trinket1=gebbos_bottomless_bag,id=270164,ilevel=334
 profileset."Gebbos_Bottomless_Bag_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
+profileset."Gebbos_Bottomless_Bag_334-Vaelgors_Final_Stare_298"+=trinket1=gebbos_bottomless_bag,id=270164,ilevel=334
+profileset."Gebbos_Bottomless_Bag_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Gebbos_Bottomless_Bag_334-Gaze_of_the_Alnseer_298"+=trinket1=gebbos_bottomless_bag,id=270164,ilevel=334
+profileset."Gebbos_Bottomless_Bag_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
+
 profileset."Fang_of_Umbral_Malignance_334-Vexhuls_Everflowing_Gland_334"+=trinket1=fang_of_umbral_malignance,id=270161,ilevel=334
 profileset."Fang_of_Umbral_Malignance_334-Vexhuls_Everflowing_Gland_334"+=trinket2=vexhuls_everflowing_gland,id=270170,ilevel=334
 
@@ -669,6 +459,12 @@ profileset."Fang_of_Umbral_Malignance_334-Font_of_Venomous_Rage_344"+=trinket2=f
 profileset."Fang_of_Umbral_Malignance_334-Wavecallers_Seastone_334"+=trinket1=fang_of_umbral_malignance,id=270161,ilevel=334
 profileset."Fang_of_Umbral_Malignance_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
+profileset."Fang_of_Umbral_Malignance_334-Vaelgors_Final_Stare_298"+=trinket1=fang_of_umbral_malignance,id=270161,ilevel=334
+profileset."Fang_of_Umbral_Malignance_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Fang_of_Umbral_Malignance_334-Gaze_of_the_Alnseer_298"+=trinket1=fang_of_umbral_malignance,id=270161,ilevel=334
+profileset."Fang_of_Umbral_Malignance_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
+
 profileset."Vexhuls_Everflowing_Gland_334-Hex_Lords_Dooming_Idol_344"+=trinket1=vexhuls_everflowing_gland,id=270170,ilevel=334
 profileset."Vexhuls_Everflowing_Gland_334-Hex_Lords_Dooming_Idol_344"+=trinket2=hex_lords_dooming_idol,id=270169,ilevel=344
 
@@ -678,12 +474,39 @@ profileset."Vexhuls_Everflowing_Gland_334-Font_of_Venomous_Rage_344"+=trinket2=f
 profileset."Vexhuls_Everflowing_Gland_334-Wavecallers_Seastone_334"+=trinket1=vexhuls_everflowing_gland,id=270170,ilevel=334
 profileset."Vexhuls_Everflowing_Gland_334-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
+profileset."Vexhuls_Everflowing_Gland_334-Vaelgors_Final_Stare_298"+=trinket1=vexhuls_everflowing_gland,id=270170,ilevel=334
+profileset."Vexhuls_Everflowing_Gland_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Vexhuls_Everflowing_Gland_334-Gaze_of_the_Alnseer_298"+=trinket1=vexhuls_everflowing_gland,id=270170,ilevel=334
+profileset."Vexhuls_Everflowing_Gland_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
+
 profileset."Hex_Lords_Dooming_Idol_344-Font_of_Venomous_Rage_344"+=trinket1=hex_lords_dooming_idol,id=270169,ilevel=344
 profileset."Hex_Lords_Dooming_Idol_344-Font_of_Venomous_Rage_344"+=trinket2=font_of_venomous_rage,id=270168,ilevel=344
 
 profileset."Hex_Lords_Dooming_Idol_344-Wavecallers_Seastone_334"+=trinket1=hex_lords_dooming_idol,id=270169,ilevel=344
 profileset."Hex_Lords_Dooming_Idol_344-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
 
+profileset."Hex_Lords_Dooming_Idol_344-Vaelgors_Final_Stare_298"+=trinket1=hex_lords_dooming_idol,id=270169,ilevel=344
+profileset."Hex_Lords_Dooming_Idol_344-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Hex_Lords_Dooming_Idol_344-Gaze_of_the_Alnseer_298"+=trinket1=hex_lords_dooming_idol,id=270169,ilevel=344
+profileset."Hex_Lords_Dooming_Idol_344-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
+
 profileset."Font_of_Venomous_Rage_344-Wavecallers_Seastone_334"+=trinket1=font_of_venomous_rage,id=270168,ilevel=344
 profileset."Font_of_Venomous_Rage_344-Wavecallers_Seastone_334"+=trinket2=wavecallers_seastone,id=270167,ilevel=334
+
+profileset."Font_of_Venomous_Rage_344-Vaelgors_Final_Stare_298"+=trinket1=font_of_venomous_rage,id=270168,ilevel=344
+profileset."Font_of_Venomous_Rage_344-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Font_of_Venomous_Rage_344-Gaze_of_the_Alnseer_298"+=trinket1=font_of_venomous_rage,id=270168,ilevel=344
+profileset."Font_of_Venomous_Rage_344-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
+
+profileset."Wavecallers_Seastone_334-Vaelgors_Final_Stare_298"+=trinket1=wavecallers_seastone,id=270167,ilevel=334
+profileset."Wavecallers_Seastone_334-Vaelgors_Final_Stare_298"+=trinket2=vaelgors_final_stare,id=249346,ilevel=298
+
+profileset."Wavecallers_Seastone_334-Gaze_of_the_Alnseer_298"+=trinket1=wavecallers_seastone,id=270167,ilevel=334
+profileset."Wavecallers_Seastone_334-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
+
+profileset."Vaelgors_Final_Stare_298-Gaze_of_the_Alnseer_298"+=trinket1=vaelgors_final_stare,id=249346,ilevel=298
+profileset."Vaelgors_Final_Stare_298-Gaze_of_the_Alnseer_298"+=trinket2=gaze_of_the_alnseer,id=249343,ilevel=298
 

@@ -59,9 +59,9 @@ gear:
     neck: "aqirbane_reliquary,id=268265,bonus_id=13708,ilevel=344" # crit
     shoulders: "cosmic_penitents_echoing_screams,id=271553,ilevel=334" # crit/haste
     back: "silken_voodoo_drape,id=268253,ilevel=344" # mastery/haste
-    chest: "cosmic_penitents_eclipsing_robes,id=271558,ilevel=344" # mastery/crit
+    chest: "cosmic_penitents_eclipsing_robes,id=271558,ilevel=334" # mastery/crit
     wrists: "martyrs_bindings,id=239648,ilevel=331,bonus_id=8793/12384" # haste/mastery 
-    hands: "cosmic_penitents_celestial_grips,id=271556,ilevel=344,redirected_base_stats=268255" # haste/mastery
+    hands: "cosmic_penitents_celestial_grips,id=271556,ilevel=344,redirected_base_stats=268243" # haste/mastery
     waist: "arcanoweave_cord,id=239664,ilevel=331" # haste/crit
     legs: "enveloping_legwraps_of_the_cosmic_penitent,id=271554,ilevel=334,redirected_base_stats=251160" # haste/crit
     feet: "cackling_soultreads,id=268255,ilevel=344" # haste/mastery
