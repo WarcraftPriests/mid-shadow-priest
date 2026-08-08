@@ -44,8 +44,6 @@ profileset."1H_Janthrazet_the_Soul_Fang_344"+=off_hand=spine_of_the_hissing_abys
 
 # Season 1 Crafted - 331 Item Level
 ## Embellishments
-### Hunter's Ritual Stone - 13771
-profileset."Embellishment_Hunters_Ritual_Stone_1"+=feet=${gear.feet},ilevel=331,bonus_id=13771
 ### Snakeskin Lining - 13764
 profileset."Embellishment_Snakeskin_Lining_1"+=feet=${gear.feet},ilevel=331,bonus_id=13764
 ### Adorned Fang - 13767
@@ -119,6 +117,10 @@ profileset."2H_Alnhara_Cane_331"+=off_hand=disabled
 
 profileset."OH_Alnhara_Lantern_331"+=main_hand=hexing_spiritrender,id=268203,ilevel=334,enchant=${enchants.main_hand}
 profileset."OH_Alnhara_Lantern_331"+=off_hand=alnhara_lantern,id=245769,ilevel=331,bonus_id=8793
+
+### Hunter's Ritual Stone - 13771
+profileset."Embellishment_Hunters_Ritual_Stone"+=main_hand=hexing_spiritrender,id=268203,ilevel=334,enchant=${enchants.main_hand}
+profileset."Embellishment_Hunters_Ritual_Stone"+=off_hand=alnhara_lantern,id=245769,ilevel=331,bonus_id=8793/13771
 
 ### Blood: 12705 | Hunt: 12693 | Rot: 12692 | Void: 13640
 profileset."Embellishment_Darkmoon_Sigil_Blood"+=main_hand=hexing_spiritrender,id=268203,ilevel=334,enchant=${enchants.main_hand}

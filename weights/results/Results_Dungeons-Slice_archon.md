@@ -1,4 +1,4 @@
 # Dungeons-Slice - archon
 | Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Base|244613|1.00|0.68|0.58|0.51|0.37|0.01|
+|Base|244561|1.00|0.71|0.59|0.54|0.36|0.01|
