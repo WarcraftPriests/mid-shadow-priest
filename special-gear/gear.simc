@@ -31,8 +31,8 @@ profileset."1H_Polished_Lightwood_Channeler_322"+=off_hand=spine_of_the_hissing_
 profileset."1H_Polished_Lightwood_Channeler_334"+=main_hand=polished_lightwood_channeler,id=273778,ilevel=334,enchant=${enchants.main_hand}
 profileset."1H_Polished_Lightwood_Channeler_334"+=off_hand=spine_of_the_hissing_abyss,id=268197,ilevel=334
 
-profileset."Head_Venomkeepers_Horrific_Cowl_322"+=head=venomkeepers_horrific_cowl,id=271874,ilevel=322,gem_id=${gems.meta},enchant=${enchants.head}
-profileset."Head_Venomkeepers_Horrific_Cowl_344"+=head=venomkeepers_horrific_cowl,id=271874,ilevel=344,gem_id=${gems.meta},enchant=${enchants.head}
+profileset."Head_Venomkeepers_Horrific_Cowl_322"+=head=cosmic_penitents_truesight,id=271555,bonus_id=13846,ilevel=322,redirected_base_stats=271874,gem_id=${gems.meta},enchant=${enchants.head}
+profileset."Head_Venomkeepers_Horrific_Cowl_344"+=head=cosmic_penitents_truesight,id=271555,bonus_id=13846,ilevel=344,redirected_base_stats=271874,gem_id=${gems.meta},enchant=${enchants.head}
 
 profileset."Neck_Aqirbane_Reliquary_322"+=neck=aqirbane_reliquary,id=268265,ilevel=322,gem_id=${gems.peridot}/${gems.main}
 profileset."Neck_Aqirbane_Reliquary_344"+=neck=aqirbane_reliquary,id=268265,ilevel=344,gem_id=${gems.peridot}/${gems.main}
