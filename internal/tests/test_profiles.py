@@ -300,7 +300,8 @@ def test_build_settings_multiple_and_route_variants(tmp_path, monkeypatch):
     s = profiles.build_settings("pwlm2", weights=False, dungeons=False)
     assert 'fight_style="Patchwerk"' in s
     assert 'fight_style="LightMovement"' in s
-    assert "desired_targets=2" in s
+    assert "enemy=Fluffy_Pillow" in s
+    assert "enemy=enemy2" in s
 
     # route push and generic route file
     season = 7
