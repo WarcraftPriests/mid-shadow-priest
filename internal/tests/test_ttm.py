@@ -1,5 +1,5 @@
-import os
 import importlib.util
+import os
 
 
 def load_ttm_module(root_dir):

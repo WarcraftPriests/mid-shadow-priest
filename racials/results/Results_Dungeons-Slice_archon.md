@@ -1,0 +1,36 @@
+# Dungeons-Slice - archon
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Human|248154|1.47%|
+|Troll|248103|1.45%|
+|Void_Elf|248077|1.44%|
+|Mechagnome|248023|1.42%|
+|Orc|247583|1.24%|
+|Panda_Feast|247576|1.24%|
+|Dwarf|247407|1.17%|
+|Tauren|247210|1.09%|
+|Goblin|246939|0.98%|
+|Gnome|246934|0.97%|
+|Nightborne|246848|0.94%|
+|Night_Elf_Crit|246809|0.92%|
+|Highmountain_Tauren|246737|0.89%|
+|Draenei|246734|0.89%|
+|Blood_Elf|246713|0.88%|
+|Night_Elf_Haste|246691|0.87%|
+|Kul_Tiran|246668|0.86%|
+|Dracthyr|246650|0.86%|
+|Dark_Iron_Dwarf|246554|0.82%|
+|Zandalari_Troll_Paku|246395|0.75%|
+|Maghar_Orc|246343|0.73%|
+|Worgen|246205|0.68%|
+|Haranir|246095|0.63%|
+|Earthen_Emerald|245930|0.56%|
+|Earthen_Ruby|245224|0.27%|
+|Earthen_Onyx|245215|0.27%|
+|Vulpera|244562|0.00%|
+|Base|244553|0.00%|
+|Zandalari_Troll_Kimbul|244468|-0.03%|
+|Zandalari_Troll_Bwonsamdi|244445|-0.04%|
+|Lightforged_Draenei|244393|-0.07%|
+|Undead|244185|-0.15%|
+|Earthen_Sapphire|243478|-0.44%|

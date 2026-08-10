@@ -1,66 +1,57 @@
 # Structured trinket configuration for build_combos.py
 # Each key is a trinket base name. Provide an `id` (number) and `ilevels` (list).
 combos:
-  Eye_of_the_Drowning_Void:
-    id: 250257
-    ilevels: [298]
-  Soulcatchers_Charm:
-    id: 250223
-    ilevels: [298]
-  Vessel_of_Tortured_Souls:
-    id: 250258
-    ilevels: [298]
-  Emberwing_Feather:
-    id: 250144
-    ilevels: [298]
-  Heart_of_Wind:
-    id: 250256
-    ilevels: [298]
-  Nevermelting_Ice_Crystal:
-    id: 50259
-    ilevels: [298]
-  Reality_Breacher:
-    id: 151310
-    ilevels: [298]
-  Shadow_of_the_Empyrean_Requiem:
-    id: 249810
-    ilevels: [298]
-  Gaze_of_the_Alnseer:
-    id: 249343
-    ilevels: [298]
-  Litany_of_Lightblind_Wrath:
-    id: 249808
-    ilevels: [298]
-  Locus_Walkers_Ribbon:
-    id: 249809
-    ilevels: [298]
+  Freightrunners_Flask:
+    id: 250215
+    ilevels: [334]
+  Lightspire_Core:
+    id: 250214
+    ilevels: [334]
+  Sapling_of_the_Dawnroot:
+    id: 250259
+    ilevels: [334]
+  Mindpiercers_Sigil:
+    id: 250224
+    ilevels: [334]
+  Knot_of_Writhing_Serpents:
+    id: 273794
+    ilevels: [334]
+  Vile_Vial_of_Volatile_Venom:
+    id: 273796
+    ilevels: [334]
+  Ruby_Whelp_Shell_SRW6:
+    id: 193757
+    ilevels: [334]
+  Ruby_Whelp_Shell_URW6:
+    id: 193757
+    ilevels: [334]
+  Sethraliss_Defiled_Relic:
+    id: 158368
+    ilevels: [334]
+  Stormbound_Emblem_of_Dazar:
+    id: 273649
+    ilevels: [334]
+  Gebbos_Bottomless_Bag:
+    id: 270164
+    ilevels: [334]
+  Fang_of_Umbral_Malignance:
+    id: 270161
+    ilevels: [334]
+  Vexhuls_Everflowing_Gland:
+    id: 270170
+    ilevels: [334]
+  Hex_Lords_Dooming_Idol:
+    id: 270169
+    ilevels: [344]
+  Font_of_Venomous_Rage:
+    id: 270168
+    ilevels: [344]
+  Wavecallers_Seastone:
+    id: 270167
+    ilevels: [334]
   Vaelgors_Final_Stare:
     id: 249346
     ilevels: [298]
-  Wraps_of_Cosmic_Madness:
-    id: 249340
-    ilevels: [298]
-  Glorious_Crusaders_Keepsake:
-    id: 251792
-    ilevels: [285]
-  Astalors_Anguish_Agitator:
-    id: 264878
-    ilevels: [285]
-  Drum_of_Renewed_Bonds:
-    id: 248583
-    ilevels: [285]
-  Ever_Collapsing_Void_Fissure:
-    id: 251786
-    ilevels: [285]
-  Sealed_Chaos_Urn:
-    id: 251787
-    ilevels: [285]
-  Tangle_of_Vibrant_Vines:
-    id: 252957
-    ilevels: [285]
-  Void_Reapers_Libram:
-    id: 251785
-    ilevels: [285]
-  Sporelords_Mycelial_Insignia:
-    id: 268292
+  Gaze_of_the_Alnseer:
+    id: 249343
     ilevels: [298]

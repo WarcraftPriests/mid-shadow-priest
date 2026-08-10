@@ -1,7 +1,6 @@
+import shutil
 import types
 from pathlib import Path
-import shutil
-
 
 import profiles
 
@@ -188,7 +187,7 @@ def test_create_talent_builds_and_replace_talents(tmp_path, monkeypatch):
             if repo_talents.exists():
                 try:
                     repo_talents.unlink()
-                except Exception:
+                except OSError:
                     pass
 
 
@@ -248,7 +247,7 @@ def test_build_profiles_basic(tmp_path, monkeypatch):
             if repo_over.exists():
                 try:
                     repo_over.unlink()
-                except Exception:
+                except OSError:
                     pass
 
     # monkeypatch find_weights to only enable one profile
@@ -301,7 +300,8 @@ def test_build_settings_multiple_and_route_variants(tmp_path, monkeypatch):
     s = profiles.build_settings("pwlm2", weights=False, dungeons=False)
     assert 'fight_style="Patchwerk"' in s
     assert 'fight_style="LightMovement"' in s
-    assert "desired_targets=2" in s
+    assert "enemy=Fluffy_Pillow" in s
+    assert "enemy=enemy2" in s
 
     # route push and generic route file
     season = 7
@@ -396,7 +396,7 @@ def test_build_profiles_skips_when_all_weights_zero(tmp_path, monkeypatch):
             if repo_over.exists():
                 try:
                     repo_over.unlink()
-                except Exception:
+                except OSError:
                     pass
 
     profiles.config = {
@@ -438,6 +438,23 @@ def test_replace_talents_no_talents_keyword():
     assert out == data
 
 
+def test_replace_talents_replaces_all_talent_lines():
+    profiles.config = {"forceHeroTalents": False}
+    data = 'priest="base"\ntalents=old1\npriest="new"\ntalents=old2\n'
+    out = profiles.replace_talents("newtal", data, "name_DA")
+    assert out.count("talents=newtal") == 2
+    assert "talents=old1" not in out
+    assert "talents=old2" not in out
+
+
+def test_replace_talents_replaces_all_placeholders():
+    profiles.config = {"forceHeroTalents": False}
+    data = 'priest="base"\ntalents=${talents}\npriest="new"\ntalents=${talents}\n'
+    out = profiles.replace_talents("newtal", data, "name_DA")
+    assert out.count("talents=newtal") == 2
+    assert "${talents}" not in out
+
+
 def test_get_sim_files_talents(tmp_path, monkeypatch):
     # create talents/builds dir and files inside tmp cwd
     monkeypatch.chdir(tmp_path)
@@ -474,7 +491,7 @@ def test_build_profiles_with_talents(tmp_path, monkeypatch):
             if repo_over.exists():
                 try:
                     repo_over.unlink()
-                except Exception:
+                except OSError:
                     pass
     # provide a minimal talents.yml so create_talent_builds can run
     ty = Path("internal") / "talents.yml"

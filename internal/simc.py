@@ -1,7 +1,7 @@
 """local simc functions"""
 
-import subprocess
 import os
+import subprocess
 import time
 
 
@@ -31,6 +31,6 @@ def sim_local(simc_path, profile_location, output_location, iterations):
 
 def raidbots(
     simc_path, profile_location, simc_build, output_location, report_name, iterations
-):  # noqa: E501
+):
     """just pass through to sim_local"""
     sim_local(simc_path, profile_location, output_location, iterations)

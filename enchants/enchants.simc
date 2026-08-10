@@ -44,6 +44,10 @@ profileset."Legs_Sunfire_Silk_Spellthread_1"+=legs=${gear.legs},enchant=sunfire_
 profileset."Legs_Sunfire_Silk_Spellthread_2"+=legs=${gear.legs},enchant=sunfire_silk_spellthread_2
 
 # Weapons
+# 120 Random Secondary Proc
+profileset."Weapon_Rite_of_the_Hashey_1"+=main_hand=${gear.main_hand},enchant_id=8688
+profileset."Weapon_Rite_of_the_Hashey_2"+=main_hand=${gear.main_hand},enchant_id=8689
+
 # Primary Stat Proc
 profileset."Weapon_Acuity_of_the_Rendorei_1"+=main_hand=${gear.main_hand},enchant_id=8038
 profileset."Weapon_Acuity_of_the_Rendorei_2"+=main_hand=${gear.main_hand},enchant_id=8039

@@ -1,6 +1,21 @@
 from internal import analyze as analyze_module
 
 
+class _FakeData:
+    def __init__(self, rows):
+        self._rows = rows
+
+    def iterrows(self):
+        return iter(enumerate(self._rows))
+
+
+class _FakeRow:
+    def __init__(self, profile, actor, dps):
+        self.profile = profile
+        self.actor = actor
+        self.DPS = dps
+
+
 def test_analyze_reads_dungeons_statweights(tmp_path, monkeypatch):
     sim_dir = tmp_path / "talents"
     output_dir = sim_dir / "output" / "dungeons"
@@ -118,3 +133,32 @@ def test_resolve_sim_steps_trinkets_defaults_to_dps_when_no_config_or_suffixes(
     steps = analyze_module.resolve_sim_steps("trinkets/", results)
 
     assert steps == ["DPS"]
+
+
+def test_build_results_normalizes_lowercase_base_actor(monkeypatch):
+    rows = [
+        _FakeRow("apl_hm_na_1", "base", 100),
+        _FakeRow("apl_hm_na_3", "base", 200),
+        _FakeRow("apl_hm_na_1", "new", 150),
+    ]
+    data = _FakeData(rows)
+
+    monkeypatch.setattr(analyze_module, "find_weight", lambda *_args, **_kwargs: 1)
+    monkeypatch.setattr(analyze_module, "get_number_of_profiles", lambda _dir: 2)
+
+    results = analyze_module.build_results(data, False, "Composite", "apl/", False)
+
+    assert results["Base"] == 150
+    assert "base" not in results
+
+
+def test_build_results_defaults_base_to_zero_when_missing(monkeypatch):
+    rows = [_FakeRow("apl_hm_na_1", "new", 175)]
+    data = _FakeData(rows)
+
+    monkeypatch.setattr(analyze_module, "find_weight", lambda *_args, **_kwargs: 1)
+    monkeypatch.setattr(analyze_module, "get_number_of_profiles", lambda _dir: 1)
+
+    results = analyze_module.build_results(data, False, "Composite", "apl/", False)
+
+    assert results["Base"] == 0

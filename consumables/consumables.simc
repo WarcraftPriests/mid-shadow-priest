@@ -32,6 +32,8 @@ profileset."Void_Touched_Augment_Rune"+=augmentation=void_touched
 
 # Food
 ## Feast
+### 71 highest secondary
+# profileset."Feast_of_Knowledge"+=food=feast_of_knowledge
 ### 65 highest secondary
 profileset."Blooming_Feast"+=food=blooming_feast
 # profileset."Queldorei_Medley"+=food=queldorei_medley
@@ -41,6 +43,8 @@ profileset."Silvermoon_Parade"+=food=silvermoon_parade
 # profileset."Harandar_Celebration"+=food=harandar_celebration
 
 ## Master
+### 71 highest secondary
+# profileset."Loas_Gathering"+=food=loas_gathering
 ### 65 highest secondary
 profileset."Champions_Bento"+=food=blooming_feast
 profileset."Flora_Frenzy"+=food=blooming_feast

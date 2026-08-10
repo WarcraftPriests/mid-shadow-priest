@@ -3,9 +3,11 @@
 
 import argparse
 import csv
+import json
 import math
 import os
-import json
+import sys
+
 import yaml
 
 from internal import utils
@@ -79,11 +81,12 @@ def get_builds():
     vw_cds = ["VF"]
     # Archon and Voidweaver can have different Idol options, manually splitting
     ar_idols = [
+        "nzoth_yogg",
         "nzoth_yogg_cthun",
     ]
     combos.extend(get_hero_builds("AR", ar_cds, ar_idols))
     ## Voidweaver
-    vw_idols = ["nzoth_yogg_cthun", "yshaarj_nzoth_yogg"]
+    vw_idols = ["nzoth_yogg", "nzoth_yogg_cthun"]
     combos.extend(get_hero_builds("VW", vw_cds, vw_idols))
     return combos
 
@@ -128,7 +131,7 @@ def find_talents(talent):
         file.close()
     if spec_talents == "not_found":
         print(f"{talent} not found")
-        exit()
+        sys.exit()
     return Talents(spec_talents, class_talents, hero_talents)
 
 
@@ -201,9 +204,8 @@ def create_sim_file(base, talent_dictionary, batches):
 
 def populate_talent_strings(name):
     talent_string_dictionary = {}
-    f = open(f"{name}.json")
-    data = json.load(f)
-    f.close()
+    with open(f"{name}.json", encoding="utf8") as f:
+        data = json.load(f)
     for player in data["sim"]["players"]:
         if player["name"] != "Base":
             talent_string_dictionary[player["name"]] = player["talents"]
@@ -235,7 +237,7 @@ if __name__ == "__main__":
         (cd, filler)
         for cd in build_configs
         for filler in ["_ME", "_DR", "_ME_VT", "_DR_VT"]
-    ]  # noqa: E501
+    ]
     results = utils.get_sim_types()
     push_results = list(utils.get_dungeon_combos())
 

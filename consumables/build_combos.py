@@ -19,7 +19,7 @@ runes = {
     "Temp_Weapon_Hissing_Rune_3": "temporary_enchant=main_hand:hissing_rune_3",
 }
 
-combos = [(f, r) for f in food.keys() for r in runes.keys()]
+combos = [(f, r) for f in food for r in runes]
 
 for combo in combos:
     name = combo[0] + "-" + combo[1]

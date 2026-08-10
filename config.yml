@@ -4,45 +4,45 @@ builds:
     gearSetup: default
     talents:
       composite:
-        name: AR_SP_SW_VF_nzoth_yogg_cthun_3299882250886639_IN_IV
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAgxMMjxyMDzsNzwMsNzMmZmxGyMWMTDwMAzsZGNbGAyYsAgZAGzMzY2GzstMAzgB
+        name: AR_SP_SW_VF_nzoth_yogg_3078143631544303_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZAjZmZMbMz2yAMDGA
       dungeons:
-        name: AR_SP_SW_VF_nzoth_yogg_cthun_1_Mis_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMmZWmZYmx2MGzMzYDZGLmpBYGgZ2MDzmBgMGLAYGIjZmZMbjZ2WGgZiB
+        name: AR_SP_SW_VF_nzoth_yogg_3078143665096687_Mis_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDzAAAAAAAAAAAAwMLmxMbjxMzyMGzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZAjZmZMbMz2yAMDGA
       single:
-        name: AR_SP_SW_VF_nzoth_yogg_cthun_3299882250886639_IN_IV
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAgxMMjxyMDzsNzwMsNzMmZmxGyMWMTDwMAzsZGNbGAyYsAgZAGzMzY2GzstMAzgB
+        name: AR_SP_SW_VF_nzoth_yogg_3078143631544303_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZAjZmZMbMz2yAMDGA
       2t:
-        name: AR_SP_SW_VF_nzoth_yogg_cthun_3299881948929519_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMMz2MDzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZAjZmZMbjZ2WGgZwA
+        name: AR_SP_SW_VF_nzoth_yogg_3078143665065967_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDzAAAAAAAAAAAAwMLmxMbzMmZ2mxYG2mZGzMzYDZGLmpBYGgZ2MjmNDAZMWAwMAjZmZMbMz2yAMDGA
       3t:
-        name: AR_SP_SW_VF_nzoth_yogg_cthun_3299882093533679_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMmZ2mZYG2mZGzMzYDZGLmpBYGgZ2MjmNDAZMWAAMYMzMjZbMz2yAMDGA
+        name: AR_SP_SW_VF_nzoth_yogg_3078143631544303_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZAjZmZMbMz2yAMDGA
       8t:
-        name: AR_SP_SW_VF_nzoth_yogg_cthun_3299882076757487_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZAAAAAAAAAAAAMMLmxYZmxMz2MDzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAGMYMzMjZbMz2yAMDGA
+        name: AR_SP_SW_VF_nzoth_yogg_3078143631544303_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZAjZmZMbMz2yAMDGA
   voidweaver:
     gearSetup: default
     name: Voidweaver
     talents:
       composite:
-        name: VW_DH_VF_nzoth_yogg_cthun_3299882057915887_IN_IV
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghhZMWmZYmtZGmhtZmxMzM2QmxiZaAmZmBACwsNbLBzGDwYMYMzMjZbMDmZwMYA
+        name: VW_DH_VF_nzoth_yogg_3078143852960751_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAAMLmxMbzMMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
       dungeons:
-        name: VW_DH_VF_nzoth_yogg_cthun_1_Mis_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMmZWmZYG2mZGzMzYDZGLmpBYmZGAIAz2stAmNGAYkxMzMmtxMYmBzED
+        name: VW_DH_VF_nzoth_yogg_3078143966993391_Mis_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMzyMzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmNmBzMYGMA
       single:
-        name: VW_DH_VF_nzoth_yogg_cthun_3299882250395119_IN_IV
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAgxgZMWmZYmtZGmhtZmxMzM2QmxiZaAmZmBACwsNbLBzGDwMDYMzMjZbMDmZwMYA
+        name: VW_DH_VF_nzoth_yogg_3078143852960751_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAAMLmxMbzMMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
       2t:
-        name: VW_DH_VF_nzoth_yogg_cthun_3299882093533679_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMmZ2mZYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
+        name: VW_DH_VF_nzoth_yogg_3078143852960751_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAAMLmxMbzMMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
       3t:
-        name: VW_DH_VF_yshaarj_nzoth_yogg_4127135744416239_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMjZMGAAAAAAAAAAAAjZZmxYZmxMz2MDzw2MzYmZGbIzYxMNAzMzAABY2mtlgZjBAGMmZmxsNmBzMYGMA
+        name: VW_DH_VF_nzoth_yogg_3078143852960751_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAAMLmxMbzMMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
       8t:
-        name: VW_DH_VF_nzoth_yogg_cthun_3299882093533679_IN_IV_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMmZ2mZYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
+        name: VW_DH_VF_nzoth_yogg_3078143820454895_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZAAAAAAAAAAAAgZxMmZbmxMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
 hero:
   AR:
     AR_EC_RP: "halo:1/perfected_form:1/power_surge:1/manifested_power:1/focused_outburst:1/incessant_screams:1/energy_conservation:1/empowered_surges:1/word_of_supremacy:1/energy_compression:1/resonant_energy:1/energy_cycle:1/realized_potential:1/divine_halo:1"
@@ -55,40 +55,40 @@ hero:
 gear:
   # 14.88% Mastery | 36.22% Haste | 15.02% Crit | 4.96% Vers (Raid-Buffed)
   default:
-    head: "blind_oaths_winged_crest,id=250051,ilevel=289" # haste/crit
-    neck: "eternal_voidsong_chain,id=249368,ilevel=289" # haste/mastery
-    shoulders: "blind_oaths_seraphguards,id=250049,ilevel=289" # crit/mastery
-    back: "draconic_nullcape,id=249370,ilevel=289" # haste/mastery
-    chest: "blind_oaths_raiment,id=250054,ilevel=289" # mastery/haste
-    wrists: "martyrs_bindings,id=239648,ilevel=285,bonus_id=8793/12384" # haste/mastery 
-    hands: "vilehex_bonds,id=251172,ilevel=289" # crit/haste
-    waist: "arcanoweave_cord,id=239664,ilevel=285" # haste/crit
-    legs: "blind_oaths_leggings,id=250050,ilevel=289" # haste/mastery
-    feet: "lightbinder_treads,id=109796,ilevel=289" # haste/mastery
-    finger1: "omission_of_light,id=251093,ilevel=289" # haste/mastery
-    finger2: "occlusion_of_void,id=251217,ilevel=289" # haste
-    trinket1: "vaelgors_final_stare,id=249346,ilevel=298"
-    trinket2: "gaze_of_the_alnseer,id=249343,ilevel=298"
-    main_hand: "belomelorn_the_shattered_talon,id=249283,ilevel=298" # haste/mastery
-    off_hand: "tome_of_alnscorned_regret,id=249922,ilevel=298" # haste/mastery
+    head: "cosmic_penitents_truesight,id=271555,bonus_id=13846,ilevel=344,redirected_base_stats=271874" # mastery
+    neck: "aqirbane_reliquary,id=268265,bonus_id=13708,ilevel=344" # crit
+    shoulders: "cosmic_penitents_echoing_screams,id=271553,ilevel=334" # crit/haste
+    back: "silken_voodoo_drape,id=268253,ilevel=344" # mastery/haste
+    chest: "cosmic_penitents_eclipsing_robes,id=271558,ilevel=334" # mastery/crit
+    wrists: "martyrs_bindings,id=239648,ilevel=331,bonus_id=8793/12384" # haste/mastery 
+    hands: "cosmic_penitents_celestial_grips,id=271556,ilevel=344,redirected_base_stats=268243" # haste/mastery
+    waist: "arcanoweave_cord,id=239664,ilevel=331" # haste/crit
+    legs: "enveloping_legwraps_of_the_cosmic_penitent,id=271554,ilevel=334,redirected_base_stats=251160" # haste/crit
+    feet: "cackling_soultreads,id=268255,ilevel=344" # haste/mastery
+    finger1: "sickening_signet_of_atroxus,id=252258,ilevel=334" # haste/mastery
+    finger2: "vile_alchemists_band,id=268249,ilevel=334" # mastery/crit
+    trinket1: "gebbos_bottomless_bag,id=270164,ilevel=334"
+    trinket2: "freightrunners_flask,id=250215,ilevel=334"
+    main_hand: "janthrazet_the_soul_fang,id=271092,ilevel=344" # haste
+    off_hand: "spine_of_the_hissing_abyss,id=268197,ilevel=334" # mastery/haste
   # x Mastery | x Haste | x Crit | x Vers
   noCantrip:
-    head: "blind_oaths_winged_crest,id=250051,ilevel=289" # haste/crit
-    neck: "amulet_of_the_abyssal_hymn,id=250247,ilevel=289" # mastery/haste
-    shoulders: "blind_oaths_seraphguards,id=250049,ilevel=289" # crit/mastery
-    back: "draconic_nullcape,id=249370,ilevel=289" # haste/mastery
-    chest: "blind_oaths_raiment,id=250054,ilevel=289" # mastery/haste
-    wrists: "voracious_wristwraps,id=249315,ilevel=289" # haste/mastery 
-    hands: "vilehex_bonds,id=251172,ilevel=289" # crit/haste
-    waist: "endless_march_waistwrap,id=249319,ilevel=289" # haste/crit
-    legs: "blind_oaths_leggings,id=250050,ilevel=289" # haste/mastery
-    feet: "lightbinder_treads,id=109796,ilevel=289" # haste/mastery
-    finger1: "omission_of_light,id=251093,ilevel=289" # haste/mastery
-    finger2: "eye_of_midnight,id=249920,ilevel=289" # haste
-    trinket1: "shadow_of_the_empyrean_requiem,id=249810,ilevel=298"
-    trinket2: "vaelgors_final_stare,id=249346,ilevel=298"
-    main_hand: "belomelorn_the_shattered_talon,id=249283,ilevel=298" # haste/mastery
-    off_hand: "tome_of_alnscorned_regret,id=249922,ilevel=298" # haste/mastery
+    head: "errant_scrollsages_hood,id=268242,ilevel=334" # haste/crit
+    neck: "amulet_of_the_twin_fangs,id=268251,ilevel=334" # crit
+    shoulders: "cosmic_penitents_echoing_screams,id=271553,ilevel=334" # crit/haste
+    back: "silken_voodoo_drape,id=268253,ilevel=334" # mastery/haste
+    chest: "cosmic_penitents_eclipsing_robes,id=271558,ilevel=334" # mastery/crit
+    wrists: "venomsinged_cuffs,id=268228,ilevel=334" # mastery/crit 
+    hands: "cosmic_penitents_celestial_grips,id=271556,ilevel=334" # haste/mastery
+    waist: "endless_march_waistwrap,id=249319,ilevel=334" # haste/crit
+    legs: "enveloping_legwraps_of_the_cosmic_penitent,id=271554,ilevel=334" # haste/crit
+    feet: "cackling_soultreads,id=268255,ilevel=334" # haste/mastery
+    finger1: "sickening_signet_of_atroxus,id=252258,ilevel=334" # haste/mastery
+    finger2: "vile_alchemists_band,id=268249,ilevel=334" # mastery/crit
+    trinket1: "gebbos_bottomless_bag,id=270164,ilevel=334"
+    trinket2: "freightrunners_flask,id=250215,ilevel=334"
+    main_hand: "hexing_spiritrender,id=268203,ilevel=334" # haste/mastery
+    off_hand: "spine_of_the_hissing_abyss,id=268197,ilevel=334" # mastery/haste
 gems:
   meta: "240983" # Indecipherable_Eversong_Diamond_2
   main: "240900" # Flawless Quick Amethyst
@@ -198,7 +198,7 @@ sims:
     files:
       - gear.simc
   stats:
-    description: "Stat distribution sim to see where we would want to add stats given the option. Each letter stands for a secondary stat and the number indicates how many steps were added to that build. So H10 means we add 10 steps of haste (currently 1000 stat each step)."
+    description: "Stat distribution sim to see where we would want to add stats given the option. Each letter stands for a secondary stat and the number indicates how many steps were added to that build. So H10 means we add 10 steps of haste (currently 200 stat each step)."
     gearOverride: none
     builds: true
     weights: false
@@ -297,7 +297,7 @@ councilTargets: 3
 dungeonSeason: 1
 dungeonStandardWeights: weightsSeasonOne
 dungeonPushWeights: weightsSeasonOne
-dungeonType: route
+dungeonType: slice
 simcBuild: latest
 forceHeroTalents: false
 defaultIterations: 10000
@@ -306,26 +306,26 @@ raidbots:
   numOfRetries: 100
   retryInterval: 10
 charts:
-  wowheadUrl: https://www.wowhead.com/ptr-2/
+  wowheadUrl: https://www.wowhead.com/ptr/
 analyze:
   dungeonCharts: false
   markdown: true
   csv: true
   json: true
 stats:
-  base: 400
-  steps: 100
-  total: 2400
+  base: 800
+  steps: 200
+  total: 3200
   min:
-    haste: 400
-    mastery: 400
-    crit: 0
-    vers: 0
+    haste: 800
+    mastery: 800
+    crit: 200
+    vers: 200
   max:
-    haste: 1600
-    mastery: 1600
-    crit: 1600
-    vers: 1000
+    haste: 2000
+    mastery: 2000
+    crit: 1400
+    vers: 400
   include:
     - mastery
     - haste

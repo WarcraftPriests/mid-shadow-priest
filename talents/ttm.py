@@ -4,6 +4,7 @@ import logging
 import math
 import os
 from pathlib import Path
+
 import yaml
 
 logger = logging.getLogger(__name__)
@@ -35,7 +36,7 @@ def load_config(path: str | os.PathLike | None = None):
     # If the config contains a `talents:` section, prefer that for choice-node/idol overrides
     try:
         _apply_config_choices(config.get("talents", config))
-    except Exception:
+    except (TypeError, AttributeError):
         logger.debug("No choice/idol overrides applied from config")
     return config
 
@@ -51,9 +52,8 @@ def _apply_config_choices(cfg: dict):
     for pair in cfg.get("choice_pairs", []):
         keywords = tuple(pair.get("keywords", []))
         suffixes = tuple(pair.get("suffixes", []))
-        if len(keywords) == 2 and len(suffixes) == 2:
-            if (keywords, suffixes) not in CHOICE_NODE_PAIRS:
-                CHOICE_NODE_PAIRS.append((keywords, suffixes))
+        if len(keywords) == 2 and len(suffixes) == 2 and (keywords, suffixes) not in CHOICE_NODE_PAIRS:
+            CHOICE_NODE_PAIRS.append((keywords, suffixes))
     # add singletons
     for single in cfg.get("choice_singletons", []):
         kw = single.get("keyword")
@@ -159,11 +159,7 @@ def apply_rules(line):
             bottom_talents += 1
         if f"{t}:2" in line:
             bottom_talents += 2
-    if bottom_talents < 9:
-        return True
-
-    # default case
-    return False
+    return bottom_talents < 9
 
 
 def convert_builds(profile):
@@ -258,8 +254,8 @@ def duplicate_builds():
             data = file.readlines()
         logger.info("Starting with %d builds", len(data))
         # duplicate all builds for minds_eye
-        me_data = list(map(lambda x: x.replace("minds_eye", "distorted_reality"), data))
-        me_data = list(map(lambda x: x.replace("_ME", "_DR"), me_data))
+        me_data = [x.replace("minds_eye", "distorted_reality") for x in data]
+        me_data = [x.replace("_ME", "_DR") for x in me_data]
         data = me_data + data
         logger.info("%d builds after duplicating for Mind's Eye", len(data))
         # create talent dictionary
@@ -276,11 +272,11 @@ def duplicate_builds():
         for build in cfg.get("hero", {}).get(hero_talent, {}):
             logger.info("Duplicating builds for %s...", build)
             talent_string = cfg["hero"][hero_talent][build]
-            for talent in talents:
+            for talent, talent_value in talents.items():
                 name = f"{build}_{talent}"
                 hero_line = f'profileset."{name}"+="hero_talents={talent_string}"\n'
                 class_line = ""
-                spec_line = f'profileset."{name}"+="{talents[talent]}"\n'
+                spec_line = f'profileset."{name}"+="{talent_value}"\n'
                 hero_talents[name] = Talents(spec_line, class_line, hero_line)
         logger.info("Writing builds to hero_%s_duplicated.simc", hero_talent)
         with open(f"hero_{hero_talent}_duplicated.simc", "w", encoding="utf8") as file:
@@ -293,7 +289,7 @@ def duplicate_builds():
 
 def make_build_files():
     hero_talents = ["AR", "VW"]
-    data = list()
+    data = []
     for hero_talent in hero_talents:
         with open(f"hero_{hero_talent}_duplicated.simc", "r", encoding="utf8") as file:
             data = data + file.readlines()
@@ -315,8 +311,7 @@ def make_build_files():
         end = batch_size + (batch_size * batch)
         with open(f"builds/talents_{batch}.simc", "w", encoding="utf8") as file:
             file.writelines(base)
-            for line in data[start:end]:
-                file.write(line)
+            file.writelines(data[start:end])
         file.close()
 
 

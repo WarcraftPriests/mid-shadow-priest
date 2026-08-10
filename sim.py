@@ -1,18 +1,18 @@
 """main sim script to run sims"""
 
-import sys
+import importlib
+import os
 import platform
 import re
-import os
+import sys
 from os import listdir
-import importlib
+
 import yaml
 
-from internal.weights import find_weights
-from internal.sim_parser import parse_json
-from internal.sim_parser import get_timestamp
-from internal.analyze import analyze
 from internal import utils
+from internal.analyze import analyze
+from internal.sim_parser import get_timestamp, parse_json
+from internal.weights import find_weights
 
 api_secrets_spec = importlib.util.find_spec("api_secrets")
 local_secrets_spec = importlib.util.find_spec("local_secrets")
@@ -63,7 +63,7 @@ def get_api_key(args, simc_build_version):
             return executable
         print(
             f"{executable} not a valid executable please check your local_secrets.py and PATH"
-        )  # noqa: E501
+        )
         sys.exit()
     else:
         return api_secrets.api_key
@@ -128,7 +128,7 @@ def run_sims(args, iterations, talent):
                 output_location,
                 profile_name_with_dir,
                 iterations,
-            )  # noqa: E501
+            )
         elif weight == 0:
             print(f"-- {output_name} has a weight of 0. Skipping file.")
         else:

@@ -1,0 +1,36 @@
+# Dungeons-Slice - voidweaver
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Human|243083|1.51%|
+|Mechagnome|242936|1.45%|
+|Panda_Feast|242920|1.44%|
+|Troll|242806|1.39%|
+|Blood_Elf|242734|1.36%|
+|Void_Elf|242713|1.35%|
+|Dwarf|242553|1.29%|
+|Gnome|242158|1.12%|
+|Goblin|242155|1.12%|
+|Nightborne|242152|1.12%|
+|Tauren|242127|1.11%|
+|Night_Elf_Haste|242084|1.09%|
+|Orc|242024|1.07%|
+|Kul_Tiran|242017|1.06%|
+|Draenei|241886|1.01%|
+|Highmountain_Tauren|241886|1.01%|
+|Dark_Iron_Dwarf|241791|0.97%|
+|Zandalari_Troll_Paku|241740|0.95%|
+|Night_Elf_Crit|241702|0.93%|
+|Earthen_Emerald|241647|0.91%|
+|Worgen|241520|0.86%|
+|Maghar_Orc|241426|0.82%|
+|Dracthyr|241217|0.73%|
+|Haranir|240962|0.62%|
+|Earthen_Ruby|240763|0.54%|
+|Earthen_Onyx|239733|0.11%|
+|Zandalari_Troll_Bwonsamdi|239524|0.02%|
+|Zandalari_Troll_Kimbul|239486|0.01%|
+|Base|239472|0.00%|
+|Vulpera|239450|-0.01%|
+|Undead|239282|-0.08%|
+|Lightforged_Draenei|239196|-0.12%|
+|Earthen_Sapphire|238368|-0.46%|

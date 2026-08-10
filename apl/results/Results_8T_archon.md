@@ -1,5 +1,5 @@
 # 8T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|532151|0.00%|
-|chatgpt_writes_an_apl|447639|-15.88%|
+|Base|1162887|0.00%|
+|mind_blast|1158838|-0.35%|

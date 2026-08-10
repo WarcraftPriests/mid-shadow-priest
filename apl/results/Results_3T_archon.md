@@ -1,5 +1,5 @@
 # 3T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|157640|0.00%|
-|chatgpt_writes_an_apl|156356|-0.81%|
+|Base|404456|0.00%|
+|mind_blast|403749|-0.17%|

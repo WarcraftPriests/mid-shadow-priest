@@ -1,1 +1,1 @@
-{"name": "3T - archon", "data": {"Base": {"DPS": 157640}, "chatgpt_writes_an_apl": {"DPS": 156356}}, "ids": {"chatgpt_writes_an_apl": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["chatgpt_writes_an_apl"], "last_updated": "2026-02-04"}
+{"name": "3T - archon", "data": {"Base": {"DPS": 404456}, "mind_blast": {"DPS": 403749}}, "ids": {"mind_blast": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["mind_blast"], "last_updated": "2026-08-02"}

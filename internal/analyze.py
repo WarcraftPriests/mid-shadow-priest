@@ -1,16 +1,17 @@
 """creates results files from sim results"""
 
-import re
-import time
 import json
 import operator
 import os
+import re
+import time
+
 import pandas
 import yaml
-from internal import utils
 
-from internal.weights import find_weights
+from internal import utils
 from internal.spell_ids import find_ids
+from internal.weights import find_weights
 
 with open("config.yml", "r", encoding="utf8") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
@@ -74,7 +75,7 @@ def get_change(current, previous):
         negative = True
     try:
         value = (abs(current - previous) / previous) * 100.0
-        value = float("%.2f" % value)
+        value = round(value, 2)
         if value >= 0.01 and negative:
             value = value * -1
         return value
@@ -99,9 +100,7 @@ def find_weight(sim_type, profile_name, dungeons):
         weight_type = "eightTargetWeights"
     elif sim_type == "Dungeons-Standard":
         weight_type = "dungeonStandardWeights"
-    elif sim_type == "Dungeons-Push":
-        weight_type = "dungeonPushWeights"
-    elif sim_type == "Dungeons-Route":
+    elif sim_type == "Dungeons-Push" or sim_type == "Dungeons-Route":
         weight_type = "dungeonPushWeights"
     elif sim_type == "Dungeons-Slice":
         weight = 1
@@ -133,6 +132,9 @@ def build_results(data, weights, sim_type, directory, dungeons):
     results = {}
     for value in data.iterrows():
         actor = value[1].actor
+        # APL sims can emit a lowercase baseline actor name.
+        if str(actor).lower() == "base":
+            actor = "Base"
         if "Dungeons" in sim_type or dungeons:
             fight_style = value[1].profile.split("_")[-1]
         else:
@@ -163,6 +165,19 @@ def build_results(data, weights, sim_type, directory, dungeons):
     # Each profile sims "Base" again so we need to divide that to get the real average
     number_of_profiles = get_number_of_profiles(directory[:-1])
     base_actor = results.get("Base")
+    if base_actor is None:
+        if weights:
+            base_actor = {
+                "dps": 0,
+                "intellect": 0,
+                "haste": 0,
+                "crit": 0,
+                "mastery": 0,
+                "vers": 0,
+                "wdps": 0,
+            }
+        else:
+            base_actor = 0
     if weights:
         base_dps = {}
         for key, value in base_actor.items():
@@ -187,7 +202,7 @@ def build_markdown(sim_type, talent_string, results, weights, base_dps, dungeons
     with open(output_file, "w+", encoding="utf8") as results_md:
         if weights:
             results_md.write(
-                f"# {report_name}\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight "  # noqa: E501
+                f"# {report_name}\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight "
                 "|\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n"
             )
             # Take the dict of dicts and created a new dict to be able to sort our keys
@@ -198,19 +213,15 @@ def build_markdown(sim_type, talent_string, results, weights, base_dps, dungeons
             # use that key to lookup the actual dict of values
             for key, value in sorted(
                 actor_dps.items(), key=operator.itemgetter(1), reverse=True
-            ):  # noqa: E501
+            ):
                 results_md.write(
-                    "|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|%.2f|\n"
-                    % (
-                        key,
-                        results[key].get("dps"),
-                        results[key].get("intellect"),
-                        results[key].get("haste"),
-                        results[key].get("crit"),
-                        results[key].get("mastery"),
-                        results[key].get("vers"),
-                        results[key].get("wdps"),
-                    )
+                    f"|{key}|{results[key].get('dps'):.0f}|"
+                    f"{results[key].get('intellect'):.2f}|"
+                    f"{results[key].get('haste'):.2f}|"
+                    f"{results[key].get('crit'):.2f}|"
+                    f"{results[key].get('mastery'):.2f}|"
+                    f"{results[key].get('vers'):.2f}|"
+                    f"{results[key].get('wdps'):.2f}|\n"
                 )
         else:
             results_md.write(
@@ -218,10 +229,8 @@ def build_markdown(sim_type, talent_string, results, weights, base_dps, dungeons
             )
             for key, value in sorted(
                 results.items(), key=operator.itemgetter(1), reverse=True
-            ):  # noqa: E501
-                results_md.write(
-                    "|%s|%.0f|%.2f%%|\n" % (key, value, get_change(value, base_dps))
-                )
+            ):
+                results_md.write(f"|{key}|{value:.0f}|{get_change(value, base_dps):.2f}%|\n")
 
 
 def build_csv(sim_type, talent_string, results, weights, base_dps, dungeons):
@@ -238,29 +247,23 @@ def build_csv(sim_type, talent_string, results, weights, base_dps, dungeons):
             # use that key to lookup the actual dict of values
             for key, value in sorted(
                 actor_dps.items(), key=operator.itemgetter(1), reverse=True
-            ):  # noqa: E501
+            ):
                 results_csv.write(
-                    "%s,%s,%.0f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,\n"
-                    % (
-                        sim_type,
-                        key,
-                        results[key].get("dps"),
-                        results[key].get("intellect"),
-                        results[key].get("haste"),
-                        results[key].get("crit"),
-                        results[key].get("mastery"),
-                        results[key].get("vers"),
-                        results[key].get("wdps"),
-                    )
+                    f"{sim_type},{key},{results[key].get('dps'):.0f},"
+                    f"{results[key].get('intellect'):.2f},"
+                    f"{results[key].get('haste'):.2f},"
+                    f"{results[key].get('crit'):.2f},"
+                    f"{results[key].get('mastery'):.2f},"
+                    f"{results[key].get('vers'):.2f},"
+                    f"{results[key].get('wdps'):.2f},\n"
                 )
         else:
             results_csv.write("profile,actor,DPS,increase,\n")
             for key, value in sorted(
                 results.items(), key=operator.itemgetter(1), reverse=True
-            ):  # noqa: E501
+            ):
                 results_csv.write(
-                    "%s,%s,%.0f,%.2f%%,\n"
-                    % (sim_type, key, value, get_change(value, base_dps))
+                    f"{sim_type},{key},{value:.0f},{get_change(value, base_dps):.2f}%,\n"
                 )
 
 
@@ -339,9 +342,9 @@ def build_json(sim_type, talent_string, results, directory, timestamp, dungeons)
                         try:
                             tid = int(str(tspec).split(",id=")[1].split(",")[0])
                             chart_data["ids"][tname] = tid
-                        except Exception:
+                        except (TypeError, ValueError, IndexError):
                             # ignore parse errors
-                            continue
+                            pass
         except FileNotFoundError:
             # no trinkets.yml present; skip
             pass
@@ -351,7 +354,7 @@ def build_json(sim_type, talent_string, results, directory, timestamp, dungeons)
         chart_data["simulated_steps"] = ["DPS"]
         for key, value in sorted(
             results.items(), key=operator.itemgetter(1), reverse=True
-        ):  # noqa: E501
+        ):
             chart_data["data"][key] = {"DPS": int(round(value, 0))}
             if key != "Base":
                 chart_data["sorted_data_keys"].append(key)
@@ -363,13 +366,13 @@ def build_json(sim_type, talent_string, results, directory, timestamp, dungeons)
         # trim off everything after last _
         for key, value in sorted(
             results.items(), key=operator.itemgetter(1), reverse=True
-        ):  # noqa: E501
+        ):
             unique_key = "_".join(key.split("_")[:-1])
             if (
                 unique_key not in unique_profiles
                 and unique_key != "Base"
                 and unique_key != ""
-            ):  # noqa: E501
+            ):
                 unique_profiles.append(unique_key)
                 chart_data["sorted_data_keys"].append(unique_key)
                 chart_data["ids"][unique_key] = lookup_id(unique_key, directory)
@@ -380,7 +383,7 @@ def build_json(sim_type, talent_string, results, directory, timestamp, dungeons)
             for step in steps:
                 for key, value in sorted(
                     results.items(), key=operator.itemgetter(1), reverse=True
-                ):  # noqa: E501
+                ):
                     # split off the key to get the step
                     # key: Trinket_415 would turn into 415
                     key_step = key.split("_")[len(key.split("_")) - 1]
@@ -438,7 +441,7 @@ def clear_dir(path, talent_string, fight_types):
                 for fight_type in fight_types:
                     dungeonChartsGen = config["analyze"][
                         "dungeonCharts"
-                    ] or not_dungeon_fight(fight_type)  # noqa: E501
+                    ] or not_dungeon_fight(fight_type)
                     if config["analyze"]["markdown"]:
                         output_files.append(f"{path}/Results_{fight_type}_{talent}.md")
                     if config["analyze"]["csv"] and (
@@ -457,9 +460,8 @@ def clear_dir(path, talent_string, fight_types):
                     output_files.append(f"{path}/Results_{fight_type}.csv")
                 if config["analyze"]["json"]:
                     output_files.append(f"{path}/Results_{fight_type}.json")
-        if file_to_delete not in output_files:
-            if os.path.exists(file_to_delete):
-                os.remove(file_to_delete)
+        if file_to_delete not in output_files and os.path.exists(file_to_delete):
+            os.remove(file_to_delete)
 
 
 def clear_output_files(talent_string):
@@ -574,7 +576,7 @@ def analyze(talents, directory, dungeons, weights, timestamp):
                 config["analyze"]["json"]
                 and config["analyze"]["dungeonCharts"]
                 and not weights
-            ):  # noqa: E501
+            ):
                 build_json(combo, talent_string, results, directory, timestamp, True)
 
     clear_output_files(talent_string)

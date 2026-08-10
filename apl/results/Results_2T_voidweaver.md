@@ -1,5 +1,5 @@
 # 2T - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|110598|0.00%|
-|fuck_you_swd|110496|-0.09%|
+|Base|380941|0.00%|
+|mind_blast|380704|-0.06%|

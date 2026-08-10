@@ -16,10 +16,10 @@ one_hands = {
 }
 
 off_hands = {
-    "OH_Pail_of_Preserved_Obscurity_639": "off_hand=pail_of_preserved_obscurity,id=221172,ilevel=639",  # noqa: E501
+    "OH_Pail_of_Preserved_Obscurity_639": "off_hand=pail_of_preserved_obscurity,id=221172,ilevel=639",
 }
 
-combos = [(mh, oh) for mh in one_hands.keys() for oh in off_hands.keys()]
+combos = [(mh, oh) for mh in one_hands for oh in off_hands]
 
 for combo in combos:
     name = combo[0] + "-" + combo[1]

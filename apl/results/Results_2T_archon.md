@@ -1,5 +1,5 @@
 # 2T - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|113338|0.00%|
-|chatgpt_writes_an_apl|111207|-1.88%|
+|Base|378898|0.00%|
+|mind_blast|378650|-0.07%|

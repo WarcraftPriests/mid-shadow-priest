@@ -3,8 +3,8 @@ builds trinket strings
 python build_combos.py
 """
 
-from itertools import combinations
 import os
+from itertools import combinations
 
 # Load combos from trinkets.yml (simple mapping under 'combos').
 # Try PyYAML then fallback to a minimal parser for this simple format.
@@ -12,14 +12,22 @@ combos = {}
 cfg_path = os.path.join(os.path.dirname(__file__), "trinkets.yml")
 raw_combos = {}
 if os.path.exists(cfg_path):
+    yaml_module = None
     try:
-        import yaml
+        import yaml as yaml_module
+    except ImportError:
+        yaml_module = None
 
-        with open(cfg_path, "r", encoding="utf8") as fh:
-            data = yaml.safe_load(fh)
-            if isinstance(data, dict) and "combos" in data:
-                raw_combos = data["combos"] or {}
-    except Exception:
+    if yaml_module is not None:
+        try:
+            with open(cfg_path, "r", encoding="utf8") as fh:
+                data = yaml_module.safe_load(fh)
+                if isinstance(data, dict) and "combos" in data:
+                    raw_combos = data["combos"] or {}
+        except yaml_module.YAMLError:
+            raw_combos = {}
+
+    if not raw_combos:
         # Minimal fallback parser: lines with `key: "value"` under `combos:` -> raw mapping
         with open(cfg_path, "r", encoding="utf8") as fh:
             in_combos = False
@@ -30,17 +38,16 @@ if os.path.exists(cfg_path):
                 if s.startswith("combos:"):
                     in_combos = True
                     continue
-                if in_combos:
-                    if ":" in s:
-                        key, val = s.split(":", 1)
-                        key = key.strip()
-                        val = val.strip()
-                        # remove surrounding quotes if present
-                        if (val.startswith('"') and val.endswith('"')) or (
-                            val.startswith("'") and val.endswith("'")
-                        ):
-                            val = val[1:-1]
-                        raw_combos[key] = val
+                if in_combos and ":" in s:
+                    key, val = s.split(":", 1)
+                    key = key.strip()
+                    val = val.strip()
+                    # remove surrounding quotes if present
+                    if (val.startswith('"') and val.endswith('"')) or (
+                        val.startswith("'") and val.endswith("'")
+                    ):
+                        val = val[1:-1]
+                    raw_combos[key] = val
 
 # Expand structured entries into flattened combos mapping expected by the rest of the script
 for name, spec in raw_combos.items():
@@ -105,6 +112,12 @@ def build_simc_string(trinkets):
             if "Unbound_Changeling" in trinket:
                 stat_type = trinket.split("_")[2].lower()
                 result += f'profileset."{profileset_name}"+=shadowlands.unbound_changeling_stat_type={stat_type}\n'
+            # Dragonflight options
+            if "Ruby_Whelp_Shell" in trinket:
+                if trinket.endswith("_SRW6_334"):
+                    result += f'profileset."{profileset_name}"+=dragonflight.ruby_whelp_shell_training=sleepy_ruby_warmth:6\n'
+                elif trinket.endswith("_URW6_334"):
+                    result += f'profileset."{profileset_name}"+=dragonflight.ruby_whelp_shell_training=under_red_wings:6\n'
         result += f'profileset."{profileset_name}"+=trinket1={trinket_one_value}\n'
         result += f'profileset."{profileset_name}"+=trinket2={trinket_two_value}\n\n'
     return result

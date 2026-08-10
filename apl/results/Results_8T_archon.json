@@ -1,1 +1,1 @@
-{"name": "8T - archon", "data": {"Base": {"DPS": 532151}, "chatgpt_writes_an_apl": {"DPS": 447639}}, "ids": {"chatgpt_writes_an_apl": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["chatgpt_writes_an_apl"], "last_updated": "2026-02-04"}
+{"name": "8T - archon", "data": {"Base": {"DPS": 1162887}, "mind_blast": {"DPS": 1158838}}, "ids": {"mind_blast": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["mind_blast"], "last_updated": "2026-08-02"}
