@@ -39,3 +39,13 @@ profileset."Darkmoon_Dominion_Blood_331"+=trinket1=darkmoon_dominion_blood,id=24
 profileset."Darkmoon_Dominion_Hunt_331"+=trinket1=darkmoon_dominion_hunt,id=246304,ilevel=331
 profileset."Darkmoon_Dominion_Rot_331"+=trinket1=darkmoon_dominion_rot,id=246306,ilevel=331
 profileset."Darkmoon_Dominion_Void_331"+=trinket1=darkmoon_dominion_void,id=246307,ilevel=331
+profileset."Crucible_of_Erratic_Energies_Violence_295"+=trinket1=crucible_of_erratic_energies_violence,id=264507,ilevel=295
+profileset."Crucible_of_Erratic_Energies_Violence_295"+=midnight.crucible_of_erratic_energies_violence=1
+profileset."Crucible_of_Erratic_Energies_Sustenance_295"+=trinket1=crucible_of_erratic_energies_sustenance,id=264507,ilevel=295
+profileset."Crucible_of_Erratic_Energies_Sustenance_295"+=midnight.crucible_of_erratic_energies_sustenance=1
+profileset."Crucible_of_Erratic_Energies_Predation_295"+=trinket1=crucible_of_erratic_energies_predation,id=264507,ilevel=295
+profileset."Crucible_of_Erratic_Energies_Predation_295"+=midnight.crucible_of_erratic_energies_predation=1
+profileset."Crucible_of_Erratic_Energies_All_295"+=trinket1=crucible_of_erratic_energies_all,id=264507,ilevel=295
+profileset."Crucible_of_Erratic_Energies_All_295"+=midnight.crucible_of_erratic_energies_violence=1
+profileset."Crucible_of_Erratic_Energies_All_295"+=midnight.crucible_of_erratic_energies_sustenance=1
+profileset."Crucible_of_Erratic_Energies_All_295"+=midnight.crucible_of_erratic_energies_predation=1

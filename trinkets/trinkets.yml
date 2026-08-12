@@ -114,6 +114,7 @@ other:
       item_levels: crafted
     - id: 264507
       name: "Crucible_of_Erratic_Energies"
+      item_levels: [295]
       option:
         - name: "Violence"
           value: "midnight.crucible_of_erratic_energies_violence=1"
