@@ -32,8 +32,10 @@ profileset."Fang_of_Umbral_Malignance_334"+=trinket1=fang_of_umbral_malignance,i
 profileset."Vexhuls_Everflowing_Gland_321"+=trinket1=vexhuls_everflowing_gland,id=270170,ilevel=321
 profileset."Vexhuls_Everflowing_Gland_334"+=trinket1=vexhuls_everflowing_gland,id=270170,ilevel=334
 profileset."Hex_Lords_Dooming_Idol_321"+=trinket1=hex_lords_dooming_idol,id=270169,ilevel=321
+profileset."Hex_Lords_Dooming_Idol_334"+=trinket1=hex_lords_dooming_idol,id=270169,ilevel=334
 profileset."Hex_Lords_Dooming_Idol_344"+=trinket1=hex_lords_dooming_idol,id=270169,ilevel=344
 profileset."Font_of_Venomous_Rage_321"+=trinket1=font_of_venomous_rage,id=270168,ilevel=321
+profileset."Font_of_Venomous_Rage_334"+=trinket1=font_of_venomous_rage,id=270168,ilevel=334
 profileset."Font_of_Venomous_Rage_344"+=trinket1=font_of_venomous_rage,id=270168,ilevel=344
 profileset."Wavecallers_Seastone_321"+=trinket1=wavecallers_seastone,id=270167,ilevel=321
 profileset."Wavecallers_Seastone_334"+=trinket1=wavecallers_seastone,id=270167,ilevel=334

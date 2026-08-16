@@ -3,52 +3,37 @@
 combos:
   Freightrunners_Flask:
     id: 250215
-    ilevels: [334]
+    ilevels: [321, 334]
   Lightspire_Core:
     id: 250214
-    ilevels: [334]
-  Sapling_of_the_Dawnroot:
-    id: 250259
-    ilevels: [334]
+    ilevels: [321, 334]
   Mindpiercers_Sigil:
     id: 250224
-    ilevels: [334]
+    ilevels: [321, 334]
   Knot_of_Writhing_Serpents:
     id: 273794
-    ilevels: [334]
+    ilevels: [321, 334]
   Vile_Vial_of_Volatile_Venom:
     id: 273796
-    ilevels: [334]
-  Ruby_Whelp_Shell_SRW6:
-    id: 193757
-    ilevels: [334]
-  Ruby_Whelp_Shell_URW6:
-    id: 193757
-    ilevels: [334]
-  Sethraliss_Defiled_Relic:
-    id: 158368
-    ilevels: [334]
+    ilevels: [321, 334]
   Stormbound_Emblem_of_Dazar:
     id: 273649
-    ilevels: [334]
+    ilevels: [321, 334]
   Gebbos_Bottomless_Bag:
     id: 270164
-    ilevels: [334]
+    ilevels: [321, 334]
   Fang_of_Umbral_Malignance:
     id: 270161
-    ilevels: [334]
+    ilevels: [321, 334]
   Vexhuls_Everflowing_Gland:
     id: 270170
-    ilevels: [334]
+    ilevels: [321, 334]
   Hex_Lords_Dooming_Idol:
     id: 270169
-    ilevels: [344]
-  Font_of_Venomous_Rage:
-    id: 270168
-    ilevels: [344]
+    ilevels: [334, 344]
   Wavecallers_Seastone:
     id: 270167
-    ilevels: [334]
+    ilevels: [321, 334]
   Vaelgors_Final_Stare:
     id: 249346
     ilevels: [298]

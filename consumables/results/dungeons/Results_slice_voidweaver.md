@@ -1,14 +1,14 @@
 # slice - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|238070|1.28%|
-|Silvermoon_Parade|238032|1.27%|
-|Fel_Kissed_Filet|237911|1.22%|
-|Flora_Frenzy|237478|1.03%|
-|Warped_Wise_Wings|237408|1.00%|
-|Arcano_Cutlets|237405|1.00%|
-|Champions_Bento|237255|0.94%|
-|Blooming_Feast|237166|0.90%|
-|Void_Touched_Augment_Rune|236635|0.67%|
-|Void_Kissed_Fish_Rolls|235862|0.34%|
-|Base|235055|0.00%|
+|Silvermoon_Parade|235370|1.47%|
+|Royal_Roast|235132|1.37%|
+|Fel_Kissed_Filet|235064|1.34%|
+|Arcano_Cutlets|234652|1.17%|
+|Flora_Frenzy|234633|1.16%|
+|Champions_Bento|234481|1.09%|
+|Blooming_Feast|234329|1.03%|
+|Warped_Wise_Wings|234196|0.97%|
+|Void_Touched_Augment_Rune|233763|0.78%|
+|Void_Kissed_Fish_Rolls|233123|0.51%|
+|Base|231949|0.00%|

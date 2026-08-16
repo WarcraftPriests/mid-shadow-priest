@@ -1,14 +1,14 @@
 # Single - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|207277|1.50%|
-|Silvermoon_Parade|207165|1.44%|
-|Champions_Bento|206516|1.13%|
-|Fel_Kissed_Filet|206509|1.12%|
-|Warped_Wise_Wings|206476|1.11%|
-|Blooming_Feast|206430|1.08%|
-|Flora_Frenzy|206390|1.06%|
-|Arcano_Cutlets|206342|1.04%|
-|Void_Touched_Augment_Rune|205674|0.71%|
-|Void_Kissed_Fish_Rolls|205341|0.55%|
-|Base|204216|0.00%|
+|Royal_Roast|204917|1.48%|
+|Silvermoon_Parade|204885|1.46%|
+|Arcano_Cutlets|204193|1.12%|
+|Champions_Bento|204150|1.10%|
+|Blooming_Feast|204131|1.09%|
+|Fel_Kissed_Filet|204117|1.08%|
+|Flora_Frenzy|204100|1.07%|
+|Warped_Wise_Wings|204088|1.07%|
+|Void_Touched_Augment_Rune|203435|0.74%|
+|Void_Kissed_Fish_Rolls|202955|0.51%|
+|Base|201933|0.00%|

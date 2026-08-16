@@ -1,14 +1,14 @@
 # Composite - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|249880|1.46%|
-|Silvermoon_Parade|249880|1.46%|
-|Fel_Kissed_Filet|249116|1.15%|
-|Arcano_Cutlets|248981|1.10%|
-|Blooming_Feast|248930|1.07%|
-|Champions_Bento|248929|1.07%|
-|Warped_Wise_Wings|248903|1.06%|
-|Flora_Frenzy|248879|1.05%|
-|Void_Touched_Augment_Rune|248105|0.74%|
-|Void_Kissed_Fish_Rolls|247605|0.54%|
-|Base|246283|0.00%|
+|Royal_Roast|247093|1.46%|
+|Silvermoon_Parade|247035|1.43%|
+|Arcano_Cutlets|246258|1.11%|
+|Fel_Kissed_Filet|246239|1.10%|
+|Champions_Bento|246084|1.04%|
+|Blooming_Feast|246077|1.04%|
+|Warped_Wise_Wings|246072|1.04%|
+|Flora_Frenzy|246070|1.04%|
+|Void_Touched_Augment_Rune|245329|0.73%|
+|Void_Kissed_Fish_Rolls|244769|0.50%|
+|Base|243548|0.00%|

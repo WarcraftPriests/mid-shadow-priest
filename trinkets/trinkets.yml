@@ -2,7 +2,7 @@ item_levels:
   champion: []
   hero: [321]
   raid: [321, 334]
-  raid_boosted: [321, 344]
+  raid_boosted: [321, 334, 344]
   delves: [321]
   dungeons: [321, 334]
   crafted: [331]
