@@ -1,15 +1,15 @@
 # 2T - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Royal_Roast|362896|1.47%|
-|Silvermoon_Parade|362861|1.46%|
-|Arcano_Cutlets|361701|1.13%|
-|Fel_Kissed_Filet|361653|1.12%|
-|Champions_Bento|361311|1.03%|
-|Warped_Wise_Wings|361247|1.01%|
-|Blooming_Feast|361225|1.00%|
-|Flora_Frenzy|361216|1.00%|
-|Void_Touched_Augment_Rune|360214|0.72%|
-|Void_Kissed_Fish_Rolls|359465|0.51%|
-|Loas_Gathering|357654|0.00%|
-|Base|357641|0.00%|
+|Silvermoon_Parade|362787|1.42%|
+|Royal_Roast|362712|1.40%|
+|Fel_Kissed_Filet|361625|1.10%|
+|Arcano_Cutlets|361623|1.10%|
+|Champions_Bento|361318|1.01%|
+|Flora_Frenzy|361291|1.01%|
+|Warped_Wise_Wings|361192|0.98%|
+|Blooming_Feast|361181|0.98%|
+|Void_Touched_Augment_Rune|360132|0.68%|
+|Void_Kissed_Fish_Rolls|359434|0.49%|
+|Loas_Gathering|357697|0.00%|
+|Base|357691|0.00%|
