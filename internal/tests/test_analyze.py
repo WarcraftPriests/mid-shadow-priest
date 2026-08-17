@@ -162,3 +162,24 @@ def test_build_results_defaults_base_to_zero_when_missing(monkeypatch):
     results = analyze_module.build_results(data, False, "Composite", "apl/", False)
 
     assert results["Base"] == 0
+
+
+def test_lookup_special_spell_id_ignores_item_level_suffix():
+    assert (
+        analyze_module.lookup_spell_id(
+            "Head_Venomkeepers_Horrific_Cowl_334", "special-gear/"
+        )
+        == 271555
+    )
+    assert (
+        analyze_module.lookup_spell_id(
+            "Head_Venomkeepers_Horrific_Cowl_344", "special-gear/"
+        )
+        == 271555
+    )
+    assert (
+        analyze_module.lookup_spell_id(
+            "Embellishment_Hunters_Ritual_Stone", "special-gear/"
+        )
+        == 13771
+    )

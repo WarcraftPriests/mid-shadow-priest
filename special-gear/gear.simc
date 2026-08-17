@@ -25,9 +25,6 @@ main_hand=${gear.main_hand},enchant=${enchants.main_hand}
 ${gear.off_hand}
 
 # Season 2 Cantrip Items
-profileset."1H_Polished_Lightwood_Channeler_322"+=main_hand=polished_lightwood_channeler,id=273778,ilevel=322,enchant=${enchants.main_hand}
-profileset."1H_Polished_Lightwood_Channeler_322"+=off_hand=spine_of_the_hissing_abyss,id=268197,ilevel=334
-
 profileset."1H_Polished_Lightwood_Channeler_334"+=main_hand=polished_lightwood_channeler,id=273778,ilevel=334,enchant=${enchants.main_hand}
 profileset."1H_Polished_Lightwood_Channeler_334"+=off_hand=spine_of_the_hissing_abyss,id=268197,ilevel=334
 
@@ -149,13 +146,9 @@ profileset."Martyrs_Waistwrap_331"+=waist=martyrs_waistwrap,id=239649,ilevel=331
 profileset."Martyrs_Bindings_331"+=wrists=martyrs_bindings,id=239648,ilevel=331,bonus_id=8793,gem_id=${gems.amethyst}
 profileset."Martyrs_Gloves_331"+=hands=martyrs_gloves,id=239653,ilevel=331,bonus_id=8793
 profileset."Martyrs_Crown_331"+=head=martyrs_crown,id=239652,ilevel=331,bonus_id=8793,gem_id=${gems.meta},enchant=${enchants.head}
-profileset."Martyrs_Crown_331"+=hands=blind_oaths_touch,id=250052,ilevel=289
 profileset."Martyrs_Leggings_331"+=legs=martyrs_leggings,id=239651,ilevel=331,bonus_id=8793,enchant=${enchants.legs}
-profileset."Martyrs_Leggings_331"+=hands=blind_oaths_touch,id=250052,ilevel=289
 profileset."Martyrs_Mantle_331"+=shoulder=martyrs_mantle,id=239650,ilevel=331,bonus_id=8793
-profileset."Martyrs_Mantle_331"+=hands=blind_oaths_touch,id=250052,ilevel=289
 profileset."Martyrs_Vestments_331"+=chest=martyrs_vestments,id=239655,ilevel=331,bonus_id=8793,enchant=${enchants.chest}
-profileset."Martyrs_Vestments_331"+=hands=blind_oaths_touch,id=250052,ilevel=289
 profileset."Martyrs_Slippers_331"+=feet=martyrs_slippers,id=239654,ilevel=331,bonus_id=8793
 
 profileset."Neck_Masterwork_Sindorei_Amulet_331"+=neck=masterwork_sindorei_amulet,id=240950,bonus_id=8793,ilevel=331,gem_id=${gems.peridot}

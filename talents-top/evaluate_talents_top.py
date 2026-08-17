@@ -19,10 +19,8 @@ import csv
 import datetime as dt
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
 
 import yaml
-
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_RESULTS_DIR = SCRIPT_DIR / "results"
@@ -39,8 +37,8 @@ class Row:
 
 @dataclass
 class HeroBaselines:
-    dungeon: Optional[str]
-    t8: Optional[str]
+    dungeon: str | None
+    t8: str | None
     source: str
 
 
@@ -101,7 +99,7 @@ def load_config() -> dict:
         return yaml.load(handle, Loader=yaml.FullLoader)
 
 
-def load_config_recommendations(config: dict) -> Dict[str, Dict[str, Optional[str]]]:
+def load_config_recommendations(config: dict) -> dict[str, dict[str, str | None]]:
     return {
         "Archon": {
             "dungeon": config.get("builds", {})
@@ -130,11 +128,11 @@ def load_config_recommendations(config: dict) -> Dict[str, Dict[str, Optional[st
     }
 
 
-def load_results(results_dir: Path) -> Dict[str, List[Row]]:
-    data: Dict[str, List[Row]] = {}
+def load_results(results_dir: Path) -> dict[str, list[Row]]:
+    data: dict[str, list[Row]] = {}
     for csv_path in sorted(results_dir.glob("Results_*.csv")):
         fight = csv_path.stem.replace("Results_", "")
-        rows: List[Row] = []
+        rows: list[Row] = []
         with csv_path.open("r", encoding="utf8", newline="") as handle:
             reader = csv.DictReader(handle)
             for i, row in enumerate(reader, start=1):
@@ -148,7 +146,7 @@ def load_results(results_dir: Path) -> Dict[str, List[Row]]:
     return data
 
 
-def find_dungeon_fight(data: Dict[str, List[Row]]) -> str:
+def find_dungeon_fight(data: dict[str, list[Row]]) -> str:
     preferred = ["Dungeons-Slice", "Dungeons-Route"]
     for fight in preferred:
         if fight in data:
@@ -163,7 +161,7 @@ def find_dungeon_fight(data: Dict[str, List[Row]]) -> str:
     )
 
 
-def get_top_actor(data: Dict[str, List[Row]], fight: str) -> Optional[str]:
+def get_top_actor(data: dict[str, list[Row]], fight: str) -> str | None:
     rows = data.get(fight, [])
     if not rows:
         return None
@@ -171,8 +169,8 @@ def get_top_actor(data: Dict[str, List[Row]], fight: str) -> Optional[str]:
 
 
 def get_top_actor_for_prefix(
-    data: Dict[str, List[Row]], fight: str, hero_prefix: str
-) -> Optional[str]:
+    data: dict[str, list[Row]], fight: str, hero_prefix: str
+) -> str | None:
     rows = data.get(fight, [])
     for row in rows:
         if row.actor.startswith(hero_prefix):
@@ -181,13 +179,13 @@ def get_top_actor_for_prefix(
 
 
 def get_top_n_actors_for_prefix(
-    data: Dict[str, List[Row]],
+    data: dict[str, list[Row]],
     fight: str,
     hero_prefix: str,
     n: int = 1,
-) -> List[str]:
+) -> list[str]:
     rows = data.get(fight, [])
-    out: List[str] = []
+    out: list[str] = []
     for row in rows:
         if row.actor.startswith(hero_prefix):
             out.append(row.actor)
@@ -196,8 +194,8 @@ def get_top_n_actors_for_prefix(
     return out
 
 
-def build_index(data: Dict[str, List[Row]]) -> Dict[str, Dict[str, Row]]:
-    by_actor_by_fight: Dict[str, Dict[str, Row]] = {}
+def build_index(data: dict[str, list[Row]]) -> dict[str, dict[str, Row]]:
+    by_actor_by_fight: dict[str, dict[str, Row]] = {}
     for fight, rows in data.items():
         for row in rows:
             by_actor_by_fight.setdefault(row.actor, {})[fight] = row
@@ -205,14 +203,14 @@ def build_index(data: Dict[str, List[Row]]) -> Dict[str, Dict[str, Row]]:
 
 
 def build_hero_rank_index(
-    data: Dict[str, List[Row]],
+    data: dict[str, list[Row]],
     hero_prefix: str,
-) -> Dict[str, Dict[str, int]]:
-    out: Dict[str, Dict[str, int]] = {}
+) -> dict[str, dict[str, int]]:
+    out: dict[str, dict[str, int]] = {}
     for fight, rows in data.items():
         hero_rows = [row for row in rows if row.actor.startswith(hero_prefix)]
         hero_total = len(hero_rows)
-        fight_rank: Dict[str, int] = {}
+        fight_rank: dict[str, int] = {}
         for hero_rank, row in enumerate(hero_rows, start=1):
             fight_rank[row.actor] = hero_rank
         fight_rank["__total__"] = hero_total
@@ -220,9 +218,9 @@ def build_hero_rank_index(
     return out
 
 
-def ordered_unique(items: List[str]) -> List[str]:
+def ordered_unique(items: list[str]) -> list[str]:
     seen = set()
-    out: List[str] = []
+    out: list[str] = []
     for item in items:
         if item and item not in seen:
             seen.add(item)
@@ -230,7 +228,7 @@ def ordered_unique(items: List[str]) -> List[str]:
     return out
 
 
-def get_fight_order(data: Dict[str, List[Row]], dungeon_fight: str) -> List[str]:
+def get_fight_order(data: dict[str, list[Row]], dungeon_fight: str) -> list[str]:
     preferred = [dungeon_fight, "8T", "3T", "2T", "Single", "Composite"]
     ordered = [fight for fight in preferred if fight in data]
     remaining = sorted([fight for fight in data if fight not in ordered])
@@ -239,10 +237,10 @@ def get_fight_order(data: Dict[str, List[Row]], dungeon_fight: str) -> List[str]
 
 
 def fmt_cell(
-    actor_data: Dict[str, Row],
+    actor_data: dict[str, Row],
     fight: str,
     top_dps: float,
-    hero_rank_index: Dict[str, Dict[str, int]],
+    hero_rank_index: dict[str, dict[str, int]],
     actor: str,
 ) -> str:
     row = actor_data.get(fight)
@@ -261,11 +259,11 @@ def pct_delta(new: float, base: float) -> float:
 
 
 def recommend_builds(
-    selected_builds: List[str],
-    index: Dict[str, Dict[str, Row]],
+    selected_builds: list[str],
+    index: dict[str, dict[str, Row]],
     dungeon_fight: str,
     high_key_drop_threshold: float,
-) -> Dict[str, str]:
+) -> dict[str, str]:
     dungeon_candidates = [
         b for b in selected_builds if b in index and dungeon_fight in index[b]
     ]
@@ -345,12 +343,12 @@ def choose_hero_baselines(
     hero_name: str,
     hero_prefix: str,
     args: argparse.Namespace,
-    data: Dict[str, List[Row]],
+    data: dict[str, list[Row]],
     dungeon_fight: str,
-    config_recs: Dict[str, Dict[str, Optional[str]]],
-    index: Dict[str, Dict[str, Row]],
-) -> Tuple[HeroBaselines, List[str]]:
-    notes: List[str] = []
+    config_recs: dict[str, dict[str, str | None]],
+    index: dict[str, dict[str, Row]],
+) -> tuple[HeroBaselines, list[str]]:
+    notes: list[str] = []
 
     top_baselines = HeroBaselines(
         dungeon=get_top_actor_for_prefix(data, dungeon_fight, hero_prefix),
@@ -397,14 +395,14 @@ def choose_hero_baselines(
 
 def get_preset_candidates(
     preset: str,
-    data: Dict[str, List[Row]],
+    data: dict[str, list[Row]],
     hero_prefix: str,
     dungeon_fight: str,
-) -> List[str]:
+) -> list[str]:
     if preset == "custom-only":
         return []
     if preset == "high-key-review":
-        candidates: List[str] = []
+        candidates: list[str] = []
         candidates.extend(get_top_n_actors_for_prefix(data, "8T", hero_prefix, n=2))
         candidates.extend(get_top_n_actors_for_prefix(data, "3T", hero_prefix, n=2))
         candidates.extend(get_top_n_actors_for_prefix(data, "2T", hero_prefix, n=2))
@@ -421,10 +419,10 @@ def get_preset_candidates(
 def build_delta_text(
     candidate_build: str,
     base_build: str,
-    fights: List[str],
-    index: Dict[str, Dict[str, Row]],
+    fights: list[str],
+    index: dict[str, dict[str, Row]],
 ) -> str:
-    segments: List[str] = []
+    segments: list[str] = []
     for fight in fights:
         candidate_row = index.get(candidate_build, {}).get(fight)
         base_row = index.get(base_build, {}).get(fight)
@@ -439,12 +437,12 @@ def build_delta_text(
 
 def render_report(
     output_path: Path,
-    data: Dict[str, List[Row]],
-    custom_builds: List[str],
+    data: dict[str, list[Row]],
+    custom_builds: list[str],
     dungeon_fight: str,
     high_key_drop_threshold: float,
     args: argparse.Namespace,
-    config_recs: Dict[str, Dict[str, Optional[str]]],
+    config_recs: dict[str, dict[str, str | None]],
 ) -> None:
     index = build_index(data)
     fights = get_fight_order(data, dungeon_fight)
@@ -456,10 +454,10 @@ def render_report(
         if not any(build.startswith(prefix) for prefix in HERO_PREFIXES.values())
     ]
 
-    lines: List[str] = []
+    lines: list[str] = []
     lines.append("# Talents-Top Build Comparison")
     lines.append("")
-    lines.append(f"Generated: {dt.date.today().isoformat()}")
+    lines.append(f"Generated: {dt.datetime.now(tz=dt.UTC).date().isoformat()}")
     lines.append(f"Results directory: {output_path.parent}")
     lines.append("")
     lines.append("## Selection Logic")
@@ -553,7 +551,7 @@ def render_report(
 
         for build in selected_builds:
             actor_data = index.get(build, {})
-            cells: List[str] = []
+            cells: list[str] = []
             for fight in fights:
                 fight_rows = data[fight]
                 top_hero_dps = next(

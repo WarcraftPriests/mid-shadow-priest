@@ -44,7 +44,7 @@ profileset."Silvermoon_Parade"+=food=silvermoon_parade
 
 ## Master
 ### 71 highest secondary
-# profileset."Loas_Gathering"+=food=loas_gathering
+profileset."Loas_Gathering"+=food=loas_gathering
 ### 65 highest secondary
 profileset."Champions_Bento"+=food=blooming_feast
 profileset."Flora_Frenzy"+=food=blooming_feast

@@ -282,6 +282,8 @@ def lookup_id(name, directory):
 
 def lookup_spell_id(spell_name, directory):
     """lookup a spell name from the ids dict"""
+    if directory == "special-gear/":
+        spell_name = re.sub(r"_\d+$", "", spell_name)
     ids = find_ids(directory[:-1])
     if ids:
         return ids.get(spell_name)
