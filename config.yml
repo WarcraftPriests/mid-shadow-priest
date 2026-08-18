@@ -73,7 +73,7 @@ gear:
     off_hand: "spine_of_the_hissing_abyss,id=268197,ilevel=334" # mastery/haste
   # x Mastery | x Haste | x Crit | x Vers
   noCantrip:
-    head: "errant_scrollsages_hood,id=268242,ilevel=334" # haste/crit
+    head: "cosmic_penitents_truesight,id=271555,ilevel=334" # haste/crit
     neck: "amulet_of_the_twin_fangs,id=268251,ilevel=334" # crit
     shoulders: "cosmic_penitents_echoing_screams,id=271553,ilevel=334" # crit/haste
     back: "silken_voodoo_drape,id=268253,ilevel=334" # mastery/haste
@@ -283,7 +283,7 @@ sims:
       - DPS
     files:
       - weights.simc
-compositeWeights: weightsRaidSeasonOne
+compositeWeights: weightsRaidSeasonTwo
 singleTargetWeights: weightsSingle
 twoTargetWeights: weightsTwoTargets
 threeTargetWeights: weightsThreeTargets

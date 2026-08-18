@@ -20,6 +20,13 @@ dungeons:
       name: "Freightrunners_Flask"
     - id: 250214
       name: "Lightspire_Core"
+      option:
+        - name: "50%"
+          value: "midnight.lightspire_core_duration_multiplier=0.5"
+        - name: "75%"
+          value: "midnight.lightspire_core_duration_multiplier=0.75"
+        - name: "90%"
+          value: "midnight.lightspire_core_duration_multiplier=0.9"
     - id: 250259
       name: "Sapling_of_the_Dawnroot"
     - id: 250224

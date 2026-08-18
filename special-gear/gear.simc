@@ -63,9 +63,6 @@ profileset."Embellishment_Devouring_Banding_1"+=feet=${gear.feet},ilevel=331,bon
 ### Prismatic Focusing Iris (JC) - 13453
 profileset."Embellishment_Prismatic_Focusing_Iris_1"+=feet=${gear.feet},ilevel=331,bonus_id=13453
 
-### Stabilizing Gemstone Bandolier (double JC embellishments) - 13454
-# TBD
-
 ## Tailoring
 ### 2-Set: Arcanoweave (Crit above 80%) Bracers/Treads/Cloak (TODO: add options)
 profileset."Arcanoweave_Bracers_Treads_331"+=wrists=arcanoweave_bracers,id=239660,ilevel=331,gem_id=${gems.amethyst}
@@ -99,8 +96,37 @@ profileset."Finger1_Signet_of_Azerothian_Blessings_331"+=finger1=signet_of_azero
 profileset."Finger2_Signet_of_Azerothian_Blessings_331"+=finger2=signet_of_azerothian_blessings,id=241140,ilevel=331,enchant=${enchants.ring},gem_id=${gems.main}
 
 ### Loa Worshiper's Band
-profileset."Finger1_Loa_Worshipers_Band_331"+=finger1=loa_worshipers_band,id=251513,ilevel=331,enchant=${enchants.ring},gem_id=${gems.garnet}
-profileset."Finger2_Loa_Worshipers_Band_331"+=finger2=loa_worshipers_band,id=251513,ilevel=331,enchant=${enchants.ring},gem_id=${gems.main}
+# profileset."Finger1_Loa_Worshipers_Band_331"+=finger1=loa_worshipers_band,id=251513,ilevel=331,enchant=${enchants.ring},gem_id=${gems.garnet}
+
+### Stabilizing Gemstone Bandolier (double JC embellishments) - 13454
+# profileset."Finger2_Loa_Worshipers_Band_All_331-Bandolier_331"+=finger2=loa_worshipers_band,id=251513,ilevel=331,enchant=${enchants.ring},gem_id=${gems.main}
+# profileset."Finger2_Loa_Worshipers_Band_All_331-Bandolier_331"+=feet=${gear.feet},ilevel=331,bonus_id=13454
+
+profileset."Finger2_Loa_Worshipers_Band_All_331"+=finger2=loa_worshipers_band,id=251513,ilevel=331,enchant=${enchants.ring},gem_id=${gems.main}
+
+profileset."Finger2_Loa_Worshipers_Band_Garnet_331"+=finger2=loa_worshipers_band,id=251513,ilevel=331,enchant=${enchants.ring},gem_id=${gems.garnet}
+profileset."Finger2_Loa_Worshipers_Band_Garnet_331"+=neck=${gear.neck},gem_id=${gems.garnet}
+profileset."Finger2_Loa_Worshipers_Band_Garnet_331"+=wrists=${gear.wrists},gem_id=${gems.garnet}
+profileset."Finger2_Loa_Worshipers_Band_Garnet_331"+=waist=${gear.waist},gem_id=${gems.garnet}
+profileset."Finger2_Loa_Worshipers_Band_Garnet_331"+=finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.garnet}
+
+profileset."Finger2_Loa_Worshipers_Band_Peridot_331"+=finger2=loa_worshipers_band,id=251513,ilevel=331,enchant=${enchants.ring},gem_id=${gems.peridot}
+profileset."Finger2_Loa_Worshipers_Band_Peridot_331"+=neck=${gear.neck},gem_id=${gems.peridot}
+profileset."Finger2_Loa_Worshipers_Band_Peridot_331"+=wrists=${gear.wrists},gem_id=${gems.peridot}
+profileset."Finger2_Loa_Worshipers_Band_Peridot_331"+=waist=${gear.waist},gem_id=${gems.peridot}
+profileset."Finger2_Loa_Worshipers_Band_Peridot_331"+=finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.peridot}
+
+profileset."Finger2_Loa_Worshipers_Band_Amethyst_331"+=finger2=loa_worshipers_band,id=251513,ilevel=331,enchant=${enchants.ring},gem_id=${gems.amethyst}
+profileset."Finger2_Loa_Worshipers_Band_Amethyst_331"+=neck=${gear.neck},gem_id=${gems.amethyst}
+profileset."Finger2_Loa_Worshipers_Band_Amethyst_331"+=wrists=${gear.wrists},gem_id=${gems.amethyst}
+profileset."Finger2_Loa_Worshipers_Band_Amethyst_331"+=waist=${gear.waist},gem_id=${gems.amethyst}
+profileset."Finger2_Loa_Worshipers_Band_Amethyst_331"+=finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.amethyst}
+
+profileset."Finger2_Loa_Worshipers_Band_Lapis_331"+=finger2=loa_worshipers_band,id=251513,ilevel=331,enchant=${enchants.ring},gem_id=${gems.lapis}
+profileset."Finger2_Loa_Worshipers_Band_Lapis_331"+=neck=${gear.neck},gem_id=${gems.lapis}
+profileset."Finger2_Loa_Worshipers_Band_Lapis_331"+=wrists=${gear.wrists},gem_id=${gems.lapis}
+profileset."Finger2_Loa_Worshipers_Band_Lapis_331"+=waist=${gear.waist},gem_id=${gems.lapis}
+profileset."Finger2_Loa_Worshipers_Band_Lapis_331"+=finger1=${gear.finger1},enchant=${enchants.ring},gem_id=${gems.lapis}
 
 ### Thalassian Phoenix Torque
 profileset."Neck_Thalassian_Phoenix_Torque_331"+=neck=thalassian_phoenix_torque,id=241139,ilevel=331,gem_id=${gems.peridot}
@@ -152,5 +178,5 @@ profileset."Martyrs_Vestments_331"+=chest=martyrs_vestments,id=239655,ilevel=331
 profileset."Martyrs_Slippers_331"+=feet=martyrs_slippers,id=239654,ilevel=331,bonus_id=8793
 
 profileset."Neck_Masterwork_Sindorei_Amulet_331"+=neck=masterwork_sindorei_amulet,id=240950,bonus_id=8793,ilevel=331,gem_id=${gems.peridot}
-profileset."Finger1_Masterwork_Sindorei_Band_331"+=finger1=masterwork_sindorei_band,id=240949,bonus_id=8793,ilevel=331,enchant=${enchants.ring},gem_id=${gems.garnet}
+# profileset."Finger1_Masterwork_Sindorei_Band_331"+=finger1=masterwork_sindorei_band,id=240949,bonus_id=8793,ilevel=331,enchant=${enchants.ring},gem_id=${gems.garnet}
 profileset."Finger2_Masterwork_Sindorei_Band_331"+=finger2=masterwork_sindorei_band,id=240949,bonus_id=8793,ilevel=331,enchant=${enchants.ring},gem_id=${gems.main}

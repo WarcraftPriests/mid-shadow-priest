@@ -1,15 +1,15 @@
 # Single - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Silvermoon_Parade|209994|1.46%|
-|Royal_Roast|209977|1.46%|
-|Arcano_Cutlets|209289|1.12%|
-|Fel_Kissed_Filet|209224|1.09%|
-|Warped_Wise_Wings|209206|1.08%|
-|Champions_Bento|209204|1.08%|
-|Flora_Frenzy|209166|1.06%|
-|Blooming_Feast|209153|1.06%|
-|Void_Touched_Augment_Rune|208468|0.73%|
-|Void_Kissed_Fish_Rolls|208081|0.54%|
-|Base|206963|0.00%|
-|Loas_Gathering|206950|-0.01%|
+|Royal_Roast|210465|1.46%|
+|Silvermoon_Parade|210444|1.45%|
+|Fel_Kissed_Filet|209740|1.11%|
+|Flora_Frenzy|209696|1.09%|
+|Arcano_Cutlets|209682|1.09%|
+|Blooming_Feast|209675|1.08%|
+|Warped_Wise_Wings|209666|1.08%|
+|Champions_Bento|209639|1.07%|
+|Loas_Gathering|209632|1.06%|
+|Void_Touched_Augment_Rune|208996|0.76%|
+|Void_Kissed_Fish_Rolls|208434|0.48%|
+|Base|207429|0.00%|

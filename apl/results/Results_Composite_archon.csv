@@ -1,3 +1,6 @@
 profile,actor,DPS,increase,
-Composite,Base,258143,0.00%,
-Composite,mind_blast,257886,-0.10%,
+Composite,prepot,263629,0.39%,
+Composite,5s_prepot,263617,0.39%,
+Composite,prepot_or_12s_vf,263603,0.38%,
+Composite,12s_vf,263017,0.16%,
+Composite,Base,262595,0.00%,
