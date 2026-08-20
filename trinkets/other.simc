@@ -25,14 +25,11 @@ finger2=${gear.finger2},enchant=${enchants.ring},gem_id=${gems.main}/${gems.main
 main_hand=${gear.main_hand},enchant=${enchants.main_hand}
 ${gear.off_hand}
 
-profileset."Glorious_Crusaders_Keepsake_321"+=trinket1=glorious_crusaders_keepsake,id=251792,ilevel=321
-profileset."Drum_of_Renewed_Bonds_Crit_321"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=321,bonus_id=13183
-profileset."Drum_of_Renewed_Bonds_Haste_321"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=321,bonus_id=13184
-profileset."Drum_of_Renewed_Bonds_Mastery_321"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=321,bonus_id=13185
-profileset."Drum_of_Renewed_Bonds_Versatility_321"+=trinket1=drum_of_renewed_bonds,id=248583,ilevel=321,bonus_id=13186
-profileset."Ever-Collapsing_Void_Fissure_321"+=trinket1=evercollapsing_void_fissure,id=251786,ilevel=321
-profileset."Lost_Idol_of_the_Hashey_321"+=trinket1=lost_idol_of_the_hashey,id=251783,ilevel=321
-profileset."Void-Reapers_Libram_321"+=trinket1=voidreapers_libram,id=251785,ilevel=321
+profileset."Effigy_of_Ula'teks_Faithful_321"+=trinket1=effigy_of_ula_teks_faithful,id=274493,ilevel=321
+profileset."Ophidian_Bone_Whistle_321"+=trinket1=ophidian_bone_whistle,id=274496,ilevel=321
+profileset."Sharp_Axe_Holster_321"+=trinket1=sharp_axe_holster,id=280123,ilevel=321
+profileset."Shadow_Shard_Sliver_321"+=trinket1=shadow_shard_sliver,id=280376,ilevel=321
+profileset."Pulse_Seekers_Oculus_321"+=trinket1=pulse_seekers_oculus,id=274495,ilevel=321
 profileset."Burst_of_Knowledge_321"+=trinket1=burst_of_knowledge,id=231424,ilevel=321
 profileset."Doperels_Calling_Rune_321"+=trinket1=doperels_calling_rune,id=231476,ilevel=321
 profileset."Darkmoon_Dominion_Blood_331"+=trinket1=darkmoon_dominion_blood,id=246305,ilevel=331

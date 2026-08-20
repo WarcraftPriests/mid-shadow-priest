@@ -53,29 +53,20 @@ dungeons:
 other:
   item_levels: "champion"
   trinkets:
-    - id: 251792
-      name: "Glorious_Crusaders_Keepsake"
+    - id: 274493
+      name: "Effigy_of_Ula'teks_Faithful"
       item_levels: delves
-    - id: 248583
-      name: "Drum_of_Renewed_Bonds"
+    - id: 274496
+      name: "Ophidian_Bone_Whistle"
       item_levels: delves
-      bonus_ids:
-        - name: "Crit"
-          value: 13183
-        - name: "Haste"
-          value: 13184
-        - name: "Mastery"
-          value: 13185
-        - name: "Versatility"
-          value: 13186
-    - id: 251786
-      name: "Ever-Collapsing_Void_Fissure"
+    - id: 280123
+      name: "Sharp_Axe_Holster"
       item_levels: delves
-    - id: 251783
-      name: "Lost_Idol_of_the_Hashey"
+    - id: 280376
+      name: "Shadow_Shard_Sliver"
       item_levels: delves
-    - id: 251785
-      name: "Void-Reapers_Libram"
+    - id: 274495
+      name: "Pulse_Seekers_Oculus"
       item_levels: delves
     - id: 255613
       name: "Galactic_Gladiators_Badge_of_Ferocity"
