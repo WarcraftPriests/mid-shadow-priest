@@ -1,1 +1,1 @@
-{"name": "Composite - voidweaver", "data": {"Base": {"DPS": 255005}, "mind_blast": {"DPS": 254803}}, "ids": {"mind_blast": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["mind_blast"], "last_updated": "2026-08-02"}
+{"name": "Composite - voidweaver", "data": {"saeldur": {"DPS": 259142}, "Base": {"DPS": 258829}}, "ids": {"saeldur": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur"], "last_updated": "2026-08-22"}

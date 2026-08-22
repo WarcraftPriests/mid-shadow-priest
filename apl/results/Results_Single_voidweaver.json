@@ -1,1 +1,1 @@
-{"name": "Single - voidweaver", "data": {"Base": {"DPS": 210726}, "mind_blast": {"DPS": 210588}}, "ids": {"mind_blast": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["mind_blast"], "last_updated": "2026-08-02"}
+{"name": "Single - voidweaver", "data": {"saeldur": {"DPS": 205607}, "Base": {"DPS": 205501}}, "ids": {"saeldur": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur"], "last_updated": "2026-08-22"}

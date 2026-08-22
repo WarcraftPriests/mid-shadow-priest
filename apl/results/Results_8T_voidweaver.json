@@ -1,1 +1,1 @@
-{"name": "8T - voidweaver", "data": {"Base": {"DPS": 1219744}, "mind_blast": {"DPS": 1212866}}, "ids": {"mind_blast": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["mind_blast"], "last_updated": "2026-08-02"}
+{"name": "8T - voidweaver", "data": {"saeldur": {"DPS": 1192672}, "Base": {"DPS": 1192094}}, "ids": {"saeldur": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur"], "last_updated": "2026-08-22"}
