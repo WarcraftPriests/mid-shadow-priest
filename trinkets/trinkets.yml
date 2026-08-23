@@ -68,6 +68,9 @@ other:
     - id: 274495
       name: "Pulse_Seekers_Oculus"
       item_levels: delves
+    - id: 251792
+      name: "Glorious_Crusaders_Keepsake"
+      item_levels: delves
     - id: 255613
       name: "Galactic_Gladiators_Badge_of_Ferocity"
     - id: 255614
