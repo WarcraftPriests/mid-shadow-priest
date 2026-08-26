@@ -13,14 +13,14 @@ builds:
         name: AR_SP_SW_VF_nzoth_yogg_3078143631544303_IN_AM_ME
         string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZAjZmZMbMz2yAMDGA
       2t:
-        name: AR_SP_SW_VF_nzoth_yogg_3078143665065967_IN_AM_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDzAAAAAAAAAAAAwMLmxMbzMmZ2mxYG2mZGzMzYDZGLmpBYGgZ2MjmNDAZMWAwMAjZmZMbMz2yAMDGA
+        name: AR_SP_SW_VF_nzoth_yogg_3078143631544303_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZAjZmZMbMz2yAMDGA
       3t:
-        name: AR_SP_SW_VF_nzoth_yogg_3078143631544303_IN_AM_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZAjZmZMbMz2yAMDGA
+        name: AR_SP_SW_VF_nzoth_yogg_cthun_4133674978758639_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDPAAAAAAAAAAAAghZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZMYMzMjZjZ2WGgZwA
       8t:
-        name: AR_SP_SW_VF_nzoth_yogg_3078143631544303_IN_AM_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZ0sZAIjxCAmZAjZmZMbMz2yAMDGA
+        name: AR_SP_SW_VF_nzoth_yogg_2_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZAAAAAAAAAAAAgZxMmZbmxMz2MzYG2mZGzMzYDZGLmpBYGgZ2MDzmBgMGLAAGZMzMjZbMz2yAMTMA
   voidweaver:
     gearSetup: default
     name: Voidweaver
@@ -35,14 +35,14 @@ builds:
         name: VW_DH_VF_nzoth_yogg_3078143852960751_IN_AM_ME
         string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAAMLmxMbzMMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
       2t:
-        name: VW_DH_VF_nzoth_yogg_3078143852960751_IN_AM_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAAMLmxMbzMMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
-      3t:
-        name: VW_DH_VF_nzoth_yogg_3078143852960751_IN_AM_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAAMLmxMbzMMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
-      8t:
         name: VW_DH_VF_nzoth_yogg_3078143820454895_IN_AM_ME
         string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZAAAAAAAAAAAAgZxMmZbmxMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
+      3t:
+        name: VW_DH_VF_yshaarj_nzoth_yogg_2_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMjZMAAAAAAAAAAAAYMLzMGbzMmZ2mZGzw2MzYmZGbIzYxMNAzMzAABY2mtFwsxAAjMmZmxsNmBzMYmYA
+      8t:
+        name: VW_DH_VF_yshaarj_nzoth_yogg_2_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMjZMAAAAAAAAAAAAYMLzMGbzMmZ2mZGzw2MzYmZGbIzYxMNAzMzAABY2mtFwsxAAjMmZmxsNmBzMYmYA
 hero:
   AR:
     AR_EC_RP: "halo:1/perfected_form:1/power_surge:1/manifested_power:1/focused_outburst:1/incessant_screams:1/energy_conservation:1/empowered_surges:1/word_of_supremacy:1/energy_compression:1/resonant_energy:1/energy_cycle:1/realized_potential:1/divine_halo:1"
