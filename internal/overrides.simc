@@ -1,2 +1,27 @@
 
 # Overrides are added below here
+## Shadow Word: Madness damage increased by 15%
+override.spell_data=effect.832086.sp_coefficient=2.616
+override.spell_data=effect.832088.sp_coefficient=2.616
+
+## Mind Blast damage increased by 15%
+override.spell_data=effect.3283.sp_coefficient=0.900864
+
+## Mind Flay damage increased by 15%
+override.spell_data=effect.7301.sp_coefficient=1.38138
+
+## Mind Flay: Insanity damage increased by 15%
+override.spell_data=effect.1028897.sp_coefficient=1.559285
+
+## Shadow Word: Death damage increased by 15%
+override.spell_data=effect.22171.sp_coefficient=2.9325
+override.spell_data=effect.165318.sp_coefficient=0.9775
+
+## Psychic Link modifier is now 20%
+override.spell_data=effect.293563.base_value=20
+
+## Shadeburst damage decreased by 5%
+override.spell_data=effect.1223522.sp_coefficient=1.33
+
+## Void Blast damage increased by 15%
+override.spell_data=effect.1151263.sp_coefficient=2.415

@@ -1,4 +1,4 @@
 # Dungeons-Slice - voidweaver
 | Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Base|232452|1.00|0.72|0.73|0.49|0.50|0.01|
+|Base|235528|1.00|0.79|0.76|0.60|0.65|0.02|
