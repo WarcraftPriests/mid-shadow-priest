@@ -1,1 +1,1 @@
-{"name": "Dungeons-Slice - voidweaver", "data": {"saeldur": {"DPS": 235725}, "Base": {"DPS": 234587}}, "ids": {"saeldur": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur"], "last_updated": "2026-08-22"}
+{"name": "Dungeons-Slice - voidweaver", "data": {"new": {"DPS": 246621}, "Base": {"DPS": 244936}}, "ids": {"new": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new"], "last_updated": "2026-09-27"}

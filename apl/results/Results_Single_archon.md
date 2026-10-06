@@ -1,5 +1,5 @@
 # Single - archon
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|saeldur|212654|0.02%|
-|Base|212611|0.00%|
+|Base|230964|0.00%|
+|new|230944|-0.01%|

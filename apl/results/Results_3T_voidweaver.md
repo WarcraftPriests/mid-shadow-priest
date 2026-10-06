@@ -1,5 +1,5 @@
 # 3T - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|saeldur|403467|0.10%|
-|Base|403061|0.00%|
+|Base|414549|0.00%|
+|new|414433|-0.03%|

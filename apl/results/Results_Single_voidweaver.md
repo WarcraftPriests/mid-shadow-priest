@@ -1,5 +1,5 @@
 # Single - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|saeldur|205607|0.05%|
-|Base|205501|0.00%|
+|new|219525|0.01%|
+|Base|219498|0.00%|

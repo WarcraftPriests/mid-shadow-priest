@@ -1,1 +1,1 @@
-{"name": "2T - voidweaver", "data": {"saeldur": {"DPS": 363379}, "Base": {"DPS": 362880}}, "ids": {"saeldur": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur"], "last_updated": "2026-08-22"}
+{"name": "2T - voidweaver", "data": {"new": {"DPS": 377968}, "Base": {"DPS": 377747}}, "ids": {"new": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new"], "last_updated": "2026-09-27"}
