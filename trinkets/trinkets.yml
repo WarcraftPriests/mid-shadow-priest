@@ -1,21 +1,14 @@
 item_levels:
   champion: []
-  hero: [321]
-  raid: [321, 334]
-  raid_boosted: [321, 334, 344]
-  delves: [321]
-  dungeons: [321, 334]
-  crafted: [331]
-  s1_cap: [298]
+  hero: [328]
+  raid: [328, 340]
+  raid_boosted: [328, 340, 344]
+  delves: [328]
+  dungeons: [328, 340]
+  crafted: [338]
 dungeons:
   item_levels: "dungeons"
   trinkets:
-    - id: 250144
-      name: "Emberwing_Feather"
-      item_levels: s1_cap
-    - id: 250256
-      name: "Heart_of_Wind"
-      item_levels: s1_cap
     - id: 250215
       name: "Freightrunners_Flask"
     - id: 250214
@@ -145,12 +138,5 @@ raid:
       item_levels: raid_boosted
     - id: 270167
       name: "Wavecallers_Seastone"
-    - id: 249343
-      name: "Gaze_of_the_Alnseer"
-      item_levels: s1_cap
-    - id: 249809
-      name: "Locus-Walkers_Ribbon"
-      item_levels: s1_cap
-    - id: 249346
-      name: "Vaelgors_Final_Stare"
-      item_levels: s1_cap
+    - id: 281215
+      name: "Twisted_Horrors_Tendril"

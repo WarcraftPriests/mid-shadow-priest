@@ -1,1 +1,1 @@
-{"name": "3T - voidweaver", "data": {"saeldur": {"DPS": 403467}, "Base": {"DPS": 403061}}, "ids": {"saeldur": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur"], "last_updated": "2026-08-22"}
+{"name": "3T - voidweaver", "data": {"Base": {"DPS": 414549}, "new": {"DPS": 414433}}, "ids": {"new": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new"], "last_updated": "2026-09-27"}

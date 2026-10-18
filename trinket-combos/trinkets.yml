@@ -3,40 +3,40 @@
 combos:
   Freightrunners_Flask:
     id: 250215
-    ilevels: [321, 334]
+    ilevels: [328, 340]
   Lightspire_Core:
     id: 250214
-    ilevels: [321, 334]
+    ilevels: [328, 340]
   Mindpiercers_Sigil:
     id: 250224
-    ilevels: [321, 334]
+    ilevels: [328, 340]
   Knot_of_Writhing_Serpents:
     id: 273794
-    ilevels: [321, 334]
+    ilevels: [328, 340]
   Vile_Vial_of_Volatile_Venom:
     id: 273796
-    ilevels: [321, 334]
+    ilevels: [328, 340]
   Stormbound_Emblem_of_Dazar:
     id: 273649
-    ilevels: [321, 334]
+    ilevels: [328, 340]
   Gebbos_Bottomless_Bag:
     id: 270164
-    ilevels: [321, 334]
+    ilevels: [328, 340]
   Fang_of_Umbral_Malignance:
     id: 270161
-    ilevels: [321, 334]
+    ilevels: [328, 340]
   Vexhuls_Everflowing_Gland:
     id: 270170
-    ilevels: [321, 334]
+    ilevels: [328, 340]
   Hex_Lords_Dooming_Idol:
     id: 270169
-    ilevels: [334, 344]
+    ilevels: [340, 344]
+  Font_of_Venomous_Rage:
+    id: 270168
+    ilevels: [340, 344]
   Wavecallers_Seastone:
     id: 270167
-    ilevels: [321, 334]
-  Vaelgors_Final_Stare:
-    id: 249346
-    ilevels: [298]
-  Gaze_of_the_Alnseer:
-    id: 249343
-    ilevels: [298]
+    ilevels: [328, 340]
+  Twisted_Horrors_Tendril:
+    id: 281215
+    ilevels: [328, 340]

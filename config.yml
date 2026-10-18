@@ -26,20 +26,20 @@ builds:
     name: Voidweaver
     talents:
       composite:
-        name: VW_DH_VF_nzoth_yogg_3078143852960751_IN_AM_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAAMLmxMbzMMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
+        name: VW_DH_VF_nzoth_yogg_3078143832775679_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAegZxMzMbzMmZ2mZGzw2MzYmZGbIzYxMNAzMzAABY2mtlgZjBAGMmZmxsxMYmBzgB
       dungeons:
-        name: VW_DH_VF_nzoth_yogg_3078143966993391_Mis_AM_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMzyMzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmNmBzMYGMA
+        name: VW_DH_VF_nzoth_yogg_3078143832775679_Mis_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAegZxMzMbzMmZWmZGzw2MzYmZGbIzYxMNAzMzAABY2mtlgZjBAGMmZmxsxMYmBzgB
       single:
-        name: VW_DH_VF_nzoth_yogg_3078143852960751_IN_AM_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAAMLmxMbzMMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
+        name: VW_DH_VF_nzoth_yogg_3078143832775679_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAegZxMzMbzMmZ2mZGzw2MzYmZGbIzYxMNAzMzAABY2mtlgZjBAGMmZmxsxMYmBzgB
       2t:
-        name: VW_DH_VF_nzoth_yogg_3078143820454895_IN_AM_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMjZAAAAAAAAAAAAgZxMmZbmxMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB
+        name: VW_DH_VF_nzoth_yogg_3007776148970495_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMj5BAAAAAAAAAAAAgZxMzMbzMMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwMMmZmxsNmBzMYGMA
       3t:
-        name: VW_DH_VF_yshaarj_nzoth_yogg_2_IN_AM_ME
-        string: CIQAAAAAAAAAAAAAAAAAAAAAAMjZMAAAAAAAAAAAAYMLzMGbzMmZ2mZGzw2MzYmZGbIzYxMNAzMzAABY2mtFwsxAAjMmZmxsNmBzMYmYA
+        name: VW_DH_VF_nzoth_yogg_3007776148970495_IN_AM_ME
+        string: CIQAAAAAAAAAAAAAAAAAAAAAAMMj5BAAAAAAAAAAAAgZxMzMbzMMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stEMbMAwMMmZmxsNmBzMYGMA
       8t:
         name: VW_DH_VF_yshaarj_nzoth_yogg_2_IN_AM_ME
         string: CIQAAAAAAAAAAAAAAAAAAAAAAMjZMAAAAAAAAAAAAYMLzMGbzMmZ2mZGzw2MzYmZGbIzYxMNAzMzAABY2mtFwsxAAjMmZmxsNmBzMYmYA
@@ -306,7 +306,7 @@ raidbots:
   numOfRetries: 100
   retryInterval: 10
 charts:
-  wowheadUrl: https://www.wowhead.com/ptr/
+  wowheadUrl: https://www.wowhead.com/ptr-2/
 analyze:
   dungeonCharts: false
   markdown: true

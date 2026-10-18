@@ -181,5 +181,5 @@ def test_lookup_special_spell_id_ignores_item_level_suffix():
         analyze_module.lookup_spell_id(
             "Embellishment_Hunters_Ritual_Stone", "special-gear/"
         )
-        == 13771
+        == 273060
     )

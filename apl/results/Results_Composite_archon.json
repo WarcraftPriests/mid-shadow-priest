@@ -1,1 +1,1 @@
-{"name": "Composite - archon", "data": {"saeldur": {"DPS": 262496}, "Base": {"DPS": 262132}}, "ids": {"saeldur": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur"], "last_updated": "2026-08-22"}
+{"name": "Composite - archon", "data": {"new": {"DPS": 279238}, "Base": {"DPS": 279162}}, "ids": {"new": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new"], "last_updated": "2026-09-27"}

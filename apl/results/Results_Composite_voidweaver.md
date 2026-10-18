@@ -1,5 +1,5 @@
 # Composite - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|saeldur|259142|0.12%|
-|Base|258829|0.00%|
+|new|271914|0.04%|
+|Base|271797|0.00%|

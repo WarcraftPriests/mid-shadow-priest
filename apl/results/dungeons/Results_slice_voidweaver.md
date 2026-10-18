@@ -1,5 +1,5 @@
 # slice - voidweaver
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|saeldur|235725|0.49%|
-|Base|234587|0.00%|
+|new|246621|0.69%|
+|Base|244936|0.00%|
